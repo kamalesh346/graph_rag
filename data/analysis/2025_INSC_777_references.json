@@ -1,0 +1,24 @@
+{
+  "case_id": "2025 INSC 777",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": []
+}

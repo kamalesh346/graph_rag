@@ -1,0 +1,100 @@
+{
+  "case_id": "2025 INSC 793",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:3",
+        "act": "IPC",
+        "section": "3",
+        "display_name": "IPC Section 3"
+      },
+      {
+        "canonical_id": "IPC:25",
+        "act": "IPC",
+        "section": "25",
+        "display_name": "IPC Section 25"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:404",
+        "act": "IPC",
+        "section": "404",
+        "display_name": "IPC Section 404"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:313",
+        "act": "CrPC",
+        "section": "313",
+        "display_name": "CrPC Section 313"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:8",
+        "act": "Evidence Act",
+        "section": "8",
+        "display_name": "Evidence Act Section 8"
+      },
+      {
+        "canonical_id": "EvidenceAct:25",
+        "act": "Evidence Act",
+        "section": "25",
+        "display_name": "Evidence Act Section 25"
+      },
+      {
+        "canonical_id": "EvidenceAct:27",
+        "act": "Evidence Act",
+        "section": "27",
+        "display_name": "Evidence Act Section 27"
+      },
+      {
+        "canonical_id": "EvidenceAct:106",
+        "act": "Evidence Act",
+        "section": "106",
+        "display_name": "Evidence Act Section 106"
+      },
+      {
+        "canonical_id": "EvidenceAct:302",
+        "act": "Evidence Act",
+        "section": "302",
+        "display_name": "Evidence Act Section 302"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Mekala Sivaiah v. State of Andhra Pradesh [2022] 6 SCR 989 : (2022) 8 SCC 253",
+    "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+    "Rajesh Yadav and Another v. State of Uttar Pradesh [2022] 16 SCR 967 : (2022) 12 SCC 200",
+    "State of Goa v. Sanjay Thakran and Anr. [2007] 3 SCR 507 : (2007) 3 SCC 755",
+    "Mukesh & Anr. v. NCT of Delhi & Ors. [2017] 6 SCR 1 : (2017) 6 SCC 1",
+    "Matru @ Girish Chandra v. State of Uttar Pradesh [1971] 3 SCR 914 : (1971) 2 SCC 75",
+    "G. Parshwanath v. State of Karnataka [2010] 10 SCR 377 : 2010 (8) SCC 593",
+    "Trimukh Maroti Kirkan v. State of Maharashtra [2006] Supp. 7 SCR 156 : (2006) 10 SCC 681",
+    "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to"
+  ]
+}

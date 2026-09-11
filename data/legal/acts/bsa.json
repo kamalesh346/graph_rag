@@ -1,0 +1,307 @@
+{
+  "act": {
+    "act_id": "BSA",
+    "name": "Bharatiya Sakshya Adhiniyam, 2023",
+    "short_name": "BSA",
+    "year": 2023,
+    "status": "in_force",
+    "predecessor_act": "IEA",
+    "successor_act": null,
+    "jurisdiction": "India"
+  },
+  "sections": [
+    {
+      "section_id": "BSA:109",
+      "section_number": "109",
+      "title": "Burden of proving fact especially within knowledge",
+      "text": "When any fact is especially within the knowledge of any person, the burden of proving that fact is upon him.",
+      "predecessor_act": "IEA:106",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a) When a person does an act with some intention other than that which the character and circumstances of the act suggest, the burden of proving that intention is upon him.\n    (b) A is charged with travelling on a railway without a ticket. The burden of proving that he had a ticket is on him."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:23(1)",
+      "section_number": "23(1)",
+      "title": "",
+      "text": "Confession to police officer.\n\nNo confession made to a police officer shall be proved as against a person accused of any offence.",
+      "predecessor_act": "IEA:25",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "confession"
+      ]
+    },
+    {
+      "section_id": "BSA:23(2)",
+      "section_number": "23(2)",
+      "title": "Confession to police officer",
+      "text": "No confession made by any person while he is in the custody of a police officer, unless it is made in the immediate presence of a Magistrate shall be proved against him:",
+      "predecessor_act": "IEA:27",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [
+        {
+          "label": "Provided that",
+          "text": "when any fact is deposed to as discovered in consequence of information received from a person accused of any offence, in the custody of a police officer, so much of such information, whether it amounts to a confession or not, as relates distinctly to the fact discovered, may be proved."
+        }
+      ],
+      "legal_concepts": [
+        "confession"
+      ]
+    },
+    {
+      "section_id": "BSA:108",
+      "section_number": "108",
+      "title": "Burden of proving that case of accused comes within exceptions",
+      "text": "When a person is accused of any offence, the burden of proving the existence of circumstances bringing the case within any of the General",
+      "predecessor_act": "IEA:105",
+      "successor_act": null,
+      "subsections": [
+        {
+          "section_id": "BSA:108(2)",
+          "subsection_number": "2",
+          "text": "of section 122, voluntarily causes grievous hurt, shall be subject to certain punishments. A is charged with voluntarily causing grievous hurt under section 117. The burden of proving the circumstances bringing the case under sub-section"
+        }
+      ],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a) A, accused of murder, alleges that, by reason of unsoundness of mind, he did not know the nature of the act. The burden of proof is on A.\n    (b) A, accused of murder, alleges that, by grave and sudden provocation, he was deprived of the power of self-control. The burden of proof is on A.\n    (c) Section 117 of the Bharatiya Nyaya Sanhita, 2023 provides that whoever, except in the case provided for by sub-section"
+        }
+      ],
+      "exceptions": [
+        {
+          "label": "Exceptions",
+          "text": "in the Bharatiya Nyaya Sanhita, 2023 or within any special"
+        },
+        {
+          "label": "exception",
+          "text": "or"
+        }
+      ],
+      "provisos": [
+        {
+          "label": "proviso",
+          "text": "contained in any other part of the said Sanhita, or in any law defining the offence, is upon him, and the Court shall presume the absence of such circumstances."
+        }
+      ],
+      "legal_concepts": [
+        "murder",
+        "unsoundness of mind",
+        "burden of proof"
+      ]
+    },
+    {
+      "section_id": "BSA:6",
+      "section_number": "6",
+      "title": "Motive, Preparation and previous or subsequent conduct",
+      "text": "",
+      "predecessor_act": "IEA:8",
+      "successor_act": null,
+      "subsections": [
+        {
+          "section_id": "BSA:6(1)",
+          "subsection_number": "1",
+          "text": "Any fact is relevant which shows or constitutes a motive or preparation for any fact in issue or relevant fact."
+        },
+        {
+          "section_id": "BSA:6(2)",
+          "subsection_number": "2",
+          "text": "The conduct of any party, or of any agent to any party, to any suit or proceeding, in reference to such suit or proceeding, or in reference to any fact in issue therein or relevant thereto, and the conduct of any person, an offence against whom is the subject of any proceeding, is relevant, if such conduct influences or is influenced by any fact in issue or relevant fact, and whether it was previous or subsequent thereto."
+        }
+      ],
+      "explanations": [
+        {
+          "label": "Explanation",
+          "text": "1.-The word \" conduct \" in this section does not include statements, unless those statements accompany and explain acts other than statements; but this"
+        },
+        {
+          "label": "explanation",
+          "text": "is not to affect the relevancy of statements under any other section of this Adhiniyam."
+        },
+        {
+          "label": "Explanation",
+          "text": "2.-When the conduct of any person is relevant, any statement made to him or in his presence and hearing, which affects such conduct, is relevant."
+        }
+      ],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a) A is tried for the murder of B. The facts that A murdered C, that B knew that A had murdered C, and that B had tried to extort money from A by threatening to make his knowledge public, are relevant.\n    (b) A sues B upon a bond for the payment of money. B denies the making of the bond. The fact that, at the time when the bond was alleged to be made, B required money for a particular purpose, is relevant.\n    (c) A is tried for the murder of B by poison. The fact that, before the death of B, A procured poison similar to that which was administered to B, is relevant.\n    (d) The question is, whether a certain document is the will of A. The facts that, not long before, the date of the alleged will, A made inquiry into matters to which the provisions of the alleged will relate; that he consulted advocates in reference to making the will, and that he caused drafts of other wills to be prepared, of which he did not approve, are relevant.\n    (e) A is accused of a crime. The facts that, either before, or at the time of, or after the alleged crime, A provided evidence which would tend to give to the facts of the case an appearance favourable to himself, or that he destroyed or concealed evidence, or prevented the presence or procured the absence of persons who might have been witnesses, or suborned persons to give false evidence respecting it, are relevant.\n    (f) The question is, whether A robbed B. The facts that, after B was robbed, C said in A's presence-\" the police are coming to look for the person who robbed B \", and that immediately afterwards A ran away, are relevant.\n    (g) The question is, whether A owes B ten thousand rupees. The facts that A asked C to lend him money, and that D said to C in A's presence and hearing-\" I advise you not to trust A, for he owes B ten thousand rupees \", and that A went away without making any answer, are relevant facts.\n    (h) The question is, whether A committed a crime. The fact that A absconded, after receiving a letter, warning A that inquiry was being made for the criminal, and the contents of the letter, are relevant.\n    (i) A is accused of a crime. The facts that, after the commission of the alleged crime, A absconded, or was in possession of property or the proceeds of property acquired by the crime, or attempted to conceal things which were or might have been used in committing it, are relevant.\n    (j) The question is, whether A was raped. The fact that, shortly after the alleged rape, A made a complaint relating to the crime, the circumstances under which, and the terms in which, the complaint was made, are relevant. The fact that, without making a complaint, A said that A had been raped is not relevant as conduct under this section, though it may be relevant as a dying declaration under clause (a) of section 26, or as corroborative evidence under section 160.\n    (k) The question is, whether A was robbed. The fact that, soon after the alleged robbery, A made a complaint relating to the offence, the circumstances under which, and the terms in which, the complaint was made, are relevant. The fact that A said he had been robbed, without making any complaint, is not relevant, as conduct under this section, though it may be relevant as a dying declaration under clause (a) of section 26, or as corroborative evidence under section 160."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "murder"
+      ]
+    },
+    {
+      "section_id": "BSA:9",
+      "section_number": "9",
+      "title": "When facts not otherwise relevant become relevant",
+      "text": "Facts not otherwise relevant are relevant-",
+      "predecessor_act": "IEA:11",
+      "successor_act": null,
+      "subsections": [
+        {
+          "section_id": "BSA:9(1)",
+          "subsection_number": "1",
+          "text": "if they are inconsistent with any fact in issue or relevant fact;"
+        },
+        {
+          "section_id": "BSA:9(2)",
+          "subsection_number": "2",
+          "text": "if by themselves or in connection with other facts they make the existence or non-existence of any fact in issue or relevant fact highly probable or improbable."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a) The question is, whether A committed a crime at Chennai on a certain day. The fact that, on that day, A was at Ladakh is relevant. The fact that, near the time when the crime was committed, A was at a distance from the place where it was committed, which would render it highly improbable, though not impossible, that he committed it, is relevant.\n(b) The question is, whether A committed a crime. The circumstances are such that the crime must have been committed either by A, B, C or D. Every fact which shows that the crime could have been committed by no one else, and that it was not committed by either B, C or D, is relevant."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:117",
+      "section_number": "117",
+      "title": "Presumption as to abetment of suicide by a married woman",
+      "text": "When the question is whether the commission of suicide by a woman had been abetted by her husband or any relative of her husband and it is shown that she had committed suicide within a period of seven years from the date of her marriage and that her husband or such relative of her husband had subjected her to cruelty, the Court may presume, having regard to all the other circumstances of the case, that such suicide had been abetted by her husband or by such relative of her husband.",
+      "predecessor_act": "IEA:113A",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [
+        {
+          "label": "Explanation.",
+          "text": "For the purposes of this section, \" cruelty \" shall have the same meaning as in section 86 of the Bharatiya Nyaya Sanhita, 2023."
+        }
+      ],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:118",
+      "section_number": "118",
+      "title": "Presumption as to dowry death",
+      "text": "When the question is whether a person has committed the dowry death of a woman and it is shown that soon before her death, such woman had been subjected by such person to cruelty or harassment for, or in connection with, any demand for dowry, the Court shall presume that such person had caused the dowry death.",
+      "predecessor_act": "IEA:113B",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [
+        {
+          "label": "Explanation.",
+          "text": "For the purposes of this section, \" dowry death \" shall have the same meaning as in section 80 of the Bharatiya Nyaya Sanhita, 2023."
+        }
+      ],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:119",
+      "section_number": "119",
+      "title": "Court may Presume existence of certain facts",
+      "text": "",
+      "predecessor_act": "IEA:114",
+      "successor_act": null,
+      "subsections": [
+        {
+          "section_id": "BSA:119(1)",
+          "subsection_number": "1",
+          "text": "The Court may presume the existence of any fact which it thinks likely to have happened, regard being had to the common course of natural events, human conduct and public and private business, in their relation to the facts of the particular case."
+        },
+        {
+          "section_id": "BSA:119(2)",
+          "subsection_number": "2",
+          "text": "The Court shall also have regard to such facts as the following, in considering whether such maxims do or do not apply to the particular case before it:-\n    (i) as to Illustration (a)-a shop-keeper has in his bill a marked rupee soon after it was stolen, and cannot account for its possession specifically, but is continually receiving rupees in the course of his business;\n    (ii) as to Illustration (b)-A, a person of the highest character, is tried for causing a man's death by an act of negligence in arranging certain machinery. B, a person of equally good character, who also took part in the arrangement, describes precisely what was done, and admits and explains the common carelessness of A and himself;\n    (iii) as to Illustration (b)-a crime is committed by several persons. A, B and C, three of the criminals, are captured on the spot and kept apart from each other. Each gives an account of the crime implicating D, and the accounts corroborate each other in such a manner as to render previous concert highly improbable;\n    (iv) as to Illustration (c)-A, the drawer of a bill of exchange, was a man of business. B, the acceptor, was a young and ignorant person, completely under A's influence;\n    (v) as to Illustration (d)-it is proved that a river ran in a certain course five years ago, but it is known that there have been floods since that time which might change its course;\n    (vi) as to Illustration (e)-a judicial act, the regularity of which is in question, was performed under exceptional circumstances;\n    (vii) as to Illustration (f)-the question is, whether a letter was received. It is shown to have been posted, but the usual course of the post was interrupted by disturbances;\n    (viii) as to Illustration (g)-a man refuses to produce a document which would bear on a contract of small importance on which he is sued, but which might also injure the feelings and reputation of his family;\n    (ix) as to Illustration (h)-a man refuses to answer a question which he is not compelled by law to answer, but the answer to it might cause loss to him in matters unconnected with the matter in relation to which it is asked;\n    (x) as to Illustration (i)-a bond is in possession of the obligor, but the circumstances of the case are such that he may have stolen it."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "The Court may presume that-\n    (a) a man who is in possession of stolen goods soon, after the theft is either the thief or has received the goods knowing them to be stolen, unless he can account for his possession;\n    (b) an accomplice is unworthy of credit, unless he is corroborated in material particulars;\n    (c) a bill of exchange, accepted or endorsed, was accepted or endorsed for good consideration;\n    (d) a thing or state of things which has been shown to be in existence within a period shorter than that within which such things or state of things usually cease to exist, is still in existence;\n    (e) judicial and official acts have been regularly performed;\n    (f) the common course of business has been followed in particular cases;\n    (g) evidence which could be and is not produced would, if produced, be unfavourable to the person who withholds it;\n    (h) if a man refuses to answer a question which he is not compelled to answer by law, the answer, if given, would be unfavourable to him;\n    (i) when a document creating an obligation is in the hands of the obligor, the obligation has been discharged."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:148",
+      "section_number": "148",
+      "title": "Cross-examination as to previous statements in writing",
+      "text": "A witness may be cross-examined as to previous statements made by him in writing or reduced into writing, and relevant to matters in question, without such writing being shown to him, or being proved; but, if it is intended to contradict him by the writing, his attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting him.",
+      "predecessor_act": "IEA:145",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:160",
+      "section_number": "160",
+      "title": "Former statements of witness may be proved to corroborate later testimony as to same fact",
+      "text": "In order to corroborate the testimony of a witness, any former statement made by such witness relating to the same fact, at or about the time when the fact took place, or before any authority legally competent to investigate the fact, may be proved.",
+      "predecessor_act": "IEA:157",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:168",
+      "section_number": "168",
+      "title": "Judge's power to put questions or order production",
+      "text": "The Judge may, in order to discover or obtain proof of relevant facts, ask any question he considers necessary, in any form, at any time, of any witness, or of the parties about any fact; and may order the production of any document or thing; and neither the parties nor their representatives shall be entitled to make any objection to any such question or order, nor, without the leave of the Court, to cross-examine any witness upon any answer given in reply to any such question:",
+      "predecessor_act": "IEA:165",
+      "successor_act": null,
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [
+        {
+          "label": "Provided that",
+          "text": "the judgment must be based upon facts declared by this Adhiniyam to be relevant, and duly proved:"
+        },
+        {
+          "label": "Provided further that",
+          "text": "this section shall not authorise any Judge to compel any witness to answer any question, or to produce any document which such witness would be entitled to refuse to answer or produce under sections 127 to 136, both inclusive, if the question were asked or the document were called for by the adverse party; nor shall the Judge ask any question which it would be improper for any other person to ask under section 151 or 152; nor shall he dispense with primary evidence of any document, except in the cases hereinbefore excepted."
+        }
+      ],
+      "legal_concepts": []
+    }
+  ]
+}

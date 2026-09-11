@@ -1,0 +1,65 @@
+{
+  "case_id": "2024_12_743_754",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:201",
+        "act": "IPC",
+        "section": "201",
+        "display_name": "IPC Section 201"
+      },
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:498A",
+        "act": "IPC",
+        "section": "498A",
+        "subsection": "A",
+        "display_name": "IPC Section 498A"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:11",
+        "act": "Evidence Act",
+        "section": "11",
+        "display_name": "Evidence Act Section 11"
+      },
+      {
+        "canonical_id": "EvidenceAct:106",
+        "act": "Evidence Act",
+        "section": "106",
+        "display_name": "Evidence Act Section 106"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Binay Kumar Singh v. State of Bihar [1996] Supp. 8 SCR 225 : AIR 1997 SC 322",
+    "Babudas v. State of M.P. (2003) 9 SCC 86",
+    "G. Parshwanath v. State of Karnataka, 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593",
+    "Paramjeet Singh v. State of Uttarakhand, 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439",
+    "Satish Nirankari v. State of Rajasthan, 2017 INSC 479 : [2017] 4 SCR 298 : (2017) 8 SCC 497 – relied on. Dnyaneshwar v. State of Maharashtra, 2007 INSC 323 : [2007] 4 SCR 248 : (2007) 10 SCC 445",
+    "Raj Kumar Prasad Tamarkar v. State of Bihar and Anr., 2007 INSC 3 : [2007] 1 SCR 13 : (2007) 10 SCC 433 – referred to. Books and Periodicals Cited Modi’s Medical Jurisprudence and Toxicology",
+    "Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307- 08"
+  ]
+}

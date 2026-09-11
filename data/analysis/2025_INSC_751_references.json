@@ -1,0 +1,37 @@
+{
+  "case_id": "2025 INSC 751",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:201",
+        "act": "IPC",
+        "section": "201",
+        "display_name": "IPC Section 201"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Ramanand vs. State of Himachal Pradesh [1981] 2 SCR 444 : (1981) 1 SCC 511",
+    "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+    "Kanhaiya Lal v. State of Rajasthan [2014] 3 SCR 744 : (2014) 4 SCC 715",
+    "Rambraksh @ Jalim v. State of Chhattisgarh [2016] 2 SCR 599 : (2016) 12 SCC 251",
+    "Sujit Biswas v. State of Assam [2013] 3 SCR 830 : AIR 2013 SC 3817 – referred to"
+  ]
+}

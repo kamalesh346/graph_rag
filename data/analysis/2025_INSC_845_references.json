@@ -1,0 +1,139 @@
+{
+  "case_id": "2025 INSC 845",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:27",
+        "act": "IPC",
+        "section": "27",
+        "display_name": "IPC Section 27"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:366",
+        "act": "IPC",
+        "section": "366",
+        "display_name": "IPC Section 366"
+      },
+      {
+        "canonical_id": "IPC:376",
+        "act": "IPC",
+        "section": "376",
+        "display_name": "IPC Section 376"
+      },
+      {
+        "canonical_id": "IPC:392",
+        "act": "IPC",
+        "section": "392",
+        "display_name": "IPC Section 392"
+      },
+      {
+        "canonical_id": "IPC:397",
+        "act": "IPC",
+        "section": "397",
+        "display_name": "IPC Section 397"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:366(1)",
+        "act": "CrPC",
+        "section": "366",
+        "subsection": "1",
+        "display_name": "CrPC Section 366(1)"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:27",
+        "act": "Evidence Act",
+        "section": "27",
+        "display_name": "Evidence Act Section 27"
+      },
+      {
+        "canonical_id": "EvidenceAct:106",
+        "act": "Evidence Act",
+        "section": "106",
+        "display_name": "Evidence Act Section 106"
+      },
+      {
+        "canonical_id": "EvidenceAct:302",
+        "act": "Evidence Act",
+        "section": "302",
+        "display_name": "Evidence Act Section 302"
+      },
+      {
+        "canonical_id": "EvidenceAct:376",
+        "act": "Evidence Act",
+        "section": "376",
+        "display_name": "Evidence Act Section 376"
+      },
+      {
+        "canonical_id": "EvidenceAct:397",
+        "act": "Evidence Act",
+        "section": "397",
+        "display_name": "Evidence Act Section 397"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "State of Punjab v. Jagir Singh [1974] 1 SCR 328 : (1974) 3 SCC 277",
+    "State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+    "Hanumant v. State of M.P [1952] 1 SCR 1091 : (1952) 2 SCC 71",
+    "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+    "Nizam v. State of Rajasthan [2015] 10 SCR 786 : (2016) 1 SCC 550",
+    "Ravasaheb v. State of Karnataka [2023] 2 SCR 965 : (2023) 5 SCC 391",
+    "Sanjay v. State of U.P., 2025 SCC OnLine SC 572",
+    "Sawal Das v. State of Bihar [1974] 3 SCR 74 : (1974) 4 SCC 193",
+    "Shivaji Chintappa Patil v. State of Maharashtra [2021] 2 SCR 617 : (2021) 5 SCC 626",
+    "Surajdeo Mahto v. State of Bihar [2021] 8 SCR 911 : (2022) 11 SCC 800",
+    "Veerendra v. State of M.P. [2022] 4 SCR 225 : (2022) 8 SCC 668",
+    "Bodhraj v. State of J&K [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45",
+    "State of U.P. v. Shyam Behari [2009] 6 SCR 4 : (2009) 15 SCC 548",
+    "Sambhubhai Raisangbhai Padhiyar v. State of Gujarat, 2024 INSC 987 : (2025) 2 SCC 399",
+    "Nikhil Chandra Mondal v. State of W.B. [2023] 2 SCR 20 : (2023) 6 SCC",
+    "Bijender v. State of Haryana [2021] 7 SCR 1138 : (2022) 1 SCC 92",
+    "K. Chinnaswamy Reddy v. State of A.P. [1963] 3 SCR 412 : 1962 SCC OnLine SC 32",
+    "Anil v. State of Maharashtra [2014] 3 SCR 34 : (2014) 4 SCC 69",
+    "Manoj v. State of M.P. [2022] 9 SCR 452 : (2023) 2 SCC 353",
+    "Prakash Nishad v. State of Maharashtra [2023] 8 SCR 152 : (2023) 16 SCC 357",
+    "Munshi Singh Gautam v. State of M.P. [2004] Supp. 5 SCR 1092 : (2005) 9 SCC 631",
+    "Malkhansingh v. State of M.P. [2003] Supp. 1 SCR 443 : (2003) 5 SCC 746",
+    "Visveswaran v. State [2003] 3 SCR 978 : (2003) 6 SCC 73",
+    "Ashok Debbarma v. State of Tripura [2014] 4 SCR 287 : (2014) 4 SCC 747",
+    "Umesh Chandra v. State of Uttarakhand (2021) 17 SCC 616",
+    "Hari Nath v. State of U.P. [1988] 1 SCR 848 : (1988) 1 SCC 14",
+    "Iqbal v. State of U.P. [2015] 6 SCR 239 : (2015) 6 SCC 623",
+    "Raja v. State [2019] 17 SCR 1187 : (2020) 15 SCC 562",
+    "Gireesan Nair v. State of Kerala [2022] 8 SCR 599 : (2023) 1 SCC 180",
+    "Budhsen v. State of U.P. [1971] 1 SCR 564 : (1970) 2 SCC 128",
+    "Maya Kaur Baldevsingh Sardar v. State of Maharashtra [2007] 10 SCR 752 : (2007) 12 SCC 654",
+    "C. Muniappan v. State of T.N. [2010] 10 SCR 262 : (2010) 9 SCC 567",
+    "Sk. Umar Ahmed Shaikh v. State of Maharashtra [1998] 2 SCR 1209 : (1998) 5 SCC 103",
+    "Rajesh v. State of Haryana [2020] 14 SCR 1 : (2021) 1 SCC 118",
+    "Mukesh v. State (NCT of Delhi) [2017] 6 SCR 1 : (2017) 6 SCC 1",
+    "Mohd. Anwar v. State (NCT of Delhi) [2020] 7 SCR 150 : (2020) 7 SCC 391",
+    "Suryamoorthy v. Govindaswamy (1989) 3 SCC 24",
+    "Suresh Chandra Bahri v. State of Bihar [1994] Supp. 1 SCR 483 : (1995) Supp. 1 SCC 80",
+    "Mulla v. State of U.P [2010] 2 SCR 633 : (2010) 3 SCC 508",
+    "Takhaji Hiraji v. Thakore Kubersing Chamansing (2001) 6 SCC 145",
+    "V. Senthil Balaji v. The Deputy Director, Directorate of Enforcement, 2024 INSC 739 : [2024] 10 SCR 393 : [2024] 10 SCR 393 – referred to"
+  ]
+}

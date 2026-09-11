@@ -1,0 +1,67 @@
+{
+  "case_id": "2025 INSC 1412",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 1)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "1",
+        "display_name": "IPC Section 300 Exception 1"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 4)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "4",
+        "display_name": "IPC Section 300 Exception 4"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:313",
+        "act": "IPC",
+        "section": "313",
+        "display_name": "IPC Section 313"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:300",
+        "act": "CrPC",
+        "section": "300",
+        "display_name": "CrPC Section 300"
+      },
+      {
+        "canonical_id": "CrPC:313",
+        "act": "CrPC",
+        "section": "313",
+        "display_name": "CrPC Section 313"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:murder",
+    "LEGAL_CONCEPT:sudden_fight"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": [
+    "Bhagwan Munjaji Pawade v. State of Maharashtra (1978) 3 SCC 330 – relied on. Awadhesh Kumar v. State of U.P. & Anr. [2019] 17 SCR 185 : (2019) 10 SCC 323 – referred to"
+  ]
+}

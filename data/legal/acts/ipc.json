@@ -1,0 +1,617 @@
+{
+  "act": {
+    "act_id": "IPC",
+    "name": "Indian Penal Code, 1860",
+    "short_name": "IPC",
+    "year": 1860,
+    "status": "repealed",
+    "predecessor_act": null,
+    "successor_act": "BNS",
+    "jurisdiction": "India"
+  },
+  "sections": [
+    {
+      "section_id": "IPC:302",
+      "section_number": "302",
+      "title": "Punishment for murder",
+      "text": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine.",
+      "predecessor_act": null,
+      "successor_act": "BNS:103",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "murder"
+      ]
+    },
+    {
+      "section_id": "IPC:304",
+      "section_number": "304",
+      "title": "Punishment for culpable homicide not amounting to murder",
+      "text": "Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention of causing death, or of causing such bodily injury as is likely to cause death,\nor with imprisonment of either description for a term which may extend to ten years, or with fine, or with both, if the act is done with the knowledge that it is likely to cause death, but without any intention to cause death, or to cause such bodily injury as is likely to cause death.",
+      "predecessor_act": null,
+      "successor_act": "BNS:105",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "murder",
+        "culpable homicide"
+      ]
+    },
+    {
+      "section_id": "IPC:300",
+      "section_number": "300",
+      "title": "Murder",
+      "text": "Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or—\n    (Secondly)— If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or—\n    (Thirdly)— If it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or—\n    (Fourthly)— If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid.",
+      "predecessor_act": null,
+      "successor_act": "BNS:101",
+      "subsections": [],
+      "explanations": [
+        {
+          "label": "Explanation.",
+          "text": "Whether the provocation was grave and sudden enough to prevent the offence from amounting to murder is a question of fact."
+        },
+        {
+          "label": "Explanation.",
+          "text": "It is immaterial in such cases which party offers the provocation or commits the first assault."
+        }
+      ],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a)A shoots Z with the intention of killing him. Z dies in consequence. A commits murder.\n    (b)A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death.\n    (c)A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here, A is guilty of murder, although he may not have intended to cause Z’s death.\n    (d)A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual."
+        },
+        {
+          "label": "Illustrations",
+          "text": "(a)A, under the influence of passion excited by a provocation given by Z, intentionally kills. Y, Z’s child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation.\n    (b)Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide.\n    (c)A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers.\n    (d)A appears as witness before Z, a Magistrate, Z says that he does not believe a word of A’s deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder.\n    (e)A attempts to pull Z’s nose, Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was given by a thing done in the exercise of the right of private defence.\n    (f)Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B’s rage, and to cause him to kill Z, puts a knife into B’s hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homi-cide, but A is guilty of murder."
+        },
+        {
+          "label": "Illustration",
+          "text": "Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide."
+        },
+        {
+          "label": "Illustration",
+          "text": "A, by instigation, voluntarily causes, Z, a person under eighteen years of age to commit suicide. Here, on account of Z’s youth, he was incapable of giving consent to his own death; A has therefore abetted murder."
+        }
+      ],
+      "exceptions": [
+        {
+          "label": "Exception 1.",
+          "text": "When culpable homicide is not murder.— Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident. The above"
+        },
+        {
+          "label": "exception",
+          "text": "is subject to the following"
+        },
+        {
+          "label": "Exception 2.",
+          "text": "Culpable homicide is not murder if the offender, in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence."
+        },
+        {
+          "label": "Exception 3.",
+          "text": "Culpable homicide is not murder if the offender, being a public servant or aiding a public servant acting for the advancement of public justice, exceeds the powers given to him by law, and causes death by doing an act which he, in good faith, believes to be lawful and necessary for the due discharge of his duty as such public servant and without ill-will towards the person whose death is caused."
+        },
+        {
+          "label": "Exception 4.",
+          "text": "Culpable homicide is not murder if it is committed without premeditation in a sudden fight in the heat of passion upon a sudden quarrel and without the offender having taken undue advantage or acted in a cruel or unusual manner."
+        },
+        {
+          "label": "Exception 5.",
+          "text": "Culpable homicide is not murder when the person whose death is caused, being above the age of eighteen years, suffers death or takes the risk of death with his own consent."
+        }
+      ],
+      "provisos": [
+        {
+          "label": "provisos",
+          "text": "(First)— That the provocation is not sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person.\n    (Secondly)— That the provocation is not given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant.\n    (Thirdly)— That the provocation is not given by anything done in the lawful exercise of the right of private defence."
+        }
+      ],
+      "legal_concepts": [
+        "murder",
+        "culpable homicide",
+        "consent",
+        "private defence"
+      ]
+    },
+    {
+      "section_id": "IPC:201",
+      "section_number": "201",
+      "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+      "text": "Whoever, knowing or having reason to believe that an offence has been committed, causes any evidence of the commission of that offence to disappear, with the intention of screening the offender from legal punishment, or with that intention gives any infor-mation respecting the offence which he knows or believes to be false;\nif a capital offence.— shall, if the offence which he knows or believes to have been committed is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine;\nif punishable with imprisonment for life.— and if the offence is punishable with imprisonment for life, or with imprisonment which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;\nif punishable with less than ten years’ imprisonment.— and if the offence is punishable with imprisonment for any term not extending to ten years, shall be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth part of the longest term of the imprisonment provided for the offence, or with fine, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:238",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustration",
+          "text": "A, knowing that B has murdered Z, assists B to hide the body with the intention of screening B from punishment. A is liable to imprisonment of either description for seven years, and also to fine."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:304A",
+      "section_number": "304A",
+      "title": "Causing death by negligence",
+      "text": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:106",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "culpable homicide"
+      ]
+    },
+    {
+      "section_id": "IPC:304B",
+      "section_number": "304B",
+      "title": "Dowry death",
+      "text": "",
+      "predecessor_act": null,
+      "successor_act": "BNS:80",
+      "subsections": [
+        {
+          "section_id": "IPC:304B(1)",
+          "subsection_number": "1",
+          "text": "Where the death of a woman is caused by any burns or bodily injury or occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called “dowry death”, and such husband or relative shall be deemed to have caused her death."
+        },
+        {
+          "section_id": "IPC:304B(2)",
+          "subsection_number": "2",
+          "text": "Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life."
+        }
+      ],
+      "explanations": [
+        {
+          "label": "Explanation.",
+          "text": "For the purpose of this sub-section, “dowry” shall have the same meaning as in section 2 of the Dowry Prohibition Act, 1961 (28 of 1961)."
+        }
+      ],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:366",
+      "section_number": "366",
+      "title": "Kidnapping, abducting or inducing woman to compel her marriage, etc",
+      "text": "Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and whoever, by means of criminal intimidation as defined in this Code or of abuse of authority or any other method of compulsion, induces any woman to go from any place with intent that she may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall be punishable as aforesaid.",
+      "predecessor_act": null,
+      "successor_act": "BNS:87",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:87",
+      "section_number": "87",
+      "title": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent",
+      "text": "Nothing which is not intended to cause death, or grievous hurt, and which is not known by the doer to be likely to cause death or grievous hurt, is an offence by reason of any harm which it may cause, or be intended by the doer to cause, to any person, above eighteen years of age, who has given consent, whether express or implied, to suffer that harm; or by reason of any harm which it may be known by the doer to be likely to cause to any such person who has consented to take the risk of that harm.",
+      "predecessor_act": null,
+      "successor_act": "BNS:25",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustration",
+          "text": "A and Z agrees to fence with each other for amusement. This agreement implies the consent of each to suffer any harm which, in the course of such fencing, may be caused without foul play; and if A, while playing fairly, hurts Z, A commits no offence."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "consent"
+      ]
+    },
+    {
+      "section_id": "IPC:84",
+      "section_number": "84",
+      "title": "Act of a person of unsound mind",
+      "text": "Nothing is an offence which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law.",
+      "predecessor_act": null,
+      "successor_act": "BNS:22",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "unsoundness of mind"
+      ]
+    },
+    {
+      "section_id": "IPC:120",
+      "section_number": "120",
+      "title": "Concealing design to commit offence punishable with imprisonment",
+      "text": "Whoever, intending to facilitate or knowing it to be likely that he will thereby facilitate the commission of an offence punishable with imprisonment,\nvoluntarily conceals, by any act or illegal omission, the existence of a design to commit such offence, or makes any representation which he knows to be false respecting such design,\nIf offence be committed— if offence be not committed.— shall, if the offence be committed, be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth, and, if the offence be not committed, to one-eighth, of the longest term of such imprisonment, or with such fine as is provided for the offence, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:60",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:120A",
+      "section_number": "120A",
+      "title": "Definition of criminal conspiracy",
+      "text": "When two or more persons agree to do, or cause to be done, —",
+      "predecessor_act": null,
+      "successor_act": "BNS:61(1)",
+      "subsections": [
+        {
+          "section_id": "IPC:120A(1)",
+          "subsection_number": "1",
+          "text": "an illegal act, or"
+        },
+        {
+          "section_id": "IPC:120A(2)",
+          "subsection_number": "2",
+          "text": "an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy:"
+        }
+      ],
+      "explanations": [
+        {
+          "label": "Explanation.",
+          "text": "It is immaterial whether the illegal act is the ultimate object of such agreement, or is merely incidental to that object."
+        }
+      ],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [
+        {
+          "label": "Provided that",
+          "text": "no agreement except an agreement to commit an offence shall amount to a criminal conspiracy unless some act besides the agreement is done by one or more parties to such agreement in pursuance thereof."
+        }
+      ],
+      "legal_concepts": [
+        "criminal conspiracy"
+      ]
+    },
+    {
+      "section_id": "IPC:120B",
+      "section_number": "120B",
+      "title": "Punishment of criminal conspiracy",
+      "text": "",
+      "predecessor_act": null,
+      "successor_act": "BNS:61(2)",
+      "subsections": [
+        {
+          "section_id": "IPC:120B(1)",
+          "subsection_number": "1",
+          "text": "Whoever is a party to a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, shall, where no express provision is made in this Code for the punishment of such a conspiracy, be punished in the same manner as if he had abetted such offence."
+        },
+        {
+          "section_id": "IPC:120B(2)",
+          "subsection_number": "2",
+          "text": "Whoever is a party to a criminal conspiracy other than a criminal conspiracy to commit an offence punishable as aforesaid shall be punished with imprisonment of either description for a term not exceeding six months, or with fine or with both."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "criminal conspiracy"
+      ]
+    },
+    {
+      "section_id": "IPC:299",
+      "section_number": "299",
+      "title": "Culpable homicide",
+      "text": "Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.",
+      "predecessor_act": null,
+      "successor_act": "BNS:100",
+      "subsections": [],
+      "explanations": [
+        {
+          "label": "Explanation",
+          "text": "1.— A person who causes bodily injury to another who is labouring under a disorder, disease or bodily infirmity, and thereby accelerates the death of that other, shall be deemed to have caused his death."
+        },
+        {
+          "label": "Explanation",
+          "text": "2.— Where death is caused by bodily injury, the person who causes such bodily injury shall be deemed to have caused the death, although by resorting to proper remedies and skilful treatment the death might have been prevented."
+        },
+        {
+          "label": "Explanation",
+          "text": "3.— The causing of the death of child in the mother’s womb is not homicide. But it may amount to culpable homicide to cause the death of a living child, if any part of that child has been brought forth, though the child may not have breathed or been completely born."
+        }
+      ],
+      "illustrations": [
+        {
+          "label": "Illustrations",
+          "text": "(a)A lays sticks and turf over a pit, with the intention of thereby causing death, or with the knowledge that death is likely to be thereby caused. Z believing the ground to be firm, treads on it, falls in and is killed. A has committed the offence of culpable homicide.\n(b)A knows Z to be behind a bush. B does not know it A, intending to cause, or knowing it to be likely to cause Z’s death, induces B to fire at the bush. B fires and kills Z. Here B may be guilty of no offence; but A has committed the offence of culpable homicide.\n(c)A, by shooting at a fowl with intent to kill and steal it, kills B who is behind a bush; A not knowing that he was there. Here, although A was doing an unlawful act, he was not guilty of culpable homicide, as he did not intend to kill B, or to cause death by doing an act that he knew was likely to cause death."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "culpable homicide"
+      ]
+    },
+    {
+      "section_id": "IPC:301",
+      "section_number": "301",
+      "title": "Culpable homicide by causing death of person other than person whose death was intended",
+      "text": "If a person, by doing anything which he intends or knows to be likely to cause death, commits culpable homicide by causing the death of any person, whose death he neither intends nor knows himself to be likely to cause, the culpable homicide committed by the offender is of the description of which it would have been if he had caused the death of the person whose death he intended or knew himself to be likely to cause.",
+      "predecessor_act": null,
+      "successor_act": "BNS:102",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "culpable homicide"
+      ]
+    },
+    {
+      "section_id": "IPC:307",
+      "section_number": "307",
+      "title": "Attempt to murder",
+      "text": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.\n\nAttempts by life convicts.— When any person offending under this section is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death. llustrations\n(a)A shoots at Z with intention to kill him, under such circumstances that, if death ensued. A would be guilty of murder. A is liable to punishment under this section.\n(b)A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue.\n(c)A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and if by such firing he wounds Z, he is liable to the punishment provided by the latter part of the first paragraph of this section.\n(d)A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A’s keeping; A has not yet committed the offence defined in this section. A places the food on Z’s table or delivers it to Z’s servant to place it on Z’s table. A has committed the offence defined in this section.",
+      "predecessor_act": null,
+      "successor_act": "BNS:109",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "murder"
+      ]
+    },
+    {
+      "section_id": "IPC:323",
+      "section_number": "323",
+      "title": "Punishment for voluntarily causing hurt",
+      "text": "Whoever, except in the case provided for by section 334, voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:115",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:324",
+      "section_number": "324",
+      "title": "Voluntarily causing hurt by dangerous weapons or means",
+      "text": "Whoever, except in the case provided for by section 334, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:118(1)",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:354",
+      "section_number": "354",
+      "title": "Assault or criminal force to woman with intent to outrage her modesty",
+      "text": "Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished with imprisonment of either description for a term which shall not be less than one year but which may extend to five years, and shall also be liable to fine.",
+      "predecessor_act": null,
+      "successor_act": "BNS:74",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:354A",
+      "section_number": "354A",
+      "title": "Sexual harassment and punishment for sexual harassment",
+      "text": "",
+      "predecessor_act": null,
+      "successor_act": "BNS:75",
+      "subsections": [
+        {
+          "section_id": "IPC:354A(1)",
+          "subsection_number": "1",
+          "text": "A man committing any of the following acts--\n    (i)physical contact and advances involving unwelcome and explicit sexual overtures; or\n    (ii)a demand or request for sexual favours; or\n    (iii)showing pornography against the will of a woman; or\n    (iv)making sexually coloured remarks,\nshall be guilty of the offence of sexual harassment."
+        },
+        {
+          "section_id": "IPC:354A(2)",
+          "subsection_number": "2",
+          "text": "Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of sub-section"
+        },
+        {
+          "section_id": "IPC:354A(1)",
+          "subsection_number": "1",
+          "text": "shall be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."
+        },
+        {
+          "section_id": "IPC:354A(3)",
+          "subsection_number": "3",
+          "text": "Any man who commits the offence specified in clause (iv) of sub-section"
+        },
+        {
+          "section_id": "IPC:354A(1)",
+          "subsection_number": "1",
+          "text": "shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:354B",
+      "section_number": "354B",
+      "title": "Assault or use of criminal force to woman with intent to disrobe",
+      "text": "Any man who assaults or uses criminal force to any woman or abets such act with the intention of disrobing or compelling her to be naked, shall be punished with imprisonment of either description for a term which shall not be less than three years but which may extend to seven years, and shall also be liable to fine.",
+      "predecessor_act": null,
+      "successor_act": "BNS:76",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:363",
+      "section_number": "363",
+      "title": "Punishment for kidnapping",
+      "text": "Whoever kidnaps any person from India or from lawful guardianship, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "predecessor_act": null,
+      "successor_act": "BNS:137(2)",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:376",
+      "section_number": "376",
+      "title": "Punishment for rape",
+      "text": "",
+      "predecessor_act": null,
+      "successor_act": "BNS:64",
+      "subsections": [
+        {
+          "section_id": "IPC:376(1)",
+          "subsection_number": "1",
+          "text": "Whoever, except in the cases provided for in sub-section"
+        },
+        {
+          "section_id": "IPC:376(2)",
+          "subsection_number": "2",
+          "text": ", commits rape, shall be punished with rigorous imprisonment of either description for a term which [shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine"
+        }
+      ],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:376A",
+      "section_number": "376A",
+      "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
+      "text": "Whoever, commits an offence punishable under sub-section",
+      "predecessor_act": null,
+      "successor_act": "BNS:66",
+      "subsections": [
+        {
+          "section_id": "IPC:376A(1)",
+          "subsection_number": "1",
+          "text": "or subsection"
+        },
+        {
+          "section_id": "IPC:376A(2)",
+          "subsection_number": "2",
+          "text": "of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:392",
+      "section_number": "392",
+      "title": "Punishment for robbery",
+      "text": "Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; and, if the robbery be committed on the highway between sunset and sunrise, the imprisonment may be extended to fourteen years.",
+      "predecessor_act": null,
+      "successor_act": "BNS:309(4)",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:397",
+      "section_number": "397",
+      "title": "Robbery, or dacoity, with attempt to cause death or grievous hurt",
+      "text": "If, at the time of committing robbery or dacoity, the offender uses any deadly weapon, or causes grievous hurt to any person, or attempts to cause death or grievous hurt to any person, the imprisonment with which such offender shall be punished shall not be less than seven years.",
+      "predecessor_act": null,
+      "successor_act": "BNS:311",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:404",
+      "section_number": "404",
+      "title": "Dishonest misappropriation of property possessed by deceased person at the time of his death",
+      "text": "Whoever dishonestly misappropriates or converts to his own use property, knowing that such property was in the possession of a deceased person at the time of that person’s decease, and has not since been in the possession of any person legally entitled to such possession, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and if the offender at the time of such person’s decease was employed by him as a clerk or servant, the imprisonment may extend to seven years.",
+      "predecessor_act": null,
+      "successor_act": "BNS:315",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [
+        {
+          "label": "Illustration",
+          "text": "Z dies in possession of furniture and money. His servant A, before the money comes into the possession of any person entitled to such possession, dishonestly misappropriates it. A has committed the offence defined in this section."
+        }
+      ],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:498",
+      "section_number": "498",
+      "title": "Enticing or taking away or detaining with criminal intent a married woman",
+      "text": "Whoever takes or entices away any woman who is and whom he knows or has reason to believe to be the wife of any other man, from that man, or from any person having the care of her on behalf of that man, with intent that she may have illicit intercourse with any person, or conceals or detains with that intent any such woman, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:84",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    },
+    {
+      "section_id": "IPC:504",
+      "section_number": "504",
+      "title": "Intentional insult with intent to provoke breach of the peace",
+      "text": "Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "predecessor_act": null,
+      "successor_act": "BNS:352",
+      "subsections": [],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": []
+    }
+  ]
+}

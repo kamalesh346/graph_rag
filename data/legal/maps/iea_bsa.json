@@ -1,0 +1,82 @@
+{
+  "mapping": {
+    "mapping_id": "IEA-BSA",
+    "source_act": "IEA",
+    "target_act": "BSA",
+    "mapping_type": "correspondence"
+  },
+  "mappings": [
+    {
+      "mapping_id": "IEA-BSA:106-109",
+      "source_section": "IEA:106",
+      "target_section": "BSA:109",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:25-23(1)",
+      "source_section": "IEA:25",
+      "target_section": "BSA:23(1)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:27-23(2)",
+      "source_section": "IEA:27",
+      "target_section": "BSA:23(2)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:105-108",
+      "source_section": "IEA:105",
+      "target_section": "BSA:108",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:8-6",
+      "source_section": "IEA:8",
+      "target_section": "BSA:6",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:11-9",
+      "source_section": "IEA:11",
+      "target_section": "BSA:9",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:113A-117",
+      "source_section": "IEA:113A",
+      "target_section": "BSA:117",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:113B-118",
+      "source_section": "IEA:113B",
+      "target_section": "BSA:118",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:114-119",
+      "source_section": "IEA:114",
+      "target_section": "BSA:119",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:145-148",
+      "source_section": "IEA:145",
+      "target_section": "BSA:148",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:157-160",
+      "source_section": "IEA:157",
+      "target_section": "BSA:160",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IEA-BSA:165-168",
+      "source_section": "IEA:165",
+      "target_section": "BSA:168",
+      "relationship": "CORRESPONDS_TO"
+    }
+  ]
+}

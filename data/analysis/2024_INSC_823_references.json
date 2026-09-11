@@ -1,0 +1,62 @@
+{
+  "case_id": "2024 INSC 823",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:145",
+        "act": "Evidence Act",
+        "section": "145",
+        "display_name": "Evidence Act Section 145"
+      },
+      {
+        "canonical_id": "EvidenceAct:157",
+        "act": "Evidence Act",
+        "section": "157",
+        "display_name": "Evidence Act Section 157"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:dying_declaration",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:material_contradiction",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder",
+    "LEGAL_CONCEPT:ocular_evidence"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": [
+    "Jai Karan & Ors. v. State of U.P. [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655",
+    "Govindaraju v. State by Sivaramapuram PS [2012] 5 SCR 67 : (2012) 4 SCC 722",
+    "State of U.P. v. Dharmaraj and Anr. (2003) 9 SCC 39",
+    "Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh [2003] 3 SCR 485 : (2003) 6 SCC 175",
+    "State of UP v. Naresh & Ors. [2011] 4 SCR 1176 : (2011) 4 SCC 324",
+    "Lalitha Kumari v. Government of UP & Ors. [2013] 14 SCR 713 : (2014) 2 SCC 1",
+    "Amish Devgan v. UOI & Ors. [2020] 14 SCR 198 : (2021) 1 SCC 1",
+    "Dharma Rama Bhagare v. State of Maharashtra [1973] 3 SCR 92 : (1973) 1 SCC 537",
+    "Anil Phukan v. State of Assam [1993] 2 SCR 389 : (1993) 3 SCC 282",
+    "Chandu Bhai Shana Bhai Parmar v. State of Gujarat, AIR 1982 SC 1022 – referred to"
+  ]
+}

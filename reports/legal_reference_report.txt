@@ -1,0 +1,116 @@
+NORMALIZED LEGAL REFERENCE REPORT
+========================================
+Cases analysed: 17
+
+STATUTORY PROVISIONS
+
+IPC — Indian Penal Code, 1860
+  IPC Section 302 [IPC:302]: 14 case(s); source forms: 302
+  IPC Section 34 [IPC:34]: 8 case(s); source forms: 34
+  IPC Section 304 [IPC:304]: 7 case(s); source forms: 304
+  IPC Section 300 [IPC:300]: 6 case(s); source forms: 300
+  IPC Section 201 [IPC:201]: 4 case(s); source forms: 201
+  IPC Section 300 Exception 4 [IPC:300(Exception 4)]: 4 case(s); source forms: 300 Exception 4, 300 Exception IV
+  IPC Section 4 [IPC:4]: 2 case(s); source forms: 4
+  IPC Section 25 [IPC:25]: 2 case(s); source forms: 25
+  IPC Section 300 Exception 1 [IPC:300(Exception 1)]: 2 case(s); source forms: 300 Exception 1, 300 Exception 1I
+  IPC Section 304 Part I [IPC:304(Part I)]: 2 case(s); source forms: 304 (Part 1), 304 Part I
+  IPC Section 313 [IPC:313]: 2 case(s); source forms: 313
+  IPC Section 323 [IPC:323]: 2 case(s); source forms: 323
+  IPC Section 366 [IPC:366]: 2 case(s); source forms: 366
+  IPC Section 1 [IPC:1]: 1 case(s); source forms: 1
+  IPC Section 1OF [IPC:1OF]: 1 case(s); source forms: 1of
+  IPC Section 3 [IPC:3]: 1 case(s); source forms: 3
+  IPC Section 7 [IPC:7]: 1 case(s); source forms: 7
+  IPC Section 8 [IPC:8]: 1 case(s); source forms: 8
+  IPC Section 27 [IPC:27]: 1 case(s); source forms: 27
+  IPC Section 84 [IPC:84]: 1 case(s); source forms: 84
+  IPC Section 105 [IPC:105]: 1 case(s); source forms: 105
+  IPC Section 120B [IPC:120B]: 1 case(s); source forms: 120B
+  IPC Section 161 [IPC:161]: 1 case(s); source forms: 161
+  IPC Section 299 [IPC:299]: 1 case(s); source forms: 299
+  IPC Section 301 [IPC:301]: 1 case(s); source forms: 301
+  IPC Section 304A [IPC:304A]: 1 case(s); source forms: 304(A), 304A
+  IPC Section 304B [IPC:304B]: 1 case(s); source forms: 304B
+  IPC Section 307 [IPC:307]: 1 case(s); source forms: 307
+  IPC Section 324 [IPC:324]: 1 case(s); source forms: 324
+  IPC Section 354 [IPC:354]: 1 case(s); source forms: 354
+  IPC Section 363 [IPC:363]: 1 case(s); source forms: 363
+  IPC Section 376 [IPC:376]: 1 case(s); source forms: 376
+  IPC Section 392 [IPC:392]: 1 case(s); source forms: 392
+  IPC Section 397 [IPC:397]: 1 case(s); source forms: 397
+  IPC Section 404 [IPC:404]: 1 case(s); source forms: 404
+  IPC Section 498A [IPC:498A]: 1 case(s); source forms: 498A
+  IPC Section 504 [IPC:504]: 1 case(s); source forms: 504
+
+BNS — Bharatiya Nyaya Sanhita, 2023
+
+CrPC — Code of Criminal Procedure, 1973
+  CrPC Section 313 [CrPC:313]: 5 case(s); source forms: 313
+  CrPC Section 300 [CrPC:300]: 2 case(s); source forms: 300
+  CrPC Section 84 [CrPC:84]: 1 case(s); source forms: 84
+  CrPC Section 105 [CrPC:105]: 1 case(s); source forms: 105
+  CrPC Section 161 [CrPC:161]: 1 case(s); source forms: 161
+  CrPC Section 162 [CrPC:162]: 1 case(s); source forms: 162
+  CrPC Section 165 [CrPC:165]: 1 case(s); source forms: 165
+  CrPC Section 173 [CrPC:173]: 1 case(s); source forms: 173
+  CrPC Section 173(2) [CrPC:173(2)]: 1 case(s); source forms: 173(2)
+  CrPC Section 193 [CrPC:193]: 1 case(s); source forms: 193
+  CrPC Section 207 [CrPC:207]: 1 case(s); source forms: 207
+  CrPC Section 209 [CrPC:209]: 1 case(s); source forms: 209
+  CrPC Section 230 [CrPC:230]: 1 case(s); source forms: 230
+  CrPC Section 232 [CrPC:232]: 1 case(s); source forms: 232
+  CrPC Section 296 [CrPC:296]: 1 case(s); source forms: 296
+  CrPC Section 299 [CrPC:299]: 1 case(s); source forms: 299
+  CrPC Section 302 [CrPC:302]: 1 case(s); source forms: 302
+  CrPC Section 304 [CrPC:304]: 1 case(s); source forms: 304
+  CrPC Section 315 [CrPC:315]: 1 case(s); source forms: 315
+  CrPC Section 366 [CrPC:366]: 1 case(s); source forms: 366
+  CrPC Section 366(1) [CrPC:366(1)]: 1 case(s); source forms: 366(1)
+
+BNSS — Bharatiya Nagarik Suraksha Sanhita, 2023
+  BNSS Section 173(2) [BNSS:173(2)]: 1 case(s); source forms: 173(2)
+  BNSS Section 193 [BNSS:193]: 1 case(s); source forms: 193
+  BNSS Section 209 [BNSS:209]: 1 case(s); source forms: 209
+  BNSS Section 232 [BNSS:232]: 1 case(s); source forms: 232
+
+Evidence Act — Indian Evidence Act, 1872
+  Evidence Act Section 302 [EvidenceAct:302]: 4 case(s); source forms: 302
+  Evidence Act Section 25 [EvidenceAct:25]: 3 case(s); source forms: 25
+  Evidence Act Section 27 [EvidenceAct:27]: 3 case(s); source forms: 27
+  Evidence Act Section 106 [EvidenceAct:106]: 3 case(s); source forms: 106
+  Evidence Act Section 105 [EvidenceAct:105]: 2 case(s); source forms: 105
+  Evidence Act Section 165 [EvidenceAct:165]: 2 case(s); source forms: 165
+  Evidence Act Section 8 [EvidenceAct:8]: 1 case(s); source forms: 8
+  Evidence Act Section 11 [EvidenceAct:11]: 1 case(s); source forms: 11
+  Evidence Act Section 84 [EvidenceAct:84]: 1 case(s); source forms: 84
+  Evidence Act Section 113 [EvidenceAct:113]: 1 case(s); source forms: 113
+  Evidence Act Section 114 [EvidenceAct:114]: 1 case(s); source forms: 114
+  Evidence Act Section 145 [EvidenceAct:145]: 1 case(s); source forms: 145
+  Evidence Act Section 157 [EvidenceAct:157]: 1 case(s); source forms: 157
+  Evidence Act Section 161 [EvidenceAct:161]: 1 case(s); source forms: 161
+  Evidence Act Section 162 [EvidenceAct:162]: 1 case(s); source forms: 162
+  Evidence Act Section 168 [EvidenceAct:168]: 1 case(s); source forms: 168
+  Evidence Act Section 313 [EvidenceAct:313]: 1 case(s); source forms: 313
+  Evidence Act Section 376 [EvidenceAct:376]: 1 case(s); source forms: 376
+  Evidence Act Section 397 [EvidenceAct:397]: 1 case(s); source forms: 397
+
+BSA — Bharatiya Sakshya Adhiniyam, 2023
+
+COURTS
+  Supreme Court of India [COURT:SUPREME_COURT_OF_INDIA]: 17 case(s); source forms: Supreme Court of India
+
+LEGAL CONCEPTS
+  Murder [LEGAL_CONCEPT:murder]: 15 case(s); aliases: murder
+  First information report (FIR) [LEGAL_CONCEPT:first_information_report_fir]: 12 case(s); aliases: FIR, First Information Report
+  Acquittal [LEGAL_CONCEPT:acquittal]: 11 case(s); aliases: acquittal, acquitted
+  Medical evidence [LEGAL_CONCEPT:medical_evidence]: 11 case(s); aliases: medical evidence, post-mortem, post mortem
+  Circumstantial evidence [LEGAL_CONCEPT:circumstantial_evidence]: 7 case(s); aliases: circumstantial evidence
+  Benefit of doubt [LEGAL_CONCEPT:benefit_of_doubt]: 6 case(s); aliases: benefit of doubt
+  Culpable homicide [LEGAL_CONCEPT:culpable_homicide]: 6 case(s); aliases: culpable homicide
+  Sudden fight [LEGAL_CONCEPT:sudden_fight]: 4 case(s); aliases: sudden fight
+  Culpable homicide not amounting to murder [LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder]: 3 case(s); aliases: culpable homicide not amounting to murder
+  Dying declaration [LEGAL_CONCEPT:dying_declaration]: 1 case(s); aliases: dying declaration
+  Grave and sudden provocation [LEGAL_CONCEPT:grave_and_sudden_provocation]: 1 case(s); aliases: grave and sudden provocation
+  Material contradiction [LEGAL_CONCEPT:material_contradiction]: 1 case(s); aliases: material contradiction, material omission, material omissions
+  Ocular evidence [LEGAL_CONCEPT:ocular_evidence]: 1 case(s); aliases: ocular evidence

@@ -1,0 +1,39 @@
+{
+  "case_id": "2024 INSC 878",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:504",
+        "act": "IPC",
+        "section": "504",
+        "display_name": "IPC Section 504"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder",
+    "LEGAL_CONCEPT:sudden_fight"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": []
+}

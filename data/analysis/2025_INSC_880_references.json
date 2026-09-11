@@ -1,0 +1,40 @@
+{
+  "case_id": "2025 INSC 880",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:120B",
+        "act": "IPC",
+        "section": "120B",
+        "subsection": "B",
+        "display_name": "IPC Section 120B"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Mohamed Jabbar Ali & Ors. v. State of Assam, Criminal Appeal No. 1105 of 2010",
+    "Gangadhar Behera v. State of Orissa [2002] Supp. 3 SCR 183 : AIR 2002 SC 3633 – relied on. Hari Obula Reddy and others v. State of Andhra Pradesh (1981) 3 SCC 675 – referred to"
+  ]
+}

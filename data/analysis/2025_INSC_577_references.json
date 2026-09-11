@@ -1,0 +1,184 @@
+{
+  "case_id": "2025 INSC 577",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:84",
+        "act": "IPC",
+        "section": "84",
+        "display_name": "IPC Section 84"
+      },
+      {
+        "canonical_id": "IPC:105",
+        "act": "IPC",
+        "section": "105",
+        "display_name": "IPC Section 105"
+      },
+      {
+        "canonical_id": "IPC:161",
+        "act": "IPC",
+        "section": "161",
+        "display_name": "IPC Section 161"
+      },
+      {
+        "canonical_id": "IPC:299",
+        "act": "IPC",
+        "section": "299",
+        "display_name": "IPC Section 299"
+      },
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:313",
+        "act": "IPC",
+        "section": "313",
+        "display_name": "IPC Section 313"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:84",
+        "act": "CrPC",
+        "section": "84",
+        "display_name": "CrPC Section 84"
+      },
+      {
+        "canonical_id": "CrPC:105",
+        "act": "CrPC",
+        "section": "105",
+        "display_name": "CrPC Section 105"
+      },
+      {
+        "canonical_id": "CrPC:161",
+        "act": "CrPC",
+        "section": "161",
+        "display_name": "CrPC Section 161"
+      },
+      {
+        "canonical_id": "CrPC:162",
+        "act": "CrPC",
+        "section": "162",
+        "display_name": "CrPC Section 162"
+      },
+      {
+        "canonical_id": "CrPC:165",
+        "act": "CrPC",
+        "section": "165",
+        "display_name": "CrPC Section 165"
+      },
+      {
+        "canonical_id": "CrPC:299",
+        "act": "CrPC",
+        "section": "299",
+        "display_name": "CrPC Section 299"
+      },
+      {
+        "canonical_id": "CrPC:300",
+        "act": "CrPC",
+        "section": "300",
+        "display_name": "CrPC Section 300"
+      },
+      {
+        "canonical_id": "CrPC:302",
+        "act": "CrPC",
+        "section": "302",
+        "display_name": "CrPC Section 302"
+      },
+      {
+        "canonical_id": "CrPC:304",
+        "act": "CrPC",
+        "section": "304",
+        "display_name": "CrPC Section 304"
+      },
+      {
+        "canonical_id": "CrPC:313",
+        "act": "CrPC",
+        "section": "313",
+        "display_name": "CrPC Section 313"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:84",
+        "act": "Evidence Act",
+        "section": "84",
+        "display_name": "Evidence Act Section 84"
+      },
+      {
+        "canonical_id": "EvidenceAct:105",
+        "act": "Evidence Act",
+        "section": "105",
+        "display_name": "Evidence Act Section 105"
+      },
+      {
+        "canonical_id": "EvidenceAct:161",
+        "act": "Evidence Act",
+        "section": "161",
+        "display_name": "Evidence Act Section 161"
+      },
+      {
+        "canonical_id": "EvidenceAct:162",
+        "act": "Evidence Act",
+        "section": "162",
+        "display_name": "Evidence Act Section 162"
+      },
+      {
+        "canonical_id": "EvidenceAct:165",
+        "act": "Evidence Act",
+        "section": "165",
+        "display_name": "Evidence Act Section 165"
+      },
+      {
+        "canonical_id": "EvidenceAct:302",
+        "act": "Evidence Act",
+        "section": "302",
+        "display_name": "Evidence Act Section 302"
+      },
+      {
+        "canonical_id": "EvidenceAct:313",
+        "act": "Evidence Act",
+        "section": "313",
+        "display_name": "Evidence Act Section 313"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": [
+    "Rampal Singh v. State of U.P. [2012] 7 SCR 160 : (2012) 8 SCC 289",
+    "State of A.P. v. Rayavarapu Punnayya [1977] 1 SCR 601 : 92 : (1974) 4 SCC 186",
+    "Sidhartha Vashisht v. State (NCT of Delhi) [2010] 4 SCR 103 : (2010) 6 SCC 1 – relied on. Satyavir Singh Rathi, Assistant Commissioner of Police v. State [2011] 6 SCR 138 : AIR 2011 SC 1748",
+    "Munshi Ram v. Delhi Admn. [1968] 2 SCR 455 : AIR 1968 SC 702",
+    "State of U.P. v. Mohd. Musheer Khan, AIR 1977 SC 2226",
+    "James Martin v. State of Kerala [2003] Supp. 6 SCR 910 : (2004) 2 SCC 203",
+    "Dahyabhai Chhaganbhai Thakkar v. State of Gujarat [1964] 7 SCR 361 : AIR 1964 SC 1563 – referred to"
+  ]
+}

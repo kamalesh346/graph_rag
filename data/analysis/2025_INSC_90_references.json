@@ -1,0 +1,90 @@
+{
+  "case_id": "2025 INSC 90",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:1",
+        "act": "IPC",
+        "section": "1",
+        "display_name": "IPC Section 1"
+      },
+      {
+        "canonical_id": "IPC:1OF",
+        "act": "IPC",
+        "section": "1OF",
+        "subsection": "OF",
+        "display_name": "IPC Section 1OF"
+      },
+      {
+        "canonical_id": "IPC:4",
+        "act": "IPC",
+        "section": "4",
+        "display_name": "IPC Section 4"
+      },
+      {
+        "canonical_id": "IPC:201",
+        "act": "IPC",
+        "section": "201",
+        "display_name": "IPC Section 201"
+      },
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 1)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "1",
+        "display_name": "IPC Section 300 Exception 1"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 4)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "4",
+        "display_name": "IPC Section 300 Exception 4"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:304(Part I)",
+        "act": "IPC",
+        "section": "304",
+        "part": "I",
+        "display_name": "IPC Section 304 Part I"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:105",
+        "act": "Evidence Act",
+        "section": "105",
+        "display_name": "Evidence Act Section 105"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:grave_and_sudden_provocation",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": [
+    "Mancini v. Director of Public Prosecutions, 1942 A. C. 1 – relied on"
+  ]
+}

@@ -1,0 +1,243 @@
+[Section 103.Punishment for murder —
+(1) Whoever commits murder shall be punished with death orimprisonment for life, and shall also be liable to fine.
+(2) When a group of five or more persons acting in concert commits murder on the ground of race,caste or community, sex, place of birth, language, personal belief or any other similar ground eachmember of such group shall be punished with death or with imprisonment for life, and shall also be liable to fine. - IPC 302]
+
+[Section 105.Punishment for culpable homicide not amounting to murder —
+whoever commits culpable homicide not amounting to murder, shall be punished with imprisonment for life, or imprisonment of either description for a term which shall not be less than five years but which may extend to ten years,and shall also be liable to fine, if the act by which the death is caused is done with the intention ofcausing death, or of causing such bodily injury as is likely to cause death; or with imprisonment of eitherdescription for a term which may extend to ten years and with fine, if the act is done with the knowledgethat it is likely to cause death, but without any intention to cause death, or to cause such bodily injury asis likely to cause death - IPC 304]
+
+[Section 100. Culpable homicide - 
+Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.
+
+Illustrations:
+    (a) A lays sticks and turf over a pit, with the intention of thereby causing death, or with the knowledge that death is likely to be thereby caused. Z, believing the ground to be firm, treads on it, falls in and is killed. A has committed the offence of culpable homicide.
+    (b) A knows Z to be behind a bush. B does not know it. A, intending to cause, or knowing it to be likely to cause Z's death, induces B to fire at the bush. B fires and kills Z. Here B may be guilty of no offence; but A has committed the offence of culpable homicide.
+    (c) A, by shooting at a fowl with intent to kill and steal it, kills B, who is behind a bush; A not knowing that he was there. Here, although A was doing an unlawful act, he was not guilty of culpable homicide, as he did not intend to kill B, or to cause death by doing an act that he knew was likely to cause death.
+
+Explanation 1 .- A person who causes bodily injury to another who is labouring under a disorder, disease or bodily infirmity, and thereby accelerates the death of that other, shall be deemed to have caused his death.
+
+Explanation 2 .- Where death is caused by bodily injury, the person who causes such bodily injury shall be deemed to have caused the death, although by resorting to proper remedies and skilful treatment the death might have been prevented.
+
+Explanation 3 .- The causing of the death of a child in the mother's womb is not homicide. But it may amount to culpable homicide to cause the death of a living child, if any part of that child has been brought forth, though the child may not have breathed or been completely born. - IPC 299]
+
+[Section 238. Causing disappearance of evidence of offence, or giving false information to screen offender - 
+Whoever, knowing or having reason to believe that an offence has been committed, causes any evidence of the commission of that offence to disappear, with the intention of screening the offender from legal punishment, or with that intention gives any information respecting the offence which he knows or believes to be false shall,-
+    (a) if the offence which he knows or believes to have been committed is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine;
+    (b) if the offence is punishable with imprisonment for life, or with imprisonment which may extend to ten years, be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;
+    (c) if the offence is punishable with imprisonment for any term not extending to ten years, be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth part of the longest term of the imprisonment provided for the offence, or with fine, or with both.
+
+Illustration : A, knowing that B has murdered Z, assists B to hide the body with the intention of screening B from punishment. A is liable to imprisonment of either description for seven years, and also to fine.- IPC 201]
+
+[Section 101. Murder - 
+Except in the cases hereinafter excepted, culpable homicide is murder,-
+    (a) if the act by which the death is caused is done with the intention of causing death; or
+    (b) if the act by which the death is caused is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused; or
+    (c) if the act by which the death is caused is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death; or
+    (d) if the person committing the act by which the death is caused, knows that it is so imminently dangerous that it must, in all probability, cause death, or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid.
+
+Illustrations:
+    (a) A shoots Z with the intention of killing him. Z dies in consequence. A commits murder.
+    (b) A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death.
+    (c) A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here A is guilty of murder, although he may not have intended to cause Z's death.
+    (d) A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual.
+
+Exception 1 .- Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident:
+Provided that the provocation is not,-
+
+    (a) sought or voluntarily provoked by the offender as an excuse for killing or doing harm to anyperson;
+    (b) given by anything done in obedience to the law, or by a public servant in the lawful exerciseof the powers of such public servant;
+    (c) given by anything done in the lawful exercise of the right of private defence
+
+Explanation .- Whether the provocation was grave and sudden enough to prevent the offence from amounting to murder is a question of fact.
+
+Illustrations.
+    (a) A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation.
+    (b) Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide.
+    (c) A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers.
+    (d) A appears as a witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder.
+    (e) A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was giving by a thing done in the exercise of the right of private defence.
+    (f) Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder. 
+
+Exception 2 .- Culpable homicide is not murder if the offender in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence.
+
+Illustration : Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide.
+
+Exception 3.—Culpable homicide is not murder if the offender, being a public servant or aiding apublic servant acting for the advancement of public justice, exceeds the powers given to him by law, andcauses death by doing an act which he, in good faith, believes to be lawful and necessary for the duedischarge of his duty as such public servant and without ill-will towards the person whose death iscaused.
+
+Exception 4.—Culpable homicide is not murder if it is committed without premeditation in a suddenfight in the heat of passion upon a sudden quarrel and without the offender’s having taken undueadvantage or acted in a cruel or unusual manner.
+
+Explanation.—It is immaterial in such cases which party offers the provocation or commits the firstassault.
+
+Exception 5.—Culpable homicide is not murder when the person whose death is caused, being abovethe age of eighteen years, suffers death or takes the risk of death with his own consent.
+
+Illustration:A, by instigation, voluntarily causes Z, a child to commit suicide. Here, on account of Z’s youth, hewas incapable of giving consent to his own death; A has therefore abetted - IPC 300]
+
+[Section 106.Causing death by negligence —
+
+(1) Whoever causes death of any person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of eitherdescription for a term which may extend to five years, and shall also be liable to fine; and if such act isdone by a registered medical practitioner while performing medical procedure, he shall be punished withimprisonment of either description for a term which may extend to two years, and shall also be liable tofine.
+
+Explanation.—For the purposes of this sub-section,“registered medical practitioner”means a medical practitioner who possesses any medical qualification recognised under the National MedicalCommission Act, 2019 (30 of 2019) and whose name has been entered in the National Medical Registeror a State Medical Register under that Act.
+
+(2) Whoever causes death of any person by rash and negligent driving of vehicle not amounting toculpable homicide, and escapes without reporting it to a police officer or a Magistrate soon after theincident, shall be punished with imprisonment of either description of a term which may extend to tenyears, and shall also be liable to fine - IPC 304A]
+
+[Section 80.Dowry death —
+(1) Where the death of a woman is caused by any burns or bodily injury oroccurs otherwise than under normal circumstances within seven years of her marriage and it is shown thatsoon before her death she was subjected to cruelty or harassment by her husband or any relative of herhusband for, or in connection with, any demand for dowry, such death shall be called“dowry death”, andsuch husband or relative shall be deemed to have caused her death.
+
+Explanation.—For the purposes of this sub-section,“dowry”shall have the same meaning as insection 2of the Dowry Prohibition Act, 1961 (28 of 1961).
+
+(2) Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life - IPC 304B]
+
+[Section 87.Kidnapping, abducting or inducing woman to compel her marriage, etc. —
+Whoever kidnapsor abducts any woman with intent that she may be compelled, or knowing it to be likely that she will becompelled, to marry any person against her will, or in order that she may be forced or seduced to illicitintercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall bepunished with imprisonment of either description for a term which may extend to ten years, and shall alsobeliable to fine; and whoever, by means of criminal intimidation as defined in this Sanhita or of abuse ofauthority or any other method of compulsion, induces any woman to go from any place with intent thatshe may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse withanother person shall also be punishable as aforesaid - IPC 366]
+
+[Section 25.Act not intended and not known to be likely to cause death or grievous hurt, done byconsent —
+Nothing which is not intended to cause death, or grievous hurt, and which is not known by thedoer to be likely to cause death or grievous hurt, is an offence by reason of any harm which it may cause,or be intended by the doer to cause, to any person, above eighteen years of age, who has given consent,whether express or implied, to suffer that harm; or by reason of any harm which it may be known by thedoer to be likely to cause to any such person who has consented to take the risk of that harm.
+
+Illustration: A and Z agree to fence with each other for amusement. This agreement implies the consent of each to suffer any harm which, in the course of such fencing, may be caused without foul play; and if A, while playing fairly, hurts Z, A commits no offence - IPC 87]
+
+[Section 22.Act of a person of unsound mind —
+Nothing is an offence which is done by a person who, at thetime of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or thathe is doing what is either wrong or contrary to law - IPC 84]
+
+[Section 60. Concealing design to commit offence punishable with imprisonment -
+Whoever, intending to facilitate or knowing it to be likely that he will thereby facilitate the commission of an offence punishable with imprisonment, voluntarily conceals, by any act or illegal omission, the existence of a design to commit such offence, or makes any representation which he knows to be false respecting such design shall,-
+(a) if the offence be committed, be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth; and
+(b) if the offence be not committed, to one-eighth, of the longest term of such imprisonment, or with such fine as is provided for the offence, or with both. - IPC 120]
+
+[Section 61. Criminal conspiracy - 
+(1) When two or more persons agree with the common object to do, or cause to be done-
+
+    (a) an illegal act; or
+    (b) an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy: Provided that no agreement except an agreement to commit an offence shall amount to a criminal conspiracy unless some act besides the agreement is done by one or more parties to such agreement in pursuance thereof.
+
+Explanation .- It is immaterial whether the illegal act is the ultimate object of such agreement, or is
+merely incidental to that object. - IPC 120A]
+
+[Section 61. Criminal conspiracy -
+(2) Whoever is a party to a criminal conspiracy,-
+    (a) to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, shall, where no express provision is made in this Sanhita for the punishment of such a conspiracy, be punished in the same manner as if he had abetted such offence;
+    (b) other than a criminal conspiracy to commit an offence punishable as aforesaid shall be punished with imprisonment of either description for a term not exceeding six months, or with fine or with both. - IPC 120B]
+
+[Section 102. Culpable homicide by causing death of person other than person whose death was intended- If a person, by doing anything which he intends or knows to be likely to cause death, commits culpable homicide by causing the death of any person, whose death he neither intends nor knows himself to be likely to cause, the culpable homicide committed by the offender is of the description of which it would have been if he had caused the death of the person whose death he intended or knew himself to be likely to cause. - IPC 301]
+ 
+[Section 80. Dowry death -
+(1) Where the death of a woman is caused by any burns or bodily injury or occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called "dowry death", and such husband or relative shall be deemed to have caused her death.
+
+Explanation .- For the purposes of this sub-section, "dowry" shall have the same meaning as in section 2 of the Dowry Prohibition Act, 1961 (28 of 1961).
+
+(2) Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven vears but which may extend to imprisonment for life - IPC 304B]
+
+[Section 109. Attempt to murder -
+(1) Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.
+
+(2) When any person offending under sub-section (1) is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death or with imprisonment for life, which shall mean the remainder of that person's natural life.
+
+Illustrations:
+    (a) A shoots at Z with intention to kill him, under such circumstances that, if death ensued, A would be guilty of murder. A is liable to punishment under this section.
+    (b) A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue.
+    (c) A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and, if by such firing he wounds Z, he is liable to the punishment provided by the latter part of sub-section (1).
+    (d) A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence defined in this section. A places the food on Z's table or delivers it to Z's servants to place it on Z's table. A has committed the offence defined in this section. - IPC 307]
+
+[Section 115. Voluntarily causing hurt -
+(1) Whoever does any act with the intention of thereby causing hurt to any person, or with the knowledge that he is likely thereby to cause hurt to any person, and does thereby cause hurt to any person, is said "voluntarily to cause hurt".
+
+(2) Whoever, except in the case provided for by sub-section (1) of section 122 voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both.- IPC 323]
+
+[Section 118. Voluntarily causing hurt or grievous hurt by dangerous weapons or means -
+(1) Whoever, except in the case provided for by sub-section (1) of section 122, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to twenty thousand rupees, or with both.
+
+(2) Whoever, except in the case provided for by sub-section (2) of section 122, voluntarily causes grievous hurt by any means referred to in sub-section (1), shall be punished with imprisonment for life, or with imprisonment of either description for a term which shall not be less than one year but which may extend to ten years, and shall also be liable to fine. - IPC 324]
+
+[Section 74.Assault or use of criminal force to woman with intent to outrage her modesty —
+Whoeverassaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he willthereby outrage her modesty, shall be punished with imprisonment of either description for a term whichshall not be less than one year but which may extend to five years, and shall also be liable - IPC 354]
+
+[Section 75.Sexual harassment—
+(1) A man committing any of the following acts:—
+    (i) physical contact and advances involving unwelcome and explicit sexual overtures; or
+    (ii) a demand or request for sexual favours; or
+    (iii) showing pornography against the will of a woman; or
+    (iv) making sexually coloured remarks,shall be guilty of the offence of sexual harassment.
+(2) Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) ofsub-section (1) shall be punished with rigorous imprisonment for a term which may extend to three years,or with fine, or with both.
+
+(3) Any man who commits the offence specified in clause (iv) of sub-section (1) shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. - IPC 354A]
+
+[Section 76.Assault or use of criminal force to woman with intent to disrobe —
+Whoever assaults or usescriminal force to any woman or abets such act with the intention of disrobing or compelling her to benaked, shall be punished with imprisonment of either description for a term which shall not be less than three years but which may extend to seven years, and shall also be liable to fine - IPC 354B]
+
+[Section 137. Kidnapping -
+(1) Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship-
+    (a) whoever conveys any person beyond the limits of India without the consent of that person, or of some person legally authorised to consent on behalf of that person, is said to kidnap that person from India;
+    (b) whoever takes or entices any child or any person of unsound mind, out of the keeping of the lawful guardian of such child or person of unsound mind, without the consent of such guardian, is said to kidnap such child or person from lawful guardianship.
+
+Explanation .- The words "lawful guardian" in this clause include any person lawfully entrusted with the care or custody of such child or other person.
+
+Exception .- This clause does not extend to the act of any person who in good faith believes himself to be the father of an illegitimate child, or who in good faith believes himself to be entitled to the lawful custody of such child, unless such act is committed for an immoral or unlawful purpose.
+
+(2) Whoever kidnaps any person from India or from lawful guardianship shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. - IPC 363]
+
+[Section 64. Punishment for rape -
+(1) Whoever, except in the cases provided for in sub-section (2),commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine.
+
+(2) Whoever,-
+    (a) being a police officer, commits rape,-
+        (i) within the limits of the police station to which such police officer is appointed; or
+        (ii) in the premises of any station house; or
+        (iii) on a woman in such police officer's custody or in the custody of a police officer
+    subordinate to such police officer; or
+    (b) being a public servant, commits rape on a woman in such public servant's custody or in the
+    custody of a public servant subordinate to such public servant; or
+    (c) being a member of the armed forces deployed in an area by the Central Government or a
+    State Government commits rape in such area; or
+    (d) being on the management or on the staff of a jail, remand home or other place of custody
+    established by or under any law for the time being in force or of a women's or children's institution,
+    commits rape on any inmate of such jail, remand home, place or institution; or
+    (e) being on the management or on the staff of a hospital, commits rape on a woman in that
+    hospital; or
+    (f) being a relative, guardian or teacher of, or a person in a position of trust or authority towards
+    the woman, commits rape on such woman; or
+    (g) commits rape during communal or sectarian violence; or
+    (h) commits rape on a woman knowing her to be pregnant; or
+    (i) commits rape, on a woman incapable of giving consent; or
+    (j) being in a position of control or dominance over a woman, commits rape on such woman; or
+    (k) commits rape on a woman suffering from mental or physical disability; or
+    (I) while committing rape causes grievous bodily harm or maims or disfigures or endangers the
+    life of a woman; or
+    (m) commits rape repeatedly on the same woman,
+shall be punished with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine.
+
+Explanation .- For the purposes of this sub-section,-
+    (a) "armed forces" means the naval, army and air forces and includes any member of the Armed Forces constituted under any law for the time being in force, including the paramilitary forces and any auxiliary forces that are under the control of the Central Government or the State Government;
+    (b) "hospital" means the precincts of the hospital and includes the precincts of any institution for the reception and treatment of persons during convalescence or of persons requiring medical attention or rehabilitation;
+    (c) "police officer" shall have the same meaning as assigned to the expression "police" under the Police Act, 1861 (5 of 1861);
+    (d) "women's or children's institution" means an institution, whether called an orphanage or a home for neglected women or children or a widow's home or an institution called by any other name, which is established and maintained for the reception and care of women or children. - IPC 376]
+
+[Section 66. Punishment for causing death or resulting in persistent vegetative state of victim -
+Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 64 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death. - IPC 376A]
+
+[Section 309. Robbery - 
+(1) In all robbery there is either theft or extortion.
+(2) Theft is robbery if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end voluntarily causes or  attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.
+(3) Extortion is robbery if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person so put in fear then and there to deliver up the thing extorted.
+
+Explanation .- The offender is said to be present if he is sufficiently near to put the other person in fear of instant death, of instant hurt, or of instant wrongful restraint.
+
+Illustrations:
+    (a) A holds Z down, and fraudulently takes Z's money and jewels from Z's clothes, without Z's consent. Here A has committed theft, and, in order to the committing of that theft, has voluntarily caused wrongful restraint to Z. A has therefore committed robbery.
+    (b) A meets Z on the high road, shows a pistol, and demands Z's purse. Z, in consequence, surrenders his purse. Here A has extorted the purse from Z by putting him in fear of instant hurt, and being at the time of committing the extortion in his presence. A has therefore committed robbery.
+    (c) A meets Z and Z's child on the high road. A takes the child, and threatens to fling it down a precipice, unless Z delivers his purse. Z, in consequence, delivers his purse. Here A has extorted the purse from Z, by causing Z to be in fear of instant hurt to the child who is there present. A has therefore committed robbery on Z.
+    (d) A obtains property from Z by saying-"Your child is in the hands of my gang, and will be put to death unless you send us ten thousand rupees". This is extortion, and punishable as such; but it is not robbery, unless Z is put in fear of the instant death of his child.
+(4) Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; and, if the robbery be committed on the highway between sunset and sunrise, the imprisonment may be extended to fourteen years.
+(5) Whoever attempts to commit robbery shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.
+(6) If any person, in committing or in attempting to commit robbery, voluntarily causes hurt, such person, and any other person jointly concerned in committing or attempting to commit such robbery, shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.- IPC 392]
+
+[Section 311. Robbery, or dacoity, with attempt to cause death or grievous hurt -
+If, at the time of committing robbery or dacoity, the offender uses any deadly weapon, or causes grievous hurt to any person, or attempts to cause death or grievous hurt to any person, the imprisonment with which such offender shall be punished shall not be less than seven years. - IPC 397]
+
+[Section 315. Dishonest misappropriation of property possessed by deceased person at the time of his death -
+Whoever dishonestly misappropriates or converts to his own use any property, knowing that such property was in the possession of a deceased person at the time of that person's decease, and has not since been in the possession of any person legally entitled to such possession, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine, and if the offender at the time of such person's decease was employed by him as a clerk or servant, the imprisonment may extend to seven years.
+
+Illustration: Z dies in possession of furniture and money. His servant A, before the money comes into the possession of any person entitled to such possession, dishonestly misappropriates it. A has committed the offence defined in this section.- IPC 404]
+
+[Section 84. Enticing or taking away or detaining with criminal intent a married woman -
+Whoever takes or entices away any woman who is and whom he knows or has reason to believe to be the wife of any other man, with intent that she may have illicit intercourse with any person, or conceals or detains with that intent any such woman, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.- IPC 498]
+
+[Section 352. Intentional insult with intent to provoke breach of peace -
+Whoever intentionally insults in any manner, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. - IPC 504]

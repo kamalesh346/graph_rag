@@ -1,0 +1,53 @@
+{
+  "case_id": "2025 INSC 710",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:304B",
+        "act": "IPC",
+        "section": "304B",
+        "subsection": "B",
+        "display_name": "IPC Section 304B"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:296",
+        "act": "CrPC",
+        "section": "296",
+        "display_name": "CrPC Section 296"
+      },
+      {
+        "canonical_id": "CrPC:313",
+        "act": "CrPC",
+        "section": "313",
+        "display_name": "CrPC Section 313"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:113",
+        "act": "Evidence Act",
+        "section": "113",
+        "display_name": "Evidence Act Section 113"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence"
+  ],
+  "offences": [],
+  "case_citations": []
+}

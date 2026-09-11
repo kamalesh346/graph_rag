@@ -1,0 +1,63 @@
+{
+  "case_id": "2025 INSC 1318",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:25",
+        "act": "IPC",
+        "section": "25",
+        "display_name": "IPC Section 25"
+      },
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:25",
+        "act": "Evidence Act",
+        "section": "25",
+        "display_name": "Evidence Act Section 25"
+      },
+      {
+        "canonical_id": "EvidenceAct:27",
+        "act": "Evidence Act",
+        "section": "27",
+        "display_name": "Evidence Act Section 27"
+      },
+      {
+        "canonical_id": "EvidenceAct:302",
+        "act": "Evidence Act",
+        "section": "302",
+        "display_name": "Evidence Act Section 302"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Manjunath & Ors. v. State of Karnataka [2023] 14 SCR 727 : 2023 SCC OnLine SC 1421",
+    "Jaikam Khan v. State of U.P. [2021] 14 SCR 767 : (2021) 13 SCC 716",
+    "Nikhil Chandra Mondal v. State of West Bengal [2023] 2 SCR 20 : (2023) 6 SCC 605 – relied on. State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+    "State of Maharashtra v. Bharat Fakira Dhiwar [2001] Supp. 5 SCR 12 : (2002) 1 SCC 622",
+    "Lochan Srivas v. State of Chhattisgarh [2021] 14 SCR 809 : (2022) 15 SCC 401 – distinguished. Raja Khan v. State of Chhattisgarh [2025] 2 SCR 461 : (2025) 3 SCC 314 – referred to. Books and Periodical Cited Concise Oxford English Dictionary (10th Edition, Revised in 2002, Edited by Judy Pearsall",
+    "P Ramanatha Aiyar, Advanced Law Lexicon (3rd Edition, 2005) – referred to"
+  ]
+}

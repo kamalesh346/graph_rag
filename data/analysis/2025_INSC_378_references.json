@@ -1,0 +1,71 @@
+{
+  "case_id": "2025 INSC 378",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 4)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "4",
+        "display_name": "IPC Section 300 Exception 4"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:304(Part I)",
+        "act": "IPC",
+        "section": "304",
+        "part": "I",
+        "display_name": "IPC Section 304 Part I"
+      },
+      {
+        "canonical_id": "IPC:323",
+        "act": "IPC",
+        "section": "323",
+        "display_name": "IPC Section 323"
+      },
+      {
+        "canonical_id": "IPC:324",
+        "act": "IPC",
+        "section": "324",
+        "display_name": "IPC Section 324"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder",
+    "LEGAL_CONCEPT:sudden_fight"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": []
+}

@@ -1,0 +1,190 @@
+{
+  "case_id": "2025 INSC 1203",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:7",
+        "act": "IPC",
+        "section": "7",
+        "display_name": "IPC Section 7"
+      },
+      {
+        "canonical_id": "IPC:8",
+        "act": "IPC",
+        "section": "8",
+        "display_name": "IPC Section 8"
+      },
+      {
+        "canonical_id": "IPC:201",
+        "act": "IPC",
+        "section": "201",
+        "display_name": "IPC Section 201"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:354",
+        "act": "IPC",
+        "section": "354",
+        "display_name": "IPC Section 354"
+      },
+      {
+        "canonical_id": "IPC:363",
+        "act": "IPC",
+        "section": "363",
+        "display_name": "IPC Section 363"
+      },
+      {
+        "canonical_id": "IPC:366",
+        "act": "IPC",
+        "section": "366",
+        "display_name": "IPC Section 366"
+      }
+    ],
+    "CrPC": [
+      {
+        "canonical_id": "CrPC:173",
+        "act": "CrPC",
+        "section": "173",
+        "display_name": "CrPC Section 173"
+      },
+      {
+        "canonical_id": "CrPC:173(2)",
+        "act": "CrPC",
+        "section": "173",
+        "subsection": "2",
+        "display_name": "CrPC Section 173(2)"
+      },
+      {
+        "canonical_id": "CrPC:193",
+        "act": "CrPC",
+        "section": "193",
+        "display_name": "CrPC Section 193"
+      },
+      {
+        "canonical_id": "CrPC:207",
+        "act": "CrPC",
+        "section": "207",
+        "display_name": "CrPC Section 207"
+      },
+      {
+        "canonical_id": "CrPC:209",
+        "act": "CrPC",
+        "section": "209",
+        "display_name": "CrPC Section 209"
+      },
+      {
+        "canonical_id": "CrPC:230",
+        "act": "CrPC",
+        "section": "230",
+        "display_name": "CrPC Section 230"
+      },
+      {
+        "canonical_id": "CrPC:232",
+        "act": "CrPC",
+        "section": "232",
+        "display_name": "CrPC Section 232"
+      },
+      {
+        "canonical_id": "CrPC:313",
+        "act": "CrPC",
+        "section": "313",
+        "display_name": "CrPC Section 313"
+      },
+      {
+        "canonical_id": "CrPC:315",
+        "act": "CrPC",
+        "section": "315",
+        "display_name": "CrPC Section 315"
+      },
+      {
+        "canonical_id": "CrPC:366",
+        "act": "CrPC",
+        "section": "366",
+        "display_name": "CrPC Section 366"
+      }
+    ],
+    "BNSS": [
+      {
+        "canonical_id": "BNSS:173(2)",
+        "act": "BNSS",
+        "section": "173",
+        "subsection": "2",
+        "display_name": "BNSS Section 173(2)"
+      },
+      {
+        "canonical_id": "BNSS:193",
+        "act": "BNSS",
+        "section": "193",
+        "display_name": "BNSS Section 193"
+      },
+      {
+        "canonical_id": "BNSS:209",
+        "act": "BNSS",
+        "section": "209",
+        "display_name": "BNSS Section 209"
+      },
+      {
+        "canonical_id": "BNSS:232",
+        "act": "BNSS",
+        "section": "232",
+        "display_name": "BNSS Section 232"
+      }
+    ],
+    "Evidence Act": [
+      {
+        "canonical_id": "EvidenceAct:25",
+        "act": "Evidence Act",
+        "section": "25",
+        "display_name": "Evidence Act Section 25"
+      },
+      {
+        "canonical_id": "EvidenceAct:114",
+        "act": "Evidence Act",
+        "section": "114",
+        "display_name": "Evidence Act Section 114"
+      },
+      {
+        "canonical_id": "EvidenceAct:165",
+        "act": "Evidence Act",
+        "section": "165",
+        "display_name": "Evidence Act Section 165"
+      },
+      {
+        "canonical_id": "EvidenceAct:168",
+        "act": "Evidence Act",
+        "section": "168",
+        "display_name": "Evidence Act Section 168"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:circumstantial_evidence",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder"
+  ],
+  "offences": [
+    "Murder"
+  ],
+  "case_citations": [
+    "Sharad Birdhichand Sharda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+    "Prakash Nishad @ Kewat Zinak Nishad v. State of Maharashtra [2023] 8 SCR 152 : 2023 SCC Online SC 666 – relied on. Bachan Singh v. State of Punjab [1983] 1 SCR 145",
+    "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190",
+    "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+    "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+    "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+    "Anokhilal v. State of Madhya Pradesh [2019] 18 SCR 1196 : 2019 SCC OnLine SC 1637",
+    "State of Uttar Pradesh v. Deoman Upadhyaya [1961] 1 SCR 14 : 1960 SCC OnLine SC 8",
+    "Mohmed Inayatullah v. State of Maharashtra [1976] 1 SCR 715 : (1976) 1 SCC 828",
+    "Earabhadrappa v. State of Karnataka [1983] 2 SCR 552 : (1983) 2 SCC 330",
+    "Bodhraj alias Bodha and Others v. State of Jammu and Kashmir [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45 – referred to"
+  ]
+}

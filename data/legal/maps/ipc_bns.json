@@ -1,0 +1,178 @@
+{
+  "mapping": {
+    "mapping_id": "IPC-BNS",
+    "source_act": "IPC",
+    "target_act": "BNS",
+    "mapping_type": "correspondence"
+  },
+  "mappings": [
+    {
+      "mapping_id": "IPC-BNS:302-103",
+      "source_section": "IPC:302",
+      "target_section": "BNS:103",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:304-105",
+      "source_section": "IPC:304",
+      "target_section": "BNS:105",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:300-101",
+      "source_section": "IPC:300",
+      "target_section": "BNS:101",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:201-238",
+      "source_section": "IPC:201",
+      "target_section": "BNS:238",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:304A-106",
+      "source_section": "IPC:304A",
+      "target_section": "BNS:106",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:366-87",
+      "source_section": "IPC:366",
+      "target_section": "BNS:87",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:87-25",
+      "source_section": "IPC:87",
+      "target_section": "BNS:25",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:84-22",
+      "source_section": "IPC:84",
+      "target_section": "BNS:22",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:120-60",
+      "source_section": "IPC:120",
+      "target_section": "BNS:60",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:120A-61(1)",
+      "source_section": "IPC:120A",
+      "target_section": "BNS:61(1)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:120B-61(2)",
+      "source_section": "IPC:120B",
+      "target_section": "BNS:61(2)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:299-100",
+      "source_section": "IPC:299",
+      "target_section": "BNS:100",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:301-102",
+      "source_section": "IPC:301",
+      "target_section": "BNS:102",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:304B-80",
+      "source_section": "IPC:304B",
+      "target_section": "BNS:80",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:307-109",
+      "source_section": "IPC:307",
+      "target_section": "BNS:109",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:323-115",
+      "source_section": "IPC:323",
+      "target_section": "BNS:115",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:324-118(1)",
+      "source_section": "IPC:324",
+      "target_section": "BNS:118(1)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:354-74",
+      "source_section": "IPC:354",
+      "target_section": "BNS:74",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:354A-75",
+      "source_section": "IPC:354A",
+      "target_section": "BNS:75",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:354B-76",
+      "source_section": "IPC:354B",
+      "target_section": "BNS:76",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:363-137(2)",
+      "source_section": "IPC:363",
+      "target_section": "BNS:137(2)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:376-64",
+      "source_section": "IPC:376",
+      "target_section": "BNS:64",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:376A-66",
+      "source_section": "IPC:376A",
+      "target_section": "BNS:66",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:392-309(4)",
+      "source_section": "IPC:392",
+      "target_section": "BNS:309(4)",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:397-311",
+      "source_section": "IPC:397",
+      "target_section": "BNS:311",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:404-315",
+      "source_section": "IPC:404",
+      "target_section": "BNS:315",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:498-84",
+      "source_section": "IPC:498",
+      "target_section": "BNS:84",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "IPC-BNS:504-352",
+      "source_section": "IPC:504",
+      "target_section": "BNS:352",
+      "relationship": "CORRESPONDS_TO"
+    }
+  ]
+}

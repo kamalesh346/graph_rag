@@ -1,0 +1,84 @@
+{
+  "case_id": "2025 INSC 148",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:4",
+        "act": "IPC",
+        "section": "4",
+        "display_name": "IPC Section 4"
+      },
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:300",
+        "act": "IPC",
+        "section": "300",
+        "display_name": "IPC Section 300"
+      },
+      {
+        "canonical_id": "IPC:300(Exception 4)",
+        "act": "IPC",
+        "section": "300",
+        "exception": "4",
+        "display_name": "IPC Section 300 Exception 4"
+      },
+      {
+        "canonical_id": "IPC:301",
+        "act": "IPC",
+        "section": "301",
+        "display_name": "IPC Section 301"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:304A",
+        "act": "IPC",
+        "section": "304A",
+        "subsection": "A",
+        "display_name": "IPC Section 304A"
+      },
+      {
+        "canonical_id": "IPC:307",
+        "act": "IPC",
+        "section": "307",
+        "display_name": "IPC Section 307"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal",
+    "LEGAL_CONCEPT:benefit_of_doubt",
+    "LEGAL_CONCEPT:culpable_homicide",
+    "LEGAL_CONCEPT:first_information_report_fir",
+    "LEGAL_CONCEPT:medical_evidence",
+    "LEGAL_CONCEPT:murder",
+    "LEGAL_CONCEPT:sudden_fight"
+  ],
+  "offences": [
+    "Culpable homicide",
+    "Murder"
+  ],
+  "case_citations": [
+    "Gyanendra Kumar v. State of U.P., AIR 1972 SC 502",
+    "Hari Shankar Sharma v. State of Mysore, 1979 UJ 659 (SC)",
+    "Jagpal Singh v. State of Punjab, AIR 1991 SC 982 : 1991 CrLJ 597",
+    "Abdul Ise Suleman v. State of Gujarat, 1995 CrLJ 464 – referred to"
+  ]
+}

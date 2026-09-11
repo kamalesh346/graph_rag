@@ -1,0 +1,94 @@
+{
+  "mapping": {
+    "mapping_id": "CrPC-BNSS",
+    "source_act": "CrPC",
+    "target_act": "BNSS",
+    "mapping_type": "correspondence"
+  },
+  "mappings": [
+    {
+      "mapping_id": "CrPC-BNSS:313-351",
+      "source_section": "CrPC:313",
+      "target_section": "BNSS:351",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:161-180",
+      "source_section": "CrPC:161",
+      "target_section": "BNSS:180",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:162-181",
+      "source_section": "CrPC:162",
+      "target_section": "BNSS:181",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:173-193",
+      "source_section": "CrPC:173",
+      "target_section": "BNSS:193",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:172-192",
+      "source_section": "CrPC:172",
+      "target_section": "BNSS:192",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:193-213",
+      "source_section": "CrPC:193",
+      "target_section": "BNSS:213",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:207-230",
+      "source_section": "CrPC:207",
+      "target_section": "BNSS:230",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:209-232",
+      "source_section": "CrPC:209",
+      "target_section": "BNSS:232",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:230-253",
+      "source_section": "CrPC:230",
+      "target_section": "BNSS:253",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:232-255",
+      "source_section": "CrPC:232",
+      "target_section": "BNSS:255",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:296-332",
+      "source_section": "CrPC:296",
+      "target_section": "BNSS:332",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:315-353",
+      "source_section": "CrPC:315",
+      "target_section": "BNSS:353",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:366-407",
+      "source_section": "CrPC:366",
+      "target_section": "BNSS:407",
+      "relationship": "CORRESPONDS_TO"
+    },
+    {
+      "mapping_id": "CrPC-BNSS:189-209",
+      "source_section": "CrPC:189",
+      "target_section": "BNSS:209",
+      "relationship": "CORRESPONDS_TO"
+    }
+  ]
+}

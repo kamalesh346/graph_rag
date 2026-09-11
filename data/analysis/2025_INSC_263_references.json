@@ -1,0 +1,38 @@
+{
+  "case_id": "2025 INSC 263",
+  "court": "Supreme Court of India",
+  "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+  "statutes": {
+    "IPC": [
+      {
+        "canonical_id": "IPC:34",
+        "act": "IPC",
+        "section": "34",
+        "display_name": "IPC Section 34"
+      },
+      {
+        "canonical_id": "IPC:302",
+        "act": "IPC",
+        "section": "302",
+        "display_name": "IPC Section 302"
+      },
+      {
+        "canonical_id": "IPC:304",
+        "act": "IPC",
+        "section": "304",
+        "display_name": "IPC Section 304"
+      },
+      {
+        "canonical_id": "IPC:323",
+        "act": "IPC",
+        "section": "323",
+        "display_name": "IPC Section 323"
+      }
+    ]
+  },
+  "concepts": [
+    "LEGAL_CONCEPT:acquittal"
+  ],
+  "offences": [],
+  "case_citations": []
+}

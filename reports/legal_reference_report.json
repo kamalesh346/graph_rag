@@ -1,0 +1,3526 @@
+{
+  "processing": {
+    "source": "normalized case JSON",
+    "case_count": 17,
+    "external_sources_used": false
+  },
+  "normalization": {
+    "policy": "Canonical IDs merge equivalent formatting into human-readable Neo4j primary keys while preserving display names and parsed metadata properties.",
+    "provision_identifier_examples": {
+      "IPC 304A": "IPC:304A",
+      "IPC 304(A)": "IPC:304A",
+      "IPC 120B": "IPC:120B",
+      "IPC 304 Part I": "IPC:304(Part I)",
+      "IPC 304 (Part 1)": "IPC:304(Part I)",
+      "IPC Section 300 Exception 1": "IPC:300(Exception 1)",
+      "IPC Section 300 Exception IV": "IPC:300(Exception 4)",
+      "CrPC 173(2)": "CrPC:173(2)",
+      "Evidence Act 106": "EvidenceAct:106"
+    }
+  },
+  "statutes": {
+    "IPC": {
+      "name": "Indian Penal Code, 1860",
+      "provisions": [
+        {
+          "canonical_id": "IPC:302",
+          "act": "IPC",
+          "section": "302",
+          "display_name": "IPC Section 302",
+          "raw_variants": [
+            "302"
+          ],
+          "case_count": 14,
+          "case_ids": [
+            "2024 INSC 823",
+            "2024 INSC 878",
+            "2024_12_743_754",
+            "2025 INSC 1203",
+            "2025 INSC 1318",
+            "2025 INSC 1412",
+            "2025 INSC 148",
+            "2025 INSC 263",
+            "2025 INSC 378",
+            "2025 INSC 577",
+            "2025 INSC 751",
+            "2025 INSC 793",
+            "2025 INSC 845",
+            "2025 INSC 880"
+          ]
+        },
+        {
+          "canonical_id": "IPC:34",
+          "act": "IPC",
+          "section": "34",
+          "display_name": "IPC Section 34",
+          "raw_variants": [
+            "34"
+          ],
+          "case_count": 8,
+          "case_ids": [
+            "2024 INSC 823",
+            "2025 INSC 1318",
+            "2025 INSC 148",
+            "2025 INSC 263",
+            "2025 INSC 378",
+            "2025 INSC 710",
+            "2025 INSC 777",
+            "2025 INSC 880"
+          ]
+        },
+        {
+          "canonical_id": "IPC:304",
+          "act": "IPC",
+          "section": "304",
+          "display_name": "IPC Section 304",
+          "raw_variants": [
+            "304"
+          ],
+          "case_count": 7,
+          "case_ids": [
+            "2024 INSC 878",
+            "2025 INSC 148",
+            "2025 INSC 263",
+            "2025 INSC 378",
+            "2025 INSC 577",
+            "2025 INSC 793",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:300",
+          "act": "IPC",
+          "section": "300",
+          "display_name": "IPC Section 300",
+          "raw_variants": [
+            "300"
+          ],
+          "case_count": 6,
+          "case_ids": [
+            "2024_12_743_754",
+            "2025 INSC 1412",
+            "2025 INSC 148",
+            "2025 INSC 378",
+            "2025 INSC 577",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:201",
+          "act": "IPC",
+          "section": "201",
+          "display_name": "IPC Section 201",
+          "raw_variants": [
+            "201"
+          ],
+          "case_count": 4,
+          "case_ids": [
+            "2024_12_743_754",
+            "2025 INSC 1203",
+            "2025 INSC 751",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:300(Exception 4)",
+          "act": "IPC",
+          "section": "300",
+          "exception": "4",
+          "display_name": "IPC Section 300 Exception 4",
+          "raw_variants": [
+            "300 Exception 4",
+            "300 Exception IV"
+          ],
+          "case_count": 4,
+          "case_ids": [
+            "2025 INSC 1412",
+            "2025 INSC 148",
+            "2025 INSC 378",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:4",
+          "act": "IPC",
+          "section": "4",
+          "display_name": "IPC Section 4",
+          "raw_variants": [
+            "4"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 148",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:25",
+          "act": "IPC",
+          "section": "25",
+          "display_name": "IPC Section 25",
+          "raw_variants": [
+            "25"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1318",
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "IPC:300(Exception 1)",
+          "act": "IPC",
+          "section": "300",
+          "exception": "1",
+          "display_name": "IPC Section 300 Exception 1",
+          "raw_variants": [
+            "300 Exception 1",
+            "300 Exception 1I"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1412",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:304(Part I)",
+          "act": "IPC",
+          "section": "304",
+          "part": "I",
+          "display_name": "IPC Section 304 Part I",
+          "raw_variants": [
+            "304 (Part 1)",
+            "304 Part I"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 378",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:313",
+          "act": "IPC",
+          "section": "313",
+          "display_name": "IPC Section 313",
+          "raw_variants": [
+            "313"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1412",
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "IPC:323",
+          "act": "IPC",
+          "section": "323",
+          "display_name": "IPC Section 323",
+          "raw_variants": [
+            "323"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 263",
+            "2025 INSC 378"
+          ]
+        },
+        {
+          "canonical_id": "IPC:366",
+          "act": "IPC",
+          "section": "366",
+          "display_name": "IPC Section 366",
+          "raw_variants": [
+            "366"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1203",
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "IPC:1",
+          "act": "IPC",
+          "section": "1",
+          "display_name": "IPC Section 1",
+          "raw_variants": [
+            "1"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:1OF",
+          "act": "IPC",
+          "section": "1OF",
+          "subsection": "OF",
+          "display_name": "IPC Section 1OF",
+          "raw_variants": [
+            "1of"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "IPC:3",
+          "act": "IPC",
+          "section": "3",
+          "display_name": "IPC Section 3",
+          "raw_variants": [
+            "3"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "IPC:7",
+          "act": "IPC",
+          "section": "7",
+          "display_name": "IPC Section 7",
+          "raw_variants": [
+            "7"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "IPC:8",
+          "act": "IPC",
+          "section": "8",
+          "display_name": "IPC Section 8",
+          "raw_variants": [
+            "8"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "IPC:27",
+          "act": "IPC",
+          "section": "27",
+          "display_name": "IPC Section 27",
+          "raw_variants": [
+            "27"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "IPC:84",
+          "act": "IPC",
+          "section": "84",
+          "display_name": "IPC Section 84",
+          "raw_variants": [
+            "84"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "IPC:105",
+          "act": "IPC",
+          "section": "105",
+          "display_name": "IPC Section 105",
+          "raw_variants": [
+            "105"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "IPC:120B",
+          "act": "IPC",
+          "section": "120B",
+          "subsection": "B",
+          "display_name": "IPC Section 120B",
+          "raw_variants": [
+            "120B"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 880"
+          ]
+        },
+        {
+          "canonical_id": "IPC:161",
+          "act": "IPC",
+          "section": "161",
+          "display_name": "IPC Section 161",
+          "raw_variants": [
+            "161"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "IPC:299",
+          "act": "IPC",
+          "section": "299",
+          "display_name": "IPC Section 299",
+          "raw_variants": [
+            "299"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "IPC:301",
+          "act": "IPC",
+          "section": "301",
+          "display_name": "IPC Section 301",
+          "raw_variants": [
+            "301"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 148"
+          ]
+        },
+        {
+          "canonical_id": "IPC:304A",
+          "act": "IPC",
+          "section": "304A",
+          "subsection": "A",
+          "display_name": "IPC Section 304A",
+          "raw_variants": [
+            "304(A)",
+            "304A"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 148"
+          ]
+        },
+        {
+          "canonical_id": "IPC:304B",
+          "act": "IPC",
+          "section": "304B",
+          "subsection": "B",
+          "display_name": "IPC Section 304B",
+          "raw_variants": [
+            "304B"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 710"
+          ]
+        },
+        {
+          "canonical_id": "IPC:307",
+          "act": "IPC",
+          "section": "307",
+          "display_name": "IPC Section 307",
+          "raw_variants": [
+            "307"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 148"
+          ]
+        },
+        {
+          "canonical_id": "IPC:324",
+          "act": "IPC",
+          "section": "324",
+          "display_name": "IPC Section 324",
+          "raw_variants": [
+            "324"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 378"
+          ]
+        },
+        {
+          "canonical_id": "IPC:354",
+          "act": "IPC",
+          "section": "354",
+          "display_name": "IPC Section 354",
+          "raw_variants": [
+            "354"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "IPC:363",
+          "act": "IPC",
+          "section": "363",
+          "display_name": "IPC Section 363",
+          "raw_variants": [
+            "363"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "IPC:376",
+          "act": "IPC",
+          "section": "376",
+          "display_name": "IPC Section 376",
+          "raw_variants": [
+            "376"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "IPC:392",
+          "act": "IPC",
+          "section": "392",
+          "display_name": "IPC Section 392",
+          "raw_variants": [
+            "392"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "IPC:397",
+          "act": "IPC",
+          "section": "397",
+          "display_name": "IPC Section 397",
+          "raw_variants": [
+            "397"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "IPC:404",
+          "act": "IPC",
+          "section": "404",
+          "display_name": "IPC Section 404",
+          "raw_variants": [
+            "404"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "IPC:498A",
+          "act": "IPC",
+          "section": "498A",
+          "subsection": "A",
+          "display_name": "IPC Section 498A",
+          "raw_variants": [
+            "498A"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2024_12_743_754"
+          ]
+        },
+        {
+          "canonical_id": "IPC:504",
+          "act": "IPC",
+          "section": "504",
+          "display_name": "IPC Section 504",
+          "raw_variants": [
+            "504"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2024 INSC 878"
+          ]
+        }
+      ]
+    },
+    "BNS": {
+      "name": "Bharatiya Nyaya Sanhita, 2023",
+      "provisions": []
+    },
+    "CrPC": {
+      "name": "Code of Criminal Procedure, 1973",
+      "provisions": [
+        {
+          "canonical_id": "CrPC:313",
+          "act": "CrPC",
+          "section": "313",
+          "display_name": "CrPC Section 313",
+          "raw_variants": [
+            "313"
+          ],
+          "case_count": 5,
+          "case_ids": [
+            "2025 INSC 1203",
+            "2025 INSC 1412",
+            "2025 INSC 577",
+            "2025 INSC 710",
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:300",
+          "act": "CrPC",
+          "section": "300",
+          "display_name": "CrPC Section 300",
+          "raw_variants": [
+            "300"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1412",
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:84",
+          "act": "CrPC",
+          "section": "84",
+          "display_name": "CrPC Section 84",
+          "raw_variants": [
+            "84"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:105",
+          "act": "CrPC",
+          "section": "105",
+          "display_name": "CrPC Section 105",
+          "raw_variants": [
+            "105"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:161",
+          "act": "CrPC",
+          "section": "161",
+          "display_name": "CrPC Section 161",
+          "raw_variants": [
+            "161"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:162",
+          "act": "CrPC",
+          "section": "162",
+          "display_name": "CrPC Section 162",
+          "raw_variants": [
+            "162"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:165",
+          "act": "CrPC",
+          "section": "165",
+          "display_name": "CrPC Section 165",
+          "raw_variants": [
+            "165"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:173",
+          "act": "CrPC",
+          "section": "173",
+          "display_name": "CrPC Section 173",
+          "raw_variants": [
+            "173"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:173(2)",
+          "act": "CrPC",
+          "section": "173",
+          "subsection": "2",
+          "display_name": "CrPC Section 173(2)",
+          "raw_variants": [
+            "173(2)"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:193",
+          "act": "CrPC",
+          "section": "193",
+          "display_name": "CrPC Section 193",
+          "raw_variants": [
+            "193"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:207",
+          "act": "CrPC",
+          "section": "207",
+          "display_name": "CrPC Section 207",
+          "raw_variants": [
+            "207"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:209",
+          "act": "CrPC",
+          "section": "209",
+          "display_name": "CrPC Section 209",
+          "raw_variants": [
+            "209"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:230",
+          "act": "CrPC",
+          "section": "230",
+          "display_name": "CrPC Section 230",
+          "raw_variants": [
+            "230"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:232",
+          "act": "CrPC",
+          "section": "232",
+          "display_name": "CrPC Section 232",
+          "raw_variants": [
+            "232"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:296",
+          "act": "CrPC",
+          "section": "296",
+          "display_name": "CrPC Section 296",
+          "raw_variants": [
+            "296"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 710"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:299",
+          "act": "CrPC",
+          "section": "299",
+          "display_name": "CrPC Section 299",
+          "raw_variants": [
+            "299"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:302",
+          "act": "CrPC",
+          "section": "302",
+          "display_name": "CrPC Section 302",
+          "raw_variants": [
+            "302"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:304",
+          "act": "CrPC",
+          "section": "304",
+          "display_name": "CrPC Section 304",
+          "raw_variants": [
+            "304"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:315",
+          "act": "CrPC",
+          "section": "315",
+          "display_name": "CrPC Section 315",
+          "raw_variants": [
+            "315"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:366",
+          "act": "CrPC",
+          "section": "366",
+          "display_name": "CrPC Section 366",
+          "raw_variants": [
+            "366"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "CrPC:366(1)",
+          "act": "CrPC",
+          "section": "366",
+          "subsection": "1",
+          "display_name": "CrPC Section 366(1)",
+          "raw_variants": [
+            "366(1)"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        }
+      ]
+    },
+    "BNSS": {
+      "name": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "provisions": [
+        {
+          "canonical_id": "BNSS:173(2)",
+          "act": "BNSS",
+          "section": "173",
+          "subsection": "2",
+          "display_name": "BNSS Section 173(2)",
+          "raw_variants": [
+            "173(2)"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "BNSS:193",
+          "act": "BNSS",
+          "section": "193",
+          "display_name": "BNSS Section 193",
+          "raw_variants": [
+            "193"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "BNSS:209",
+          "act": "BNSS",
+          "section": "209",
+          "display_name": "BNSS Section 209",
+          "raw_variants": [
+            "209"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "BNSS:232",
+          "act": "BNSS",
+          "section": "232",
+          "display_name": "BNSS Section 232",
+          "raw_variants": [
+            "232"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        }
+      ]
+    },
+    "Evidence Act": {
+      "name": "Indian Evidence Act, 1872",
+      "provisions": [
+        {
+          "canonical_id": "EvidenceAct:302",
+          "act": "Evidence Act",
+          "section": "302",
+          "display_name": "Evidence Act Section 302",
+          "raw_variants": [
+            "302"
+          ],
+          "case_count": 4,
+          "case_ids": [
+            "2025 INSC 1318",
+            "2025 INSC 577",
+            "2025 INSC 793",
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:25",
+          "act": "Evidence Act",
+          "section": "25",
+          "display_name": "Evidence Act Section 25",
+          "raw_variants": [
+            "25"
+          ],
+          "case_count": 3,
+          "case_ids": [
+            "2025 INSC 1203",
+            "2025 INSC 1318",
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:27",
+          "act": "Evidence Act",
+          "section": "27",
+          "display_name": "Evidence Act Section 27",
+          "raw_variants": [
+            "27"
+          ],
+          "case_count": 3,
+          "case_ids": [
+            "2025 INSC 1318",
+            "2025 INSC 793",
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:106",
+          "act": "Evidence Act",
+          "section": "106",
+          "display_name": "Evidence Act Section 106",
+          "raw_variants": [
+            "106"
+          ],
+          "case_count": 3,
+          "case_ids": [
+            "2024_12_743_754",
+            "2025 INSC 793",
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:105",
+          "act": "Evidence Act",
+          "section": "105",
+          "display_name": "Evidence Act Section 105",
+          "raw_variants": [
+            "105"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 577",
+            "2025 INSC 90"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:165",
+          "act": "Evidence Act",
+          "section": "165",
+          "display_name": "Evidence Act Section 165",
+          "raw_variants": [
+            "165"
+          ],
+          "case_count": 2,
+          "case_ids": [
+            "2025 INSC 1203",
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:8",
+          "act": "Evidence Act",
+          "section": "8",
+          "display_name": "Evidence Act Section 8",
+          "raw_variants": [
+            "8"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 793"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:11",
+          "act": "Evidence Act",
+          "section": "11",
+          "display_name": "Evidence Act Section 11",
+          "raw_variants": [
+            "11"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2024_12_743_754"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:84",
+          "act": "Evidence Act",
+          "section": "84",
+          "display_name": "Evidence Act Section 84",
+          "raw_variants": [
+            "84"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:113",
+          "act": "Evidence Act",
+          "section": "113",
+          "display_name": "Evidence Act Section 113",
+          "raw_variants": [
+            "113"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 710"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:114",
+          "act": "Evidence Act",
+          "section": "114",
+          "display_name": "Evidence Act Section 114",
+          "raw_variants": [
+            "114"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:145",
+          "act": "Evidence Act",
+          "section": "145",
+          "display_name": "Evidence Act Section 145",
+          "raw_variants": [
+            "145"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2024 INSC 823"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:157",
+          "act": "Evidence Act",
+          "section": "157",
+          "display_name": "Evidence Act Section 157",
+          "raw_variants": [
+            "157"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2024 INSC 823"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:161",
+          "act": "Evidence Act",
+          "section": "161",
+          "display_name": "Evidence Act Section 161",
+          "raw_variants": [
+            "161"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:162",
+          "act": "Evidence Act",
+          "section": "162",
+          "display_name": "Evidence Act Section 162",
+          "raw_variants": [
+            "162"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:168",
+          "act": "Evidence Act",
+          "section": "168",
+          "display_name": "Evidence Act Section 168",
+          "raw_variants": [
+            "168"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 1203"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:313",
+          "act": "Evidence Act",
+          "section": "313",
+          "display_name": "Evidence Act Section 313",
+          "raw_variants": [
+            "313"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 577"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:376",
+          "act": "Evidence Act",
+          "section": "376",
+          "display_name": "Evidence Act Section 376",
+          "raw_variants": [
+            "376"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        },
+        {
+          "canonical_id": "EvidenceAct:397",
+          "act": "Evidence Act",
+          "section": "397",
+          "display_name": "Evidence Act Section 397",
+          "raw_variants": [
+            "397"
+          ],
+          "case_count": 1,
+          "case_ids": [
+            "2025 INSC 845"
+          ]
+        }
+      ]
+    },
+    "BSA": {
+      "name": "Bharatiya Sakshya Adhiniyam, 2023",
+      "provisions": []
+    }
+  },
+  "courts": [
+    {
+      "canonical_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "name": "Supreme Court of India",
+      "case_count": 17,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2024_12_743_754",
+        "2025 INSC 1203",
+        "2025 INSC 1318",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 263",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 710",
+        "2025 INSC 751",
+        "2025 INSC 777",
+        "2025 INSC 793",
+        "2025 INSC 845",
+        "2025 INSC 880",
+        "2025 INSC 90"
+      ],
+      "raw_variants": [
+        "Supreme Court of India"
+      ]
+    }
+  ],
+  "legal_concepts": [
+    {
+      "canonical_id": "LEGAL_CONCEPT:murder",
+      "name": "Murder",
+      "aliases": [
+        "murder"
+      ],
+      "case_count": 15,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2024_12_743_754",
+        "2025 INSC 1203",
+        "2025 INSC 1318",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 751",
+        "2025 INSC 777",
+        "2025 INSC 793",
+        "2025 INSC 845",
+        "2025 INSC 880",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:first_information_report_fir",
+      "name": "First information report (FIR)",
+      "aliases": [
+        "FIR",
+        "First Information Report"
+      ],
+      "case_count": 12,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2024_12_743_754",
+        "2025 INSC 1203",
+        "2025 INSC 1318",
+        "2025 INSC 148",
+        "2025 INSC 577",
+        "2025 INSC 710",
+        "2025 INSC 751",
+        "2025 INSC 777",
+        "2025 INSC 845",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:acquittal",
+      "name": "Acquittal",
+      "aliases": [
+        "acquittal",
+        "acquitted"
+      ],
+      "case_count": 11,
+      "case_ids": [
+        "2024 INSC 823",
+        "2025 INSC 1203",
+        "2025 INSC 1318",
+        "2025 INSC 148",
+        "2025 INSC 263",
+        "2025 INSC 710",
+        "2025 INSC 751",
+        "2025 INSC 777",
+        "2025 INSC 793",
+        "2025 INSC 845",
+        "2025 INSC 880"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:medical_evidence",
+      "name": "Medical evidence",
+      "aliases": [
+        "medical evidence",
+        "post-mortem",
+        "post mortem"
+      ],
+      "case_count": 11,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2025 INSC 1203",
+        "2025 INSC 148",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 710",
+        "2025 INSC 793",
+        "2025 INSC 845",
+        "2025 INSC 880",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:circumstantial_evidence",
+      "name": "Circumstantial evidence",
+      "aliases": [
+        "circumstantial evidence"
+      ],
+      "case_count": 7,
+      "case_ids": [
+        "2024 INSC 878",
+        "2024_12_743_754",
+        "2025 INSC 1203",
+        "2025 INSC 710",
+        "2025 INSC 751",
+        "2025 INSC 793",
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:benefit_of_doubt",
+      "name": "Benefit of doubt",
+      "aliases": [
+        "benefit of doubt"
+      ],
+      "case_count": 6,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2025 INSC 148",
+        "2025 INSC 577",
+        "2025 INSC 710",
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:culpable_homicide",
+      "name": "Culpable homicide",
+      "aliases": [
+        "culpable homicide"
+      ],
+      "case_count": 6,
+      "case_ids": [
+        "2024 INSC 823",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:sudden_fight",
+      "name": "Sudden fight",
+      "aliases": [
+        "sudden fight"
+      ],
+      "case_count": 4,
+      "case_ids": [
+        "2024 INSC 878",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 378"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+      "name": "Culpable homicide not amounting to murder",
+      "aliases": [
+        "culpable homicide not amounting to murder"
+      ],
+      "case_count": 3,
+      "case_ids": [
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:dying_declaration",
+      "name": "Dying declaration",
+      "aliases": [
+        "dying declaration"
+      ],
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:grave_and_sudden_provocation",
+      "name": "Grave and sudden provocation",
+      "aliases": [
+        "grave and sudden provocation"
+      ],
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:material_contradiction",
+      "name": "Material contradiction",
+      "aliases": [
+        "material contradiction",
+        "material omission",
+        "material omissions"
+      ],
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "canonical_id": "LEGAL_CONCEPT:ocular_evidence",
+      "name": "Ocular evidence",
+      "aliases": [
+        "ocular evidence"
+      ],
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    }
+  ],
+  "offences": [
+    {
+      "name": "Murder",
+      "case_count": 15,
+      "case_ids": [
+        "2024 INSC 823",
+        "2024 INSC 878",
+        "2024_12_743_754",
+        "2025 INSC 1203",
+        "2025 INSC 1318",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 751",
+        "2025 INSC 777",
+        "2025 INSC 793",
+        "2025 INSC 845",
+        "2025 INSC 880",
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "name": "Culpable homicide",
+      "case_count": 6,
+      "case_ids": [
+        "2024 INSC 823",
+        "2025 INSC 1412",
+        "2025 INSC 148",
+        "2025 INSC 378",
+        "2025 INSC 577",
+        "2025 INSC 90"
+      ]
+    }
+  ],
+  "case_citations": [
+    {
+      "name": "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+      "case_count": 3,
+      "case_ids": [
+        "2025 INSC 751",
+        "2025 INSC 793",
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Abdul Ise Suleman v. State of Gujarat, 1995 CrLJ 464 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 148"
+      ]
+    },
+    {
+      "name": "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Amish Devgan v. UOI & Ors. [2020] 14 SCR 198 : (2021) 1 SCC 1",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Anil Phukan v. State of Assam [1993] 2 SCR 389 : (1993) 3 SCC 282",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Anil v. State of Maharashtra [2014] 3 SCR 34 : (2014) 4 SCC 69",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Anokhilal v. State of Madhya Pradesh [2019] 18 SCR 1196 : 2019 SCC OnLine SC 1637",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Ashok Debbarma v. State of Tripura [2014] 4 SCR 287 : (2014) 4 SCC 747",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Babudas v. State of M.P. (2003) 9 SCC 86",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Bhagwan Munjaji Pawade v. State of Maharashtra (1978) 3 SCC 330 – relied on. Awadhesh Kumar v. State of U.P. & Anr. [2019] 17 SCR 185 : (2019) 10 SCC 323 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1412"
+      ]
+    },
+    {
+      "name": "Bijender v. State of Haryana [2021] 7 SCR 1138 : (2022) 1 SCC 92",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Binay Kumar Singh v. State of Bihar [1996] Supp. 8 SCR 225 : AIR 1997 SC 322",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Bodhraj alias Bodha and Others v. State of Jammu and Kashmir [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Bodhraj v. State of J&K [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Budhsen v. State of U.P. [1971] 1 SCR 564 : (1970) 2 SCC 128",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "C. Muniappan v. State of T.N. [2010] 10 SCR 262 : (2010) 9 SCC 567",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Chandu Bhai Shana Bhai Parmar v. State of Gujarat, AIR 1982 SC 1022 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Dahyabhai Chhaganbhai Thakkar v. State of Gujarat [1964] 7 SCR 361 : AIR 1964 SC 1563 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Dharma Rama Bhagare v. State of Maharashtra [1973] 3 SCR 92 : (1973) 1 SCC 537",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Earabhadrappa v. State of Karnataka [1983] 2 SCR 552 : (1983) 2 SCC 330",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "G. Parshwanath v. State of Karnataka [2010] 10 SCR 377 : 2010 (8) SCC 593",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "G. Parshwanath v. State of Karnataka, 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Gangadhar Behera v. State of Orissa [2002] Supp. 3 SCR 183 : AIR 2002 SC 3633 – relied on. Hari Obula Reddy and others v. State of Andhra Pradesh (1981) 3 SCC 675 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 880"
+      ]
+    },
+    {
+      "name": "Gireesan Nair v. State of Kerala [2022] 8 SCR 599 : (2023) 1 SCC 180",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Govindaraju v. State by Sivaramapuram PS [2012] 5 SCR 67 : (2012) 4 SCC 722",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Gyanendra Kumar v. State of U.P., AIR 1972 SC 502",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 148"
+      ]
+    },
+    {
+      "name": "Hanumant v. State of M.P [1952] 1 SCR 1091 : (1952) 2 SCC 71",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Hari Nath v. State of U.P. [1988] 1 SCR 848 : (1988) 1 SCC 14",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Hari Shankar Sharma v. State of Mysore, 1979 UJ 659 (SC)",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 148"
+      ]
+    },
+    {
+      "name": "Iqbal v. State of U.P. [2015] 6 SCR 239 : (2015) 6 SCC 623",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Jagpal Singh v. State of Punjab, AIR 1991 SC 982 : 1991 CrLJ 597",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 148"
+      ]
+    },
+    {
+      "name": "Jai Karan & Ors. v. State of U.P. [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Jaikam Khan v. State of U.P. [2021] 14 SCR 767 : (2021) 13 SCC 716",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "James Martin v. State of Kerala [2003] Supp. 6 SCR 910 : (2004) 2 SCC 203",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "K. Chinnaswamy Reddy v. State of A.P. [1963] 3 SCR 412 : 1962 SCC OnLine SC 32",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Kanhaiya Lal v. State of Rajasthan [2014] 3 SCR 744 : (2014) 4 SCC 715",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 751"
+      ]
+    },
+    {
+      "name": "Lalitha Kumari v. Government of UP & Ors. [2013] 14 SCR 713 : (2014) 2 SCC 1",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Lochan Srivas v. State of Chhattisgarh [2021] 14 SCR 809 : (2022) 15 SCC 401 – distinguished. Raja Khan v. State of Chhattisgarh [2025] 2 SCR 461 : (2025) 3 SCC 314 – referred to. Books and Periodical Cited Concise Oxford English Dictionary (10th Edition, Revised in 2002, Edited by Judy Pearsall",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "Malkhansingh v. State of M.P. [2003] Supp. 1 SCR 443 : (2003) 5 SCC 746",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Mancini v. Director of Public Prosecutions, 1942 A. C. 1 – relied on",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 90"
+      ]
+    },
+    {
+      "name": "Manjunath & Ors. v. State of Karnataka [2023] 14 SCR 727 : 2023 SCC OnLine SC 1421",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "Manoj v. State of M.P. [2022] 9 SCR 452 : (2023) 2 SCC 353",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Matru @ Girish Chandra v. State of Uttar Pradesh [1971] 3 SCR 914 : (1971) 2 SCC 75",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Maya Kaur Baldevsingh Sardar v. State of Maharashtra [2007] 10 SCR 752 : (2007) 12 SCC 654",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Mekala Sivaiah v. State of Andhra Pradesh [2022] 6 SCR 989 : (2022) 8 SCC 253",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Mohamed Jabbar Ali & Ors. v. State of Assam, Criminal Appeal No. 1105 of 2010",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 880"
+      ]
+    },
+    {
+      "name": "Mohd. Anwar v. State (NCT of Delhi) [2020] 7 SCR 150 : (2020) 7 SCC 391",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Mohmed Inayatullah v. State of Maharashtra [1976] 1 SCR 715 : (1976) 1 SCC 828",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Mukesh & Anr. v. NCT of Delhi & Ors. [2017] 6 SCR 1 : (2017) 6 SCC 1",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Mukesh v. State (NCT of Delhi) [2017] 6 SCR 1 : (2017) 6 SCC 1",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Mulla v. State of U.P [2010] 2 SCR 633 : (2010) 3 SCC 508",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Munshi Ram v. Delhi Admn. [1968] 2 SCR 455 : AIR 1968 SC 702",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "Munshi Singh Gautam v. State of M.P. [2004] Supp. 5 SCR 1092 : (2005) 9 SCC 631",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Nikhil Chandra Mondal v. State of W.B. [2023] 2 SCR 20 : (2023) 6 SCC",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Nikhil Chandra Mondal v. State of West Bengal [2023] 2 SCR 20 : (2023) 6 SCC 605 – relied on. State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "Nizam v. State of Rajasthan [2015] 10 SCR 786 : (2016) 1 SCC 550",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "P Ramanatha Aiyar, Advanced Law Lexicon (3rd Edition, 2005) – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "Paramjeet Singh v. State of Uttarakhand, 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Prakash Nishad @ Kewat Zinak Nishad v. State of Maharashtra [2023] 8 SCR 152 : 2023 SCC Online SC 666 – relied on. Bachan Singh v. State of Punjab [1983] 1 SCR 145",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Prakash Nishad v. State of Maharashtra [2023] 8 SCR 152 : (2023) 16 SCC 357",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Raj Kumar Prasad Tamarkar v. State of Bihar and Anr., 2007 INSC 3 : [2007] 1 SCR 13 : (2007) 10 SCC 433 – referred to. Books and Periodicals Cited Modi’s Medical Jurisprudence and Toxicology",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Raja v. State [2019] 17 SCR 1187 : (2020) 15 SCC 562",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Rajesh Yadav and Another v. State of Uttar Pradesh [2022] 16 SCR 967 : (2022) 12 SCC 200",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Rajesh v. State of Haryana [2020] 14 SCR 1 : (2021) 1 SCC 118",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Ramanand vs. State of Himachal Pradesh [1981] 2 SCR 444 : (1981) 1 SCC 511",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 751"
+      ]
+    },
+    {
+      "name": "Rambraksh @ Jalim v. State of Chhattisgarh [2016] 2 SCR 599 : (2016) 12 SCC 251",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 751"
+      ]
+    },
+    {
+      "name": "Rampal Singh v. State of U.P. [2012] 7 SCR 160 : (2012) 8 SCC 289",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "Ravasaheb v. State of Karnataka [2023] 2 SCR 965 : (2023) 5 SCC 391",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Sambhubhai Raisangbhai Padhiyar v. State of Gujarat, 2024 INSC 987 : (2025) 2 SCC 399",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Sanjay v. State of U.P., 2025 SCC OnLine SC 572",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Satish Nirankari v. State of Rajasthan, 2017 INSC 479 : [2017] 4 SCR 298 : (2017) 8 SCC 497 – relied on. Dnyaneshwar v. State of Maharashtra, 2007 INSC 323 : [2007] 4 SCR 248 : (2007) 10 SCC 445",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Sawal Das v. State of Bihar [1974] 3 SCR 74 : (1974) 4 SCC 193",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Sharad Birdhichand Sharda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Shivaji Chintappa Patil v. State of Maharashtra [2021] 2 SCR 617 : (2021) 5 SCC 626",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Sidhartha Vashisht v. State (NCT of Delhi) [2010] 4 SCR 103 : (2010) 6 SCC 1 – relied on. Satyavir Singh Rathi, Assistant Commissioner of Police v. State [2011] 6 SCR 138 : AIR 2011 SC 1748",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "Sk. Umar Ahmed Shaikh v. State of Maharashtra [1998] 2 SCR 1209 : (1998) 5 SCC 103",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "State of A.P. v. Rayavarapu Punnayya [1977] 1 SCR 601 : 92 : (1974) 4 SCC 186",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "State of Goa v. Sanjay Thakran and Anr. [2007] 3 SCR 507 : (2007) 3 SCC 755",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "State of Maharashtra v. Bharat Fakira Dhiwar [2001] Supp. 5 SCR 12 : (2002) 1 SCC 622",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1318"
+      ]
+    },
+    {
+      "name": "State of Punjab v. Jagir Singh [1974] 1 SCR 328 : (1974) 3 SCC 277",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "State of U.P. v. Dharmaraj and Anr. (2003) 9 SCC 39",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "State of U.P. v. Mohd. Musheer Khan, AIR 1977 SC 2226",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 577"
+      ]
+    },
+    {
+      "name": "State of U.P. v. Shyam Behari [2009] 6 SCR 4 : (2009) 15 SCC 548",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "State of UP v. Naresh & Ors. [2011] 4 SCR 1176 : (2011) 4 SCC 324",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "State of Uttar Pradesh v. Deoman Upadhyaya [1961] 1 SCR 14 : 1960 SCC OnLine SC 8",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 1203"
+      ]
+    },
+    {
+      "name": "Sujit Biswas v. State of Assam [2013] 3 SCR 830 : AIR 2013 SC 3817 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 751"
+      ]
+    },
+    {
+      "name": "Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh [2003] 3 SCR 485 : (2003) 6 SCC 175",
+      "case_count": 1,
+      "case_ids": [
+        "2024 INSC 823"
+      ]
+    },
+    {
+      "name": "Surajdeo Mahto v. State of Bihar [2021] 8 SCR 911 : (2022) 11 SCC 800",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Suresh Chandra Bahri v. State of Bihar [1994] Supp. 1 SCR 483 : (1995) Supp. 1 SCC 80",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Suryamoorthy v. Govindaswamy (1989) 3 SCC 24",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Takhaji Hiraji v. Thakore Kubersing Chamansing (2001) 6 SCC 145",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307- 08",
+      "case_count": 1,
+      "case_ids": [
+        "2024_12_743_754"
+      ]
+    },
+    {
+      "name": "Trimukh Maroti Kirkan v. State of Maharashtra [2006] Supp. 7 SCR 156 : (2006) 10 SCC 681",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 793"
+      ]
+    },
+    {
+      "name": "Umesh Chandra v. State of Uttarakhand (2021) 17 SCC 616",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "V. Senthil Balaji v. The Deputy Director, Directorate of Enforcement, 2024 INSC 739 : [2024] 10 SCR 393 : [2024] 10 SCR 393 – referred to",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Veerendra v. State of M.P. [2022] 4 SCR 225 : (2022) 8 SCC 668",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    },
+    {
+      "name": "Visveswaran v. State [2003] 3 SCR 978 : (2003) 6 SCC 73",
+      "case_count": 1,
+      "case_ids": [
+        "2025 INSC 845"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "2024_12_743_754",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:201",
+            "act": "IPC",
+            "section": "201",
+            "display_name": "IPC Section 201"
+          },
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:498A",
+            "act": "IPC",
+            "section": "498A",
+            "subsection": "A",
+            "display_name": "IPC Section 498A"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:11",
+            "act": "Evidence Act",
+            "section": "11",
+            "display_name": "Evidence Act Section 11"
+          },
+          {
+            "canonical_id": "EvidenceAct:106",
+            "act": "Evidence Act",
+            "section": "106",
+            "display_name": "Evidence Act Section 106"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Binay Kumar Singh v. State of Bihar [1996] Supp. 8 SCR 225 : AIR 1997 SC 322",
+        "Babudas v. State of M.P. (2003) 9 SCC 86",
+        "G. Parshwanath v. State of Karnataka, 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593",
+        "Paramjeet Singh v. State of Uttarakhand, 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439",
+        "Satish Nirankari v. State of Rajasthan, 2017 INSC 479 : [2017] 4 SCR 298 : (2017) 8 SCC 497 – relied on. Dnyaneshwar v. State of Maharashtra, 2007 INSC 323 : [2007] 4 SCR 248 : (2007) 10 SCC 445",
+        "Raj Kumar Prasad Tamarkar v. State of Bihar and Anr., 2007 INSC 3 : [2007] 1 SCR 13 : (2007) 10 SCC 433 – referred to. Books and Periodicals Cited Modi’s Medical Jurisprudence and Toxicology",
+        "Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307- 08"
+      ]
+    },
+    {
+      "case_id": "2024 INSC 823",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:145",
+            "act": "Evidence Act",
+            "section": "145",
+            "display_name": "Evidence Act Section 145"
+          },
+          {
+            "canonical_id": "EvidenceAct:157",
+            "act": "Evidence Act",
+            "section": "157",
+            "display_name": "Evidence Act Section 157"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:dying_declaration",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:material_contradiction",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": [
+        "Jai Karan & Ors. v. State of U.P. [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655",
+        "Govindaraju v. State by Sivaramapuram PS [2012] 5 SCR 67 : (2012) 4 SCC 722",
+        "State of U.P. v. Dharmaraj and Anr. (2003) 9 SCC 39",
+        "Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh [2003] 3 SCR 485 : (2003) 6 SCC 175",
+        "State of UP v. Naresh & Ors. [2011] 4 SCR 1176 : (2011) 4 SCC 324",
+        "Lalitha Kumari v. Government of UP & Ors. [2013] 14 SCR 713 : (2014) 2 SCC 1",
+        "Amish Devgan v. UOI & Ors. [2020] 14 SCR 198 : (2021) 1 SCC 1",
+        "Dharma Rama Bhagare v. State of Maharashtra [1973] 3 SCR 92 : (1973) 1 SCC 537",
+        "Anil Phukan v. State of Assam [1993] 2 SCR 389 : (1993) 3 SCC 282",
+        "Chandu Bhai Shana Bhai Parmar v. State of Gujarat, AIR 1982 SC 1022 – referred to"
+      ]
+    },
+    {
+      "case_id": "2024 INSC 878",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:504",
+            "act": "IPC",
+            "section": "504",
+            "display_name": "IPC Section 504"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": []
+    },
+    {
+      "case_id": "2025 INSC 1203",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:7",
+            "act": "IPC",
+            "section": "7",
+            "display_name": "IPC Section 7"
+          },
+          {
+            "canonical_id": "IPC:8",
+            "act": "IPC",
+            "section": "8",
+            "display_name": "IPC Section 8"
+          },
+          {
+            "canonical_id": "IPC:201",
+            "act": "IPC",
+            "section": "201",
+            "display_name": "IPC Section 201"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:354",
+            "act": "IPC",
+            "section": "354",
+            "display_name": "IPC Section 354"
+          },
+          {
+            "canonical_id": "IPC:363",
+            "act": "IPC",
+            "section": "363",
+            "display_name": "IPC Section 363"
+          },
+          {
+            "canonical_id": "IPC:366",
+            "act": "IPC",
+            "section": "366",
+            "display_name": "IPC Section 366"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:173",
+            "act": "CrPC",
+            "section": "173",
+            "display_name": "CrPC Section 173"
+          },
+          {
+            "canonical_id": "CrPC:173(2)",
+            "act": "CrPC",
+            "section": "173",
+            "subsection": "2",
+            "display_name": "CrPC Section 173(2)"
+          },
+          {
+            "canonical_id": "CrPC:193",
+            "act": "CrPC",
+            "section": "193",
+            "display_name": "CrPC Section 193"
+          },
+          {
+            "canonical_id": "CrPC:207",
+            "act": "CrPC",
+            "section": "207",
+            "display_name": "CrPC Section 207"
+          },
+          {
+            "canonical_id": "CrPC:209",
+            "act": "CrPC",
+            "section": "209",
+            "display_name": "CrPC Section 209"
+          },
+          {
+            "canonical_id": "CrPC:230",
+            "act": "CrPC",
+            "section": "230",
+            "display_name": "CrPC Section 230"
+          },
+          {
+            "canonical_id": "CrPC:232",
+            "act": "CrPC",
+            "section": "232",
+            "display_name": "CrPC Section 232"
+          },
+          {
+            "canonical_id": "CrPC:313",
+            "act": "CrPC",
+            "section": "313",
+            "display_name": "CrPC Section 313"
+          },
+          {
+            "canonical_id": "CrPC:315",
+            "act": "CrPC",
+            "section": "315",
+            "display_name": "CrPC Section 315"
+          },
+          {
+            "canonical_id": "CrPC:366",
+            "act": "CrPC",
+            "section": "366",
+            "display_name": "CrPC Section 366"
+          }
+        ],
+        "BNSS": [
+          {
+            "canonical_id": "BNSS:173(2)",
+            "act": "BNSS",
+            "section": "173",
+            "subsection": "2",
+            "display_name": "BNSS Section 173(2)"
+          },
+          {
+            "canonical_id": "BNSS:193",
+            "act": "BNSS",
+            "section": "193",
+            "display_name": "BNSS Section 193"
+          },
+          {
+            "canonical_id": "BNSS:209",
+            "act": "BNSS",
+            "section": "209",
+            "display_name": "BNSS Section 209"
+          },
+          {
+            "canonical_id": "BNSS:232",
+            "act": "BNSS",
+            "section": "232",
+            "display_name": "BNSS Section 232"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:25",
+            "act": "Evidence Act",
+            "section": "25",
+            "display_name": "Evidence Act Section 25"
+          },
+          {
+            "canonical_id": "EvidenceAct:114",
+            "act": "Evidence Act",
+            "section": "114",
+            "display_name": "Evidence Act Section 114"
+          },
+          {
+            "canonical_id": "EvidenceAct:165",
+            "act": "Evidence Act",
+            "section": "165",
+            "display_name": "Evidence Act Section 165"
+          },
+          {
+            "canonical_id": "EvidenceAct:168",
+            "act": "Evidence Act",
+            "section": "168",
+            "display_name": "Evidence Act Section 168"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Sharad Birdhichand Sharda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+        "Prakash Nishad @ Kewat Zinak Nishad v. State of Maharashtra [2023] 8 SCR 152 : 2023 SCC Online SC 666 – relied on. Bachan Singh v. State of Punjab [1983] 1 SCR 145",
+        "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190",
+        "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+        "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+        "Anokhilal v. State of Madhya Pradesh [2019] 18 SCR 1196 : 2019 SCC OnLine SC 1637",
+        "State of Uttar Pradesh v. Deoman Upadhyaya [1961] 1 SCR 14 : 1960 SCC OnLine SC 8",
+        "Mohmed Inayatullah v. State of Maharashtra [1976] 1 SCR 715 : (1976) 1 SCC 828",
+        "Earabhadrappa v. State of Karnataka [1983] 2 SCR 552 : (1983) 2 SCC 330",
+        "Bodhraj alias Bodha and Others v. State of Jammu and Kashmir [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 1318",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:25",
+            "act": "IPC",
+            "section": "25",
+            "display_name": "IPC Section 25"
+          },
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:25",
+            "act": "Evidence Act",
+            "section": "25",
+            "display_name": "Evidence Act Section 25"
+          },
+          {
+            "canonical_id": "EvidenceAct:27",
+            "act": "Evidence Act",
+            "section": "27",
+            "display_name": "Evidence Act Section 27"
+          },
+          {
+            "canonical_id": "EvidenceAct:302",
+            "act": "Evidence Act",
+            "section": "302",
+            "display_name": "Evidence Act Section 302"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Manjunath & Ors. v. State of Karnataka [2023] 14 SCR 727 : 2023 SCC OnLine SC 1421",
+        "Jaikam Khan v. State of U.P. [2021] 14 SCR 767 : (2021) 13 SCC 716",
+        "Nikhil Chandra Mondal v. State of West Bengal [2023] 2 SCR 20 : (2023) 6 SCC 605 – relied on. State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+        "State of Maharashtra v. Bharat Fakira Dhiwar [2001] Supp. 5 SCR 12 : (2002) 1 SCC 622",
+        "Lochan Srivas v. State of Chhattisgarh [2021] 14 SCR 809 : (2022) 15 SCC 401 – distinguished. Raja Khan v. State of Chhattisgarh [2025] 2 SCR 461 : (2025) 3 SCC 314 – referred to. Books and Periodical Cited Concise Oxford English Dictionary (10th Edition, Revised in 2002, Edited by Judy Pearsall",
+        "P Ramanatha Aiyar, Advanced Law Lexicon (3rd Edition, 2005) – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 1412",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 1)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "1",
+            "display_name": "IPC Section 300 Exception 1"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 4)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "4",
+            "display_name": "IPC Section 300 Exception 4"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:313",
+            "act": "IPC",
+            "section": "313",
+            "display_name": "IPC Section 313"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:300",
+            "act": "CrPC",
+            "section": "300",
+            "display_name": "CrPC Section 300"
+          },
+          {
+            "canonical_id": "CrPC:313",
+            "act": "CrPC",
+            "section": "313",
+            "display_name": "CrPC Section 313"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": [
+        "Bhagwan Munjaji Pawade v. State of Maharashtra (1978) 3 SCC 330 – relied on. Awadhesh Kumar v. State of U.P. & Anr. [2019] 17 SCR 185 : (2019) 10 SCC 323 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 148",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:4",
+            "act": "IPC",
+            "section": "4",
+            "display_name": "IPC Section 4"
+          },
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 4)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "4",
+            "display_name": "IPC Section 300 Exception 4"
+          },
+          {
+            "canonical_id": "IPC:301",
+            "act": "IPC",
+            "section": "301",
+            "display_name": "IPC Section 301"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:304A",
+            "act": "IPC",
+            "section": "304A",
+            "subsection": "A",
+            "display_name": "IPC Section 304A"
+          },
+          {
+            "canonical_id": "IPC:307",
+            "act": "IPC",
+            "section": "307",
+            "display_name": "IPC Section 307"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": [
+        "Gyanendra Kumar v. State of U.P., AIR 1972 SC 502",
+        "Hari Shankar Sharma v. State of Mysore, 1979 UJ 659 (SC)",
+        "Jagpal Singh v. State of Punjab, AIR 1991 SC 982 : 1991 CrLJ 597",
+        "Abdul Ise Suleman v. State of Gujarat, 1995 CrLJ 464 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 263",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:323",
+            "act": "IPC",
+            "section": "323",
+            "display_name": "IPC Section 323"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal"
+      ],
+      "offences": [],
+      "case_citations": []
+    },
+    {
+      "case_id": "2025 INSC 378",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 4)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "4",
+            "display_name": "IPC Section 300 Exception 4"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:304(Part I)",
+            "act": "IPC",
+            "section": "304",
+            "part": "I",
+            "display_name": "IPC Section 304 Part I"
+          },
+          {
+            "canonical_id": "IPC:323",
+            "act": "IPC",
+            "section": "323",
+            "display_name": "IPC Section 323"
+          },
+          {
+            "canonical_id": "IPC:324",
+            "act": "IPC",
+            "section": "324",
+            "display_name": "IPC Section 324"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": []
+    },
+    {
+      "case_id": "2025 INSC 577",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:84",
+            "act": "IPC",
+            "section": "84",
+            "display_name": "IPC Section 84"
+          },
+          {
+            "canonical_id": "IPC:105",
+            "act": "IPC",
+            "section": "105",
+            "display_name": "IPC Section 105"
+          },
+          {
+            "canonical_id": "IPC:161",
+            "act": "IPC",
+            "section": "161",
+            "display_name": "IPC Section 161"
+          },
+          {
+            "canonical_id": "IPC:299",
+            "act": "IPC",
+            "section": "299",
+            "display_name": "IPC Section 299"
+          },
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:313",
+            "act": "IPC",
+            "section": "313",
+            "display_name": "IPC Section 313"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:84",
+            "act": "CrPC",
+            "section": "84",
+            "display_name": "CrPC Section 84"
+          },
+          {
+            "canonical_id": "CrPC:105",
+            "act": "CrPC",
+            "section": "105",
+            "display_name": "CrPC Section 105"
+          },
+          {
+            "canonical_id": "CrPC:161",
+            "act": "CrPC",
+            "section": "161",
+            "display_name": "CrPC Section 161"
+          },
+          {
+            "canonical_id": "CrPC:162",
+            "act": "CrPC",
+            "section": "162",
+            "display_name": "CrPC Section 162"
+          },
+          {
+            "canonical_id": "CrPC:165",
+            "act": "CrPC",
+            "section": "165",
+            "display_name": "CrPC Section 165"
+          },
+          {
+            "canonical_id": "CrPC:299",
+            "act": "CrPC",
+            "section": "299",
+            "display_name": "CrPC Section 299"
+          },
+          {
+            "canonical_id": "CrPC:300",
+            "act": "CrPC",
+            "section": "300",
+            "display_name": "CrPC Section 300"
+          },
+          {
+            "canonical_id": "CrPC:302",
+            "act": "CrPC",
+            "section": "302",
+            "display_name": "CrPC Section 302"
+          },
+          {
+            "canonical_id": "CrPC:304",
+            "act": "CrPC",
+            "section": "304",
+            "display_name": "CrPC Section 304"
+          },
+          {
+            "canonical_id": "CrPC:313",
+            "act": "CrPC",
+            "section": "313",
+            "display_name": "CrPC Section 313"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:84",
+            "act": "Evidence Act",
+            "section": "84",
+            "display_name": "Evidence Act Section 84"
+          },
+          {
+            "canonical_id": "EvidenceAct:105",
+            "act": "Evidence Act",
+            "section": "105",
+            "display_name": "Evidence Act Section 105"
+          },
+          {
+            "canonical_id": "EvidenceAct:161",
+            "act": "Evidence Act",
+            "section": "161",
+            "display_name": "Evidence Act Section 161"
+          },
+          {
+            "canonical_id": "EvidenceAct:162",
+            "act": "Evidence Act",
+            "section": "162",
+            "display_name": "Evidence Act Section 162"
+          },
+          {
+            "canonical_id": "EvidenceAct:165",
+            "act": "Evidence Act",
+            "section": "165",
+            "display_name": "Evidence Act Section 165"
+          },
+          {
+            "canonical_id": "EvidenceAct:302",
+            "act": "Evidence Act",
+            "section": "302",
+            "display_name": "Evidence Act Section 302"
+          },
+          {
+            "canonical_id": "EvidenceAct:313",
+            "act": "Evidence Act",
+            "section": "313",
+            "display_name": "Evidence Act Section 313"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": [
+        "Rampal Singh v. State of U.P. [2012] 7 SCR 160 : (2012) 8 SCC 289",
+        "State of A.P. v. Rayavarapu Punnayya [1977] 1 SCR 601 : 92 : (1974) 4 SCC 186",
+        "Sidhartha Vashisht v. State (NCT of Delhi) [2010] 4 SCR 103 : (2010) 6 SCC 1 – relied on. Satyavir Singh Rathi, Assistant Commissioner of Police v. State [2011] 6 SCR 138 : AIR 2011 SC 1748",
+        "Munshi Ram v. Delhi Admn. [1968] 2 SCR 455 : AIR 1968 SC 702",
+        "State of U.P. v. Mohd. Musheer Khan, AIR 1977 SC 2226",
+        "James Martin v. State of Kerala [2003] Supp. 6 SCR 910 : (2004) 2 SCC 203",
+        "Dahyabhai Chhaganbhai Thakkar v. State of Gujarat [1964] 7 SCR 361 : AIR 1964 SC 1563 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 710",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:304B",
+            "act": "IPC",
+            "section": "304B",
+            "subsection": "B",
+            "display_name": "IPC Section 304B"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:296",
+            "act": "CrPC",
+            "section": "296",
+            "display_name": "CrPC Section 296"
+          },
+          {
+            "canonical_id": "CrPC:313",
+            "act": "CrPC",
+            "section": "313",
+            "display_name": "CrPC Section 313"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:113",
+            "act": "Evidence Act",
+            "section": "113",
+            "display_name": "Evidence Act Section 113"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
+      "offences": [],
+      "case_citations": []
+    },
+    {
+      "case_id": "2025 INSC 751",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:201",
+            "act": "IPC",
+            "section": "201",
+            "display_name": "IPC Section 201"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Ramanand vs. State of Himachal Pradesh [1981] 2 SCR 444 : (1981) 1 SCC 511",
+        "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+        "Kanhaiya Lal v. State of Rajasthan [2014] 3 SCR 744 : (2014) 4 SCC 715",
+        "Rambraksh @ Jalim v. State of Chhattisgarh [2016] 2 SCR 599 : (2016) 12 SCC 251",
+        "Sujit Biswas v. State of Assam [2013] 3 SCR 830 : AIR 2013 SC 3817 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 777",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": []
+    },
+    {
+      "case_id": "2025 INSC 793",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:3",
+            "act": "IPC",
+            "section": "3",
+            "display_name": "IPC Section 3"
+          },
+          {
+            "canonical_id": "IPC:25",
+            "act": "IPC",
+            "section": "25",
+            "display_name": "IPC Section 25"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:404",
+            "act": "IPC",
+            "section": "404",
+            "display_name": "IPC Section 404"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:313",
+            "act": "CrPC",
+            "section": "313",
+            "display_name": "CrPC Section 313"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:8",
+            "act": "Evidence Act",
+            "section": "8",
+            "display_name": "Evidence Act Section 8"
+          },
+          {
+            "canonical_id": "EvidenceAct:25",
+            "act": "Evidence Act",
+            "section": "25",
+            "display_name": "Evidence Act Section 25"
+          },
+          {
+            "canonical_id": "EvidenceAct:27",
+            "act": "Evidence Act",
+            "section": "27",
+            "display_name": "Evidence Act Section 27"
+          },
+          {
+            "canonical_id": "EvidenceAct:106",
+            "act": "Evidence Act",
+            "section": "106",
+            "display_name": "Evidence Act Section 106"
+          },
+          {
+            "canonical_id": "EvidenceAct:302",
+            "act": "Evidence Act",
+            "section": "302",
+            "display_name": "Evidence Act Section 302"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Mekala Sivaiah v. State of Andhra Pradesh [2022] 6 SCR 989 : (2022) 8 SCC 253",
+        "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+        "Rajesh Yadav and Another v. State of Uttar Pradesh [2022] 16 SCR 967 : (2022) 12 SCC 200",
+        "State of Goa v. Sanjay Thakran and Anr. [2007] 3 SCR 507 : (2007) 3 SCC 755",
+        "Mukesh & Anr. v. NCT of Delhi & Ors. [2017] 6 SCR 1 : (2017) 6 SCC 1",
+        "Matru @ Girish Chandra v. State of Uttar Pradesh [1971] 3 SCR 914 : (1971) 2 SCC 75",
+        "G. Parshwanath v. State of Karnataka [2010] 10 SCR 377 : 2010 (8) SCC 593",
+        "Trimukh Maroti Kirkan v. State of Maharashtra [2006] Supp. 7 SCR 156 : (2006) 10 SCC 681",
+        "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 845",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:27",
+            "act": "IPC",
+            "section": "27",
+            "display_name": "IPC Section 27"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          },
+          {
+            "canonical_id": "IPC:366",
+            "act": "IPC",
+            "section": "366",
+            "display_name": "IPC Section 366"
+          },
+          {
+            "canonical_id": "IPC:376",
+            "act": "IPC",
+            "section": "376",
+            "display_name": "IPC Section 376"
+          },
+          {
+            "canonical_id": "IPC:392",
+            "act": "IPC",
+            "section": "392",
+            "display_name": "IPC Section 392"
+          },
+          {
+            "canonical_id": "IPC:397",
+            "act": "IPC",
+            "section": "397",
+            "display_name": "IPC Section 397"
+          }
+        ],
+        "CrPC": [
+          {
+            "canonical_id": "CrPC:366(1)",
+            "act": "CrPC",
+            "section": "366",
+            "subsection": "1",
+            "display_name": "CrPC Section 366(1)"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:27",
+            "act": "Evidence Act",
+            "section": "27",
+            "display_name": "Evidence Act Section 27"
+          },
+          {
+            "canonical_id": "EvidenceAct:106",
+            "act": "Evidence Act",
+            "section": "106",
+            "display_name": "Evidence Act Section 106"
+          },
+          {
+            "canonical_id": "EvidenceAct:302",
+            "act": "Evidence Act",
+            "section": "302",
+            "display_name": "Evidence Act Section 302"
+          },
+          {
+            "canonical_id": "EvidenceAct:376",
+            "act": "Evidence Act",
+            "section": "376",
+            "display_name": "Evidence Act Section 376"
+          },
+          {
+            "canonical_id": "EvidenceAct:397",
+            "act": "Evidence Act",
+            "section": "397",
+            "display_name": "Evidence Act Section 397"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "State of Punjab v. Jagir Singh [1974] 1 SCR 328 : (1974) 3 SCC 277",
+        "State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370",
+        "Hanumant v. State of M.P [1952] 1 SCR 1091 : (1952) 2 SCC 71",
+        "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116",
+        "Nizam v. State of Rajasthan [2015] 10 SCR 786 : (2016) 1 SCC 550",
+        "Ravasaheb v. State of Karnataka [2023] 2 SCR 965 : (2023) 5 SCC 391",
+        "Sanjay v. State of U.P., 2025 SCC OnLine SC 572",
+        "Sawal Das v. State of Bihar [1974] 3 SCR 74 : (1974) 4 SCC 193",
+        "Shivaji Chintappa Patil v. State of Maharashtra [2021] 2 SCR 617 : (2021) 5 SCC 626",
+        "Surajdeo Mahto v. State of Bihar [2021] 8 SCR 911 : (2022) 11 SCC 800",
+        "Veerendra v. State of M.P. [2022] 4 SCR 225 : (2022) 8 SCC 668",
+        "Bodhraj v. State of J&K [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45",
+        "State of U.P. v. Shyam Behari [2009] 6 SCR 4 : (2009) 15 SCC 548",
+        "Sambhubhai Raisangbhai Padhiyar v. State of Gujarat, 2024 INSC 987 : (2025) 2 SCC 399",
+        "Nikhil Chandra Mondal v. State of W.B. [2023] 2 SCR 20 : (2023) 6 SCC",
+        "Bijender v. State of Haryana [2021] 7 SCR 1138 : (2022) 1 SCC 92",
+        "K. Chinnaswamy Reddy v. State of A.P. [1963] 3 SCR 412 : 1962 SCC OnLine SC 32",
+        "Anil v. State of Maharashtra [2014] 3 SCR 34 : (2014) 4 SCC 69",
+        "Manoj v. State of M.P. [2022] 9 SCR 452 : (2023) 2 SCC 353",
+        "Prakash Nishad v. State of Maharashtra [2023] 8 SCR 152 : (2023) 16 SCC 357",
+        "Munshi Singh Gautam v. State of M.P. [2004] Supp. 5 SCR 1092 : (2005) 9 SCC 631",
+        "Malkhansingh v. State of M.P. [2003] Supp. 1 SCR 443 : (2003) 5 SCC 746",
+        "Visveswaran v. State [2003] 3 SCR 978 : (2003) 6 SCC 73",
+        "Ashok Debbarma v. State of Tripura [2014] 4 SCR 287 : (2014) 4 SCC 747",
+        "Umesh Chandra v. State of Uttarakhand (2021) 17 SCC 616",
+        "Hari Nath v. State of U.P. [1988] 1 SCR 848 : (1988) 1 SCC 14",
+        "Iqbal v. State of U.P. [2015] 6 SCR 239 : (2015) 6 SCC 623",
+        "Raja v. State [2019] 17 SCR 1187 : (2020) 15 SCC 562",
+        "Gireesan Nair v. State of Kerala [2022] 8 SCR 599 : (2023) 1 SCC 180",
+        "Budhsen v. State of U.P. [1971] 1 SCR 564 : (1970) 2 SCC 128",
+        "Maya Kaur Baldevsingh Sardar v. State of Maharashtra [2007] 10 SCR 752 : (2007) 12 SCC 654",
+        "C. Muniappan v. State of T.N. [2010] 10 SCR 262 : (2010) 9 SCC 567",
+        "Sk. Umar Ahmed Shaikh v. State of Maharashtra [1998] 2 SCR 1209 : (1998) 5 SCC 103",
+        "Rajesh v. State of Haryana [2020] 14 SCR 1 : (2021) 1 SCC 118",
+        "Mukesh v. State (NCT of Delhi) [2017] 6 SCR 1 : (2017) 6 SCC 1",
+        "Mohd. Anwar v. State (NCT of Delhi) [2020] 7 SCR 150 : (2020) 7 SCC 391",
+        "Suryamoorthy v. Govindaswamy (1989) 3 SCC 24",
+        "Suresh Chandra Bahri v. State of Bihar [1994] Supp. 1 SCR 483 : (1995) Supp. 1 SCC 80",
+        "Mulla v. State of U.P [2010] 2 SCR 633 : (2010) 3 SCC 508",
+        "Takhaji Hiraji v. Thakore Kubersing Chamansing (2001) 6 SCC 145",
+        "V. Senthil Balaji v. The Deputy Director, Directorate of Enforcement, 2024 INSC 739 : [2024] 10 SCR 393 : [2024] 10 SCR 393 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 880",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:34",
+            "act": "IPC",
+            "section": "34",
+            "display_name": "IPC Section 34"
+          },
+          {
+            "canonical_id": "IPC:120B",
+            "act": "IPC",
+            "section": "120B",
+            "subsection": "B",
+            "display_name": "IPC Section 120B"
+          },
+          {
+            "canonical_id": "IPC:302",
+            "act": "IPC",
+            "section": "302",
+            "display_name": "IPC Section 302"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Murder"
+      ],
+      "case_citations": [
+        "Mohamed Jabbar Ali & Ors. v. State of Assam, Criminal Appeal No. 1105 of 2010",
+        "Gangadhar Behera v. State of Orissa [2002] Supp. 3 SCR 183 : AIR 2002 SC 3633 – relied on. Hari Obula Reddy and others v. State of Andhra Pradesh (1981) 3 SCC 675 – referred to"
+      ]
+    },
+    {
+      "case_id": "2025 INSC 90",
+      "court": "Supreme Court of India",
+      "canonical_court_id": "COURT:SUPREME_COURT_OF_INDIA",
+      "statutes": {
+        "IPC": [
+          {
+            "canonical_id": "IPC:1",
+            "act": "IPC",
+            "section": "1",
+            "display_name": "IPC Section 1"
+          },
+          {
+            "canonical_id": "IPC:1OF",
+            "act": "IPC",
+            "section": "1OF",
+            "subsection": "OF",
+            "display_name": "IPC Section 1OF"
+          },
+          {
+            "canonical_id": "IPC:4",
+            "act": "IPC",
+            "section": "4",
+            "display_name": "IPC Section 4"
+          },
+          {
+            "canonical_id": "IPC:201",
+            "act": "IPC",
+            "section": "201",
+            "display_name": "IPC Section 201"
+          },
+          {
+            "canonical_id": "IPC:300",
+            "act": "IPC",
+            "section": "300",
+            "display_name": "IPC Section 300"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 1)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "1",
+            "display_name": "IPC Section 300 Exception 1"
+          },
+          {
+            "canonical_id": "IPC:300(Exception 4)",
+            "act": "IPC",
+            "section": "300",
+            "exception": "4",
+            "display_name": "IPC Section 300 Exception 4"
+          },
+          {
+            "canonical_id": "IPC:304",
+            "act": "IPC",
+            "section": "304",
+            "display_name": "IPC Section 304"
+          },
+          {
+            "canonical_id": "IPC:304(Part I)",
+            "act": "IPC",
+            "section": "304",
+            "part": "I",
+            "display_name": "IPC Section 304 Part I"
+          }
+        ],
+        "Evidence Act": [
+          {
+            "canonical_id": "EvidenceAct:105",
+            "act": "Evidence Act",
+            "section": "105",
+            "display_name": "Evidence Act Section 105"
+          }
+        ]
+      },
+      "concepts": [
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder",
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:grave_and_sudden_provocation",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:murder"
+      ],
+      "offences": [
+        "Culpable homicide",
+        "Murder"
+      ],
+      "case_citations": [
+        "Mancini v. Director of Public Prosecutions, 1942 A. C. 1 – relied on"
+      ]
+    }
+  ]
+}
