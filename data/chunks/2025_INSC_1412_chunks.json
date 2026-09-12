@@ -1,0 +1,172 @@
+{
+  "case_id": "2025 INSC 1412",
+  "total_chunks": 6,
+  "chunk_counts": {
+    "issue": 1,
+    "headnote": 2,
+    "legal_topic": 0,
+    "judgment": 3
+  },
+  "chunks": [
+    {
+      "chunk_id": "2025_INSC_1412_ISSUE_001",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "issue",
+      "text": "Whether in the facts and circumstances of the case, the appellant could be convicted for an offence lesser than one punishable under IPC Section 302, Penal Code, 1860.",
+      "source": {
+        "field": "issue_for_consideration"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 37
+    },
+    {
+      "chunk_id": "2025_INSC_1412_HEADNOTE_001",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302; Exceptions to IPC Section 300",
+      "text": "Penal Code, 1860 – IPC Section 302; Exceptions to IPC Section 300 – Conviction under IPC Section 302, when justified – Appellant convicted under IPC Section 302 – Whether he could be convicted for an offence lesser than one punishable under IPC Section 302: Held: No – There are no mitigating circumstances on basis whereof the sentence may be reduced by altering the conviction of the appellant for an offence lesser than one punishable under IPC Section 302, IPC – Deceased was inflicted with four knife blows on vital parts of his body, indicative of the accused acting in a cruel manner – Injuries found on his body in ordinary course would have resulted in death – Furthermore, no defense evidence was led; and the statement of the petitioner under CrPC Section 313, CrPC was one of denial – There was no statement that the deceased had attacked the appellant or caused any injury or harm to him – On facts, benefit of any of the four Exceptions to IPC Section 300, IPC not available to the petitioner. [Paras 5, 7-11]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "legal_references": [
+        "CrPC:300",
+        "CrPC:313",
+        "IPC:300",
+        "IPC:302",
+        "IPC:313"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 240
+    },
+    {
+      "chunk_id": "2025_INSC_1412_HEADNOTE_002",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – Exceptions to IPC Section 300, benefit of",
+      "text": "Penal Code, 1860 – Exceptions to IPC Section 300, benefit of – When not available. [Paras 5, 7-11]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "legal_references": [
+        "IPC:300"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 23
+    },
+    {
+      "chunk_id": "2025_INSC_1412_JUDGMENT_001",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Order\n\nLeave granted.\n\nWe have heard learned counsel for the parties and have perused the materials available on record.\n\nThe appellant is convicted under Section 302 of the Indian Penal Code, 1860 (for short IPC). The impugned order of the High Court affirms his conviction under Section 302 IPC.\n\nIn this appeal a limited notice was issued on 24.03.2025 to consider whether the appellant could be convicted for an offence lesser than one punishable under Section 302 of the Indian Penal Code, 1860 (IPC).\n\nAutopsy report reflects that the deceased was inflicted with four knife blows on vital parts of his body. Common carotid and subclavian arteries were found cut. Thus, in our view, injuries found on the body of the deceased in ordinary course would have resulted in death. No defense evidence was led; and the statement of the petitioner under Section 313 of the Code of Criminal Procedure, 1973 (CrPC) was one of denial. Further, there was no statement that the deceased had attacked the appellant or caused any injury or harm to the appellant. In that context, we would examine whether benefit of any one of the four Exceptions to Section 300 of IPC would be available to the petitioner or not.\n\nThe learned counsel for the petitioner submitted that the evidence indicated that the deceased was addicted to drugs and loud shouts were heard before the occurrence. Based on that, he submits, the incident was preceded by altercation/ quarrel and, therefore, it occurred in such a manner that it may fall either under Exception 2 i.e., exceeding self-defense or under Exception 4 i.e., without pre- meditation in a sudden fight in the heat of passion. He also submitted that the accused had suffered injury.\n\nIn our view, the act in question would not fall under Exception 2 because, firstly, there is no evidence to show that the accused or his property was attacked by the deceased. Even in his statement under Section 313 CrPC no plea of self-defense or of deceased causing any injury to the appellant was raised. Besides, no defense evidence was led. Further, it is not shown that the deceased was armed. In such circumstances, in our view, benefit of Exception 2 would not be available to the petitioner.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "page_start": 2,
+        "page_end": 3
+      },
+      "legal_references": [
+        "CrPC:313",
+        "IPC:300",
+        "IPC:302"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "cited_cases": [],
+      "token_count": 500
+    },
+    {
+      "chunk_id": "2025_INSC_1412_JUDGMENT_002",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "In our view, the act in question would not fall under Exception 2 because, firstly, there is no evidence to show that the accused or his property was attacked by the deceased. Even in his statement under Section 313 CrPC no plea of self-defense or of deceased causing any injury to the appellant was raised. Besides, no defense evidence was led. Further, it is not shown that the deceased was armed. In such circumstances, in our view, benefit of Exception 2 would not be available to the petitioner.\n\nAs far as Exception 4 is concerned, an act of culpable homicide does not amount to murder if following ingredients are fulfilled (i) there is no pre-meditation; (ii) there is a sudden fight; (iii) the act is committed in the heat of passion; and (iv) the assailant has not taken any undue advantage or acted in a cruel manner. Although the term ‘fight’ has not been defined in IPC, but the consistent view is that it implies mutual assault by use of criminal force and not mere verbal duel.\n\nIn Bhagwan Munjaji Pawade v. State of Maharashtra, (1978) 3 SCC 330 (para 6), followed and affirmed in Awadhesh Kumar v. State of U.P. & Anr., (2019) 10 SCC 323, this Court held that where the accused is armed and the deceased is unarmed, Exception 2 can have no application and IPC Section 300 Exception 4would not apply if there is sudden quarrel but no fight between the deceased and the accused. It was held that ‘fight’ postulates a bilateral transaction in which blows are exchanged.\n\nIn the instant case, there is no evidence of exchange of blows. In our view, therefore, case would not fall under IPC IPC Section 300 Exception 4. Moreover, infliction of 4 knife blows to an unarmed person, on vital parts of the body, is indicative of the accused acting in a cruel manner.\n\nAt last, the appellant’s counsel argued that case may fall under IPC Section 300 Exception 1because infliction of knife blows took place after a quarrel. In our view, there is not much evidence on record to disclose that provocation was so grave and sudden that the appellant was deprived of his self-control.\n\nFor the reasons aforesaid, we do not find any mitigating circumstances on basis whereof we may reduce the sentence by altering the conviction of the appellant for an offence lesser than one punishable under Section 302 IPC.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "page_start": 3,
+        "page_end": 4
+      },
+      "legal_references": [
+        "CrPC:313",
+        "IPC:300(Exception 1)",
+        "IPC:300(Exception 4)",
+        "IPC:302"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sudden_fight"
+      ],
+      "cited_cases": [
+        "Bhagwan Munjaji Pawade v. State of Maharashtra (1978) 3 SCC 330 – relied on. Awadhesh Kumar v. State of U.P. & Anr. [2019] 17 SCR 185 : (2019) 10 SCC 323 – referred to"
+      ],
+      "token_count": 538
+    },
+    {
+      "chunk_id": "2025_INSC_1412_JUDGMENT_003",
+      "case_id": "2025 INSC 1412",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "For the reasons aforesaid, we do not find any mitigating circumstances on basis whereof we may reduce the sentence by altering the conviction of the appellant for an offence lesser than one punishable under Section 302 IPC.\n\nConsequently, the appeal is dismissed.\n\nAll pending application(s) shall stand disposed of.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          12,
+          13,
+          14
+        ],
+        "page_start": 4,
+        "page_end": 4
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 65
+    }
+  ]
+}

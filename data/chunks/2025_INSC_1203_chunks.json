@@ -1,0 +1,1198 @@
+{
+  "case_id": "2025 INSC 1203",
+  "total_chunks": 50,
+  "chunk_counts": {
+    "issue": 1,
+    "headnote": 8,
+    "legal_topic": 5,
+    "judgment": 36
+  },
+  "chunks": [
+    {
+      "chunk_id": "2025_INSC_1203_ISSUE_001",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "issue",
+      "text": "Trial Court found appellant guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act. An appeal against the said conviction was dismissed by the High Court and confirmed the death sentence awarded to the appellant. Whether the prosecution has proved the vital circumstances, viz., (i) last seen together theory; (ii) suspicious movement of the appellant captured in the video footage of the CCTV camera installed at a nearby temple; (iii) confessional/disclosure statement made by the appellant leading to the incriminating discoveries/recoveries and (iv) FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based.",
+      "source": {
+        "field": "issue_for_consideration"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 168
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_001",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – A 7 year old female child went missing – Later, a charred body of the child was recovered in furtherance of the disclosure statement made by the appellant herein – Trial Court found appellant guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act – Appellant was sentenced in each of the aforesaid sections along with a death sentence – The trial Court also forwarded a reference under CrPC Section 366 for confirmation of the death sentence – Appeal preferred by the appellant before the High Court was dismissed and death sentence was confirmed – Correctness: Held: 1. The prosecution has miserably failed to prove the vital circumstances, viz., (i) last seen together theory; (ii) suspicious movement of the appellant captured in the video footage of the CCTV camera installed at a nearby temple; (iii) confessional/disclosure statement made by the appellant leading to the incriminating discoveries/recoveries and (iv) FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based – It would not be safe to uphold the conviction of the appellant as recorded by the trial Court and affirmed by the High Court – Thus, the conviction of the appellant and the sentences awarded to him, by the trial Court and affirmed by the High Court are also set aside. [Paras 81-83]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        81,
+        82,
+        83
+      ],
+      "legal_references": [
+        "CrPC:366",
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 371
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_002",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance, viz., last seen together theory: Held: The first and most critical circumstance on which the prosecution placed reliance was that of last seen together – The witness who gave evidence in support of this circumstance was PW-3, who claimed that on the fateful day, he saw the appellant and the victim playing on the second floor of the building, on the first floor whereof, the complainant (PW-1) being the father of the victim resided with his family – When the frantic process for searching the victim started, PW-3 claims to have informed the complainant (PW-1) that his daughter was not in the house and might be playing upstairs and advised him to go and look for her on the upper floor of the building – Had there been an iota of truth in the version of PW-3, he would definitely have told the complainant (PW-1) that he had seen the victim in the company of the appellant between 6:00 p.m. to 6:15 p.m. on the second floor of the building – The glaring omission on the part of PW-3 in failing to share this vital information is also manifest from the complaint filed by the complainant (PW-1) – The theory put forth in the evidence of (PW-3) that he had seen the victim in the company of the appellant on 05.02.2017 i.e., the date of the incident, is nothing but a sheer concoction, bereft of credibility – The statement of PW-3 that the said witness, for the first time, divulged the information comprising the circumstance of last seen together to the 2nd Investigating Officer (PW-30) only on 24.04.2017, i.e., more than two months and 20 days after the incident – Therefore, the circumstance of last seen together was created by the Investigating Officer (PW-30) through the witness (PW-3) in order to lend credence to the otherwise weak case of the prosecution. [Paras 44-46]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        44,
+        45,
+        46
+      ],
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 518
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_003",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found appellant guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the video footage of the CCTV camera: Held: The next piece of circumstantial evidence on relied upon was in the form of the video footage of the CCTV camera, the primary evidence of the so-called CCTV footage is not available on record – The oral evidence regarding the CCTV footage was given by PW-6 being the In-charge of the nearby temple – In the absence of the CCTV footage being collected and exhibited as per law, no credence can be given to the evidence of PW-6, more so, when there is grave discrepancy between his version and the version of the complainant (PW-1). [Paras 47, 49, 51]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        47,
+        49,
+        51
+      ],
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 247
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_004",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/ recoveries: Held: The third circumstance on which the prosecution relied upon to bring home the guilt of the appellant was in form of the confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/recoveries – The fact that the police officers had told the complainant regarding the location where the body of the victim was disposed of, in the morning of 08.02.2017, is itself sufficient to discard the theory of the prosecution that all the incriminating discoveries were made in pursuance of the disclosure statement made by the appellant – It is apparent that the police had already created the entire story and later on, tried to fit the same into a sequence by postponing the formal arrest of the appellant in order to implicate him in this case – Thus, the claim made by the prosecution that the dead body of the victim was recovered in furtherance of the disclosure statement made by the appellant is belied by cogent material available on record – There is no hesitation in holding that recoveries of the bag, allegedly containing the bottles in which petrol was carried and the undergarment of the victim, were not effected at the instance of the appellant and were planted recoveries – The theory of confessional/disclosure statement of the appellant leading to the discoveries is nothing but a creation of the Investigating Officer (PW-29) and as a matter of fact, all the incriminating facts and circumstances were already in the knowledge of the Investigating Officer (PW-29) and were subsequently woven into a story, projecting a hypothesis that a voluntary confession was made by the appellant leading to the incriminating discoveries of the dead body, the ornaments, etc. – The signatures of appellant were obtained on the confessional statements by detaining him in advance and torturing and beating him and that the appellant was implicated in the case falsely. [Paras 52, 54, 55, 60, 67]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        52,
+        54,
+        55,
+        60,
+        67
+      ],
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 542
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_005",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based: Held: The testimony of the Investigating Officer (PW-29) confirms that the prosecution has miserably failed to prove the chain of custody of the forensic articles/samples right from the time of seizure till they reached the FSL – The malkhana In-charge of the police station was not examined in evidence – Neither any forwarding documents except for a forwarding letter, authorising the movement of the forensic articles/samples were proved by the Investigation Officer (PW-29) nor any witness who carried these samples from the police station to the Court or the concerned laboratories, was examined in evidence – Since the sanctity of the samples was not proved by proper evidence, as a necessary corollary, the reports of scientific analysis would lose significance and cannot be relied upon – Though the scientific experts concluded that the DNA profile of the semen stain found on the underwear of the victim was matching with the DNA profile of the appellant but as the very factum of recovery of the Material Object, i.e., the undergarment of the victim has not been established beyond doubt, as a consequence, no sanctity whatsoever can be attached to the conclusions drawn in the Expert Report (Exhibit P-32) – A very serious question has to be posed regarding the time of collection of the blood samples of the appellant – There was no reason whatsoever for the Investigating Agency to have waited for four months before collecting the blood samples of the appellant – There is a strong possibility that the delay may have been utilized to manipulate the samples. [Paras 71, 76, 78]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        71,
+        76,
+        78
+      ],
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 489
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_006",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Crime – Heinous crime",
+      "text": "Crime – Heinous crime – Punishment cannot be based on moral convictions or conjectures – Prosecution is duty-bound to prove the guilt of the accused beyond reasonable doubt: Held: The present case pertains to the commission of a heinous offence involving a girl of tender age of 7 years, at the same time, this Court cannot ignore or bypass the fundamental principle of criminal jurisprudence that the prosecution is duty-bound to prove the guilt of the accused beyond reasonable doubt – The onus is heavier in a case based purely on circumstantial evidence – However, regrettably, the prosecution has miserably failed to do so in the instant case, leaving the Court with no choice but to acquit the appellant, despite the heinous nature of the crime – While it is acknowledged that the acquittal of an individual involved in a heinous crime can lead to societal distress and cause grave anguish to the victim’s family, the legal framework does not permit the Courts to punish an accused person based merely on moral convictions or conjectures – Each case must be adjudicated by the Courts rigorously on its individual merits and in strict conformity with the law, without yielding to public sentiment and external pressures. [Para 80]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        80
+      ],
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 273
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_007",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Constitution of India – Constitutional right to defend: Held: The constitutional right afforded to an accused charged with an offence to defend himself is not illusory or imaginary",
+      "text": "Constitution of India – Constitutional right to defend: Held: The constitutional right afforded to an accused charged with an offence to defend himself is not illusory or imaginary – For the trial to be fair and reasonable, an effective opportunity to defend must be provided to the accused and representation by a counsel of choice is an important component of this guarantee  – In a case where accused is facing charges for offences which carry capital punishment, this constitutional mandate becomes even more sacrosanct, and it is the duty of the Court as well as the State to ensure that the accused is not prejudiced or deprived of a fair opportunity of defending himself in a case where he may be awarded death penalty. [Para 36]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        36
+      ],
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 167
+    },
+    {
+      "chunk_id": "2025_INSC_1203_HEADNOTE_008",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "headnote",
+      "topic_heading": "Natural Justice – Criminal Law",
+      "text": "Natural Justice – Criminal Law – Trial – Fair opportunity of defending: Held: Such opportunity would require: (a) Providing copies of all relied upon documents to the accused immediately on submission of report under CrPC Section 173(2) CrPC (Section 193 BNSS)/committal of case under CrPC Section 209 CrPC (Section 232 BNSS); (b) Ensuring that the accused is represented by a lawyer of his own choice and in case, he/she is not in a position to engage a private counsel then, a legal aid defence counsel having requisite experience must be appointed to represent him at the trial; (c) The legal aid counsel so appointed should be given sufficient opportunity to go through the record and prepare the matter for carrying out effective cross-examination from the witnesses; (d) The Court should not act as a mute spectator during recording of evidence, as provided under Evidence Act Section 165 of the Indian Evidence Act, 1872 (Section 168 of the Bhartiya Sakshya Adhiniyam, 2023) – The Court must remain vigilant, and in case any important question necessary to arrive at a just decision of the case is omitted to be put to the witnesses either by the defence counsel or the public prosecutor, the Court must not let such lacuna creep into the proceedings, and it must be ensured that Court put questions to the witnesses for ensuring fairness in the proceedings. [Para 37]",
+      "source": {
+        "field": "headnotes"
+      },
+      "related_paragraphs": [
+        37
+      ],
+      "legal_references": [
+        "BNSS:173(2)",
+        "BNSS:193",
+        "BNSS:209",
+        "BNSS:232",
+        "CrPC:173(2)",
+        "CrPC:193",
+        "CrPC:209",
+        "CrPC:232",
+        "EvidenceAct:165",
+        "EvidenceAct:168"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 307
+    },
+    {
+      "chunk_id": "2025_INSC_1203_LEGAL_TOPIC_001",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "legal_topic",
+      "topic_heading": "Penal Code, 1860",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – A 7 year old female child went missing – Later, a charred body of the child was recovered in furtherance of the disclosure statement made by the appellant herein – Trial Court found appellant guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act – Appellant was sentenced in each of the aforesaid sections along with a death sentence – The trial Court also forwarded a reference under CrPC Section 366 for confirmation of the death sentence – Appeal preferred by the appellant before the High Court was dismissed and death sentence was confirmed – Correctness: Held: 1. The prosecution has miserably failed to prove the vital circumstances, viz., (i) last seen together theory; (ii) suspicious movement of the appellant captured in the video footage of the CCTV camera installed at a nearby temple; (iii) confessional/disclosure statement made by the appellant leading to the incriminating discoveries/recoveries and (iv) FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based – It would not be safe to uphold the conviction of the appellant as recorded by the trial Court and affirmed by the High Court – Thus, the conviction of the appellant and the sentences awarded to him, by the trial Court and affirmed by the High Court are also set aside. [Paras 81-83]",
+      "source": {
+        "field": "legal_topics"
+      },
+      "legal_references": [
+        "CrPC:366",
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 371
+    },
+    {
+      "chunk_id": "2025_INSC_1203_LEGAL_TOPIC_002",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "legal_topic",
+      "topic_heading": "Penal Code, 1860",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance, viz., last seen together theory: Held: The first and most critical circumstance on which the prosecution placed reliance was that of last seen together – The witness who gave evidence in support of this circumstance was PW-3, who claimed that on the fateful day, he saw the appellant and the victim playing on the second floor of the building, on the first floor whereof, the complainant (PW-1) being the father of the victim resided with his family – When the frantic process for searching the victim started, PW-3 claims to have informed the complainant (PW-1) that his daughter was not in the house and might be playing upstairs and advised him to go and look for her on the upper floor of the building – Had there been an iota of truth in the version of PW-3, he would definitely have told the complainant (PW-1) that he had seen the victim in the company of the appellant between 6:00 p.m. to 6:15 p.m. on the second floor of the building – The glaring omission on the part of PW-3 in failing to share this vital information is also manifest from the complaint filed by the complainant (PW-1) – The theory put forth in the evidence of (PW-3) that he had seen the victim in the company of the appellant on 05.02.2017 i.e., the date of the incident, is nothing but a sheer concoction, bereft of credibility – The statement of PW-3 that the said witness, for the first time, divulged the information comprising the circumstance of last seen together to the 2nd Investigating Officer (PW-30) only on 24.04.2017, i.e., more than two months and 20 days after the incident – Therefore, the circumstance of last seen together was created by the Investigating Officer (PW-30) through the witness (PW-3) in order to lend credence to the otherwise weak case of the prosecution. [Paras 44-46]",
+      "source": {
+        "field": "legal_topics"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 518
+    },
+    {
+      "chunk_id": "2025_INSC_1203_LEGAL_TOPIC_003",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "legal_topic",
+      "topic_heading": "Penal Code, 1860",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found appellant guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the video footage of the CCTV camera: Held: The next piece of circumstantial evidence on relied upon was in the form of the video footage of the CCTV camera, the primary evidence of the so-called CCTV footage is not available on record – The oral evidence regarding the CCTV footage was given by PW-6 being the In-charge of the nearby temple – In the absence of the CCTV footage being collected and exhibited as per law, no credence can be given to the evidence of PW-6, more so, when there is grave discrepancy between his version and the version of the complainant (PW-1). [Paras 47, 49, 51]",
+      "source": {
+        "field": "legal_topics"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 247
+    },
+    {
+      "chunk_id": "2025_INSC_1203_LEGAL_TOPIC_004",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "legal_topic",
+      "topic_heading": "Penal Code, 1860",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/ recoveries: Held: The third circumstance on which the prosecution relied upon to bring home the guilt of the appellant was in form of the confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/recoveries – The fact that the police officers had told the complainant regarding the location where the body of the victim was disposed of, in the morning of 08.02.2017, is itself sufficient to discard the theory of the prosecution that all the incriminating discoveries were made in pursuance of the disclosure statement made by the appellant – It is apparent that the police had already created the entire story and later on, tried to fit the same into a sequence by postponing the formal arrest of the appellant in order to implicate him in this case – Thus, the claim made by the prosecution that the dead body of the victim was recovered in furtherance of the disclosure statement made by the appellant is belied by cogent material available on record – There is no hesitation in holding that recoveries of the bag, allegedly containing the bottles in which petrol was carried and the undergarment of the victim, were not effected at the instance of the appellant and were planted recoveries – The theory of confessional/disclosure statement of the appellant leading to the discoveries is nothing but a creation of the Investigating Officer (PW-29) and as a matter of fact, all the incriminating facts and circumstances were already in the knowledge of the Investigating Officer (PW-29) and were subsequently woven into a story, projecting a hypothesis that a voluntary confession was made by the appellant leading to the incriminating discoveries of the dead body, the ornaments, etc. – The signatures of appellant were obtained on the confessional statements by detaining him in advance and torturing and beating him and that the appellant was implicated in the case falsely. [Paras 52, 54, 55, 60, 67]",
+      "source": {
+        "field": "legal_topics"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 542
+    },
+    {
+      "chunk_id": "2025_INSC_1203_LEGAL_TOPIC_005",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "legal_topic",
+      "topic_heading": "Penal Code, 1860",
+      "text": "Penal Code, 1860 – IPC Section 302, 201, 363, 366 and 354-B of the IPC – Protection of Children from Sexual Offences Act, 2012 – s.8 r/w. s.7 and s.6 r/w. s.5(m) – Appellant was found guilty for the charges framed u/IPC Section 302, 201, 363, 366 and 354-B of the IPC and s.8 r/w. s.7 and s.6 r/w. s.5(m) of the POCSO Act by the Courts below – Whether the prosecution has proved the vital circumstance of the FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based: Held: The testimony of the Investigating Officer (PW-29) confirms that the prosecution has miserably failed to prove the chain of custody of the forensic articles/samples right from the time of seizure till they reached the FSL – The malkhana In-charge of the police station was not examined in evidence – Neither any forwarding documents except for a forwarding letter, authorising the movement of the forensic articles/samples were proved by the Investigation Officer (PW-29) nor any witness who carried these samples from the police station to the Court or the concerned laboratories, was examined in evidence – Since the sanctity of the samples was not proved by proper evidence, as a necessary corollary, the reports of scientific analysis would lose significance and cannot be relied upon – Though the scientific experts concluded that the DNA profile of the semen stain found on the underwear of the victim was matching with the DNA profile of the appellant but as the very factum of recovery of the Material Object, i.e., the undergarment of the victim has not been established beyond doubt, as a consequence, no sanctity whatsoever can be attached to the conclusions drawn in the Expert Report (Exhibit P-32) – A very serious question has to be posed regarding the time of collection of the blood samples of the appellant – There was no reason whatsoever for the Investigating Agency to have waited for four months before collecting the blood samples of the appellant – There is a strong possibility that the delay may have been utilized to manipulate the samples. [Paras 71, 76, 78]",
+      "source": {
+        "field": "legal_topics"
+      },
+      "legal_references": [
+        "IPC:302"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 489
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_001",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Judgment Mehta, J.\n\nHeard.\n\nThe appellant herein was tried by the learned Sessions Judge, Mahila Court, Chengalpet1 in Special Sessions Case No. 33 of 2017 for the offences punishable under Sections 363, 366, 354-B, 302, and 201 of the Indian Penal Code, 18602 and Section 8 read with Section 7 and Section 6 read with Section 5(m) of the Protection of Children from Sexual Offences Act, 20123. The trial Court, vide judgment of conviction and order of sentence dated 19th February, 2018 convicted the accused-appellant4 for the aforementioned offences and sentenced him in the terms indicated below: - Section Sentence S. 363 IPC 7 years CrPC Section 366 IPC 10 years S. 354-B IPC 7 years IPC Section 201 IPC 7 years IPC Section 302 IPC Death Penalty S. 6 r/w S. 5 (m) of POCSO Act 10 years S. 8 r/w S. 7 of POCSO Act 5 years\n\nBeing aggrieved, the appellant preferred an appeal5 before the High Court of Judicature at Madras6 for assailing his conviction and the sentences awarded to him. The trial Court also forwarded a reference7 1 Hereinafter, referred to as ‘trial Court’. 2 For short, ‘IPC’. 3 For short, ‘POCSO Act’.\n\nHereinafter, referred to as ‘appellant’.\n\nCriminal Appeal No. 234 of 2018.\n\nHereinafter, referred to as ‘High Court’.\n\nReferred Trial No. 1 of 2018. under Section 366 of the Code of Criminal Procedure, 19738 for confirmation of the death sentence. The learned Division Bench of the High Court vide common judgment dated 10th July, 2018, dismissed the appeal preferred by the appellant and answered the reference in the affirmative thereby confirming the death sentence awarded to the appellant by the trial Court. The said judgment of the High Court is the subject matter of challenge in these appeals by special leave. FACTUAL MATRIX: - 4. In brief, the story of the prosecution is that a seven-year old female child victim9, being the daughter of C.S.D. Babu (PW-1)10 and Sridevi (PW-2), went missing on 5th February, 2017. The parents had gone out shopping, and when they returned at about 7:15 p.m., they did not see their daughter around, upon which a search was made with the help of the neighbours including the appellant. The police were also informed, but the efforts to trace out the child did not yield any results. The hapless father, C.S.D. Babu (PW-1) filed a complaint11 at Mangadu Police Station at around 10:00 p.m. on 5th February, 2017 itself and based upon the same, a missing persons’ case was registered. The complainant (PW-1), in his efforts to get clues about the whereabouts of his child, claims to have browsed video footage of a CCTV camera installed at a nearby temple which gave an indication as to the manner in which the child victim might have been kidnapped. The police also followed the lead provided by the complainant (PW-1) and went through the CCTV footage after which the needle of suspicion turned towards the appellant. 5. Based on this suspicion, the appellant was arrested on 8th February, 2017 at about 9 a.m. He allegedly confessed and made a disclosure statement12 to N. Ravikumar, 1st Investigation Officer (PW-29)13 in the presence of Sumathi (PW-7), Village Administrative Officer, Madanandhapuram Village, and Mohandass (PW-8) who is the assistant of PW-7.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "page_start": 8,
+        "page_end": 9
+      },
+      "legal_references": [
+        "CrPC:366",
+        "IPC:201",
+        "IPC:302",
+        "IPC:363",
+        "IPC:366",
+        "IPC:5M",
+        "IPC:6",
+        "IPC:7",
+        "IPC:8"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 724
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_002",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Referred Trial No. 1 of 2018. under Section 366 of the Code of Criminal Procedure, 19738 for confirmation of the death sentence. The learned Division Bench of the High Court vide common judgment dated 10th July, 2018, dismissed the appeal preferred by the appellant and answered the reference in the affirmative thereby confirming the death sentence awarded to the appellant by the trial Court. The said judgment of the High Court is the subject matter of challenge in these appeals by special leave. FACTUAL MATRIX: - 4. In brief, the story of the prosecution is that a seven-year old female child victim9, being the daughter of C.S.D. Babu (PW-1)10 and Sridevi (PW-2), went missing on 5th February, 2017. The parents had gone out shopping, and when they returned at about 7:15 p.m., they did not see their daughter around, upon which a search was made with the help of the neighbours including the appellant. The police were also informed, but the efforts to trace out the child did not yield any results. The hapless father, C.S.D. Babu (PW-1) filed a complaint11 at Mangadu Police Station at around 10:00 p.m. on 5th February, 2017 itself and based upon the same, a missing persons’ case was registered. The complainant (PW-1), in his efforts to get clues about the whereabouts of his child, claims to have browsed video footage of a CCTV camera installed at a nearby temple which gave an indication as to the manner in which the child victim might have been kidnapped. The police also followed the lead provided by the complainant (PW-1) and went through the CCTV footage after which the needle of suspicion turned towards the appellant. 5. Based on this suspicion, the appellant was arrested on 8th February, 2017 at about 9 a.m. He allegedly confessed and made a disclosure statement12 to N. Ravikumar, 1st Investigation Officer (PW-29)13 in the presence of Sumathi (PW-7), Village Administrative Officer, Madanandhapuram Village, and Mohandass (PW-8) who is the assistant of PW-7.\n\nHereinafter, referred to as ‘CrPC’.\n\nHereinafter, referred to as ‘victim’ or ‘child victim’.\n\nHereinafter, referred to as ‘complainant (PW-1)’.\n\nExhibit P-1\n\nExhibit P-8.\n\nHereinafter, referred to as ‘Investigation Officer (PW-29)’. 6. The Investigating Officer (PW-29) claims that the charred body of the child victim was recovered on 8th February, 2017 in furtherance of the disclosure statement made by the appellant. The body was identified by Muneesekar (PW-14), the Administrative Officer of the school where the victim was studying. Based on the said recovery of the victim’s body, the missing persons’ case was converted to a crime report14 for the offences punishable under Sections 302, 201, 363, 366 and 354-B of the IPC and Section 8 read with Section 7 and Section 6 read with Section 5(m) of the POCSO Act. The disclosure statement of the appellant further led to the recovery of an Apache motorcycle and a Oppo mobile phone. The Investigation Officer (PW-29) prepared an observation mahazar15 and a rough site sketch16 of the place from where the body of the victim was recovered. The appellant also identified the blue-coloured travel bag17 in which undergarments18 worn by the victim and two cold drink bottles19 were placed. Forensic material was collected from the dead body of the victim and the crime scene. 7. Thereafter, the appellant allegedly took the police to his flat which was located on the second floor of the very same building in which the complainant (PW-1) also resided and pointed out the place where the victim had been subjected to sexual abuse and later, murdered. The Investigation Officer (PW-29) prepared the observation mahazar20 and site inspection plan21 of the said flat. The jeans pant22 and t-shirt23 allegedly worn by the appellant at the time of commission of the offence were recovered from the flat and the earrings24 and",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "page_start": 8,
+        "page_end": 10
+      },
+      "legal_references": [
+        "CrPC:366",
+        "IPC:302",
+        "IPC:5M",
+        "IPC:6",
+        "IPC:7",
+        "IPC:8"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 841
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_003",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Hereinafter, referred to as ‘Investigation Officer (PW-29)’. 6. The Investigating Officer (PW-29) claims that the charred body of the child victim was recovered on 8th February, 2017 in furtherance of the disclosure statement made by the appellant. The body was identified by Muneesekar (PW-14), the Administrative Officer of the school where the victim was studying. Based on the said recovery of the victim’s body, the missing persons’ case was converted to a crime report14 for the offences punishable under Sections 302, 201, 363, 366 and 354-B of the IPC and Section 8 read with Section 7 and Section 6 read with Section 5(m) of the POCSO Act. The disclosure statement of the appellant further led to the recovery of an Apache motorcycle and a Oppo mobile phone. The Investigation Officer (PW-29) prepared an observation mahazar15 and a rough site sketch16 of the place from where the body of the victim was recovered. The appellant also identified the blue-coloured travel bag17 in which undergarments18 worn by the victim and two cold drink bottles19 were placed. Forensic material was collected from the dead body of the victim and the crime scene. 7. Thereafter, the appellant allegedly took the police to his flat which was located on the second floor of the very same building in which the complainant (PW-1) also resided and pointed out the place where the victim had been subjected to sexual abuse and later, murdered. The Investigation Officer (PW-29) prepared the observation mahazar20 and site inspection plan21 of the said flat. The jeans pant22 and t-shirt23 allegedly worn by the appellant at the time of commission of the offence were recovered from the flat and the earrings24 and\n\nFirst Information Report (FIR) bearing Crime No. 285 of 2017.\n\nExhibit P-4.\n\nExhibit P-35.\n\nMaterial Object No. 6.\n\nMaterial Object No. 1.\n\nMaterial Object No. 11.\n\nExhibit P-6.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "page_start": 9,
+        "page_end": 10
+      },
+      "legal_references": [
+        "IPC:302",
+        "IPC:5M",
+        "IPC:6",
+        "IPC:7",
+        "IPC:8"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:first_information_report_fir"
+      ],
+      "cited_cases": [],
+      "token_count": 408
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_004",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Exhibit P-6.\n\nExhibit P-36.\n\nMaterial Object No. 12.\n\nMaterial Object No. 13.\n\nMaterial Object No. 2. anklets25 of the victim along with the ATM card26, PAN card27, and identity card28 of the appellant were also recovered from his purse29 during this sequence. Recovery of a helmet30 was also effected, based on the interrogation conducted from the appellant. 8. After the completion of the inquest proceedings, the child’s body was forwarded to the Kilpauk Medical College and Hospital, Chennai for post-mortem examination. The body of the victim was subjected to post-mortem by Dr. Karthika Devi (PW-16), medical officer, attached with the Kilpauk Medical College and Hospital, Chennai. The medical officer noticed that the body of the victim was charred and there were bruises over the lower lip. The lower incisor teeth were loosened with bruises around the surrounding area. The thigh bones collected from the dead body were forwarded for DNA analysis, and the skull was forwarded for superimposition so as to ascertain the identity of the victim. Since the body was completely charred, the medical officer expressed inability to give a definite opinion regarding the exact cause of her death. However, on queries raised by the Investigation Officer (PW-29), the medical officer gave an opinion that death by smothering could not be ruled out. The appellant was subjected to medical examination on 13th February, 2017. 9. The Investigating Officer (PW-29) examined Santosh Kumar (PW-18), who had purportedly sold petrol to the appellant which he carried in the two bottles31 recovered from the blue bag32. The witness provided information regarding the appellant making payment through a credit card and based on the said statement, the credit card slip pertaining to the purchase of petrol by the appellant was also seized. 10. Upon carrying out the scientific procedure of superimposition and DNA examination, it was concluded that the body was of none other than that of the victim, daughter of C.S.D. Babu (PW-1) and Sridevi (PW-2).\n\nMaterial Object No. 3.\n\nMaterial Object No. 16.\n\nMaterial Object No. 17.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 446
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_005",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Material Object No. 17.\n\nMaterial Object No. 18.\n\nMaterial Object No. 14.\n\nMaterial Object No. 19.\n\nSupra Note 19.\n\nSupra Note 17. 11. The Investigating Officer (PW-29) was transferred and thus further investigation of the case was assigned to R.D. Vivekanandan, 2nd Investigation Officer (PW-30)33 who completed the investigation and filed a chargesheet against the appellant for the offences punishable under Sections 363, 366, 354-B, 302 and 201 of the IPC and Section 8 read with Section 7 and Section 6 read with Section 5(m) of the POCSO Act in the trial court. 12. The trial Court framed charges against the appellant for the aforementioned offences, to which he pleaded not guilty and claimed trial. The prosecution examined 30 witnesses and exhibited 45 documents and 19 material objects in order to prove its case. 13. By resorting to the procedure under Section 313 CrPC, the appellant was questioned and confronted with the incriminating circumstances appearing against him in the case put up by the prosecution. He refuted these allegations and claimed to have been falsely implicated. A written statement was filed on behalf of the appellant under Section 315 CrPC. However, neither any oral evidence was led, nor any document was exhibited on his behalf in defence. The plea taken by the appellant in the written statement was that he returned from his office on 7th February, 2017 at about 5:00 a.m. On the same day, the police officials came to his house at about 7:30 a.m. and questioned him and his family members for about 30 minutes. Thereafter, between 11:00 a.m. and 12 noon, an inspector came to his house and took him to the police station where, he was kept confined and was forced to sign blank papers and was then remanded to judicial custody. 14. The trial Court upon appreciating the arguments advanced by the Public Prosecutor and the defence counsel and upon analysing the oral and documentary evidence available on record, found the appellant guilty for the charges framed under Sections 302, 201, 363, 366 and 354-B of the IPC and Section 8 read with Section 7 and Section 6 read with Section 5(m) of the POCSO Act and sentenced him as noted above, vide judgment of conviction and order of sentence dated 19th February, 2017. 15. Being aggrieved, the appellant preferred an appeal under Section 374(2) CrPC to the High Court challenging his conviction and",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "page_start": 11,
+        "page_end": 12
+      },
+      "legal_references": [
+        "CrPC:313",
+        "CrPC:315",
+        "CrPC:374(2)",
+        "IPC:302",
+        "IPC:363",
+        "IPC:5M",
+        "IPC:6",
+        "IPC:7",
+        "IPC:8"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 532
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_006",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Hereinafter, referred to as ‘Investigation Officer (PW-30)’. sentences awarded to him whereas, a reference was forwarded by the trial Court under Section 366 CrPC to the High Court, for confirmation of the death sentence awarded to the appellant. The appeal filed by the appellant was rejected and the reference was answered in the affirmative by the High Court vide common judgment dated 10th July, 2018 which is the subject matter of challenge in the present appeals by special leave. SUBMISSIONS ON BEHALF OF THE APPELLANT: - 16. Learned counsel for the appellant, vehemently and fervently contended that the entire case of the prosecution is false and fabricated. The prosecution story is full of improbabilities and loopholes. The evidence of the material prosecution witnesses is flimsy and does not inspire confidence. The conduct of the witnesses is highly suspicious which makes their testimony doubtful and unworthy of credence. The conduct of Murugan @ Venkata Murugan Guna (PW-3)34, the alleged witness of the last seen together circumstance, is highly unnatural inasmuch as, in spite of claiming to have seen the victim playing with the appellant on the second floor of the same building where the complainant (PW-1) used to reside, he never divulged the said fact either to the father of the victim or to the police officers, who had reached the area soon after the victim was reported missing. It is the admitted case of the prosecution that after the parents of the victim raised a hue and cry regarding their daughter having gone missing, an extensive search operation was launched. The appellant also participated in the search efforts, and he remained with the search party till 4:00 a.m. in the morning of 6th February, 2017. It was, thus, submitted that the evidence of Murugan (PW-3), the sole witness of the last seen together circumstance cannot be relied upon. 17. Learned counsel for the appellant contended that Murugan (PW-3), the self-proclaimed witness of last seen together circumstance claimed that he had seen the victim playing with the appellant on the second floor of the building. Had there been an iota of truth in this version then in the natural course of events, he would have immediately disclosed this fact to the parents of the victim, and an immediate attempt would have been made to search the second",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          33
+        ],
+        "page_start": 12,
+        "page_end": 13
+      },
+      "legal_references": [
+        "CrPC:366"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 513
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_007",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Hereinafter, referred to as ‘Murugan (PW-3)’. floor of the building including the flat of the appellant. However, no such effort was made by the search party or the police officers which completely discredits the theory put forth by Murugan (PW-3) that he had seen the victim in the company of the appellant soon before her disappearance. 18. It was further submitted that the recoveries allegedly made at the instance of the appellant were planted and fabricated and hence, unbelievable. The appellant was apprehended by police officials on 7th February, 2017, and was kept in illegal custody at the police station, where he was forced to sign several blank papers and that, the recoveries were planted to provide padding to the false prosecution narrative. 19. Learned counsel referred to the examination-in-chief of the complainant (PW-1) to urge that the victim was seen playing with her friends, by her mother at 6:00 p.m. on 5th February, 2017. Immediately thereafter, both the parents left to buy vegetables. They returned home inside of an hour but did not see their child around, on which the search efforts were commenced. Thus, there was only a gap of one hour in which the entire incident is stated to have taken place. 20. Learned counsel submitted that since the search was commenced within an hour of the victim having gone missing, there was practically neither enough time nor any possibility for the appellant to subject the child victim to rape and to have disposed of the dead body of the victim in the time and manner as alleged by the prosecution. He pointed out that the prosecution has surmised that the appellant after committing the ghastly crime, concealed the victim’s body in a bag; carried it down two flights of stairs; took it to the petrol pump on his motorcycle; purchased petrol and then carried the body to a remote location before setting it ablaze. He submitted that this sequence of events put forth by the prosecution is totally unbelievable and could not have been completed in the small window of about an hour. It was emphasised with reference to the evidence of the complainant (PW-1) and Sridevi (PW-2) that right from the inception, the appellant was participating in the search and remained with the search party till 4:00 a.m. in the morning of 6th February, 2017. 21. Attention of the Court was drawn to the version of the complainant (PW-1), i.e., the father of the victim wherein he alleged that previously, the victim had made a complaint to her mother that the appellant indulged in pinching her cheeks and also used to kiss her. It was contended that looking at the said previous conduct, it is impossible to believe that the suspicion of the parents would not have shifted on to the appellant once the information regarding the victim having gone missing was received. 22. Learned counsel further contended that looking at this past history as referred to supra and the fact that Murugan (PW-3), being the member of the search party, claimed to have seen the child victim playing with the appellant on the second floor of the same building, the immediate and natural reaction of the witnesses would have been to make a search on the second floor as well as inside the flat of the appellant.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          34
+        ],
+        "parent_paragraph": 34,
+        "sub_part": "34-A",
+        "page_start": 13,
+        "page_end": 17
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+        "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+        "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190"
+      ],
+      "token_count": 735
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_008",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Learned counsel contended that a theory tried to be built up by the prosecution witnesses claiming that the flat of the appellant was found locked and hence, it could not be searched, does not hold water when it is seen that the material prosecution witnesses, namely, the complainant (PW-1) and Sridevi (PW-2) themselves admitted that the appellant was also assisting them in the search till 4:00 a.m. in the morning of 6th February, 2017. 23. He further submitted that if at all, Murugan (PW-3) had actually seen the child playing with the appellant on the second floor and soon thereafter, a hue and cry was raised regarding the child having gone missing, then the said witnesses would have immediately divulged the said information to the complainant (PW-1) being the father of the child victim. In this scenario, the police personnel who arrived at the spot would also have been, instantaneously sounded about the gravely suspicious circumstance thereby putting everyone at guard regarding the conduct of the appellant and the finger of suspicion would have turned towards him at the first instance. Had there been an iota of truth in these allegations, the family members and the police officials would never have permitted the appellant to participate in the search efforts and further they would have immediately proceeded to search the second floor of the building and particularly, the flat of the appellant. If such an exercise had taken place, the same would have immediately exposed the circumstances prevailing at the alleged crime scene and would have provided an important lead for further investigation. It was also submitted that the entire set of incriminating circumstances and recovered articles have been subsequently planted by the police officials for oblique motives. 24. Learned counsel further urged that the prosecution case regarding the appellant having purchased petrol in the bottles is false and unsubstantiated. The recovery of the blue bag with the undergarment of the victim is clearly planted because when the initial observation mahazar (Exhibit P-4) was prepared by the police officers pursuant to the alleged disclosure statement of the appellant, the presence of the said bag was not mentioned in the memorandum. It was further submitted that the Investigating Officer (PW-29) did not prove the disclosure statements of the appellant as per law and hence the recoveries pale into insignificance. 25. It was also contended that the body of the victim had already been discovered much prior to the disclosure statement of the appellant being recorded which fact is evident from the testimony of the complainant (PW-1), i.e., the father of the victim. Thus, the discovery of the body cannot be treated as having been made in pursuance of the disclosure statement of the appellant. 26. It was also submitted that not only is the recovery of the ornaments suspicious but, in addition thereto, there is a grave doubt in the manner in which the identification proceedings of these articles were held. 27. Learned senior counsel vehemently urged that there has been a failure of a fair trial in this case inasmuch as the appellant was hardly given any opportunity to defend himself in the case. The charge was framed against the appellant on 24th October, 2017 and the calendar for the summoning of the witnesses was finalised on 20th November, 2017. However, compliance with the mandatory requirement of Section 207 CrPC, i.e., providing copies of the relied upon documents to the accused, was ensured only on 13th December, 2017 and just four days thereafter, the prosecution evidence was commenced.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          34
+        ],
+        "parent_paragraph": 34,
+        "sub_part": "34-B",
+        "page_start": 13,
+        "page_end": 17
+      },
+      "legal_references": [
+        "CrPC:207"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+        "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+        "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190"
+      ],
+      "token_count": 782
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_009",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Thus, as per the learned counsel, the entire procedure adopted by the trial Court right from the framing of charges to recording of evidence of the prosecution witnesses is hasty and vitiated and tantamounts to denial of fair trial inasmuch as the trial Court proceeded to frame charges against the appellant without providing the relied upon documents to him as mandated by law and thus, the subsequent proceedings would be automatically vitiated. 28. He further contended that the appellant was unrepresented in the trial proceedings and requested for the services of a legal aid counsel. It was, for the first time, on 13th December, 2017, the trial Court appointed a legal aid counsel to represent the appellant in the trial proceedings. The documents under Section 207 CrPC were supplied on the same day and without giving any time for preparation to the legal aid counsel; the evidence of the prosecution was commenced from 18th December, 2017, i.e., within 4 days of the legal aid counsel being appointed, and evidence of as many as 30 witnesses was completed within one month and sixteen days. He further submitted that the judgment of conviction was pronounced on 19th February, 2018 and on the very same day, the trial Court proceeded to pass the sentence of death penalty against the appellant, which is in gross contravention to the tenets of fair trial and the sentencing principles as consistently laid down by this Court. To fortify these assertions, learned counsel placed reliance on the judgments of this Court in the cases of Bachan Singh v. State of Punjab35, Santa Singh v. State of Punjab36, Allauddin Mian and Ors. v. State of Bihar37, Malkiat Singh v. State of Punjab38, and Dattaraya v. State of Maharashtra39. 29. On these grounds, learned counsel for the appellant implored the Court to accept the appeals, set aside the conviction of the appellant, and acquit him of the charges levelled against him. 30. Without prejudice to the above, learned counsel representing the appellant urged that the incident took place way back in the year 2017, and the appellant has already been incarcerated in prison for almost 8 years. Neither the trial Court nor the High Court undertook the mandatory exercise of procuring the report in respect of aggravating and mitigating circumstances; no effort was made to get conducted the psychological evaluation of the appellant; and to get a report about the conduct of the appellant in jail before passing the order of sentence. The entire sentencing exercise was completed by the trial Court on the very same day on which the judgment of conviction was pronounced. Hence, the capital punishment awarded to the appellant is totally vitiated since the sentencing exercise was a mere formality and no proper opportunity was provided to the appellant",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          34
+        ],
+        "parent_paragraph": 34,
+        "sub_part": "34-C",
+        "page_start": 13,
+        "page_end": 17
+      },
+      "legal_references": [
+        "CrPC:207"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Allauddin Mian and Ors. v. State of Bihar [1989] 2 SCR 498 : (1989) 3 SCC 5",
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+        "Malkiat Singh v. State of Punjab [1991] 2 SCR 256 : (1991) 4 SCC 341",
+        "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190"
+      ],
+      "token_count": 615
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_010",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "1983 (1) SCR 145.\n\n(1976) 4 SCC 190.\n\n(1989) 3 SCC 5.\n\n(1991) 4 SCC 341.\n\n(2020) 14 SCC 290. in the said process. He, thus, submitted that in case, the conviction of the appellant is upheld, he deserves leniency on the aspect of the sentence. SUBMISSIONS ON BEHALF OF THE RESPONDENT-STATE: - 31. Per contra, learned senior counsel representing the State, vehemently and fervently opposed the submissions advanced by the appellant’s counsel. He urged that Murugan (PW-3) had no reason to falsely implicate the appellant. His statement to the effect that the victim was playing with the appellant on the second floor of the building is absolutely truthful and constitutes unimpeachable evidence in support of the circumstance of last seen together which has been established against the appellant beyond all manner of doubt. Immediately thereafter, the child victim went missing. Hence, the onus would shift onto the accused to explain the circumstances under which the child victim was found murdered and her body burnt. 32. He further submitted that the burnt dead body of the victim was recovered in furtherance of the disclosure statement of the appellant for which he has offered no explanation whatsoever. The jewellery articles worn by the victim on the day of the incident were also recovered from the house of the appellant which also gives rise to a presumption under Section 114 of the Indian Evidence Act, 1872. The appellant failed to offer any explanation whatsoever for these damning incriminating recoveries, and thus, the trial Court and the High Court were absolutely justified in drawing the presumption of guilt against the appellant. On these grounds, learned senior counsel for the respondent-State sought dismissal of the appeals. DISCUSSION AND ANALYSIS: - 33. We have given our thoughtful consideration to the submissions advanced at bar and have gone through the impugned judgments and the material placed on record. 34. First and foremost, we will address the submission advanced by learned counsel for the appellant that there has been a total failure of justice inasmuch as the trial was not conducted in a fair manner and no proper opportunity was provided to the appellant to defend himself. The following chronological list of dates is essential to appreciate the above issue raised by the counsel: - Date Event 17.08.2017 Chargesheet filed by the police. 24.10.2017 Charges were framed against the appellant, who was not represented by a defence counsel and was not provided services of a legal aid defence counsel. 20.11.2017 A calendar was fixed for the trial of the appellant. Schedule for examination of witnesses by the prosecution was fixed and 34 witnesses were sought to be examined in 4 days, commencing from 18th December, 2017. 13.12.2017 Compliance with the mandatory provision of Section 207 CrPC was made. On the same day, for the first time, a legal aid counsel was appointed to represent the appellant, on his request. 18.12.2017 Prosecution evidence was commenced. 30.01.2018 Prosecution evidence completed. 19.02.2018 Judgment of conviction was passed by the trial Court and on the same day, the appellant was awarded death penalty. 35. A bare perusal of the above sequence of events and proceedings makes it clear that right from the stage of framing of the charges, the trial was conducted in a lopsided manner and without due deference to the principles of fair trial. The appellant herein was not represented by a defence counsel, and the services of a free legal aid counsel were provided to him on 13th December, 2017, only after the charges were framed. The documents relied upon by the prosecution were not provided to the appellant and without complying with the mandate of Section 207 CrPC (Section 230 BNSS40), the charges were framed against the appellant on 24th October, 2017, who was unrepresented on that date. The schedule for examination of 30 prosecution witnesses was fixed for four days starting from 18th December, 2017 without providing the services of a legal aid counsel to the appellant who was left to face the charges of such grave nature unrepresented by",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "page_start": 17,
+        "page_end": 19
+      },
+      "legal_references": [
+        "CrPC:207",
+        "CrPC:230",
+        "EvidenceAct:114"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 896
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_011",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Bharatiya Nagarik Suraksha Sanhita, 2023. a counsel of his choice or a legal aid counsel in gross disregard to the mandate of Articles 21 and 22(1) of the Constitution of India and the guidelines issued by NALSA41. As noted above, copies of the documents relied upon by the prosecution and the services of the legal aid counsel were, for the first time, provided to the appellant only on 13th December, 2017 and the evidence commenced within a period of four days therefrom. Recording of prosecution evidence was concluded within a period of one and a half months. In this background, we are of the firm view that the legal aid counsel appointed to defend the appellant could, by no stretch of imagination, have had a reasonable and effective opportunity to prepare the matter and conduct the cross-examination from the witnesses. 36. The constitutional right afforded to an accused charged with an offence to defend himself is not illusory or imaginary. For the trial to be fair and reasonable, an effective opportunity to defend must be provided to the accused and representation by a counsel of choice is an important component of this guarantee. In a case where accused is facing charges for offences which carry capital punishment, this constitutional mandate becomes even more sacrosanct, and it is the duty of the Court as well as the State to ensure that the accused is not prejudiced or deprived of a fair opportunity of defending himself in a case where he may be awarded death penalty. 37. Such opportunity would unquestionably require: - (a) Providing copies of all relied upon documents to the accused immediately on submission of report under Section 173(2) CrPC (Section 193 BNSS)/committal of case under Section 209 CrPC (Section 232 BNSS). (b) Ensuring that the accused is represented by a lawyer of his own choice and in case, he/she is not in a position to engage a private counsel then, a legal aid defence counsel having requisite experience must be appointed to represent him at the trial. As has been laid down by this Court in Anokhilal v. State of Madhya Pradesh42, in capital punishment offences, a legal aid defense counsel so appointed should preferably have an experience of 10 years at the bar.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          40
+        ],
+        "page_start": 19,
+        "page_end": 20
+      },
+      "legal_references": [
+        "BNSS:173(2)",
+        "BNSS:193",
+        "BNSS:209",
+        "BNSS:232",
+        "CrPC:173(2)",
+        "CrPC:193",
+        "CrPC:209",
+        "CrPC:232"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Anokhilal v. State of Madhya Pradesh [2019] 18 SCR 1196 : 2019 SCC OnLine SC 1637"
+      ],
+      "token_count": 500
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_012",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Bharatiya Nagarik Suraksha Sanhita, 2023. a counsel of his choice or a legal aid counsel in gross disregard to the mandate of Articles 21 and 22(1) of the Constitution of India and the guidelines issued by NALSA41. As noted above, copies of the documents relied upon by the prosecution and the services of the legal aid counsel were, for the first time, provided to the appellant only on 13th December, 2017 and the evidence commenced within a period of four days therefrom. Recording of prosecution evidence was concluded within a period of one and a half months. In this background, we are of the firm view that the legal aid counsel appointed to defend the appellant could, by no stretch of imagination, have had a reasonable and effective opportunity to prepare the matter and conduct the cross-examination from the witnesses. 36. The constitutional right afforded to an accused charged with an offence to defend himself is not illusory or imaginary. For the trial to be fair and reasonable, an effective opportunity to defend must be provided to the accused and representation by a counsel of choice is an important component of this guarantee. In a case where accused is facing charges for offences which carry capital punishment, this constitutional mandate becomes even more sacrosanct, and it is the duty of the Court as well as the State to ensure that the accused is not prejudiced or deprived of a fair opportunity of defending himself in a case where he may be awarded death penalty. 37. Such opportunity would unquestionably require: - (a) Providing copies of all relied upon documents to the accused immediately on submission of report under Section 173(2) CrPC (Section 193 BNSS)/committal of case under Section 209 CrPC (Section 232 BNSS). (b) Ensuring that the accused is represented by a lawyer of his own choice and in case, he/she is not in a position to engage a private counsel then, a legal aid defence counsel having requisite experience must be appointed to represent him at the trial. As has been laid down by this Court in Anokhilal v. State of Madhya Pradesh42, in capital punishment offences, a legal aid defense counsel so appointed should preferably have an experience of 10 years at the bar.\n\nNational Legal Services Authority.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          40,
+          41
+        ],
+        "page_start": 19,
+        "page_end": 20
+      },
+      "legal_references": [
+        "BNSS:173(2)",
+        "BNSS:193",
+        "BNSS:209",
+        "BNSS:232",
+        "CrPC:173(2)",
+        "CrPC:193",
+        "CrPC:209",
+        "CrPC:232"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Anokhilal v. State of Madhya Pradesh [2019] 18 SCR 1196 : 2019 SCC OnLine SC 1637"
+      ],
+      "token_count": 505
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_013",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "National Legal Services Authority.\n\n2019 SCC OnLine SC 1637. (c) The legal aid counsel so appointed should be given sufficient opportunity to go through the record and prepare the matter for carrying out effective cross-examination from the witnesses. (d) The Court should not act as a mute spectator during recording of evidence, as provided under Section 165 of the Indian Evidence Act, 1872 (Section 168 of the Bhartiya Sakshya Adhiniyam, 2023). The Court must remain vigilant, and in case any important question necessary to arrive at a just decision of the case is omitted to be put to the witnesses either by the defence counsel or the public prosecutor, the Court must not let such lacuna creep into the proceedings, and it must be ensured that Court put questions to the witnesses for ensuring fairness in the proceedings. 38. However, the chronological list of events reproduced (paragraph 34 supra) makes it clear that these mandatory requirements were totally bypassed/violated by the trial Court while conducting the proceedings. Hence, prejudice and denial of opportunity of effective defence to the accused are writ large on the face of the record. 39. The conviction of the appellant was recorded on 19th February, 2018, and on the very same day, the learned trial Judge proceeded to undertake a pretentious exercise of hearing the appellant on the aspect of sentence and awarded the death penalty to him. Evidently, the manner in which the trial Court proceeded to pass the sentencing order indicates hot haste leaving much to be desired and would vitiate the death sentence awarded to the appellant. Neither the trial Court nor the High Court undertook the mandatory exercise of seeking a report of mitigating and aggravating circumstances; the psychological examination report of the appellant and a report concerning the conduct of the appellant in jail, before passing the order of sentence and confirming the same. Thus, the sentencing procedure is in direct conflict with the judgments of this Court in Bachan Singh v. State of Punjab43, Santa Singh v. State of Punjab44, Allauddin Mian\n\nSupra Note 35.\n\nSupra Note 36. and Dattaraya v. State of Maharashtra47. 40. In view of the facts and circumstances indicated above, we would have been persuaded to set aside the impugned judgment and could have remanded the matter to the trial Court for fresh adjudication. However, considering the fact that almost eight years have elapsed since the incident took place, and considering the fact that the appellant has already suffered protracted proceedings of trial and appeal, while being incarcerated in custody, we deem it fit to examine the case on merits. 41. At the outset, it may be noted that the case of the prosecution is based purely on circumstantial evidence, in the form of: - i. last seen together theory; ii. suspicious movement of the appellant captured in the video footage of the CCTV camera installed at a nearby temple; iii. confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/recoveries of: - (a) body of the victim; (b) the undergarments of the victim; (c) the bottles in which the appellant procured petrol for burning the body of the victim; (d) ornaments of the victim. iv. Forensic Science Laboratory48 reports establishing the DNA profiling comparison. 42. It is trite law that in a case based purely on circumstantial evidence, the onus is upon the prosecution to prove the chain of unbroken circumstances beyond all manner of doubt. The chain of incriminating circumstances must be complete, conclusive and should exclude every hypothesis other than the guilt of the accused. In other words, it must be proved from the chain of incriminating circumstances that",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "page_start": 20,
+        "page_end": 22
+      },
+      "legal_references": [
+        "EvidenceAct:165",
+        "EvidenceAct:168"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290",
+        "Santa Singh v. State of Punjab [1977] 1 SCR 229 : (1976) 4 SCC 190"
+      ],
+      "token_count": 807
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_014",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Supra Note 36. and Dattaraya v. State of Maharashtra47. 40. In view of the facts and circumstances indicated above, we would have been persuaded to set aside the impugned judgment and could have remanded the matter to the trial Court for fresh adjudication. However, considering the fact that almost eight years have elapsed since the incident took place, and considering the fact that the appellant has already suffered protracted proceedings of trial and appeal, while being incarcerated in custody, we deem it fit to examine the case on merits. 41. At the outset, it may be noted that the case of the prosecution is based purely on circumstantial evidence, in the form of: - i. last seen together theory; ii. suspicious movement of the appellant captured in the video footage of the CCTV camera installed at a nearby temple; iii. confessional/disclosure statement/s made by the appellant leading to the incriminating discoveries/recoveries of: - (a) body of the victim; (b) the undergarments of the victim; (c) the bottles in which the appellant procured petrol for burning the body of the victim; (d) ornaments of the victim. iv. Forensic Science Laboratory48 reports establishing the DNA profiling comparison. 42. It is trite law that in a case based purely on circumstantial evidence, the onus is upon the prosecution to prove the chain of unbroken circumstances beyond all manner of doubt. The chain of incriminating circumstances must be complete, conclusive and should exclude every hypothesis other than the guilt of the accused. In other words, it must be proved from the chain of incriminating circumstances that\n\nSupra Note 37.\n\nSupra Note 38.\n\nSupra Note 39.\n\nFor short, “FSL”. no reasonable doubt can be entertained about the accused person’s innocence, demonstrating that it was the accused and none other who committed the offence. The golden principles in respect of appreciation of evidence in a case based purely on circumstantial evidence have been encapsulated in Sharad Birdhichand Sharda v. State of Maharashtra49, wherein it was held that: “153. A close analysis of this decision would show that the following conditions must be fulfilled before a case against an accused can be said to be fully established: (1) the circumstances from which the conclusion of guilt is to be drawn should be fully established. It may be noted here that this Court indicated that the circumstances concerned “must or should” and not “may be” established. There is not only a grammatical but a legal distinction between “may be proved” and “must be or should be proved” as was held by this Court in Shivaji Sahabrao Bobade v. State of Maharashtra [(1973) 2 SCC 793 : 1973 SCC (Cri) 1033 : 1973 Crl LJ 1783] where the observations were made: [SCC para 19, p. 807: SCC (Cri) p. 1047] “Certainly, it is a primary principle that the accused must be and not merely may be guilty before a court can convict and the mental distance between ‘may be’ and ‘must be’ is long and divides vague conjectures from sure conclusions.” (2) the facts so established should be consistent only with the hypothesis of the guilt of the accused, that is to say, they should not be explainable on any other hypothesis except that the accused is guilty, (3) the circumstances should be of a conclusive nature and tendency, (4) they should exclude every possible hypothesis except the one to be proved, and",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          44,
+          45,
+          46,
+          47,
+          48
+        ],
+        "page_start": 21,
+        "page_end": 23
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [
+        "Dattaraya v. State of Maharashtra [2019] 11 SCR 295 : (2020) 14 SCC 290"
+      ],
+      "token_count": 750
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_015",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "For short, “FSL”. no reasonable doubt can be entertained about the accused person’s innocence, demonstrating that it was the accused and none other who committed the offence. The golden principles in respect of appreciation of evidence in a case based purely on circumstantial evidence have been encapsulated in Sharad Birdhichand Sharda v. State of Maharashtra49, wherein it was held that: “153. A close analysis of this decision would show that the following conditions must be fulfilled before a case against an accused can be said to be fully established: (1) the circumstances from which the conclusion of guilt is to be drawn should be fully established. It may be noted here that this Court indicated that the circumstances concerned “must or should” and not “may be” established. There is not only a grammatical but a legal distinction between “may be proved” and “must be or should be proved” as was held by this Court in Shivaji Sahabrao Bobade v. State of Maharashtra [(1973) 2 SCC 793 : 1973 SCC (Cri) 1033 : 1973 Crl LJ 1783] where the observations were made: [SCC para 19, p. 807: SCC (Cri) p. 1047] “Certainly, it is a primary principle that the accused must be and not merely may be guilty before a court can convict and the mental distance between ‘may be’ and ‘must be’ is long and divides vague conjectures from sure conclusions.” (2) the facts so established should be consistent only with the hypothesis of the guilt of the accused, that is to say, they should not be explainable on any other hypothesis except that the accused is guilty, (3) the circumstances should be of a conclusive nature and tendency, (4) they should exclude every possible hypothesis except the one to be proved, and\n\n(1984) 4 SCC 116 (5) there must be a chain of evidence so complete as not to leave any reasonable ground for the conclusion consistent with the innocence of the accused and must show that in all human probability the act must have been done by the accused.” (Emphasis supplied) 43. Keeping in view the above principles, we shall now proceed to discuss and evaluate the evidence of the prosecution. 44. The first and most critical circumstance on which the prosecution placed reliance was that of last seen together. The witness who gave evidence in support of this circumstance was Murugan (PW-3), who claimed that on the fateful day, he saw the appellant and the victim playing on the second floor of the building, on the first floor whereof, the complainant (PW-1) being the father of the victim resided with his family. The witness (PW-3) claimed to have seen the victim, the appellant, and the appellant’s dog playing on the second floor between 6:00 p.m. and 6:15 p.m. It may be noted that the frantic process for searching the victim started between 7:15 p.m. to 7:30 p.m., soon after the complainant (PW-1) and Sridevi (PW-2), i.e., the parents of the victim, had returned to their house and found the child missing. 45. Murugan (PW-3) claims to have informed the complainant (PW-1) that his daughter was not in the house and might be playing upstairs and advised him to go and look for her on the upper floor of the building. Had there been an iota of truth in the version of Murugan (PW-3), he would definitely have told the complainant (PW-1) that he had seen the victim in the company of the appellant between 6:00 p.m. to 6:15 p.m. on the second floor of the building. The glaring omission on the part of Murugan (PW-3) in failing to share this vital information is also manifest from the complaint50 filed by the complainant (PW-1) to S. Aanandha Kumar (PW-27), Sub-Inspector posted at Mangadu Police Station, on 5th February, 2017 at 10:00 p.m. In this complaint, there is no reference whatsoever that anyone including the alleged witness of the last seen together circumstance namely Murugan (PW-3), had seen the child victim on the second floor in the company of the appellant. If at all, any such event had taken place and the appellant",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          48,
+          49
+        ],
+        "page_start": 22,
+        "page_end": 24
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 909
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_016",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "Supra note 11. had been seen playing with the victim and immediately thereafter, she had gone missing, then the complainant (PW-1) would definitely have been apprised of the said fact by Murugan (PW-3), his closely known person, and consequently, this vital incriminating fact would definitely have been mentioned in the complaint. 46. Apparently, thus, the theory put forth in the evidence of Murugan (PW-3) that he had seen the victim in the company of the appellant on 5th February, 2017, i.e., the date of the incident, is nothing but a sheer concoction, bereft of credibility. In addition, thereto, we find from the statement of Murugan (PW-3) that the said witness, for the first time, divulged the information comprising the circumstance of last seen together to the 2nd Investigating Officer (PW-30) only on 24th April, 2017, i.e., more than two months and 20 days after the incident. We are, therefore, convinced that the circumstance of last seen together has been created by the Investigating Officer (PW-30) through the witness Murugan (PW-3) in order to lend credence to the otherwise weak case of the prosecution. 47. The next piece of circumstantial evidence on which the prosecution relied upon was in the form of the video footage of the CCTV camera installed at a nearby temple and presumably maintained by Duraivelu (PW-6), In-charge of Karpaga Vinayagar Temple, which allegedly captured the suspicious movements of the appellant on the fateful day. First and foremost, it must be noted that the Investigating Agency did not care to procure the recording of the said camera and exhibit the same in evidence. Hence, the primary evidence of the so-called CCTV footage is not available on record. In addition thereto, we find that the theory of incriminating CCTV footage also seems to be a fictional creation by the Investigating Officers to somehow trap the appellant for the crime. 48. The complainant (PW-1) testified that the process of the search was not bearing fruits and on 7th February, 2017, Mangadu police informed him that they had scrutinized the CCTV footage and noticed the suspicious movements of the appellant, who was allegedly absconding. A neighbour of the complainant (PW-1) allegedly told him that the appellant was seen carrying a travel bag on a motorbike. The complainant (PW-1) further stated that in the morning of 8th February, 2017, the police told him the gory details of the incident stating that the appellant took the victim to his house, sexually abused her, and thereafter, murdered her. In order to screen the evidence, the dead body of the victim was concealed and packed in a travel bag which was kept amongst bushes at Anakaputhur bypass road and was later incinerated. 49. The oral evidence regarding the CCTV footage was given by Duraivelu (PW-6) being the In-charge of the nearby temple. When we peruse the evidence of this witness and compare the same with the deposition of the complainant (PW-1), we find material contradictions in both the versions. The complainant (PW-1) categorically stated that the police informed him on 7th February, 2017 that they had seen the footage of the CCTV camera installed at the temple wherein suspicious movements of the appellant were captured. To the contrary, Duraivelu (PW-6) stated that the complainant (PW-1) had come to the temple on 6th February, 2017 and both of them had watched the CCTV camera footage of 5th February, 2017 between 6:00 p.m. and 7:15 p.m. As per the witness, the said camera recording revealed that a person riding on a motorbike was seen passing by the temple having placed a bag on the front of his bike.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          50
+        ],
+        "parent_paragraph": 50,
+        "sub_part": "50-A",
+        "page_start": 24,
+        "page_end": 27
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 799
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_017",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "The witness (PW-6) elaborated that the face of the person was not clearly identifiable in the recording and various other persons were also seen travelling by bikes with bags hanging from their vehicles. 50. The timing of the recording which has been stated by the witness creates a serious doubt on the prosecution case. It is difficult if not impossible to believe that within this short window of 6:00 p.m. to 7:15 p.m., the entire chain of events could be completed. To recapitulate, we may note that the victim’s parents left for the market at about 6:00 p.m.; at that time child victim was playing with her friends; Murugan (PW-3) went to the terrace between 6:00 p.m. to 6:15 p.m. and saw the appellant playing with the child victim. Thus, evidently, as per the prosecution case, within a short duration of one hour, the appellant took the child victim to his apartment; ravished and then murdered her; packed her dead body in a bag; brought it down two flights of stairs and carried the same away on the motorcycle (which movement was allegedly captured by the CCTV camera). It is unlikely that this gory sequence could have been wrapped up within the small window of one hour. The CCTV camera purportedly captured an important event, i.e., the moment when the appellant was allegedly seen taking away the bag in which the dead body of the child victim was stuffed and hence, the same could have provided a vital clue for solving the mystery behind the crime. Failure to collect the data from the Digital Video Recorder (DVR) of the CCTV camera, creates a grave doubt on the bonafides of the Investigation Agency. It seems that the Investigation Officers were intentionally trying to screen the truth from being brought on record and washed their hands off the matter, by making the appellant, a scapegoat.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          50
+        ],
+        "parent_paragraph": 50,
+        "sub_part": "50-B",
+        "page_start": 24,
+        "page_end": 27
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 416
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_018",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "However, in the absence of the CCTV footage being collected and exhibited as per law, no credence can be given to the evidence of Duraivelu (PW-6), more so, when there is grave discrepancy between his version and the version of the complainant (PW-1). In stark contradiction to the version of the complainant (PW-1) and Duraivelu (PW-6), the Investigating Officer (PW-29) did not utter a single word that he or any other police official had seen the said CCTV footage or that any suspicious movement of a person taking a big bag on a motorbike had been noticed by anyone inquired during investigation. Hence, reliance placed by the prosecution on the so-called CCTV footage is nothing but a figment of imagination and cannot be accepted. Rather, this Court is compelled to draw an adverse inference against the prosecution for withholding a vital piece of evidence, i.e., the CCTV footage.\n\nThe third circumstance on which the prosecution relied upon to bring home the guilt of the appellant was in form of the confessional/ disclosure statement/s made by the appellant leading to the incriminating discoveries/recoveries. In this regard, the relevant excerpts from the deposition of the complainant (PW-1), need to be referred which read thus: - “On 7.2.2017 the Mangadu Police informed me that they watched the CCTV and found the suspicious movement of one Mr. Dashwanth and he was absconding. My neighbour informed me that the said Dashwanth was carrying a Travel Bag in his bike. On 8.2.2017 morning the police informed me that the said Dashwanth took my daughter to his house and sexually abused her and murdered her. In order to screen the evidence he taken away my daughter in the travel bag and kept her in a bush at Anakaputhur Bypass road and burn the body. On 9.2.2017 at about 5.30 a.m. police called me to the police station and I went there. Where they shown me my daughter’s anklet, earrings and dresses and I confirmed that all the items shown to me are belongs to my daughter Hasini.”\n\nThe aforesaid statement made by the complainant (PW-1) completely demolishes the entire substratum of the prosecution case and creates grave doubt on the bonafides of the Investigation Officer’s (PW-29) actions, in recording the disclosure statement/s of the appellant and effecting recoveries in pursuance thereof. For arriving at the above conclusion, we shall analyse the evidence of the complainant (PW-1): - i. That on 7th February, 2017, Mangadu Police informed him that they had watched the CCTV footage and found the suspicious movement of Dashwanth (appellant herein); Observation by Court: - No such statement made by any police officer. ii. That his neighbour informed that the said Dashwanth (appellant herein) was carrying a travel bag on his bike; Observation by Court: - No such witness stepped forward to give this information to the 1st Investigation Officer (PW-29). iii. That in the morning of 8th February, 2017 the police informed him that Dashwanth (appellant herein) took his daughter (victim herein) to his house, sexually abused her, and murdered her. In order to screen the evidence, the dead body was taken in a travel bag which was kept in a bush at Anakaputhur bypass road and was later set on fire. Observation by Court: - The Investigation Officer (PW-29) had already created a story which seems to have been transposed into the confessional statement of the appellant. iv. That on 9th February, 2017 at 5:30 a.m., the police called him to the police station and showed him his daughter’s anklets, earrings, and dress. He confirmed that all these items belonged to his daughter (victim herein). Observation by Court: - No Test Identification Parade was conducted to get these articles identified.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          51,
+          52,
+          53
+        ],
+        "page_start": 27,
+        "page_end": 28
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 820
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_019",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "The aforesaid statement made by the complainant (PW-1) completely demolishes the entire substratum of the prosecution case and creates grave doubt on the bonafides of the Investigation Officer’s (PW-29) actions, in recording the disclosure statement/s of the appellant and effecting recoveries in pursuance thereof. For arriving at the above conclusion, we shall analyse the evidence of the complainant (PW-1): - i. That on 7th February, 2017, Mangadu Police informed him that they had watched the CCTV footage and found the suspicious movement of Dashwanth (appellant herein); Observation by Court: - No such statement made by any police officer. ii. That his neighbour informed that the said Dashwanth (appellant herein) was carrying a travel bag on his bike; Observation by Court: - No such witness stepped forward to give this information to the 1st Investigation Officer (PW-29). iii. That in the morning of 8th February, 2017 the police informed him that Dashwanth (appellant herein) took his daughter (victim herein) to his house, sexually abused her, and murdered her. In order to screen the evidence, the dead body was taken in a travel bag which was kept in a bush at Anakaputhur bypass road and was later set on fire. Observation by Court: - The Investigation Officer (PW-29) had already created a story which seems to have been transposed into the confessional statement of the appellant. iv. That on 9th February, 2017 at 5:30 a.m., the police called him to the police station and showed him his daughter’s anklets, earrings, and dress. He confirmed that all these items belonged to his daughter (victim herein). Observation by Court: - No Test Identification Parade was conducted to get these articles identified.\n\nThis entire sequence of events as narrated by the complainant (PW-1) brings the case of the prosecution under grave doubt. It is the pertinent case of the appellant in his defence that he was regularly attending his office and that the police picked him up on 7th February, 2017 at about 11:00 a.m. to 12 noon. The Investigation Officer (PW-29) feigned ignorance regarding the presence of the appellant at his workplace which creates a doubt about the story of prosecution that the accused was absconding and was nabbed on 8th February, 2017. The appellant was shown to be arrested on 8th February, 2017 at 9:00 a.m. However, going by the version of the complainant (PW-1), by that time, the police had already informed him about the minute details of the manner in which the crime was committed, the efforts made by the appellant to destroy the evidence, and the location where the body of the victim was disposed of. The Investigation Officer (PW-29) showed that the appellant was arrested on 8th February, 2017 at 9:00 a.m. and thereafter, the confessional statement/disclosure statement (Exhibit P-8) of the appellant was purportedly recorded at AGS Park, Mugalivakkam from 9:05 a.m. to 10:00 a.m. Hence, there was no possibility whatsoever that the Investigating Officer (PW-29) could have known all these facts so as to apprise complainant (PW-1) in the morning of 8th February, 2017 unless such facts were already in the knowledge of the said police officer, which is a more possible theory. This is consistent with the plea of the appellant who stated that the police picked him up from his house in the early hours of 7th February, 2017 itself. Thus, it is apparent that the police had already created the entire story and later on, tried to fit the same into a sequence by postponing the formal arrest of the appellant in order to implicate him in this case. The fact that the police officers had told the complainant regarding the location where the body of the victim had been disposed of, in the morning of 8th February, 2017, is itself sufficient to discard the theory of the prosecution that all the incriminating discoveries were made in pursuance of the disclosure statement made by the appellant. Thus, the claim made by the prosecution that the dead body of the victim was recovered in furtherance of the disclosure statement made by the appellant is belied by cogent material available on record.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          53,
+          54
+        ],
+        "page_start": 28,
+        "page_end": 29
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 912
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_020",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "This entire sequence of events as narrated by the complainant (PW-1) brings the case of the prosecution under grave doubt. It is the pertinent case of the appellant in his defence that he was regularly attending his office and that the police picked him up on 7th February, 2017 at about 11:00 a.m. to 12 noon. The Investigation Officer (PW-29) feigned ignorance regarding the presence of the appellant at his workplace which creates a doubt about the story of prosecution that the accused was absconding and was nabbed on 8th February, 2017. The appellant was shown to be arrested on 8th February, 2017 at 9:00 a.m. However, going by the version of the complainant (PW-1), by that time, the police had already informed him about the minute details of the manner in which the crime was committed, the efforts made by the appellant to destroy the evidence, and the location where the body of the victim was disposed of. The Investigation Officer (PW-29) showed that the appellant was arrested on 8th February, 2017 at 9:00 a.m. and thereafter, the confessional statement/disclosure statement (Exhibit P-8) of the appellant was purportedly recorded at AGS Park, Mugalivakkam from 9:05 a.m. to 10:00 a.m. Hence, there was no possibility whatsoever that the Investigating Officer (PW-29) could have known all these facts so as to apprise complainant (PW-1) in the morning of 8th February, 2017 unless such facts were already in the knowledge of the said police officer, which is a more possible theory. This is consistent with the plea of the appellant who stated that the police picked him up from his house in the early hours of 7th February, 2017 itself. Thus, it is apparent that the police had already created the entire story and later on, tried to fit the same into a sequence by postponing the formal arrest of the appellant in order to implicate him in this case. The fact that the police officers had told the complainant regarding the location where the body of the victim had been disposed of, in the morning of 8th February, 2017, is itself sufficient to discard the theory of the prosecution that all the incriminating discoveries were made in pursuance of the disclosure statement made by the appellant. Thus, the claim made by the prosecution that the dead body of the victim was recovered in furtherance of the disclosure statement made by the appellant is belied by cogent material available on record.\n\nWe have no hesitation in holding that recoveries of the bag, allegedly containing the bottles in which petrol was carried and the undergarment of the victim, were not effected at the instance of the appellant and were planted recoveries. This conclusion is fortified by the fact that there is no mention of the said bag in the observation mahazar51 and the rough sketch52. The Investigating Officer (PW-29) 51 Supra note 15. 52 Supra note 16. did not utter a word that he sealed the ornaments allegedly recovered in furtherance of the disclosure statement given by the appellant. Hence, the identification of these articles by the complainant (PW-1) pales into insignificance.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          54,
+          55
+        ],
+        "page_start": 28,
+        "page_end": 30
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 690
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_021",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "We have no hesitation in holding that recoveries of the bag, allegedly containing the bottles in which petrol was carried and the undergarment of the victim, were not effected at the instance of the appellant and were planted recoveries. This conclusion is fortified by the fact that there is no mention of the said bag in the observation mahazar51 and the rough sketch52. The Investigating Officer (PW-29) 51 Supra note 15. 52 Supra note 16. did not utter a word that he sealed the ornaments allegedly recovered in furtherance of the disclosure statement given by the appellant. Hence, the identification of these articles by the complainant (PW-1) pales into insignificance.\n\nAt this stage, a very important fact that emerges from the evidence of Sumathi (PW-7), Village Administrative Officer, Madanandhapuram Village, needs to be noted. For ready reference, relevant extract from the evidence of Sumathi (PW-7) is extracted hereinbelow: - “On 08.02.2017, the Inspector of Police, Mangadu, called me over phone and informed at 8.15 am that there was an information regarding an important case, and that I should come to the area namely AGS park, Mugalivakkam, I having obtained permission from Revenue Inspector and Tahsildar, informed my Assistant Mohandass and made him to come and went to AGS park in his two wheeler. Police was found gathered there. Dashvanth was also present in that place. At that time police told me that Dashvanth was going to tender confession statement regarding his molesting of a girl child namely Hasini aged 7 years and murdering her by setting her ablaze.”\n\nIt is clear that the witness (PW-7) stated in the examination-in-chief that on 8th February, 2017, the Inspector of Police, Mangadu called her over phone at about 8:15 a.m., and told her that there was information regarding an important case and she should come to the area, namely AGS Park, Mugalivakkam. The witness (PW-7) took permission from the Revenue Inspector and Tahsildar and went to the AGS Park along with her assistant, i.e., Mohandass (PW-8). She further stated that the police team was present there with the appellant. The police informed the witness (PW-7) that the appellant was going to tender a confession regarding he having molested and murdered a girl aged 7 years (victim herein) and then destroyed the evidence by setting the dead body of the victim on fire.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          55,
+          56,
+          57
+        ],
+        "page_start": 29,
+        "page_end": 30
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 517
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_022",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "It is clear that the witness (PW-7) stated in the examination-in-chief that on 8th February, 2017, the Inspector of Police, Mangadu called her over phone at about 8:15 a.m., and told her that there was information regarding an important case and she should come to the area, namely AGS Park, Mugalivakkam. The witness (PW-7) took permission from the Revenue Inspector and Tahsildar and went to the AGS Park along with her assistant, i.e., Mohandass (PW-8). She further stated that the police team was present there with the appellant. The police informed the witness (PW-7) that the appellant was going to tender a confession regarding he having molested and murdered a girl aged 7 years (victim herein) and then destroyed the evidence by setting the dead body of the victim on fire.\n\nThus, it is clearly discernible from the evidence of the witness (PW-7) that she was informed at around 9:00 a.m. regarding the forthcoming situation/events which would include a confession to be made by the appellant. This deposition completely destroys the credibility of the actions of the Investigating Officer (PW-29) who informed the witness (PW-7) well in advance as to the tenor of the confession which the appellant would make. The appellant was arrested at 9:00 a.m. but the Investigation Officer (PW-29) told the witness (PW-7) much earlier that there was information regarding an important case and that she should come to AGS Park, Mugalivakkam. The witness (PW-7) further stated that as soon as she reached AGS Park, Mugalivakkam, she was informed by the Investigation Officer (PW-29) that the appellant was going to tender a confession regarding he having molested and murdered a girl aged 7 years (victim herein) and then destroyed the evidence by setting the dead body of the victim on fire. This disclosure was made before the recording of such a confession and creates a grave doubt over the bonafides of the Investigating Officer’s actions. The above analysis lends credence to the defence version that the appellant had been illegally detained on 7th February, 2017 and that his confession was extracted under coercion on that day itself.\n\nThe fact regarding the confession of the appellant having been extracted much prior to his arrest is also corroborated from the testimony of the complainant (PW-1), who stated in his testimony that the Investigating Officer (PW-29) called him in the morning of 8th February, 2017 and told that Dashwanth (appellant herein) had murdered his daughter (victim herein). Not only this, the minute details of the incident were also shared by the Investigating Officer (PW-29) with the complainant (PW-1) much before the confessional statement of the appellant had been recorded (discussed in paragraph 54 supra).",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          57,
+          58,
+          59
+        ],
+        "page_start": 30,
+        "page_end": 31
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 590
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_023",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "The fact regarding the confession of the appellant having been extracted much prior to his arrest is also corroborated from the testimony of the complainant (PW-1), who stated in his testimony that the Investigating Officer (PW-29) called him in the morning of 8th February, 2017 and told that Dashwanth (appellant herein) had murdered his daughter (victim herein). Not only this, the minute details of the incident were also shared by the Investigating Officer (PW-29) with the complainant (PW-1) much before the confessional statement of the appellant had been recorded (discussed in paragraph 54 supra).\n\nThese facts give rise to a clear picture that the theory of confessional/ disclosure statement of the appellant leading to the discoveries is nothing but a creation of the Investigating Officer (PW-29) and as a matter of fact, all the incriminating facts and circumstances were already in the knowledge of the Investigating Officer (PW-29) and were subsequently woven into a story, projecting a hypothesis that a voluntary confession was made by the appellant leading to the incriminating discoveries of the dead body, the ornaments, etc.\n\nAt this stage, we would also like to record our serious reservation on the manner in which the entire confessional statement of the appellant was allowed to be reproduced by the trial court in the examination- in-chief of the Investigating Officer (PW-29). Law is well settled by a catena of judgments rendered by this Court that only such part of the confessional statement of an accused which distinctly leads to the discovery of a material fact can be permitted to be tendered in evidence.53 In gross contradiction of this settled legal principle, the trial Court, while recording the deposition of the Investigating Officer (PW-29) permitted him to narrate the entire confession purportedly made by the appellant in presence of Sumathi (PW-7), the Village Administrative Officer and Mohandass (PW-8), assistant of PW-7. The deposition records that the appellant confessed that he took the child to his home; removed her clothes; committed sexual assault on her and then ended her life by smothering her. Furthermore, the details of the dead body of the victim being stuffed in a blue-coloured travel bag and taken to the remote area near the Anakaputhur bypass road and setting the same to fire are all recorded in the deposition as if the same were the personal observations of the Investigating Officer (PW-29).",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          59,
+          60,
+          61
+        ],
+        "page_start": 31,
+        "page_end": 32
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 524
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_024",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "At this stage, we would also like to record our serious reservation on the manner in which the entire confessional statement of the appellant was allowed to be reproduced by the trial court in the examination- in-chief of the Investigating Officer (PW-29). Law is well settled by a catena of judgments rendered by this Court that only such part of the confessional statement of an accused which distinctly leads to the discovery of a material fact can be permitted to be tendered in evidence.53 In gross contradiction of this settled legal principle, the trial Court, while recording the deposition of the Investigating Officer (PW-29) permitted him to narrate the entire confession purportedly made by the appellant in presence of Sumathi (PW-7), the Village Administrative Officer and Mohandass (PW-8), assistant of PW-7. The deposition records that the appellant confessed that he took the child to his home; removed her clothes; committed sexual assault on her and then ended her life by smothering her. Furthermore, the details of the dead body of the victim being stuffed in a blue-coloured travel bag and taken to the remote area near the Anakaputhur bypass road and setting the same to fire are all recorded in the deposition as if the same were the personal observations of the Investigating Officer (PW-29).\n\nIn order to highlight this gross legal and procedural flaw in the recording of evidence, we would gainfully refer to the following extracts from the evidence of the Investigating Officer (PW-29): - “It is presumed that the information about the child Hasini could be obtained if the absconding person Dashvanth was caught and enquired, based on the information given by the Informant, he was arrested on 08.02.2017 at 09.00 a.m. at AGS Park, Mugalivakkam and on enquiring him, he had revealed that he sexual by harassed the child Hasini in his house and committed murder and set her on fire. Since, none among the general public came forward to remain as witnesses at the time of recording his confessional statement, information was passed on to Tmt. Sumathi, Village Administrative Officer, Mugalivakkam and his Assistant Mohandass, they were summoned to be present at AGS Park and in their presence, the accused Dashvanth revealed about him and his family in his Statement and had told that, he, after having studied Diploma, was working in a Call Centre at Mylapore. Further, I had recorded Confession Statement given by him in the presence of the witnesses Tmt. Sumathi, Village Administrative Officer and his Assistant Tr. Mohandass at 09.05 a.m. 53 State of Uttar Pradesh v. Deoman Upadhyaya, 1960 SCC OnLine SC 8; Mohmed Inayatullah v. State of Maharashtra, (1976) 1 SCC 828; Earabhadrappa v. State of Karnataka, (1983) 2 SCC 330; Bodhraj alias Bodha and Others v. State of Jammu and Kashmir, (2002) 8 SCC 45. to 10.00 a.m. wherein he had stated that, since he was having more lust over women, he used to watch sex videos in the cellphone, that, as he had the intention of committing sexual relationship with a lady, he told that, a girl child Hasini, daughter of Babu, residing in his Apartment was cute, that, he would frequently pinch her over her cheek and that, he had the intention to somehow enjoy Hasini at opportune, that, he had witnessed her parents going out in the evening leaving their child Hasini alone on 05.02.2017, that, he made Hasini, who was in the downstairs, to play with his dog and he took her to his house when he was alone in his house, had removed Hasini’s clothes in his bedroom and had committed sexual harassment, at that time, since Hasini raised an alarm by shouting, he had committed murder by pressing her face with bed- sheet and in order to conceal the murder, he wrapped her in a blue coloured Travel Bag, which was in his house, took her to Tambaram to Maduravoyal Bypass Road by his unregistered Apache motor-cycle, had thrown her in a thorny bush situated near unutilized Telephone Booth situated near Anakaputhur and had set her on fire by pouring petrol over her and that, he would identify the place where Hasini’s body was burnt and also the place where he had raped and murdered her in his house.” (Emphasis Supplied)",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          61,
+          62
+        ],
+        "page_start": 31,
+        "page_end": 33
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:murder"
+      ],
+      "cited_cases": [
+        "Bodhraj alias Bodha and Others v. State of Jammu and Kashmir [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45 – referred to",
+        "Earabhadrappa v. State of Karnataka [1983] 2 SCR 552 : (1983) 2 SCC 330",
+        "Mohmed Inayatullah v. State of Maharashtra [1976] 1 SCR 715 : (1976) 1 SCC 828",
+        "State of Uttar Pradesh v. Deoman Upadhyaya [1961] 1 SCR 14 : 1960 SCC OnLine SC 8"
+      ],
+      "token_count": 942
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_025",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "In order to highlight this gross legal and procedural flaw in the recording of evidence, we would gainfully refer to the following extracts from the evidence of the Investigating Officer (PW-29): - “It is presumed that the information about the child Hasini could be obtained if the absconding person Dashvanth was caught and enquired, based on the information given by the Informant, he was arrested on 08.02.2017 at 09.00 a.m. at AGS Park, Mugalivakkam and on enquiring him, he had revealed that he sexual by harassed the child Hasini in his house and committed murder and set her on fire. Since, none among the general public came forward to remain as witnesses at the time of recording his confessional statement, information was passed on to Tmt. Sumathi, Village Administrative Officer, Mugalivakkam and his Assistant Mohandass, they were summoned to be present at AGS Park and in their presence, the accused Dashvanth revealed about him and his family in his Statement and had told that, he, after having studied Diploma, was working in a Call Centre at Mylapore. Further, I had recorded Confession Statement given by him in the presence of the witnesses Tmt. Sumathi, Village Administrative Officer and his Assistant Tr. Mohandass at 09.05 a.m. 53 State of Uttar Pradesh v. Deoman Upadhyaya, 1960 SCC OnLine SC 8; Mohmed Inayatullah v. State of Maharashtra, (1976) 1 SCC 828; Earabhadrappa v. State of Karnataka, (1983) 2 SCC 330; Bodhraj alias Bodha and Others v. State of Jammu and Kashmir, (2002) 8 SCC 45. to 10.00 a.m. wherein he had stated that, since he was having more lust over women, he used to watch sex videos in the cellphone, that, as he had the intention of committing sexual relationship with a lady, he told that, a girl child Hasini, daughter of Babu, residing in his Apartment was cute, that, he would frequently pinch her over her cheek and that, he had the intention to somehow enjoy Hasini at opportune, that, he had witnessed her parents going out in the evening leaving their child Hasini alone on 05.02.2017, that, he made Hasini, who was in the downstairs, to play with his dog and he took her to his house when he was alone in his house, had removed Hasini’s clothes in his bedroom and had committed sexual harassment, at that time, since Hasini raised an alarm by shouting, he had committed murder by pressing her face with bed- sheet and in order to conceal the murder, he wrapped her in a blue coloured Travel Bag, which was in his house, took her to Tambaram to Maduravoyal Bypass Road by his unregistered Apache motor-cycle, had thrown her in a thorny bush situated near unutilized Telephone Booth situated near Anakaputhur and had set her on fire by pouring petrol over her and that, he would identify the place where Hasini’s body was burnt and also the place where he had raped and murdered her in his house.” (Emphasis Supplied)\n\nIt is clear that the entire confessional statement of the appellant was allowed to be reproduced in the deposition of the Investigation Officer (PW-29) by the trial court which is in clear contravention to the mandate of Section 25 of the Indian Evidence Act, 1872. Allowing the Investigation Officer to extract the entire confession of the accused, in his evidence, apart from being grossly illegal, also have a propensity of clouding the mind of the Court while appreciating the facts and would in turn cause grave prejudice to the accused.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          62,
+          63
+        ],
+        "page_start": 32,
+        "page_end": 33
+      },
+      "legal_references": [
+        "EvidenceAct:25"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:murder"
+      ],
+      "cited_cases": [
+        "Bodhraj alias Bodha and Others v. State of Jammu and Kashmir [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45 – referred to",
+        "Earabhadrappa v. State of Karnataka [1983] 2 SCR 552 : (1983) 2 SCC 330",
+        "Mohmed Inayatullah v. State of Maharashtra [1976] 1 SCR 715 : (1976) 1 SCC 828",
+        "State of Uttar Pradesh v. Deoman Upadhyaya [1961] 1 SCR 14 : 1960 SCC OnLine SC 8"
+      ],
+      "token_count": 776
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_026",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "It is clear that the entire confessional statement of the appellant was allowed to be reproduced in the deposition of the Investigation Officer (PW-29) by the trial court which is in clear contravention to the mandate of Section 25 of the Indian Evidence Act, 1872. Allowing the Investigation Officer to extract the entire confession of the accused, in his evidence, apart from being grossly illegal, also have a propensity of clouding the mind of the Court while appreciating the facts and would in turn cause grave prejudice to the accused.\n\nHe further deposed about summoning of the forensic science expert, Sophiya Joseph (PW-21) and the subsequent identification of the place and body of the child victim by the appellant in presence of Sumathi (PW-7), Mohandass (PW-8) and the scientific expert. The deposition continues to the process of the drawing up of the observation mahazar54, a rough sketch55 and the identification and recovery of the blue-coloured travel bag containing the undergarment of the child victim, the cold drink bottles with petrol like smell and also the charred ash recovered from the place where the body of the child victim was set to fire. The Investigation Officer (PW-29), further narrated about the recovery of the jeans worn by the appellant, his T-Shirt, a purse and some ornaments and so also a bed cover and an Axis Bank ATM Card etc. These recoveries were recorded in observation mahazar56.\n\nThough the aforesaid witness in his evidence has spoken about the confessional statement given by the appellant as reproduced supra, but evidently the said confessional/disclosure statement was not exhibited by him in his evidence. The only disclosure statement of the appellant which the Investigating Officer (PW-29) exhibited and proved in evidence was Exhibit P-8: - “Further, the Admissible Portion, in which the accused had stated that, he would identify his house and would produce the clothes and Hasini’s jewelleries kept concealed by him in his Purse, has already been marked as Ex. P.8.” (Emphasis supplied)",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          63,
+          64,
+          65
+        ],
+        "page_start": 33,
+        "page_end": 34
+      },
+      "legal_references": [
+        "EvidenceAct:25"
+      ],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 438
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_027",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "In cross-examination, the Investigation Officer (PW-29) made the following important admissions: - “There are witnesses who have witnessed the missing child as well as the accused person together at last. It is correct if it is stated that if a suspicious person who is said to have been involved in criminal act had gone missing, we would search him at his residence and at the place where he had worked. If there is possibility for a suspicious person to get escape at some times, we would search him, not directly, but through 54 Supra note 15. 55 Supra note 16. 56 Exhibit P-7. secret informant. I came to know from investigation that the accused Dashvanth was working in a Private Firm at Mylapore, that, he is a Tax Assessee and that, he does reside in a permanent address. Neither, I searched the accused at his work place nor I conducted enquiry there. It is correct if it is stated that, there is a distance of one hour travel between the place of occurrence and the place where the accused had worked. If it is stated that, the accused, as usual, had gone to his office for work on 05.02.2017, 06.02.2017 and 07.02.2017, I do not know about that. We became suspicious of the accused only on 07.02.2017. If it is stated that the accused did not get abscond on 05.02.2017, 06.02.2017 and 07.02.2017 and that, he, as usual, had gone for work, we became suspicious of the accused only on 07.02.2017…… It is not correct if it is stated that, I arrested the accused on 07.02.2017 and detained him into my custody and that, therefore, I am telling falsehood that he was arrested on 08.02.2017 at near AGS Park Mugalivakkam at 09.00 a.m. for the first time. It is correct if it is stated that it is a common practice to interrogate a person in the police station when he was arrested over the charges of committing major crime. As far as this case is concerned, if it is asked as to whether, the accused began to depose confessional statement within five minutes, as soon as he was caught on 08.02.2017 at 09.00 a.m. at AGS Park, Mugalivakkam, he started to plead guilty as soon as he was caught and began to interrogate. There is no possibility for the witnesses Sumathi and Mohandass to arrive there within those five minutes, that, since they were the government servants, it would take time for them to come after obtaining due permission and that, I am deposing falsehood stating that the accused was enquired there by summoning the witness and detaining him already. We have not received any complaint whatsoever from the child’s parents prior to this occurrence stating that the accused was sexually harassing the child viz., Hasini by touching on her cheek. P.W.2 Sridevi during her enquiry, has deposed that the child Hasini was playing on the ground floor along with other children and if it is asked as to whether I conducted enquiry with any of them, I conducted enquiry. I do not remember as to whether I obtained statement from them and filed it before the court. It is wrong to state that if the accused took Hasini with him by showing the dog, then other children, who were playing with her, would have deposed it during my enquiry and that, since none of them have deposed in such a manner, I did not arrayed any of them as witness. P.W.6 Duraivel is an Administrator of a temple in that area and that, he had witnessed some recordings in the CCTV camera fixed in the temple, that, he had told that he had also seen the recordings by obtaining from him and that, therefore, if it is asked whether I have obtained the aforesaid CCTV footages from that witness and I have produced it in this case, I did not produce the same, as, the complainant has informed us about the accused secretly and because the face was not clearly visible in the aforesaid CCTV footage and also because only the image was seen.” (Emphasis supplied)",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          66
+        ],
+        "page_start": 34,
+        "page_end": 36
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 913
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_028",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "From an overall conspectus of the evidence of Investigating Officer (PW-29), we feel that the defence has been able to create a grave doubt impeaching the credibility and sanctity of the actions of the Investigation Officer (PW-29) on the vital aspects of investigation including the arrest of the appellant followed by disclosure statements leading to the alleged incriminating recoveries/discoveries. The witness (PW-29) was given a distinct suggestion by the defence that right from the day of the incident, the appellant had regularly gone to attend his work and never absconded. That his signatures were obtained on the confessional statements by detaining him in advance and torturing and beating him and that the appellant was implicated in the case falsely. The witness (PW-29) admitted that though it was a normal practice to seize the undergarments of the accused in sexual harassment cases, but in the present case, he did not seize it, as the same could not be traced out.\n\nRegarding the mobile phone of the appellant, the witness (PW-29) was given a suggestion that the recovery was manipulated and that there was no document confirming the fact that the mobile phone was that of the appellant. Even the identity of the owner of the sim- card was not established by any documentary evidence. The gross indifference shown by the Investigation Officer (PW-29) in making any efforts to search the flat of the appellant at the earliest available opportunity also adds to the series of the doubtful actions during investigation.\n\nAt this stage, a very significant fact needs to be noted from the evidence of the Investigating Officer (PW-29) as the same would have a material bearing on the scientific reports including the DNA report. The witness did not give any indication regarding the manner in which, the seized articles including the forensic samples were sealed and stored after the procedure of seizure had been completed. There is no indication in his evidence with regard to placing of the seized articles in a sealed condition which is the normal and mandatory protocol. Needless to state that the forensic articles/materials in a case of such sensitive nature must be sealed at the time of seizure. The packets containing the articles/materials must bear the case details, the signatures of the panch witnesses, the accused and the seizure officer. These sealed articles must be deposited in the malkhana of the police station or any other appropriate place of safekeeping before transmission to FSL. The prosecution has tried to project through the evidence of Investigating Officer (PW-29) that the material articles/forensic samples were sent to the scientific experts under the orders of the Court, however, the prime witness who would be required to state about the safe custody of the said articles/materials and their fate in future including transit to the FSL would be none other than the Investigating Officer (PW-29) himself.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          67,
+          68,
+          69
+        ],
+        "page_start": 36,
+        "page_end": 37
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 634
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_029",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "At this stage, a very significant fact needs to be noted from the evidence of the Investigating Officer (PW-29) as the same would have a material bearing on the scientific reports including the DNA report. The witness did not give any indication regarding the manner in which, the seized articles including the forensic samples were sealed and stored after the procedure of seizure had been completed. There is no indication in his evidence with regard to placing of the seized articles in a sealed condition which is the normal and mandatory protocol. Needless to state that the forensic articles/materials in a case of such sensitive nature must be sealed at the time of seizure. The packets containing the articles/materials must bear the case details, the signatures of the panch witnesses, the accused and the seizure officer. These sealed articles must be deposited in the malkhana of the police station or any other appropriate place of safekeeping before transmission to FSL. The prosecution has tried to project through the evidence of Investigating Officer (PW-29) that the material articles/forensic samples were sent to the scientific experts under the orders of the Court, however, the prime witness who would be required to state about the safe custody of the said articles/materials and their fate in future including transit to the FSL would be none other than the Investigating Officer (PW-29) himself.\n\nThe relevant excerpts from the evidence of the Investigating Officer (PW-29) regarding the seizure and the safe custody of the forensic articles/materials are reproduced hereinbelow: - “I came to the station along with the accused and the objects that were seized and kept in the station under safe custody. On 09.02.2017, advice was given to send the child’s corpse along with the relevant documents through Tr. Murugan, Special Sub Inspector after the completion of Post mortem for the purpose of handing it over to her relatives. On 13.02.2017, I gave the Requisition Letter with a request to conduct Medical Examination of the accused Dashvanth through the court. That Requisition Letter is Ex.P.38. On 16.02.2017, the accused Dashvanth was sent through the Court to the hospital for conducting the test of masculinity. I again produced the accused before the Court on 19.02.2017 and subjected him into custody. On 21.02.2017, as per my request, the parents of the child viz., Tr. C.S.D. Babu and Tmt. Sridevi were subjected for DNA Analysis through the court. That Requisition Letter is Ex.P.39. Later on, on 22.02.2017, Case Property and Forensic Properties were handed over before the court, Court B.I. No. 5/2017 was obtained, based on the court order and in order to conduct Analysis of Forensic properties, it was handed over to the Chennai Forensic Science Department, Mylapore through one Tr. Murugan, Special Sub Inspector. That Requisition Application is Ex. P.40.”",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          69,
+          70
+        ],
+        "page_start": 37,
+        "page_end": 38
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 617
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_030",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "A perusal of the above excerpts from the testimony of the Investigating Officer (PW-29) confirms that the prosecution has miserably failed to prove the chain of custody of the forensic articles/samples right from the time of seizure till they reached the FSL. The malkhana In- charge of the police station was not examined in evidence. Neither any forwarding documents except for a forwarding letter57, authorising the movement of the forensic articles/samples were proved by the Investigation Officer (PW-29) nor any witness who carried these samples from the police station to the Court or the concerned laboratories, was examined in evidence. Since the sanctity of the samples was not proved by proper evidence, as a necessary corollary, the reports of scientific analysis would lose significance and cannot be relied upon. To support our conclusion, we may gainfully refer to the decision of this Court in Prakash Nishad @ Kewat Zinak Nishad v. State of Maharashtra.58 For ready reference, relevant paragraphs from the said judgment are quoted hereinbelow: - 57 Exhibit 40. 58 2023 SCC Online SC 666. “53. Perusal of these documents reveals that samples of the blood and semen of the appellant were sent for forensic analysis. Importantly though, there is nothing on record to establish as to who took such samples, on what date, on how many occasions and why were they not sent all at once, we notice that none of the police officials have testified to the formalities of keeping the samples safe and secure being complied with. … … … … 58. As has been hitherto observed, there is no clarity of who took the samples of the appellant. In any event, record reveals that one set of samples taken on 14-6- 2010 were sent for chemical analysis on 16-6-2010 and the second sample taken, a month later on 20-7-2010 is sent the very same day. Why there exist these differing degrees of promptitude in respect of similar, if not the same-natured scientific evidence, is unexplained. … … … … 60. In the present case, the delay in sending the samples is unexplained and therefore, the possibility of contamination and the concomitant prospect of diminishment in value cannot be reasonably ruled out. On the need for expedition in ensuring that samples when collected are sent to the laboratory concerned as soon as possible, we may refer to “Guidelines for Collection, Storage and Transportation of Crime Scene DNA Samples For Investigating Officers — Central Forensic Science Laboratory, Directorate Of Forensic Sciences Services, Ministry of Home Affairs, Government of India” which in particular reference to blood and semen, irrespective of its form i.e. liquid or dry (crust/stain or spatter) records the sample so taken: “Must be submitted in the laboratory without any delay.” 61. The document also lays emphasis on the “chain of custody” being maintained. Chain of custody implies that right from the time of taking of the sample, to the time its role in the investigation and processes subsequent, is complete, each person handling said piece of evidence must duly be acknowledged in the documentation, so as to ensure that the integrity is uncompromised. It is recommended that a document be duly maintained cataloguing the custody. A chain of custody document in other words is a document, “which should include name or initials of the individual collecting the evidence, each person or entity subsequently having custody of it, dated the items were collected or transferred, agency and case number, victim’s or suspect’s name and the brief description of the item”. … … … … 66. In the present case, even though, the DNA evidence by way of a report was present, its reliability is not infallible, especially not so in light of the fact that the uncompromised nature of such evidence cannot be established; and other that cogent evidence as can be seen from our discussion above, is absent almost in its entirety.” (Emphasis supplied)",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          71
+        ],
+        "page_start": 38,
+        "page_end": 40
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [
+        "Prakash Nishad @ Kewat Zinak Nishad v. State of Maharashtra [2023] 8 SCR 152 : 2023 SCC Online SC 666 – relied on. Bachan Singh v. State of Punjab [1983] 1 SCR 145"
+      ],
+      "token_count": 863
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_031",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "R.D. Vivekanandan (PW-30) was the 2nd Investigating Officer in the case. He took over investigation from N. Ravikumar, 1st Investigating Officer (PW-29) on 22nd April, 2017. The following important facts are discernible from the testimony of the Investigating Officer (PW-30): - a. No enquiry was made from the other children who were playing with the victim prior to her disappearance in the evening of 5th February, 2017. b. It was wrong to suggest that the semen and the blood samples of the appellant were collected against his desire by assaulting him. c. No call detail records pertaining to the mobile phone in use of the appellant were procured and proved on record. d. No identification parade was conducted in the case. e. No enquiry was conducted from the firm where the appellant was working to find out whether or not he was attending duty from 5th February, 2017 to 8th February, 2017. f. That it was not correct to suggest that the appellant was not arrested at the time, date and place as mentioned in the record.\n\nIn examination-in-chief, the witness (PW-30) stated that he recorded the statements of certain witnesses namely, C.S.D. Babu (PW-1), Sridevi (PW-2), Murugan (PW-3), all of whom had already given their statements to 1st Investigating Officer (PW-29). The witness recorded their fresh statements on 24th April, 2017. It is evident from the record that in the statement of Murugan (PW-3) recorded by the witness (PW-30), he divulged for the first time about having witnessed the child victim playing with the appellant and his dog on the second floor of the building. Furthermore, Pushpa (PW-11) also for the first time disclosed to 2nd Investigating Officer (PW-30) that she had seen the appellant going out from the Nikitha Flats at about 7:00 p.m. on his motorcycle with a travel bag on the back. Apparently thus, the introduction of these witnesses in the subsequent investigation undertaken by 2nd Investigating Officer (PW-30) after significant delay was aimed only at creating evidence of last seen together and of the fact that the appellant was seen carrying away a bag on his motorcycle. Had there been an iota of truth in these allegations, there was no reason as to why the concerned witnesses would not have stepped forward to narrate these vital facts to N. Ravikumar, 1st Investigating Officer (PW-29) at the earliest available opportunity.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          72,
+          73
+        ],
+        "page_start": 40,
+        "page_end": 41
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 524
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_032",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "In examination-in-chief, the witness (PW-30) stated that he recorded the statements of certain witnesses namely, C.S.D. Babu (PW-1), Sridevi (PW-2), Murugan (PW-3), all of whom had already given their statements to 1st Investigating Officer (PW-29). The witness recorded their fresh statements on 24th April, 2017. It is evident from the record that in the statement of Murugan (PW-3) recorded by the witness (PW-30), he divulged for the first time about having witnessed the child victim playing with the appellant and his dog on the second floor of the building. Furthermore, Pushpa (PW-11) also for the first time disclosed to 2nd Investigating Officer (PW-30) that she had seen the appellant going out from the Nikitha Flats at about 7:00 p.m. on his motorcycle with a travel bag on the back. Apparently thus, the introduction of these witnesses in the subsequent investigation undertaken by 2nd Investigating Officer (PW-30) after significant delay was aimed only at creating evidence of last seen together and of the fact that the appellant was seen carrying away a bag on his motorcycle. Had there been an iota of truth in these allegations, there was no reason as to why the concerned witnesses would not have stepped forward to narrate these vital facts to N. Ravikumar, 1st Investigating Officer (PW-29) at the earliest available opportunity.\n\nThe witness (PW-30) also stated that upon receiving the Court order on 6th June, 2017, the appellant was taken out from the prison and produced before the Government College and Hospital, Chengalpet for collection of his blood samples. Under the same Court’s order, the blood samples of the appellant were sent to the FSL, Chennai for the purpose of conducting DNA test. However, the witness (PW-30) did not prove any document or memorandum whatsoever in which the procedure of collection of the blood samples of the appellant and the forwarding thereof to the FSL, Chennai was recorded. Thus, the sanctity of the procedure of drawing the blood samples of the appellant and the forwarding thereof to the FSL has been breached which would lead to the DNA report being rendered redundant.\n\nThe DNA analysis reports59 were proved by Nirmalabai Davidson (PW-28), Scientific Officer, FSL, Chennai. She deposed that on 10th 59 Exhibit P-19, P-30, P-31 and P-32. February, 2017, while she was on duty, she preserved two teeth and two thigh portions placed before her in connection with the instant case. These articles had been forwarded to the witness (PW-28) by Professor Karthika Devi (PW-16), Medico-Legal Department, Kilpauk Medical College and Hospital through M. Murugan (PW-26), Special Sub-Inspector, for the purpose of conducting DNA analysis. The witness (PW-28) proved the procedure of comparison of the DNA samples extracted from the teeth and the thigh bones of the skeleton and the blood samples of the parents, i.e., C.S.D. Babu (PW-1) and Sridevi (PW-2) to conclude that the dead body was that of the child victim. This fact is otherwise also admitted and not in dispute.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          73,
+          74,
+          75
+        ],
+        "page_start": 41,
+        "page_end": 42
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 653
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_033",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "The DNA analysis reports59 were proved by Nirmalabai Davidson (PW-28), Scientific Officer, FSL, Chennai. She deposed that on 10th 59 Exhibit P-19, P-30, P-31 and P-32. February, 2017, while she was on duty, she preserved two teeth and two thigh portions placed before her in connection with the instant case. These articles had been forwarded to the witness (PW-28) by Professor Karthika Devi (PW-16), Medico-Legal Department, Kilpauk Medical College and Hospital through M. Murugan (PW-26), Special Sub-Inspector, for the purpose of conducting DNA analysis. The witness (PW-28) proved the procedure of comparison of the DNA samples extracted from the teeth and the thigh bones of the skeleton and the blood samples of the parents, i.e., C.S.D. Babu (PW-1) and Sridevi (PW-2) to conclude that the dead body was that of the child victim. This fact is otherwise also admitted and not in dispute.\n\nThe witness (PW-28) further stated that in sequel to the above, the patch of semen detected on the underwear (which was marked as Material Object No. 2 in the analysis report) was received from the biological division on 7th April, 2017. DNA was separated from this semen stain and analysis was conducted by comparing the same with the DNA profile extracted from the blood sample of the appellant. The blood samples of the appellant were collected in slides and were forwarded by the trial Court on 8th June, 2017. The DNA was separated from the blood sample and on comparison, the same matched with the DNA profile of the semen stain found on the underwear. We may observe that though the scientific experts concluded that the DNA profile of the semen stain found on the underwear of the victim was matching with the DNA profile of the appellant but as the very factum of recovery of the Material Object, i.e., the undergarment of the victim has not been established beyond doubt (discussed in 55 supra), as a consequence, no sanctity whatsoever can be attached to the conclusions drawn in the Expert Report (Exhibit P-32).\n\nA further doubt is created on the veracity of the DNA report when we consider the following answer given by Nirmalabai (PW-28) to a question put in cross-examination. “If it is asked as to how long does semen bio-cells would survive after being released from the human body, it would survive for 48 hours, but, what I have found out was, the bio-cells separated from DNA from the cells in semen stain.” (Emphasis Supplied)",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          75,
+          76,
+          77
+        ],
+        "page_start": 41,
+        "page_end": 42
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "cited_cases": [],
+      "token_count": 546
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_034",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "A further doubt is created on the veracity of the DNA report when we consider the following answer given by Nirmalabai (PW-28) to a question put in cross-examination. “If it is asked as to how long does semen bio-cells would survive after being released from the human body, it would survive for 48 hours, but, what I have found out was, the bio-cells separated from DNA from the cells in semen stain.” (Emphasis Supplied)\n\nA very serious question has to be posed regarding the time of collection of the blood samples of the appellant. There is no dispute that the case of prosecution was based on circumstantial evidence, and the appellant came to be arrested on 8th February, 2017. Thus, there was no reason whatsoever for the Investigating Agency to have waited for four months before collecting the blood samples of the appellant. There is a strong possibility that the delay may have been utilized to manipulate the samples. Doing so was very easy because there is no evidence on record regarding the unbreached chain of custody of any of the forensic samples.\n\nApparently thus, there is a serious doubt regarding the entire procedure, whereby, the DNA from the semen stain found on the undergarment of the victim was separated and the same was compared and matched with the DNA profile of the appellant’s blood sample. Hence, we are not inclined to rely upon the said DNA profiling reports60.\n\nWe may hasten to add that while the present case pertains to the commission of a heinous offence involving a girl of tender age of 7 years, at the same time, we cannot ignore or bypass the fundamental principle of criminal jurisprudence that the prosecution is duty-bound to prove the guilt of the accused beyond reasonable doubt. The onus is heavier in a case based purely on circumstantial evidence. However, regrettably, the prosecution has miserably failed to do so in the instant case, leaving the Court with no choice but to acquit the appellant, despite the heinous nature of the crime. While it is acknowledged that the acquittal of an individual involved in a heinous crime can lead to societal distress and cause grave anguish to the victim’s family, the legal framework does not permit the Courts to punish an accused person based merely on moral convictions or conjectures. Each case must be adjudicated by the Courts rigorously on its individual merits and in strict conformity with the law, without yielding to public sentiment and external pressures.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          77,
+          78,
+          79,
+          80
+        ],
+        "page_start": 42,
+        "page_end": 43
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 553
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_035",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "We may hasten to add that while the present case pertains to the commission of a heinous offence involving a girl of tender age of 7 years, at the same time, we cannot ignore or bypass the fundamental principle of criminal jurisprudence that the prosecution is duty-bound to prove the guilt of the accused beyond reasonable doubt. The onus is heavier in a case based purely on circumstantial evidence. However, regrettably, the prosecution has miserably failed to do so in the instant case, leaving the Court with no choice but to acquit the appellant, despite the heinous nature of the crime. While it is acknowledged that the acquittal of an individual involved in a heinous crime can lead to societal distress and cause grave anguish to the victim’s family, the legal framework does not permit the Courts to punish an accused person based merely on moral convictions or conjectures. Each case must be adjudicated by the Courts rigorously on its individual merits and in strict conformity with the law, without yielding to public sentiment and external pressures.\n\nAs a result of the above analysis, we are of the firm view that the prosecution has miserably failed to prove the vital circumstances, viz., (i) last seen together theory; (ii) suspicious movement of the appellant captured in the video footage of the CCTV camera installed 60 Exhibit P-31 and P-32. at a nearby temple; (iii) confessional/disclosure statement made by the appellant leading to the incriminating discoveries/recoveries and (iv) FSL reports establishing the DNA profiling comparison, which constituted the entire edifice of the prosecution case and on which the conviction of the appellant was based.\n\nWe have minutely gone through the judgments of the High Court as well as the trial Court and find that while coming to the respective conclusions regarding the guilt of the appellant, the trial Court and the High Court glossed over these patent infirmities and loopholes in the case of the prosecution. As these vital circumstances have not been proved beyond all manner of doubt, it would not be safe to uphold the conviction of the appellant as recorded by the trial Court and affirmed by the High Court. Resultantly the impugned judgments do not stand to scrutiny.\n\nAs an upshot of the above discussion, the appeals succeed and are hereby allowed. The judgment of conviction and order of sentence dated 19th February, 2018 passed by the trial Court and the judgement dated 10th July, 2018 passed by the High Court are set aside. The conviction of the appellant and the sentences awarded to him, by the trial Court and affirmed by the High Court are also set aside.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "page_start": 43,
+        "page_end": 44
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:circumstantial_evidence"
+      ],
+      "cited_cases": [],
+      "token_count": 586
+    },
+    {
+      "chunk_id": "2025_INSC_1203_JUDGMENT_036",
+      "case_id": "2025 INSC 1203",
+      "document_type": "judgment",
+      "chunk_type": "judgment",
+      "text": "As an upshot of the above discussion, the appeals succeed and are hereby allowed. The judgment of conviction and order of sentence dated 19th February, 2018 passed by the trial Court and the judgement dated 10th July, 2018 passed by the High Court are set aside. The conviction of the appellant and the sentences awarded to him, by the trial Court and affirmed by the High Court are also set aside.\n\nThe appellant is acquitted of the charges. He is in jail and shall be released from custody forthwith, if not wanted in any other case.\n\nPending application(s), if any, shall stand disposed of.",
+      "source": {
+        "field": "judgment.paragraphs",
+        "paragraphs": [
+          83,
+          84,
+          85
+        ],
+        "page_start": 44,
+        "page_end": 44
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:acquittal"
+      ],
+      "cited_cases": [],
+      "token_count": 138
+    }
+  ]
+}

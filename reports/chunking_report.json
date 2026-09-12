@@ -1,0 +1,250 @@
+{
+  "total_cases_chunked": 17,
+  "total_chunks": 348,
+  "summary_counts": {
+    "issue": 17,
+    "headnote": 48,
+    "legal_topic": 11,
+    "judgment": 272
+  },
+  "cases": [
+    {
+      "filename": "2024_12_743_754_chunks.json",
+      "case_id": "2024_12_743_754",
+      "total_chunks": 15,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 3,
+        "legal_topic": 0,
+        "judgment": 11
+      },
+      "avg_tokens": 589,
+      "max_tokens": 976,
+      "valid": true
+    },
+    {
+      "filename": "2024_INSC_823_chunks.json",
+      "case_id": "2024 INSC 823",
+      "total_chunks": 18,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 3,
+        "legal_topic": 1,
+        "judgment": 13
+      },
+      "avg_tokens": 532,
+      "max_tokens": 871,
+      "valid": true
+    },
+    {
+      "filename": "2024_INSC_878_chunks.json",
+      "case_id": "2024 INSC 878",
+      "total_chunks": 9,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 1,
+        "legal_topic": 0,
+        "judgment": 7
+      },
+      "avg_tokens": 581,
+      "max_tokens": 897,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_1203_chunks.json",
+      "case_id": "2025 INSC 1203",
+      "total_chunks": 50,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 8,
+        "legal_topic": 5,
+        "judgment": 36
+      },
+      "avg_tokens": 573,
+      "max_tokens": 942,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_1318_chunks.json",
+      "case_id": "2025 INSC 1318",
+      "total_chunks": 19,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 2,
+        "legal_topic": 0,
+        "judgment": 16
+      },
+      "avg_tokens": 537,
+      "max_tokens": 928,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_1412_chunks.json",
+      "case_id": "2025 INSC 1412",
+      "total_chunks": 6,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 2,
+        "legal_topic": 0,
+        "judgment": 3
+      },
+      "avg_tokens": 233,
+      "max_tokens": 538,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_148_chunks.json",
+      "case_id": "2025 INSC 148",
+      "total_chunks": 20,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 1,
+        "legal_topic": 1,
+        "judgment": 17
+      },
+      "avg_tokens": 559,
+      "max_tokens": 1001,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_263_chunks.json",
+      "case_id": "2025 INSC 263",
+      "total_chunks": 6,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 1,
+        "legal_topic": 0,
+        "judgment": 4
+      },
+      "avg_tokens": 374,
+      "max_tokens": 594,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_378_chunks.json",
+      "case_id": "2025 INSC 378",
+      "total_chunks": 8,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 1,
+        "legal_topic": 0,
+        "judgment": 6
+      },
+      "avg_tokens": 514,
+      "max_tokens": 929,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_577_chunks.json",
+      "case_id": "2025 INSC 577",
+      "total_chunks": 37,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 7,
+        "legal_topic": 0,
+        "judgment": 29
+      },
+      "avg_tokens": 560,
+      "max_tokens": 989,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_710_chunks.json",
+      "case_id": "2025 INSC 710",
+      "total_chunks": 17,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 2,
+        "legal_topic": 0,
+        "judgment": 14
+      },
+      "avg_tokens": 606,
+      "max_tokens": 844,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_751_chunks.json",
+      "case_id": "2025 INSC 751",
+      "total_chunks": 17,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 4,
+        "legal_topic": 0,
+        "judgment": 12
+      },
+      "avg_tokens": 483,
+      "max_tokens": 832,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_777_chunks.json",
+      "case_id": "2025 INSC 777",
+      "total_chunks": 14,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 2,
+        "legal_topic": 0,
+        "judgment": 11
+      },
+      "avg_tokens": 540,
+      "max_tokens": 845,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_793_chunks.json",
+      "case_id": "2025 INSC 793",
+      "total_chunks": 37,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 1,
+        "legal_topic": 2,
+        "judgment": 33
+      },
+      "avg_tokens": 660,
+      "max_tokens": 1194,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_845_chunks.json",
+      "case_id": "2025 INSC 845",
+      "total_chunks": 48,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 4,
+        "legal_topic": 1,
+        "judgment": 42
+      },
+      "avg_tokens": 673,
+      "max_tokens": 989,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_880_chunks.json",
+      "case_id": "2025 INSC 880",
+      "total_chunks": 13,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 2,
+        "legal_topic": 1,
+        "judgment": 9
+      },
+      "avg_tokens": 435,
+      "max_tokens": 740,
+      "valid": true
+    },
+    {
+      "filename": "2025_INSC_90_chunks.json",
+      "case_id": "2025 INSC 90",
+      "total_chunks": 14,
+      "chunk_counts": {
+        "issue": 1,
+        "headnote": 4,
+        "legal_topic": 0,
+        "judgment": 9
+      },
+      "avg_tokens": 435,
+      "max_tokens": 981,
+      "valid": true
+    }
+  ]
+}
