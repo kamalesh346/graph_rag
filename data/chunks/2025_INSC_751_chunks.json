@@ -1,11 +1,11 @@
 {
   "case_id": "2025 INSC 751",
-  "total_chunks": 17,
+  "total_chunks": 12,
   "chunk_counts": {
     "issue": 1,
     "headnote": 4,
     "legal_topic": 0,
-    "judgment": 12
+    "judgment": 7
   },
   "chunks": [
     {
@@ -45,6 +45,7 @@
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:circumstantial_evidence",
         "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
@@ -144,11 +145,10 @@
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "On the basis of the above information, IIC of Muniguda Police Sation registered P.S. Case No. 37 of 2016 under Sections 302 and 201 IPC and directed the Investigating Officer-Lakshman Majhi3 to take up the investigation which was duly completed and a chargesheet was filed against the appellant/accused of offences under Sections 302 and 201 IPC. The charges were framed and the appellant/accused pleaded not guilty and claimed false implication. The prosecution, in order to bring home the charges examined 19 prosecution witnesses and proved 10 documents and marked one M.O (blood stained stone).\n\nOut of 19 prosecution witnesses examined before the Trial Court, PW-1, PW-2 are independent witnesses who accompanied the deceased to river for taking bath; PW-3 is the informant and father of the deceased; PWs-4,6,7,8,12 & 13 are co-villagers; PW-5 is the scribe; PWs-9,10 & 11 are relatives; PW-14 is the wife of the appellant/ accused and cousin sister of the deceased; PW-15 is the daughter of the informant; PW-16 is the wife of the informant and mother of the deceased; PW-17 is the doctor, who conducted autopsy; PW-18 is the police constable and PW-19 is the I.O. The appellant did not examine any witness. In his examination under Section 313 Cr.P.C, he took plea that a false case had been foisted against him.\n\nOn the basis of evidence adduced by the prosecution, the Trial Court held the appellant/accused guilty for both the charges and convicted and sentenced him as stated supra and the same has been affirmed by the High Court.\n\nThe Trial Court found that the evidence on ‘last seen together’ and recovery of weapon together with motive are the circumstances which complete the chain of circumstantial evidence and are sufficient to hold the appellant/accused guilty for commission of murder and causing disappearance of evidence. The conviction and sentence imposed by the Trial Court has been affirmed by the High Court under the impugned judgment. 3 ‘PW-19’ SUBMISSIONS:\n\nMr. Shyam Manohar, learned counsel appearing for the appellant/ accused would submit that there is no direct evidence against the appellant/accused and the chain of circumstantial evidence is incomplete, not connecting him to the crime, therefore, he has wrongly been convicted. He would submit that all the relevant circumstances have not been put to the appellant/accused in his examination under Section 313 Cr.P.C. It is also stated that there is a delay of 20 hours in lodging the First Information Report (FIR) and the evidence of Chemical Examiner is inconclusive. It is also pointed out that there is discrepancy/ contradiction about the place where the dead body was recovered inasmuch as at one place it is said to be recovered from a bathing place whereas at a different stage I.O has stated that the dead body was found at the cashew jungle. It is also argued that there is no motive for commission of crime.",
+      "text": "Out of 19 prosecution witnesses examined before the Trial Court, PW-1, PW-2 are independent witnesses who accompanied the deceased to river for taking bath; PW-3 is the informant and father of the deceased; PWs-4,6,7,8,12 & 13 are co-villagers; PW-5 is the scribe; PWs-9,10 & 11 are relatives; PW-14 is the wife of the appellant/ accused and cousin sister of the deceased; PW-15 is the daughter of the informant; PW-16 is the wife of the informant and mother of the deceased; PW-17 is the doctor, who conducted autopsy; PW-18 is the police constable and PW-19 is the I.O. The appellant did not examine any witness. In his examination under Section 313 Cr.P.C, he took plea that a false case had been foisted against him.\n\nOn the basis of evidence adduced by the prosecution, the Trial Court held the appellant/accused guilty for both the charges and convicted and sentenced him as stated supra and the same has been affirmed by the High Court.\n\nThe Trial Court found that the evidence on ‘last seen together’ and recovery of weapon together with motive are the circumstances which complete the chain of circumstantial evidence and are sufficient to hold the appellant/accused guilty for commission of murder and causing disappearance of evidence. The conviction and sentence imposed by the Trial Court has been affirmed by the High Court under the impugned judgment. 3 ‘PW-19’ SUBMISSIONS:\n\nMr. Shyam Manohar, learned counsel appearing for the appellant/ accused would submit that there is no direct evidence against the appellant/accused and the chain of circumstantial evidence is incomplete, not connecting him to the crime, therefore, he has wrongly been convicted. He would submit that all the relevant circumstances have not been put to the appellant/accused in his examination under Section 313 Cr.P.C. It is also stated that there is a delay of 20 hours in lodging the First Information Report (FIR) and the evidence of Chemical Examiner is inconclusive. It is also pointed out that there is discrepancy/ contradiction about the place where the dead body was recovered inasmuch as at one place it is said to be recovered from a bathing place whereas at a different stage I.O has stated that the dead body was found at the cashew jungle. It is also argued that there is no motive for commission of crime.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          4,
           5,
           6,
           7,
@@ -158,53 +158,30 @@
         "page_end": 5
       },
       "legal_references": [
-        "IPC:302"
+        "IPC:313"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
         "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
-      "token_count": 635
+      "token_count": 510
     },
     {
       "chunk_id": "2025_INSC_751_JUDGMENT_003",
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Mr. Shyam Manohar, learned counsel appearing for the appellant/ accused would submit that there is no direct evidence against the appellant/accused and the chain of circumstantial evidence is incomplete, not connecting him to the crime, therefore, he has wrongly been convicted. He would submit that all the relevant circumstances have not been put to the appellant/accused in his examination under Section 313 Cr.P.C. It is also stated that there is a delay of 20 hours in lodging the First Information Report (FIR) and the evidence of Chemical Examiner is inconclusive. It is also pointed out that there is discrepancy/ contradiction about the place where the dead body was recovered inasmuch as at one place it is said to be recovered from a bathing place whereas at a different stage I.O has stated that the dead body was found at the cashew jungle. It is also argued that there is no motive for commission of crime.\n\nPer contra, Mr. Shovan Mishra, learned counsel for the State submitted that the Trial Court and the High Court as well, after careful examination of the evidence, rightly came to the conclusion that the evidence of ‘last seen together’ has been duly proved which along with other incriminating circumstances is sufficient to convict the appellant/accused. ANALYSIS:\n\nIt is settled law that in a case based on circumstantial evidence, the prosecution is obliged to prove each circumstance, taken cumulatively to form a chain so complete that there is no escape from the conclusion that within all human probabilities, crime was committed by the accused and none else. Further, the facts so proved should unerringly point towards the guilt of the accused.\n\nThis Court in Ramanand vs. State of Himachal Pradesh4 has held that ‘perfect proof is seldom to be had in this imperfect world and absolute certainty is a myth’.\n\nThis Court in a celebrated judgment in Sharad Birdhichand Sarda vs. State of Maharashtra5 has set down the golden rules in the 4 (1981) 1 SCC 511 5 (1984) 4 SCC 116 cases basing circumstantial evidence which is to be proved by the prosecution. (i.) That chain of evidence is complete; (ii) Circumstances relied upon by prosecution should be conclusive in nature; (iii) Fact established should be consistent only with the hypothesis of the guilt of accused; (iv) Circumstances relied upon should only be consistent with the guilt of the accused; (v) Circumstances relied upon should exclude every possible hypothesis except the one to be proved.",
+      "text": "Per contra, Mr. Shovan Mishra, learned counsel for the State submitted that the Trial Court and the High Court as well, after careful examination of the evidence, rightly came to the conclusion that the evidence of ‘last seen together’ has been duly proved which along with other incriminating circumstances is sufficient to convict the appellant/accused. ANALYSIS:\n\nIt is settled law that in a case based on circumstantial evidence, the prosecution is obliged to prove each circumstance, taken cumulatively to form a chain so complete that there is no escape from the conclusion that within all human probabilities, crime was committed by the accused and none else. Further, the facts so proved should unerringly point towards the guilt of the accused.\n\nThis Court in Ramanand vs. State of Himachal Pradesh4 has held that ‘perfect proof is seldom to be had in this imperfect world and absolute certainty is a myth’.\n\nThis Court in a celebrated judgment in Sharad Birdhichand Sarda vs. State of Maharashtra5 has set down the golden rules in the 4 (1981) 1 SCC 511 5 (1984) 4 SCC 116 cases basing circumstantial evidence which is to be proved by the prosecution. (i.) That chain of evidence is complete; (ii) Circumstances relied upon by prosecution should be conclusive in nature; (iii) Fact established should be consistent only with the hypothesis of the guilt of accused; (iv) Circumstances relied upon should only be consistent with the guilt of the accused; (v) Circumstances relied upon should exclude every possible hypothesis except the one to be proved.\n\nWe shall now examine the evidence on record vis-a-vis ‘last seen theory’. PW-1 and PW-2 deposed in their testimony that they went together with the deceased to take bath and the appellant/accused joined subsequently and asked the deceased to join for collection of cashew nuts. When the deceased and the appellant/accused did not return, they came back. PW-1 stated that when they asked the appellant/accused regarding the deceased he kept quiet. PW-1 stated that when they went, no other villager was taking bath. PW-2 states that when he asked the appellant/accused about the deceased, he stated that the deceased returned before him and advised him not to inform anyone that they both had gone to eat cashew. PW-2 also stated that when they went, other villagers were also taking baths. PW-1 stated that initially he, PW-2 and the deceased proceeded to the river for bath and the appellant/accused came subsequently and that bathing ghat is a common bathing place for the villagers. It is reflected from his evidence that they went to take bath at around 10/11 a.m. in the morning and returned in the evening. However, the appellant was not present in his house, and he had no discussion with the appellant in the evening. He says that he apprehended that it was the appellant who killed Akash. If we read the deposition of PW-2 carefully, he stated that he and PW-1 returned home after taking bath but the appellant did not come back and in the evening he asked the appellant about the whereabouts of the deceased to which he replied that the deceased came back before his return and advised him not to inform anyone that they both had gone to eat cashew. He also states that when inquiries were made from the appellant he kept quiet. He, PW-1 and the appellant were confined at a nearby place and after the dead body was found on the next morning they were taken to the police station. The police asked him and PW-1 to return back to home but detained the appellant. He says that the deceased and the appellant were not close friends but acquainted with each other. He was not aware of any disagreement between the deceased and the appellant. According to this witness, the appellant was not present near the bathing ghat by the time they arrived.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          8,
           9,
           10,
           11,
-          12
-        ],
-        "page_start": 5,
-        "page_end": 6
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:first_information_report_fir"
-      ],
-      "cited_cases": [
-        "Ramanand vs. State of Himachal Pradesh [1981] 2 SCR 444 : (1981) 1 SCC 511"
-      ],
-      "token_count": 545
-    },
-    {
-      "chunk_id": "2025_INSC_751_JUDGMENT_004",
-      "case_id": "2025 INSC 751",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "This Court in a celebrated judgment in Sharad Birdhichand Sarda vs. State of Maharashtra5 has set down the golden rules in the 4 (1981) 1 SCC 511 5 (1984) 4 SCC 116 cases basing circumstantial evidence which is to be proved by the prosecution. (i.) That chain of evidence is complete; (ii) Circumstances relied upon by prosecution should be conclusive in nature; (iii) Fact established should be consistent only with the hypothesis of the guilt of accused; (iv) Circumstances relied upon should only be consistent with the guilt of the accused; (v) Circumstances relied upon should exclude every possible hypothesis except the one to be proved.\n\nWe shall now examine the evidence on record vis-a-vis ‘last seen theory’. PW-1 and PW-2 deposed in their testimony that they went together with the deceased to take bath and the appellant/accused joined subsequently and asked the deceased to join for collection of cashew nuts. When the deceased and the appellant/accused did not return, they came back. PW-1 stated that when they asked the appellant/accused regarding the deceased he kept quiet. PW-1 stated that when they went, no other villager was taking bath. PW-2 states that when he asked the appellant/accused about the deceased, he stated that the deceased returned before him and advised him not to inform anyone that they both had gone to eat cashew. PW-2 also stated that when they went, other villagers were also taking baths. PW-1 stated that initially he, PW-2 and the deceased proceeded to the river for bath and the appellant/accused came subsequently and that bathing ghat is a common bathing place for the villagers. It is reflected from his evidence that they went to take bath at around 10/11 a.m. in the morning and returned in the evening. However, the appellant was not present in his house, and he had no discussion with the appellant in the evening. He says that he apprehended that it was the appellant who killed Akash. If we read the deposition of PW-2 carefully, he stated that he and PW-1 returned home after taking bath but the appellant did not come back and in the evening he asked the appellant about the whereabouts of the deceased to which he replied that the deceased came back before his return and advised him not to inform anyone that they both had gone to eat cashew. He also states that when inquiries were made from the appellant he kept quiet. He, PW-1 and the appellant were confined at a nearby place and after the dead body was found on the next morning they were taken to the police station. The police asked him and PW-1 to return back to home but detained the appellant. He says that the deceased and the appellant were not close friends but acquainted with each other. He was not aware of any disagreement between the deceased and the appellant. According to this witness, the appellant was not present near the bathing ghat by the time they arrived.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           12,
           13
         ],
@@ -215,31 +192,13 @@
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence"
       ],
-      "cited_cases": [],
-      "token_count": 662
+      "cited_cases": [
+        "Ramanand vs. State of Himachal Pradesh [1981] 2 SCR 444 : (1981) 1 SCC 511"
+      ],
+      "token_count": 860
     },
     {
-      "chunk_id": "2025_INSC_751_JUDGMENT_005",
-      "case_id": "2025 INSC 751",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "We shall now examine the evidence on record vis-a-vis ‘last seen theory’. PW-1 and PW-2 deposed in their testimony that they went together with the deceased to take bath and the appellant/accused joined subsequently and asked the deceased to join for collection of cashew nuts. When the deceased and the appellant/accused did not return, they came back. PW-1 stated that when they asked the appellant/accused regarding the deceased he kept quiet. PW-1 stated that when they went, no other villager was taking bath. PW-2 states that when he asked the appellant/accused about the deceased, he stated that the deceased returned before him and advised him not to inform anyone that they both had gone to eat cashew. PW-2 also stated that when they went, other villagers were also taking baths. PW-1 stated that initially he, PW-2 and the deceased proceeded to the river for bath and the appellant/accused came subsequently and that bathing ghat is a common bathing place for the villagers. It is reflected from his evidence that they went to take bath at around 10/11 a.m. in the morning and returned in the evening. However, the appellant was not present in his house, and he had no discussion with the appellant in the evening. He says that he apprehended that it was the appellant who killed Akash. If we read the deposition of PW-2 carefully, he stated that he and PW-1 returned home after taking bath but the appellant did not come back and in the evening he asked the appellant about the whereabouts of the deceased to which he replied that the deceased came back before his return and advised him not to inform anyone that they both had gone to eat cashew. He also states that when inquiries were made from the appellant he kept quiet. He, PW-1 and the appellant were confined at a nearby place and after the dead body was found on the next morning they were taken to the police station. The police asked him and PW-1 to return back to home but detained the appellant. He says that the deceased and the appellant were not close friends but acquainted with each other. He was not aware of any disagreement between the deceased and the appellant. According to this witness, the appellant was not present near the bathing ghat by the time they arrived.\n\nPW-3 is the father of the deceased and the informant. He says that when the appellant was confined, he did not admit for which he was handed over to the police. According to this witness, when the deceased did not return, he inquired from PW-1 and PW-2 who stated that they had gone to collect cashew nuts after the appellant/ accused suggested that its price has gone upto Rs. 1540/- per kg. He inquired from the appellant/accused at around 03.00 p.m. and that during search in the evening all three i.e. the appellant, PW-1 and PW-2 accompanied during such search.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          13,
-          14
-        ],
-        "page_start": 6,
-        "page_end": 7
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 654
-    },
-    {
-      "chunk_id": "2025_INSC_751_JUDGMENT_006",
+      "chunk_id": "2025_INSC_751_JUDGMENT_004",
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -255,49 +214,27 @@
         "page_start": 7,
         "page_end": 8
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:161"
+      ],
       "legal_concepts": [
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
       "token_count": 609
     },
     {
-      "chunk_id": "2025_INSC_751_JUDGMENT_007",
+      "chunk_id": "2025_INSC_751_JUDGMENT_005",
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "PW-13 (Mahadev Sikaka) is also a witness of ‘last seen together’. He saw the appellant and deceased going towards village Madhapadar at around 12 noon and after some time he saw the appellant returning alone and then asked him about the deceased to which he did not reply and after asking for three to four times, he replied that he had gone nearby village for some work and thereafter the appellant hurriedly took his bath and went away. According to this witness, the appellant’s wife (Sanju Bihar) is cousin of the deceased. After marriage, the appellant had gone to Kerala and did not return. When his wife fell ill and was taken to the hospital by her relatives, the appellant returned from Kerala and suspected his wife’s illicit relations with a co-villager and due to anger, he had killed Akash. However, in cross-examination, he admits that the police had not recorded his statement under Section 161 Cr.P.C. Therefore, this fact about motive is narrated by him for the first time in court hence the same cannot be relied upon. Interestingly, PW-3 father of the deceased has not stated anything about the motive in his examination-in-chief. According to PW-3, the appellant is his nephew being son of his brother-in-law. Thus, the appellant and PW-3 are close relative.\n\nHowever, the crucial question is whether the evidence of last seen together is sufficient enough to convict the appellant. The stone allegedly used for committing murder was recovered near the dead body but the same is not in consequence of any memorandum statement of the appellant. As a matter of fact, the I.O has not recorded any memorandum statement of the appellant. In fact, it is the case of the prosecution that the appellant neither admitted the guilt nor got the weapon or dead body recovered at his instance. Even the chemical examination report is inconclusive although human blood was found on the shirt and on the stone, but the blood group was not matched.\n\nThe present is a case where except for the evidence of ‘last seen together’ there is no other incriminating material against the appellant.\n\nThis Court in Kanhaiya Lal vs. State of Rajasthan6 has held that evidence on ‘last seen together’ is a weak piece of evidence and conviction only on the basis of ‘last seen together’ without there being any other corroborative evidence against the accused, is not sufficient to convict the accused for an offence under Section 302 IPC. The following passage from the judgment in paras 12 and 15 can be profitably referred: “12. The circumstance of last seen together does not by itself and necessarily lead to the inference that it was the accused who committed the crime. There must be something more establishing connectivity between the 6 (2014) 4 SCC 715 accused and the crime. Mere non-explanation on the part of the appellant, in our considered opinion, by itself cannot lead to proof of guilt against the appellant. 15. The theory of last seen—the appellant having gone with the deceased in the manner noticed hereinbefore, is the singular piece of circumstantial evidence available against him. The conviction of the appellant cannot be maintained merely on suspicion, however strong it may be, or on his conduct. These facts assume further importance on account of absence of proof of motive particularly when it is proved that there was cordial relationship between the accused and the deceased for a long time. The fact situation bears great similarity to that in Madho Singh v. State of Rajasthan,(2010) 15 SCC 588”",
+      "text": "However, the crucial question is whether the evidence of last seen together is sufficient enough to convict the appellant. The stone allegedly used for committing murder was recovered near the dead body but the same is not in consequence of any memorandum statement of the appellant. As a matter of fact, the I.O has not recorded any memorandum statement of the appellant. In fact, it is the case of the prosecution that the appellant neither admitted the guilt nor got the weapon or dead body recovered at his instance. Even the chemical examination report is inconclusive although human blood was found on the shirt and on the stone, but the blood group was not matched.\n\nThe present is a case where except for the evidence of ‘last seen together’ there is no other incriminating material against the appellant.\n\nThis Court in Kanhaiya Lal vs. State of Rajasthan6 has held that evidence on ‘last seen together’ is a weak piece of evidence and conviction only on the basis of ‘last seen together’ without there being any other corroborative evidence against the accused, is not sufficient to convict the accused for an offence under Section 302 IPC. The following passage from the judgment in paras 12 and 15 can be profitably referred: “12. The circumstance of last seen together does not by itself and necessarily lead to the inference that it was the accused who committed the crime. There must be something more establishing connectivity between the 6 (2014) 4 SCC 715 accused and the crime. Mere non-explanation on the part of the appellant, in our considered opinion, by itself cannot lead to proof of guilt against the appellant. 15. The theory of last seen—the appellant having gone with the deceased in the manner noticed hereinbefore, is the singular piece of circumstantial evidence available against him. The conviction of the appellant cannot be maintained merely on suspicion, however strong it may be, or on his conduct. These facts assume further importance on account of absence of proof of motive particularly when it is proved that there was cordial relationship between the accused and the deceased for a long time. The fact situation bears great similarity to that in Madho Singh v. State of Rajasthan,(2010) 15 SCC 588”\n\nSimilarly, this Court in Rambraksh @ Jalim vs. State of Chhattisgarh7 has reiterated above legal position in the following words in paras 12 and 13: “12. It is trite law that a conviction cannot be recorded against the accused merely on the ground that the accused was last seen with the deceased. In other words, a conviction cannot be based on the only circumstance of last seen together. Normally, last seen theory comes into play where the time gap, between the point of time when the accused and the deceased were seen last alive and when the deceased is found dead, is so small that possibility of any person other than the accused being the perpetrator of the crime becomes impossible. To record a conviction, the last seen together itself would not be sufficient and the prosecution has to complete the chain of circumstances to bring home the guilt of the accused. 13. In a similar fact situation this Court in Krishnan v. State of T.N. (2014) 12 SCC 279 held as follows: (SCC pp. 284- 85, paras 21-24) “21. The conviction cannot be based only on circumstance of last seen together with the deceased. In Arjun Marik v. 7 (2016) 12 SCC 251 State of Bihar (1994) Supp (2) SCC 372 this Court held as follows: (SCC p. 385, para 31) ‘31. Thus the evidence that the appellant had gone to Sitaram in the evening of 19-7-1985 and had stayed in the night at the house of deceased Sitaram is very shaky and inconclusive. Even if it is accepted that they were there it would at best amount to be the evidence of the appellants having been seen last together with the deceased. But it is settled law that the only circumstance of last seen will not complete the chain of circumstances to record the finding that it is consistent only with the hypothesis of the guilt of the accused and, therefore, no conviction on that basis alone can be founded.’",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          17,
           18,
           19,
-          20
-        ],
-        "page_start": 7,
-        "page_end": 9
-      },
-      "legal_references": [
-        "IPC:302"
-      ],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:murder"
-      ],
-      "cited_cases": [],
-      "token_count": 786
-    },
-    {
-      "chunk_id": "2025_INSC_751_JUDGMENT_008",
-      "case_id": "2025 INSC 751",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "This Court in Kanhaiya Lal vs. State of Rajasthan6 has held that evidence on ‘last seen together’ is a weak piece of evidence and conviction only on the basis of ‘last seen together’ without there being any other corroborative evidence against the accused, is not sufficient to convict the accused for an offence under Section 302 IPC. The following passage from the judgment in paras 12 and 15 can be profitably referred: “12. The circumstance of last seen together does not by itself and necessarily lead to the inference that it was the accused who committed the crime. There must be something more establishing connectivity between the 6 (2014) 4 SCC 715 accused and the crime. Mere non-explanation on the part of the appellant, in our considered opinion, by itself cannot lead to proof of guilt against the appellant. 15. The theory of last seen—the appellant having gone with the deceased in the manner noticed hereinbefore, is the singular piece of circumstantial evidence available against him. The conviction of the appellant cannot be maintained merely on suspicion, however strong it may be, or on his conduct. These facts assume further importance on account of absence of proof of motive particularly when it is proved that there was cordial relationship between the accused and the deceased for a long time. The fact situation bears great similarity to that in Madho Singh v. State of Rajasthan,(2010) 15 SCC 588”\n\nSimilarly, this Court in Rambraksh @ Jalim vs. State of Chhattisgarh7 has reiterated above legal position in the following words in paras 12 and 13: “12. It is trite law that a conviction cannot be recorded against the accused merely on the ground that the accused was last seen with the deceased. In other words, a conviction cannot be based on the only circumstance of last seen together. Normally, last seen theory comes into play where the time gap, between the point of time when the accused and the deceased were seen last alive and when the deceased is found dead, is so small that possibility of any person other than the accused being the perpetrator of the crime becomes impossible. To record a conviction, the last seen together itself would not be sufficient and the prosecution has to complete the chain of circumstances to bring home the guilt of the accused. 13. In a similar fact situation this Court in Krishnan v. State of T.N. (2014) 12 SCC 279 held as follows: (SCC pp. 284- 85, paras 21-24) “21. The conviction cannot be based only on circumstance of last seen together with the deceased. In Arjun Marik v. 7 (2016) 12 SCC 251 State of Bihar (1994) Supp (2) SCC 372 this Court held as follows: (SCC p. 385, para 31) ‘31. Thus the evidence that the appellant had gone to Sitaram in the evening of 19-7-1985 and had stayed in the night at the house of deceased Sitaram is very shaky and inconclusive. Even if it is accepted that they were there it would at best amount to be the evidence of the appellants having been seen last together with the deceased. But it is settled law that the only circumstance of last seen will not complete the chain of circumstances to record the finding that it is consistent only with the hypothesis of the guilt of the accused and, therefore, no conviction on that basis alone can be founded.’",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           20,
           21
         ],
@@ -308,33 +245,15 @@
         "IPC:302"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:motive",
+        "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
-      "token_count": 756
+      "token_count": 940
     },
     {
-      "chunk_id": "2025_INSC_751_JUDGMENT_009",
-      "case_id": "2025 INSC 751",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Similarly, this Court in Rambraksh @ Jalim vs. State of Chhattisgarh7 has reiterated above legal position in the following words in paras 12 and 13: “12. It is trite law that a conviction cannot be recorded against the accused merely on the ground that the accused was last seen with the deceased. In other words, a conviction cannot be based on the only circumstance of last seen together. Normally, last seen theory comes into play where the time gap, between the point of time when the accused and the deceased were seen last alive and when the deceased is found dead, is so small that possibility of any person other than the accused being the perpetrator of the crime becomes impossible. To record a conviction, the last seen together itself would not be sufficient and the prosecution has to complete the chain of circumstances to bring home the guilt of the accused. 13. In a similar fact situation this Court in Krishnan v. State of T.N. (2014) 12 SCC 279 held as follows: (SCC pp. 284- 85, paras 21-24) “21. The conviction cannot be based only on circumstance of last seen together with the deceased. In Arjun Marik v. 7 (2016) 12 SCC 251 State of Bihar (1994) Supp (2) SCC 372 this Court held as follows: (SCC p. 385, para 31) ‘31. Thus the evidence that the appellant had gone to Sitaram in the evening of 19-7-1985 and had stayed in the night at the house of deceased Sitaram is very shaky and inconclusive. Even if it is accepted that they were there it would at best amount to be the evidence of the appellants having been seen last together with the deceased. But it is settled law that the only circumstance of last seen will not complete the chain of circumstances to record the finding that it is consistent only with the hypothesis of the guilt of the accused and, therefore, no conviction on that basis alone can be founded.’\n\nThis Court in Bodhraj v. State of J&K, (2002) 8 SCC 45 held that: (SCC p. 63, para 31) ‘31. The last seen theory comes into play where the time gap between the point of time when the accused and the deceased were last seen alive and when the deceased is found dead is so small that possibility of any person other than the accused being the author of the crime becomes impossible.’ It will be hazardous to come to a conclusion of guilt in cases where there is no other positive evidence to conclude that the accused and the deceased were last seen together.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          21,
-          22
-        ],
-        "page_start": 9,
-        "page_end": 10
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 581
-    },
-    {
-      "chunk_id": "2025_INSC_751_JUDGMENT_010",
+      "chunk_id": "2025_INSC_751_JUDGMENT_006",
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -352,38 +271,14 @@
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
         "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
       "token_count": 512
     },
     {
-      "chunk_id": "2025_INSC_751_JUDGMENT_011",
-      "case_id": "2025 INSC 751",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "There is unexplained delay of six days in lodging the First Information Report (FIR). As per prosecution story the deceased Manikandan was last seen on 4-4-2004 at Vadakkumelur Village during Panguni Uthiram Festival at Mariyamman Temple. The body of the deceased was taken from the borewell by the fire service personnel after more than seven days. There is no other positive material on record to show that the deceased was last seen together with the accused and in the intervening period of seven days there was nobody in contact with the deceased. this Court held that in the absence of any other links in the chain of circumstantial evidence, the appellant cannot be convicted solely on the basis of “last seen together” even if version of the prosecution witness in this regard is believed.” 22. In the case at hand also the only evidence against the appellant is of ‘last seen together’. The evidence of motive does not satisfy us to be an adverse circumstance against the appellant inasmuch as if the appellant has any doubt about his wife’s chastity, he would have caused injury or harm to his wife rather than to wife’s cousin with whom he had no animosity. Moreover, the so-called weapon of the offence i.e. the stone has not been recovered at his instance nor there is any memorandum statement of the appellant. 23. On the basis of above discussion, we are of the opinion that the nature of circumstantial evidence available against the appellant though raises doubt that he may have committed murder but the same is not so conclusive that he can be convicted only on the basis of evidence on ‘last seen together’.\n\nIt is held by this Court in Sujit Biswas vs. State of Assam8 suspicion, howsoever strong, cannot substitute the proof and conviction is not permissible only on the basis of the suspicion. It is held thus in para 6: “6. Suspicion, however grave it may be, cannot take the place of proof, and there is a large difference between something that “may be” proved, and something that “will be proved”. In a criminal trial, suspicion no matter how strong, cannot and must not be permitted to take place of proof. This is for the reason that the mental distance between “may be” and “must be” is quite large and divides vague conjectures from sure conclusions. In a criminal case, the court has a duty to ensure that mere conjectures or suspicion do not take the place of legal proof. The large distance between “may be” true and “must be” true, must be covered by way of clear, cogent and unimpeachable evidence produced by the prosecution, before an accused is condemned as a convict, and the basic and golden rule 8 AIR 2013 SC 3817 must be applied. In such cases, while keeping in mind the distance between “may be” true and “must be” true, the court must maintain the vital distance between mere conjectures and sure conclusions to be arrived at, on the touchstone of dispassionate judicial scrutiny, based upon a complete and comprehensive appreciation of all features of the case, as well as the quality and credibility of the evidence brought on record. The court must ensure, that miscarriage of justice is avoided, and if the facts and circumstances of a case so demand, then the benefit of doubt must be given to the accused, keeping in mind that a reasonable doubt is not an imaginary, trivial or a merely probable doubt, but a fair doubt that is based upon reason and common sense. (Vide Hanumant Govind Nargundkar v. State of M.P.,(1952) 2 SCC 71, State v. Mahender Singh Dahiya (2011) 3 SCC 109 and Ramesh Harijan v. State of U.P. (2012) 5 SCC 777.”",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          23,
-          24
-        ],
-        "page_start": 10,
-        "page_end": 12
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:benefit_of_doubt",
-        "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:first_information_report_fir",
-        "LEGAL_CONCEPT:murder"
-      ],
-      "cited_cases": [],
-      "token_count": 832
-    },
-    {
-      "chunk_id": "2025_INSC_751_JUDGMENT_012",
+      "chunk_id": "2025_INSC_751_JUDGMENT_007",
       "case_id": "2025 INSC 751",
       "document_type": "judgment",
       "chunk_type": "judgment",

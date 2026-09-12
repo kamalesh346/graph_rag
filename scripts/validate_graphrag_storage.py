@@ -40,10 +40,10 @@ def validate_chromadb():
     count = collection.count()
     print(f"Total chunks indexed in '{COLLECTION_NAME}': {count}")
 
-    if count != 348:
-        print(f"WARNING: Expected 348 chunks, but found {count}")
+    if count != 285:
+        print(f"WARNING: Expected 285 chunks, but found {count}")
     else:
-        print("PASS: ChromaDB contains exactly 348 judgment chunks.")
+        print("PASS: ChromaDB contains exactly 285 judgment chunks.")
 
     # Run sample similarity search query
     query = "dying declaration under section 32 exception requirement and evidentiary value"

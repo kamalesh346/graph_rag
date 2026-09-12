@@ -1,11 +1,11 @@
 {
   "case_id": "2024 INSC 823",
-  "total_chunks": 18,
+  "total_chunks": 15,
   "chunk_counts": {
     "issue": 1,
     "headnote": 3,
     "legal_topic": 1,
-    "judgment": 13
+    "judgment": 10
   },
   "chunks": [
     {
@@ -43,13 +43,16 @@
         29,
         30
       ],
-      "legal_references": [],
+      "legal_references": [
+        "IPC:161"
+      ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:benefit_of_doubt",
         "LEGAL_CONCEPT:dying_declaration",
         "LEGAL_CONCEPT:first_information_report_fir",
-        "LEGAL_CONCEPT:material_contradiction"
+        "LEGAL_CONCEPT:material_contradiction",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
       "token_count": 399
@@ -70,7 +73,9 @@
       ],
       "legal_references": [
         "EvidenceAct:145",
-        "EvidenceAct:157"
+        "EvidenceAct:157",
+        "IPC:145",
+        "IPC:157"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:first_information_report_fir"
@@ -110,13 +115,16 @@
       "source": {
         "field": "legal_topics"
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:161"
+      ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:benefit_of_doubt",
         "LEGAL_CONCEPT:dying_declaration",
         "LEGAL_CONCEPT:first_information_report_fir",
-        "LEGAL_CONCEPT:material_contradiction"
+        "LEGAL_CONCEPT:material_contradiction",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
       "token_count": 399
@@ -130,7 +138,6 @@
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          1,
           1,
           2,
           3,
@@ -159,11 +166,10 @@
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Before dealing with the rival contentions raised before us, we think it only appropriate to refer to some of the relevant decisions of this Court laying law in regard to appeal against acquittal. It is true that the judgment of acquittal was passed after setting aside the judgment of conviction passed against the respondents herein by the trial Court.\n\nIn the decision in Jai Karan & Ors. v. State of U.P.1 this Court held that where the trial Court and the High Court had concurrently found the accused guilty, the Supreme Court would not scrutinize the evidence once again, unless there has been a total miscarriage of justice. We may hasten to add here that this Court may have to re-appreciate evidence in cases where a prima facie perverse appreciation of evidence is brought out, even in such cases. We shall also not be understood to have held that merely because the 1 [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655 trial Court and the High Court have rendered divergent findings, this Court should invariably scrutinize the evidence once again and in that regard this Court should entertain an appeal. In an appeal, against conviction in murder case under Section 374 of the Code of Criminal Procedure (for short the ‘Cr.P.C.’), a proper analysis of the evidence and accepting or rejecting, the appreciation of evidence by the trial Court must reflect in the judgment of the High Court. In other words, the disposal of the appeal under Section 374, Cr.P.C., shall not be by cryptic or non-reasoned order. In the decision in Govindaraju v. State by Sivaramapuram PS,2 this Court held that a very vital distinction has to be kept in mind while dealing with appeal under Section 374, Cr.P.C., that interference would be justifiable only when distinction is kept between perversity in appreciation of evidence and mere possibility of another view. Furthermore, it was held therein that it would not be appropriate for the High Court to merely record that the judgment of the trial Court was perverse without specifically dealing with the facets of perversity relating to the issues of law and/ or appreciation of evidence, as otherwise such observation of the High Court would not be sustainable in law.\n\nHaving taken note of the position settled thus we may add that when the High Court acquitted the convict(s) in the appeal filed under Section 374, Cr.P.C., in reversal of conviction, by granting the benefit of doubt after a proper appreciation of evidence interference is permissible and justifiable only if it is infected with perversity in troth, the prosecution was not successful in establishing the guilt of the accused beyond reasonable doubt. In the decision in State of U.P. v. Dharmaraj and Anr.,3 which involved a challenge against a judgment of acquittal in a murder case by the High Court, this Court held that when on facts the view taken by the High Court was a reasonably possible view, though not the only view that could be taken, interference with acquittal would be uncalled for.",
+      "text": "In the decision in Jai Karan & Ors. v. State of U.P.1 this Court held that where the trial Court and the High Court had concurrently found the accused guilty, the Supreme Court would not scrutinize the evidence once again, unless there has been a total miscarriage of justice. We may hasten to add here that this Court may have to re-appreciate evidence in cases where a prima facie perverse appreciation of evidence is brought out, even in such cases. We shall also not be understood to have held that merely because the 1 [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655 trial Court and the High Court have rendered divergent findings, this Court should invariably scrutinize the evidence once again and in that regard this Court should entertain an appeal. In an appeal, against conviction in murder case under Section 374 of the Code of Criminal Procedure (for short the ‘Cr.P.C.’), a proper analysis of the evidence and accepting or rejecting, the appreciation of evidence by the trial Court must reflect in the judgment of the High Court. In other words, the disposal of the appeal under Section 374, Cr.P.C., shall not be by cryptic or non-reasoned order. In the decision in Govindaraju v. State by Sivaramapuram PS,2 this Court held that a very vital distinction has to be kept in mind while dealing with appeal under Section 374, Cr.P.C., that interference would be justifiable only when distinction is kept between perversity in appreciation of evidence and mere possibility of another view. Furthermore, it was held therein that it would not be appropriate for the High Court to merely record that the judgment of the trial Court was perverse without specifically dealing with the facets of perversity relating to the issues of law and/ or appreciation of evidence, as otherwise such observation of the High Court would not be sustainable in law.\n\nHaving taken note of the position settled thus we may add that when the High Court acquitted the convict(s) in the appeal filed under Section 374, Cr.P.C., in reversal of conviction, by granting the benefit of doubt after a proper appreciation of evidence interference is permissible and justifiable only if it is infected with perversity in troth, the prosecution was not successful in establishing the guilt of the accused beyond reasonable doubt. In the decision in State of U.P. v. Dharmaraj and Anr.,3 which involved a challenge against a judgment of acquittal in a murder case by the High Court, this Court held that when on facts the view taken by the High Court was a reasonably possible view, though not the only view that could be taken, interference with acquittal would be uncalled for.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          6,
           7,
           8
         ],
@@ -171,7 +177,8 @@
         "page_end": 5
       },
       "legal_references": [
-        "CrPC:374"
+        "CrPC:374",
+        "IPC:374"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
@@ -182,65 +189,30 @@
         "Jai Karan & Ors. v. State of U.P. [2003] Supp. 4 SCR 995 : (2003) 12 SCC 655",
         "State of U.P. v. Dharmaraj and Anr. (2003) 9 SCC 39"
       ],
-      "token_count": 676
+      "token_count": 598
     },
     {
       "chunk_id": "2024_INSC_823_JUDGMENT_003",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Having taken note of the position settled thus we may add that when the High Court acquitted the convict(s) in the appeal filed under Section 374, Cr.P.C., in reversal of conviction, by granting the benefit of doubt after a proper appreciation of evidence interference is permissible and justifiable only if it is infected with perversity in troth, the prosecution was not successful in establishing the guilt of the accused beyond reasonable doubt. In the decision in State of U.P. v. Dharmaraj and Anr.,3 which involved a challenge against a judgment of acquittal in a murder case by the High Court, this Court held that when on facts the view taken by the High Court was a reasonably possible view, though not the only view that could be taken, interference with acquittal would be uncalled for.\n\nBearing in mind the aforesaid decisions and the fact that the trial Court and the High Court are at issue on the question whether the respondents are guilty in the case on hand, we will proceed to consider the captioned appeal. Obviously, the trial Court relied on 2 [2012] 5 SCR 67 : (2012) 4 SCC 722 3 (2003) 9 SCC 39 the oral testimonies of PWs 5, 8 and 9 whereas in the appeal the High Court found the oral evidence of PWs 5, 8 and 9 as unreliable.\n\nBefore dealing with the oral testimonies of the minor brothers of the deceased (PWs 5 and 9), we will deal with the oral evidence of PW-8, the mother of the deceased. She is the informant at whose instance First Information Report (FIR) No.78/96 was registered against the respondents herein. Though she was believed by the trial Court, on re-appreciation the High Court found her unreliable owing to the material improvements and omissions made while being examined as PW-8. It was brought out while being cross-examined that she had not deposed at all about a dying declaration made to her by the deceased son. Before analysing her evidence further, it is not inappropriate to refer to a few decisions having bearing on her testimony.\n\nFirst Information Report (FIR) is not an encyclopedia disclosing all facts and details relating the entire prosecution case. (See the decisions in Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh;4 State of UP v. Naresh & Ors.;5 Lalitha Kumari v. Government of UP & Ors.,6 and Amish Devgan v. UOI & Ors.7).",
+      "text": "Bearing in mind the aforesaid decisions and the fact that the trial Court and the High Court are at issue on the question whether the respondents are guilty in the case on hand, we will proceed to consider the captioned appeal. Obviously, the trial Court relied on 2 [2012] 5 SCR 67 : (2012) 4 SCC 722 3 (2003) 9 SCC 39 the oral testimonies of PWs 5, 8 and 9 whereas in the appeal the High Court found the oral evidence of PWs 5, 8 and 9 as unreliable.\n\nBefore dealing with the oral testimonies of the minor brothers of the deceased (PWs 5 and 9), we will deal with the oral evidence of PW-8, the mother of the deceased. She is the informant at whose instance First Information Report (FIR) No.78/96 was registered against the respondents herein. Though she was believed by the trial Court, on re-appreciation the High Court found her unreliable owing to the material improvements and omissions made while being examined as PW-8. It was brought out while being cross-examined that she had not deposed at all about a dying declaration made to her by the deceased son. Before analysing her evidence further, it is not inappropriate to refer to a few decisions having bearing on her testimony.\n\nFirst Information Report (FIR) is not an encyclopedia disclosing all facts and details relating the entire prosecution case. (See the decisions in Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh;4 State of UP v. Naresh & Ors.;5 Lalitha Kumari v. Government of UP & Ors.,6 and Amish Devgan v. UOI & Ors.7).\n\nIt is true that the aforementioned decisions would undoubtedly reveal the position that an First Information Report (FIR) is not meant to be a detailed document containing chronicle of all intricate and minute details.\n\nEven after, referring to the decisions mentioned above, we think it equally relevant to refer to the decision of this Court in Dharma Rama Bhagare v. State of Maharashtra.8 It was held therein thus: - \"The first information report, it may be pointed out, is never treated as a substantive piece of evidence. It can only be used for corroborating or contradicting its maker when he appears in court as a witness.”\n\nThere can be no doubt with respect to the position that the prime object of First Information Report (FIR), from the point of view of the informant is to set the criminal law in motion and from the point of the investigating authorities 4 [2003] 3 SCR 485 : (2003) 6 SCC 175 5 [2011] 4 SCR 1176 : (2011) 4 SCC 324 6 [2013] 14 SCR 713 : (2014) 2 SCC 1 7 [2020] 14 SCR 198 : (2021) 1 SCC 1 8 [1973] 3 SCR 92 : (1973) 1 SCC 537 is to obtain information about the alleged activity so as to enable to take suitable steps to trace and book the guilty. Thus, it can be said that First Information Report (FIR) is an important document, though not a substantial piece of evidence, and may be put in evidence to support or contradict the evidence of its maker viz., the informant. Whether the omission(s) is one which seriously impeaches the credibility of the witness and is sufficient to reject the testimony of the informant would depend upon the question whether it is of an important fact and whether that fact was within the knowledge of the informant, going by the case of prosecution unraveled through the witness concerned.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          8,
           9,
           10,
-          11
-        ],
-        "page_start": 5,
-        "page_end": 6
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:acquittal",
-        "LEGAL_CONCEPT:benefit_of_doubt",
-        "LEGAL_CONCEPT:dying_declaration",
-        "LEGAL_CONCEPT:first_information_report_fir",
-        "LEGAL_CONCEPT:murder"
-      ],
-      "cited_cases": [
-        "Amish Devgan v. UOI & Ors. [2020] 14 SCR 198 : (2021) 1 SCC 1",
-        "Lalitha Kumari v. Government of UP & Ors. [2013] 14 SCR 713 : (2014) 2 SCC 1",
-        "State of U.P. v. Dharmaraj and Anr. (2003) 9 SCC 39",
-        "State of UP v. Naresh & Ors. [2011] 4 SCR 1176 : (2011) 4 SCC 324",
-        "Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh [2003] 3 SCR 485 : (2003) 6 SCC 175"
-      ],
-      "token_count": 534
-    },
-    {
-      "chunk_id": "2024_INSC_823_JUDGMENT_004",
-      "case_id": "2024 INSC 823",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "First Information Report (FIR) is not an encyclopedia disclosing all facts and details relating the entire prosecution case. (See the decisions in Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh;4 State of UP v. Naresh & Ors.;5 Lalitha Kumari v. Government of UP & Ors.,6 and Amish Devgan v. UOI & Ors.7).\n\nIt is true that the aforementioned decisions would undoubtedly reveal the position that an First Information Report (FIR) is not meant to be a detailed document containing chronicle of all intricate and minute details.\n\nEven after, referring to the decisions mentioned above, we think it equally relevant to refer to the decision of this Court in Dharma Rama Bhagare v. State of Maharashtra.8 It was held therein thus: - \"The first information report, it may be pointed out, is never treated as a substantive piece of evidence. It can only be used for corroborating or contradicting its maker when he appears in court as a witness.”\n\nThere can be no doubt with respect to the position that the prime object of First Information Report (FIR), from the point of view of the informant is to set the criminal law in motion and from the point of the investigating authorities 4 [2003] 3 SCR 485 : (2003) 6 SCC 175 5 [2011] 4 SCR 1176 : (2011) 4 SCC 324 6 [2013] 14 SCR 713 : (2014) 2 SCC 1 7 [2020] 14 SCR 198 : (2021) 1 SCC 1 8 [1973] 3 SCR 92 : (1973) 1 SCC 537 is to obtain information about the alleged activity so as to enable to take suitable steps to trace and book the guilty. Thus, it can be said that First Information Report (FIR) is an important document, though not a substantial piece of evidence, and may be put in evidence to support or contradict the evidence of its maker viz., the informant. Whether the omission(s) is one which seriously impeaches the credibility of the witness and is sufficient to reject the testimony of the informant would depend upon the question whether it is of an important fact and whether that fact was within the knowledge of the informant, going by the case of prosecution unraveled through the witness concerned.\n\nThus, the position with respect to First Information Report (FIR) is clear from the decisions referred supra that even though it is not meant to be an encyclopedia containing chronicle of all intricate and minute details, it could be used to corroborate its maker under Section 157 of the Evidence Act or to contradict its maker viz., the informant under Section 145 of the Evidence Act to establish whether he is a trustworthy witness or not.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           11,
           12,
           13,
-          14,
-          15
+          14
         ],
-        "page_start": 6,
+        "page_start": 5,
         "page_end": 7
       },
-      "legal_references": [
-        "EvidenceAct:145",
-        "EvidenceAct:157"
-      ],
+      "legal_references": [],
       "legal_concepts": [
+        "LEGAL_CONCEPT:dying_declaration",
         "LEGAL_CONCEPT:first_information_report_fir"
       ],
       "cited_cases": [
@@ -250,10 +222,10 @@
         "State of UP v. Naresh & Ors. [2011] 4 SCR 1176 : (2011) 4 SCC 324",
         "Superintendent of Police, CBI & Ors. v. Tapan Kumar Singh [2003] 3 SCR 485 : (2003) 6 SCC 175"
       ],
-      "token_count": 594
+      "token_count": 776
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_005",
+      "chunk_id": "2024_INSC_823_JUDGMENT_004",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -271,7 +243,9 @@
       },
       "legal_references": [
         "EvidenceAct:145",
-        "EvidenceAct:157"
+        "EvidenceAct:157",
+        "IPC:145",
+        "IPC:157"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:dying_declaration",
@@ -282,63 +256,41 @@
       "token_count": 649
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_006",
+      "chunk_id": "2024_INSC_823_JUDGMENT_005",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Paragraph 42 of the judgment of the Trial Court carries the further recital with respect to the aforesaid aspect and it, in so far as relevant, reads thus: - \"42… Sitara Bi (PW-8) has stated in para-5 of her cross- examination that if the police has not written the fact of going of Farid Khan and Haseen Khan alongwith Naseem Khan for bathing is not written in the police statement of Exh. D-3, then, she cannot tell its reason. Similarly, when complainant Sitara Bi reached on the spot, at that time, Naseem Khan was lying on the ground and Naseem Khan told her that accused have beaten him. If, this fact is also not written in her police statement, then she cannot tell its reason...”\n\nThe Judgment of the Trial Court would reveal that after considering the aforesaid aspect in such a light manner, believing the oral evidence of PW8 as well, the Trial Court arrived at the finding that accused Ramjan Khan had beaten Naseem Khan with sickle, accused Musab had beaten him with bamboo lathi (equipped with Farsa) and accused Habib inflicted axe blow on Naseem Khan and thereby caused his murder.\n\nThe undisputed and indisputable position obtained from the evidence on record is that the defence had brought out that neither in Ext. P12 First Information Report (FIR) nor in Ext. D3 statement of PW8 recorded under Section 161, Cr.P.C., PW8 stated about the oral dying declaration made to her by the deceased. That apart, the prosecution had failed to establish that when PW8 reached the place of occurrence the deceased was in a fit state of mind to speak or talk relevantly. Except the statement of PW8 in the Court there is no scrap of evidence in that regard in the case on hand. As a matter of fact, on this aspect nothing was brought out from PW5 and PW9 or from any other witnesses. There can be no doubt that oral dying declaration should be of such a nature as to inspire full confidence of the court in its correctness. In the contextual situation revealed as above, we have no hesitation to hold that the High Court was perfectly justified in considering the oral testimony of PW8 and taking serious note of the serious omission brought out from her, on being confronted with Ext. P12 First Information Report (FIR) and Ext. D3, which is her previous statement made to police, that she had not stated anything about such an oral dying declaration made by her deceased son. The High Court also took note of the fact that neither PW5 nor PW9 had spoken about any such oral dying declaration made by the deceased brother to their mother- PW8. Add to it, the oral testimony of PW8 would reveal that while being examined-in-chief she deposed what Haseen Khan (PW5) and Fareed Khan (PW9) divulged to her. She would depose: “When my sons Fareed Khan and Haseen Khan told me at home that accused persons have killed Naseem Khan then I reached the place of incident.” (underline supplied)",
+      "text": "The Judgment of the Trial Court would reveal that after considering the aforesaid aspect in such a light manner, believing the oral evidence of PW8 as well, the Trial Court arrived at the finding that accused Ramjan Khan had beaten Naseem Khan with sickle, accused Musab had beaten him with bamboo lathi (equipped with Farsa) and accused Habib inflicted axe blow on Naseem Khan and thereby caused his murder.\n\nThe undisputed and indisputable position obtained from the evidence on record is that the defence had brought out that neither in Ext. P12 First Information Report (FIR) nor in Ext. D3 statement of PW8 recorded under Section 161, Cr.P.C., PW8 stated about the oral dying declaration made to her by the deceased. That apart, the prosecution had failed to establish that when PW8 reached the place of occurrence the deceased was in a fit state of mind to speak or talk relevantly. Except the statement of PW8 in the Court there is no scrap of evidence in that regard in the case on hand. As a matter of fact, on this aspect nothing was brought out from PW5 and PW9 or from any other witnesses. There can be no doubt that oral dying declaration should be of such a nature as to inspire full confidence of the court in its correctness. In the contextual situation revealed as above, we have no hesitation to hold that the High Court was perfectly justified in considering the oral testimony of PW8 and taking serious note of the serious omission brought out from her, on being confronted with Ext. P12 First Information Report (FIR) and Ext. D3, which is her previous statement made to police, that she had not stated anything about such an oral dying declaration made by her deceased son. The High Court also took note of the fact that neither PW5 nor PW9 had spoken about any such oral dying declaration made by the deceased brother to their mother- PW8. Add to it, the oral testimony of PW8 would reveal that while being examined-in-chief she deposed what Haseen Khan (PW5) and Fareed Khan (PW9) divulged to her. She would depose: “When my sons Fareed Khan and Haseen Khan told me at home that accused persons have killed Naseem Khan then I reached the place of incident.” (underline supplied)",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          18,
           19,
           20
         ],
         "page_start": 8,
         "page_end": 9
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:161"
+      ],
       "legal_concepts": [
         "LEGAL_CONCEPT:dying_declaration",
         "LEGAL_CONCEPT:first_information_report_fir",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
-      "token_count": 679
+      "token_count": 513
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_007",
+      "chunk_id": "2024_INSC_823_JUDGMENT_006",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "The undisputed and indisputable position obtained from the evidence on record is that the defence had brought out that neither in Ext. P12 First Information Report (FIR) nor in Ext. D3 statement of PW8 recorded under Section 161, Cr.P.C., PW8 stated about the oral dying declaration made to her by the deceased. That apart, the prosecution had failed to establish that when PW8 reached the place of occurrence the deceased was in a fit state of mind to speak or talk relevantly. Except the statement of PW8 in the Court there is no scrap of evidence in that regard in the case on hand. As a matter of fact, on this aspect nothing was brought out from PW5 and PW9 or from any other witnesses. There can be no doubt that oral dying declaration should be of such a nature as to inspire full confidence of the court in its correctness. In the contextual situation revealed as above, we have no hesitation to hold that the High Court was perfectly justified in considering the oral testimony of PW8 and taking serious note of the serious omission brought out from her, on being confronted with Ext. P12 First Information Report (FIR) and Ext. D3, which is her previous statement made to police, that she had not stated anything about such an oral dying declaration made by her deceased son. The High Court also took note of the fact that neither PW5 nor PW9 had spoken about any such oral dying declaration made by the deceased brother to their mother- PW8. Add to it, the oral testimony of PW8 would reveal that while being examined-in-chief she deposed what Haseen Khan (PW5) and Fareed Khan (PW9) divulged to her. She would depose: “When my sons Fareed Khan and Haseen Khan told me at home that accused persons have killed Naseem Khan then I reached the place of incident.” (underline supplied)\n\nIn this context, it is also relevant to refer to her oral evidence while being cross-examined. She deposed thus on being cross-examined: - “It is incorrect to say that Fareed and Haseen did not tell me that accused persons have killed Naseem.\"\n\nThe oral testimony of PW-8 would further go to show that with respect to the attack allegedly done by the three accused persons viz., the respondents herein on her deceased son Naseem Khan, her evidence is nothing but ‘hearsay evidence’ as according to her she was told about their attack on Naseem Khan only by her sons, PW-5 and PW-9 and there is no case for the prosecution that she had witnessed the respondents herein attacking Naseem Khan.",
+      "text": "In this context, it is also relevant to refer to her oral evidence while being cross-examined. She deposed thus on being cross-examined: - “It is incorrect to say that Fareed and Haseen did not tell me that accused persons have killed Naseem.\"\n\nThe oral testimony of PW-8 would further go to show that with respect to the attack allegedly done by the three accused persons viz., the respondents herein on her deceased son Naseem Khan, her evidence is nothing but ‘hearsay evidence’ as according to her she was told about their attack on Naseem Khan only by her sons, PW-5 and PW-9 and there is no case for the prosecution that she had witnessed the respondents herein attacking Naseem Khan.\n\nA scanning of the oral testimony of PW-8 would show that on many other materials points the defence could brought out, upon confronting her with Ext.P12-First Information Report (FIR), Ext.D3-previous statement, various serious omissions. About her statement in Court that PW-5 and PW-9 went along with deceased Naseem Khan on 01.10.1996 for taking bath nothing was seen recorded in Ext.D3. As noted earlier, as to the alleged oral dying declaration made to her by the deceased from the place of occurrence after sustaining injuries nothing was recorded in Ext.P12-First Information Report (FIR) as also in Ext.D3. Though she deposed that upon seeing her Ramjan, Musaf Khan and Habib Khan ran away from the place of occurrence this fact was not recorded in Ext.D3. So also, about the attack by the accused persons on deceased Naseem Khan though she deposed that PW-5 and PW-9 told her and in turn she told such facts to police they were not recorded in Ext.D3. She would depose that she got no enmity with the family of accused persons and got no dispute in respect of land. In view of the aforementioned aspects revealed from the testimony of PW-8 which were not given due weight by the trial Court while considering whether PW-8 is reliable or not, we are of the considered view that the High Court had rightly given due consideration to all such aspects and ultimately discredited her testimony.\n\nBefore considering the oral testimonies of the witnesses claimed by the prosecution as eye witnesses, it is to be noted that with respect to the nature of death of Naseem Khan there is actually no cleavage in the findings of the trial Court and the High Court. The concurrent finding is that it is culpable homicide amounting to murder. The necroscopical evidence consists of the oral testimony of PW-1, Dr. S.S. Thakur, and the postmortem report prepared and proved by him as Ext.P1. Going by the said necroscopical evidence the following antemortem injuries were present on the body of the Naseem Khan: - \"1. A punctured wound measuring ½ inch x ½ inch on the left side of face, clotted blood was present. 2. An incised wound measuring 1 inch x ½ inch on the ½, 1/3 portion back side of left wrist, which was having the clotted blood. 3. An incised wound measuring 3 inch x ½ inch x deep to bone, margin on the occipital region of head having clotted blood. 4. An incised wound measuring 3 inch x. ½ inch x deep bone, on the frontal region of head, having clotted blood. 5. An incised wound measuring 3 x ½ inch x dee on the temporal region of left side of head, in which the clotted blood was present.”",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          20,
           21,
-          22
-        ],
-        "page_start": 8,
-        "page_end": 9
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:dying_declaration",
-        "LEGAL_CONCEPT:first_information_report_fir"
-      ],
-      "cited_cases": [],
-      "token_count": 581
-    },
-    {
-      "chunk_id": "2024_INSC_823_JUDGMENT_008",
-      "case_id": "2024 INSC 823",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "The oral testimony of PW-8 would further go to show that with respect to the attack allegedly done by the three accused persons viz., the respondents herein on her deceased son Naseem Khan, her evidence is nothing but ‘hearsay evidence’ as according to her she was told about their attack on Naseem Khan only by her sons, PW-5 and PW-9 and there is no case for the prosecution that she had witnessed the respondents herein attacking Naseem Khan.\n\nA scanning of the oral testimony of PW-8 would show that on many other materials points the defence could brought out, upon confronting her with Ext.P12-First Information Report (FIR), Ext.D3-previous statement, various serious omissions. About her statement in Court that PW-5 and PW-9 went along with deceased Naseem Khan on 01.10.1996 for taking bath nothing was seen recorded in Ext.D3. As noted earlier, as to the alleged oral dying declaration made to her by the deceased from the place of occurrence after sustaining injuries nothing was recorded in Ext.P12-First Information Report (FIR) as also in Ext.D3. Though she deposed that upon seeing her Ramjan, Musaf Khan and Habib Khan ran away from the place of occurrence this fact was not recorded in Ext.D3. So also, about the attack by the accused persons on deceased Naseem Khan though she deposed that PW-5 and PW-9 told her and in turn she told such facts to police they were not recorded in Ext.D3. She would depose that she got no enmity with the family of accused persons and got no dispute in respect of land. In view of the aforementioned aspects revealed from the testimony of PW-8 which were not given due weight by the trial Court while considering whether PW-8 is reliable or not, we are of the considered view that the High Court had rightly given due consideration to all such aspects and ultimately discredited her testimony.\n\nBefore considering the oral testimonies of the witnesses claimed by the prosecution as eye witnesses, it is to be noted that with respect to the nature of death of Naseem Khan there is actually no cleavage in the findings of the trial Court and the High Court. The concurrent finding is that it is culpable homicide amounting to murder. The necroscopical evidence consists of the oral testimony of PW-1, Dr. S.S. Thakur, and the postmortem report prepared and proved by him as Ext.P1. Going by the said necroscopical evidence the following antemortem injuries were present on the body of the Naseem Khan: - \"1. A punctured wound measuring ½ inch x ½ inch on the left side of face, clotted blood was present. 2. An incised wound measuring 1 inch x ½ inch on the ½, 1/3 portion back side of left wrist, which was having the clotted blood. 3. An incised wound measuring 3 inch x ½ inch x deep to bone, margin on the occipital region of head having clotted blood. 4. An incised wound measuring 3 inch x. ½ inch x deep bone, on the frontal region of head, having clotted blood. 5. An incised wound measuring 3 x ½ inch x dee on the temporal region of left side of head, in which the clotted blood was present.”",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           22,
           23,
           24
@@ -351,92 +303,66 @@
         "LEGAL_CONCEPT:culpable_homicide",
         "LEGAL_CONCEPT:dying_declaration",
         "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
-      "token_count": 712
+      "token_count": 768
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_009",
+      "chunk_id": "2024_INSC_823_JUDGMENT_007",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Before considering the oral testimonies of the witnesses claimed by the prosecution as eye witnesses, it is to be noted that with respect to the nature of death of Naseem Khan there is actually no cleavage in the findings of the trial Court and the High Court. The concurrent finding is that it is culpable homicide amounting to murder. The necroscopical evidence consists of the oral testimony of PW-1, Dr. S.S. Thakur, and the postmortem report prepared and proved by him as Ext.P1. Going by the said necroscopical evidence the following antemortem injuries were present on the body of the Naseem Khan: - \"1. A punctured wound measuring ½ inch x ½ inch on the left side of face, clotted blood was present. 2. An incised wound measuring 1 inch x ½ inch on the ½, 1/3 portion back side of left wrist, which was having the clotted blood. 3. An incised wound measuring 3 inch x ½ inch x deep to bone, margin on the occipital region of head having clotted blood. 4. An incised wound measuring 3 inch x. ½ inch x deep bone, on the frontal region of head, having clotted blood. 5. An incised wound measuring 3 x ½ inch x dee on the temporal region of left side of head, in which the clotted blood was present.”\n\nPW-1 opined that all the aforesaid injuries except injury Nos.1 and 2 were sufficient in the ordinary course of nature to cause death and that the cause of death was comma as a result of head injuries. In short, in view of the necroscopical evidence as above the Courts were perfectly right in holding that the death of Naseem Khan is culpable homicide amounting to murder.\n\nNow, the surviving question is only whether the prosecution had succeeded in establishing conclusively beyond any reasonable doubt that the culprits for the murder of Naseem Khan, are the respondents herein as held by the trial Court or whether they are entitled to the benefit of doubt and consequential acquittal as held by the High Court. In the decision in Anil Phukan v. State of Assam,9 this Court held that conviction could be based on testimony of a single witness provided his testimony is found reliable and inspires confidence. In the decision in Chandu Bhai Shana Bhai Parmar v. State of Gujarat,10 this Court held that when the ocular evidence in a murder case is unreliable benefit of doubt to be given to all accused.",
+      "text": "PW-1 opined that all the aforesaid injuries except injury Nos.1 and 2 were sufficient in the ordinary course of nature to cause death and that the cause of death was comma as a result of head injuries. In short, in view of the necroscopical evidence as above the Courts were perfectly right in holding that the death of Naseem Khan is culpable homicide amounting to murder.\n\nNow, the surviving question is only whether the prosecution had succeeded in establishing conclusively beyond any reasonable doubt that the culprits for the murder of Naseem Khan, are the respondents herein as held by the trial Court or whether they are entitled to the benefit of doubt and consequential acquittal as held by the High Court. In the decision in Anil Phukan v. State of Assam,9 this Court held that conviction could be based on testimony of a single witness provided his testimony is found reliable and inspires confidence. In the decision in Chandu Bhai Shana Bhai Parmar v. State of Gujarat,10 this Court held that when the ocular evidence in a murder case is unreliable benefit of doubt to be given to all accused.\n\nWe have already held, for the reasons given earlier, that the High Court had rightly held the oral testimony of PW-8 as unreliable. As a matter of fact, the case of the prosecution is that Isab Khan (PW-2), Haseen Khan (PW-5), Fareed Khan (PW-9), and Anees Khan (PW-17) had witnessed the incident that led to the death of Naseem Khan. In the light of the decisions in Anil Phukan’s case and Chandu Bhai’s case (supra) the oral testimonies of PWs 2, 5, 9 & 17 are to be appreciated to answer the aforementioned surviving question. PW-2 was declared hostile by the prosecution and concurrently his evidence was held unreliable. Though PW-17 also turned hostile, the trial Court held that on that account the accused / the respondents herein are not entitled to any benefit as PW-5 and PW-9 proved the fact that accused/the respondents herein had caused murder of Naseem Khan using sickle, danda affixed with farsa, and axe. However, the High Court held the evidence of PW-17 as unreliable. The High Court found that though PW-17 was declared hostile prior to such declaration he deposed that the accused Ramjan/the first respondent herein had thrown the deceased on a stone boulder. He had not deposed anything against the other accused / the other respondents herein. The High Court found his testimony unreliable as according to him the first respondent Ramjan threw the deceased 9 [1993] 2 SCR 389 : (1993) 3 SCC 282 10 AIR 1982 SC 1022 on a stone boulder which caused head injuries, but that is not the case of the prosecution at all and that apart he had stated so, for the first time only in the Court. In that regard he was confronted with his previous statement - Ext.P22. Besides the same, there is nothing in the opinion of PW-1, the Doctor who conducted autopsy on the body of Naseem Khan, which would indicate that the head injury was caused on account of the deceased being thrown on the stone boulder. When that be the nature of evidence of PW-17, it can only be held that the finding of the trial Court that the evidence of PW-17 would not fetch any benefit for the accused cannot be sustained. Hence, according to us, the High Court held his evidence unreliable correctly.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          24,
           25,
-          26
+          26,
+          27
         ],
         "page_start": 10,
-        "page_end": 11
+        "page_end": 12
       },
       "legal_references": [],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:benefit_of_doubt",
         "LEGAL_CONCEPT:culpable_homicide",
+        "LEGAL_CONCEPT:medical_evidence",
         "LEGAL_CONCEPT:murder",
         "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [
         "Anil Phukan v. State of Assam [1993] 2 SCR 389 : (1993) 3 SCC 282"
       ],
-      "token_count": 549
+      "token_count": 766
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_010",
+      "chunk_id": "2024_INSC_823_JUDGMENT_008",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Now, the surviving question is only whether the prosecution had succeeded in establishing conclusively beyond any reasonable doubt that the culprits for the murder of Naseem Khan, are the respondents herein as held by the trial Court or whether they are entitled to the benefit of doubt and consequential acquittal as held by the High Court. In the decision in Anil Phukan v. State of Assam,9 this Court held that conviction could be based on testimony of a single witness provided his testimony is found reliable and inspires confidence. In the decision in Chandu Bhai Shana Bhai Parmar v. State of Gujarat,10 this Court held that when the ocular evidence in a murder case is unreliable benefit of doubt to be given to all accused.\n\nWe have already held, for the reasons given earlier, that the High Court had rightly held the oral testimony of PW-8 as unreliable. As a matter of fact, the case of the prosecution is that Isab Khan (PW-2), Haseen Khan (PW-5), Fareed Khan (PW-9), and Anees Khan (PW-17) had witnessed the incident that led to the death of Naseem Khan. In the light of the decisions in Anil Phukan’s case and Chandu Bhai’s case (supra) the oral testimonies of PWs 2, 5, 9 & 17 are to be appreciated to answer the aforementioned surviving question. PW-2 was declared hostile by the prosecution and concurrently his evidence was held unreliable. Though PW-17 also turned hostile, the trial Court held that on that account the accused / the respondents herein are not entitled to any benefit as PW-5 and PW-9 proved the fact that accused/the respondents herein had caused murder of Naseem Khan using sickle, danda affixed with farsa, and axe. However, the High Court held the evidence of PW-17 as unreliable. The High Court found that though PW-17 was declared hostile prior to such declaration he deposed that the accused Ramjan/the first respondent herein had thrown the deceased on a stone boulder. He had not deposed anything against the other accused / the other respondents herein. The High Court found his testimony unreliable as according to him the first respondent Ramjan threw the deceased 9 [1993] 2 SCR 389 : (1993) 3 SCC 282 10 AIR 1982 SC 1022 on a stone boulder which caused head injuries, but that is not the case of the prosecution at all and that apart he had stated so, for the first time only in the Court. In that regard he was confronted with his previous statement - Ext.P22. Besides the same, there is nothing in the opinion of PW-1, the Doctor who conducted autopsy on the body of Naseem Khan, which would indicate that the head injury was caused on account of the deceased being thrown on the stone boulder. When that be the nature of evidence of PW-17, it can only be held that the finding of the trial Court that the evidence of PW-17 would not fetch any benefit for the accused cannot be sustained. Hence, according to us, the High Court held his evidence unreliable correctly.",
+      "text": "In the aforesaid circumstances the question is with respect to the reliability on the oral testimonies of PW-5 and PW-9 who are the younger brothers of deceased Naseem Khan. As noticed hereinbefore, their oral testimonies were held as reliable by the trial Court and at the same time the High Court found their testimonies as unreliable. At the outset, it is to be noted that as in the case of PW-8, the defence had succeeded in bringing out the fact that both PW-5 and PW-9 had omitted to mention certain material facts to police while their statements were recorded. The question is whether they were omissions tantamounting to discredit the said witnesses. PW-5, while being examined in chief, deposed to have seen Ramjan causing injury by parena (sickle), Musaf Khan causing injury by stick and Habib causing injury by axe on his brother Naseem Khan. However, during cross-examination he would depose that regarding the infliction of injuries by the respondents using the aforementioned weapons on Naseem Khan, he did not make any statement before the police and stated so for the first time before the Court. PW-2, Isab Khan, and PW-17, Anees Khan, are respectively the sons of Yaseem Khan and Mohar Khan, who are the cousin brothers of Munne Khan, the father of PWs 5 and 9. As noticed hereinbefore, both PW-2 and PW-17 did not support the case of the prosecution. High Court also took note of the fact that PW-5 did not depose that when he along with his mother (PW-8) reached the place of occurrence the deceased was alive and gave oral dying declaration to PW-8.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          26,
-          27
-        ],
-        "page_start": 11,
-        "page_end": 12
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:acquittal",
-        "LEGAL_CONCEPT:benefit_of_doubt",
-        "LEGAL_CONCEPT:murder",
-        "LEGAL_CONCEPT:ocular_evidence"
-      ],
-      "cited_cases": [
-        "Anil Phukan v. State of Assam [1993] 2 SCR 389 : (1993) 3 SCC 282"
-      ],
-      "token_count": 678
-    },
-    {
-      "chunk_id": "2024_INSC_823_JUDGMENT_011",
-      "case_id": "2024 INSC 823",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "We have already held, for the reasons given earlier, that the High Court had rightly held the oral testimony of PW-8 as unreliable. As a matter of fact, the case of the prosecution is that Isab Khan (PW-2), Haseen Khan (PW-5), Fareed Khan (PW-9), and Anees Khan (PW-17) had witnessed the incident that led to the death of Naseem Khan. In the light of the decisions in Anil Phukan’s case and Chandu Bhai’s case (supra) the oral testimonies of PWs 2, 5, 9 & 17 are to be appreciated to answer the aforementioned surviving question. PW-2 was declared hostile by the prosecution and concurrently his evidence was held unreliable. Though PW-17 also turned hostile, the trial Court held that on that account the accused / the respondents herein are not entitled to any benefit as PW-5 and PW-9 proved the fact that accused/the respondents herein had caused murder of Naseem Khan using sickle, danda affixed with farsa, and axe. However, the High Court held the evidence of PW-17 as unreliable. The High Court found that though PW-17 was declared hostile prior to such declaration he deposed that the accused Ramjan/the first respondent herein had thrown the deceased on a stone boulder. He had not deposed anything against the other accused / the other respondents herein. The High Court found his testimony unreliable as according to him the first respondent Ramjan threw the deceased 9 [1993] 2 SCR 389 : (1993) 3 SCC 282 10 AIR 1982 SC 1022 on a stone boulder which caused head injuries, but that is not the case of the prosecution at all and that apart he had stated so, for the first time only in the Court. In that regard he was confronted with his previous statement - Ext.P22. Besides the same, there is nothing in the opinion of PW-1, the Doctor who conducted autopsy on the body of Naseem Khan, which would indicate that the head injury was caused on account of the deceased being thrown on the stone boulder. When that be the nature of evidence of PW-17, it can only be held that the finding of the trial Court that the evidence of PW-17 would not fetch any benefit for the accused cannot be sustained. Hence, according to us, the High Court held his evidence unreliable correctly.\n\nIn the aforesaid circumstances the question is with respect to the reliability on the oral testimonies of PW-5 and PW-9 who are the younger brothers of deceased Naseem Khan. As noticed hereinbefore, their oral testimonies were held as reliable by the trial Court and at the same time the High Court found their testimonies as unreliable. At the outset, it is to be noted that as in the case of PW-8, the defence had succeeded in bringing out the fact that both PW-5 and PW-9 had omitted to mention certain material facts to police while their statements were recorded. The question is whether they were omissions tantamounting to discredit the said witnesses. PW-5, while being examined in chief, deposed to have seen Ramjan causing injury by parena (sickle), Musaf Khan causing injury by stick and Habib causing injury by axe on his brother Naseem Khan. However, during cross-examination he would depose that regarding the infliction of injuries by the respondents using the aforementioned weapons on Naseem Khan, he did not make any statement before the police and stated so for the first time before the Court. PW-2, Isab Khan, and PW-17, Anees Khan, are respectively the sons of Yaseem Khan and Mohar Khan, who are the cousin brothers of Munne Khan, the father of PWs 5 and 9. As noticed hereinbefore, both PW-2 and PW-17 did not support the case of the prosecution. High Court also took note of the fact that PW-5 did not depose that when he along with his mother (PW-8) reached the place of occurrence the deceased was alive and gave oral dying declaration to PW-8.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          27,
           28
         ],
-        "page_start": 11,
+        "page_start": 12,
         "page_end": 12
       },
       "legal_references": [],
       "legal_concepts": [
         "LEGAL_CONCEPT:dying_declaration",
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
-      "token_count": 871
+      "token_count": 359
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_012",
+      "chunk_id": "2024_INSC_823_JUDGMENT_009",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -454,35 +380,32 @@
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:benefit_of_doubt",
         "LEGAL_CONCEPT:material_contradiction",
+        "LEGAL_CONCEPT:medical_evidence",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
       "token_count": 710
     },
     {
-      "chunk_id": "2024_INSC_823_JUDGMENT_013",
+      "chunk_id": "2024_INSC_823_JUDGMENT_010",
       "case_id": "2024 INSC 823",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "While being cross-examined PW-9 deposed that he did not tell the police that Ramjan with parena, Musaf Khan with farsa and, Habib Khan with axe assaulted his brother Naseem Khan. While being examined in chief he would depose that his mother was also beaten by the accused persons. It is to be noted that there is absolutely no such case even for PW-8, the mother of PW-9. As can be seen from paragraph 6 of his oral testimony the defence had brought out some other omissions and contradictions. The aforementioned omissions on the part of PWs 5 and 9 cannot be said to be minor contradictions to be taken lightly as according to them they did not name the accused persons in their previous statements made to the police. Hence, omissions thus brought amount to material contradiction which will go into the core of the prosecution case. Their oral testimonies would reveal that they stated about the infliction of injuries on Naseem Khan, their elder brother by the respondents with the weapons mentioned above for the first time only before the Court while being examined. That apart, it is to be noted that though the case of the prosecution is that both PWs 5 and 9 had gone with deceased Naseem Khan for taking bath on the fateful day the evidence of PW-8 would reveal that in her previous statement to the police she had not disclosed the said fact to the police. In this context, it is relevant to note that the prosecution had not revealed, rather established, the genesis of the incident that led to the death of Naseem Khan. In other words, none of the witnesses including PWs 5 and 9 had deposed as to the genesis of the incident. This assumes relevance as PW-8 herself deposed that she got no enmity with the families of the accused and got no land dispute with them. When this be the nature of the evidence of PWs 5 and 9 as also the evidence of PWs 2, 8 and 17, we are of the considered view that there can be no good reason to hold that the prosecution had succeeded in conclusively proving the guilt of the accused/respondents herein beyond reasonable doubt warranting displacement of the finding of the High Court that in view of the omissions and contradictions, the oral testimonies of the aforesaid witnesses are not reliable and the respondents herein are entitled to the benefit of doubt. We have already taken note of the decision in Dharmaraj’s case (supra) involving a challenge against judgment of acquittal in a murder case in reversal of conviction entered against the accused by the trial Court holding that if on facts the view taken by the High Court is a reasonable possible view, though not the only view that could be taken, interference with acquittal would be uncalled for. In view of the nature of the evidence discussed above and the finding of the High Court that the respondents/accused are entitled to benefit of doubt and consequently for acquittal, we do not find any reason to hold that it is not a reasonably possible view though not the only view that could be taken.\n\nThe long and short of the above discussion is that we are not inclined to interfere with the judgment of acquittal passed by the High Court in Criminal Appeal No. 602 of 1998. Hence the appeal stands dismissed.",
+      "text": "The long and short of the above discussion is that we are not inclined to interfere with the judgment of acquittal passed by the High Court in Criminal Appeal No. 602 of 1998. Hence the appeal stands dismissed.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          29,
           30
         ],
-        "page_start": 12,
+        "page_start": 14,
         "page_end": 14
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:acquittal",
-        "LEGAL_CONCEPT:benefit_of_doubt",
-        "LEGAL_CONCEPT:material_contradiction",
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:acquittal"
       ],
       "cited_cases": [],
-      "token_count": 760
+      "token_count": 50
     }
   ]
 }

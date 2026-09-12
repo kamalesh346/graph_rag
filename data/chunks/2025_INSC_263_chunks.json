@@ -1,11 +1,11 @@
 {
   "case_id": "2025 INSC 263",
-  "total_chunks": 6,
+  "total_chunks": 5,
   "chunk_counts": {
     "issue": 1,
     "headnote": 1,
     "legal_topic": 0,
-    "judgment": 4
+    "judgment": 3
   },
   "chunks": [
     {
@@ -20,10 +20,12 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
+        "IPC:304(Part II)",
         "IPC:34"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:acquittal"
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:sentence_alteration"
       ],
       "cited_cases": [],
       "token_count": 62
@@ -44,10 +46,12 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
+        "IPC:304(Part II)",
         "IPC:34"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:acquittal"
+        "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:sentence_alteration"
       ],
       "cited_cases": [],
       "token_count": 186
@@ -62,7 +66,6 @@
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
-          1,
           2,
           3
         ],
@@ -72,34 +75,17 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
+        "IPC:304(Part II)",
         "IPC:34"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
       "cited_cases": [],
       "token_count": 594
     },
     {
       "chunk_id": "2025_INSC_263_JUDGMENT_002",
-      "case_id": "2025 INSC 263",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "With the assistance of the learned counsel appearing for the parties, we have perused the evidence of PW-1. The first paragraph of his examination-in-chief records that when his evidence was recorded, the present appellants were not present in the court. Though PW-1 deposed ascribing a role to all the accused persons in the assault on the deceased and himself, PW-1 did not identify the present appellants as the accused in the Court as they were not brought to the Court. Therefore, from the evidence of PW-1, the identity of the appellants (appellant nos.2 and 3) as accused was not established. PW-3 is not an eyewitness, and he deposed that after he heard shouts, he ran towards the side from where the shouts were coming, and he saw the accused in the light of the torch which he was carrying. He stated that he recognised the accused in the light of the torch. Even his examination-in-chief records that the present appellants were not present in the Court, and therefore, even PW-3 has not identified the present appellants as accused.\n\nFour court witnesses were examined. We have perused their evidence as well. The first Court Witness is Balwant Singh (CW-1), who is not an eyewitness. All that he states is that in the morning of the incident, at around 05:00 a.m., he heard loud voices of the weeping of the villagers and saw marks of injuries on the head of the deceased, and blood was oozing from the injuries. He further stated what was told to him by PW-3 about the accused assaulting the deceased. This part of the evidence is a piece of hearsay evidence. CW-2-Pyuli Devi, who is the wife of PW-1, is also not an eyewitness, and she again deposed based on what PW-1 told her about the assault by the accused. So, this part of her evidence is also a hearsay evidence. As far as CW-3-Fateh Singh is concerned, he did not depose anything about the incident in his examination-in-chief. However, on being questioned by the public prosecutor, he stated that PW-3 brought the deceased to his house at 04-05:00 a.m., where the deceased told him that five persons, namely, Hari Singh, Raje Singh, Kalam Singh, son of Raje Singh and one other boy assaulted him. Apart from the fact that even according to the witness, the deceased did not specifically name the present appellants, we find that his version regarding the deceased disclosing the names of the accused is an omission, as is evident from the cross-examination made by the defence counsel.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          3,
-          4
-        ],
-        "page_start": 3,
-        "page_end": 4
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 565
-    },
-    {
-      "chunk_id": "2025_INSC_263_JUDGMENT_003",
       "case_id": "2025 INSC 263",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -114,20 +100,22 @@
         "page_end": 4
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
       "cited_cases": [],
       "token_count": 509
     },
     {
-      "chunk_id": "2025_INSC_263_JUDGMENT_004",
+      "chunk_id": "2025_INSC_263_JUDGMENT_003",
       "case_id": "2025 INSC 263",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Therefore, this is a case where the identity of the present appellants as accused was not established before the Court by any of the witnesses. It is axiomatic that when the prosecution alleges that a particular person has committed an offence, it is the duty of the prosecution to establish the identity of the accused as the person who has committed the offence by adducing evidence. In this case, the evidence of both PW-1 and PW-3 was recorded in the absence of the appellants. They had named the appellants. However, they did not identify the appellants in court as the same persons whom they had seen committing the offence. This is something which is very fundamental which goes to the root of the matter and has been ignored by the Sessions Court and the High Court.\n\nThe trial court initially convicted the accused for an offence punishable under Sections 302 and 323 read with Section 34 of the Indian Penal Code, 1860 (for short, “the IPC”). The High Court, by the impugned judgment, brought down the conviction of the appellants to 304 Part II of the IPC.\n\nAs it is a case of no evidence against the present appellants, the impugned judgments, only as far as the present appellants are concerned, are hereby quashed and set aside. They are acquitted of the offences alleged against them.\n\nThe bail bonds of the appellants are cancelled.\n\nThe appeal is, accordingly, allowed.\n\nPending application(s), if any, shall stand disposed of.",
+      "text": "The trial court initially convicted the accused for an offence punishable under Sections 302 and 323 read with Section 34 of the Indian Penal Code, 1860 (for short, “the IPC”). The High Court, by the impugned judgment, brought down the conviction of the appellants to 304 Part II of the IPC.\n\nAs it is a case of no evidence against the present appellants, the impugned judgments, only as far as the present appellants are concerned, are hereby quashed and set aside. They are acquitted of the offences alleged against them.\n\nThe bail bonds of the appellants are cancelled.\n\nThe appeal is, accordingly, allowed.\n\nPending application(s), if any, shall stand disposed of.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          5,
           6,
           7,
           8,
@@ -139,13 +127,15 @@
       },
       "legal_references": [
         "IPC:302",
+        "IPC:304",
+        "IPC:304(Part II)",
         "IPC:34"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal"
       ],
       "cited_cases": [],
-      "token_count": 328
+      "token_count": 147
     }
   ]
 }

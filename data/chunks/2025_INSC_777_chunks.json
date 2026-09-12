@@ -1,11 +1,11 @@
 {
   "case_id": "2025 INSC 777",
-  "total_chunks": 14,
+  "total_chunks": 11,
   "chunk_counts": {
     "issue": 1,
     "headnote": 2,
     "legal_topic": 0,
-    "judgment": 11
+    "judgment": 8
   },
   "chunks": [
     {
@@ -18,7 +18,9 @@
         "field": "issue_for_consideration"
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
       "cited_cases": [],
       "token_count": 54
     },
@@ -45,7 +47,8 @@
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
       "token_count": 368
@@ -78,7 +81,6 @@
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
-          1,
           2,
           3,
           4,
@@ -94,7 +96,8 @@
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
-        "LEGAL_CONCEPT:first_information_report_fir"
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
       "token_count": 748
@@ -104,39 +107,16 @@
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "The prosecution has examined 10 witnesses to prove their case. PW-1 (Dr. R. M. Bhardwaj) is the doctor who conducted the autopsy of the deceased, PW-2 (Dr. K. Chandra) is the doctor who examined the injuries of PW-7, and PW-3 (Dr. Pratibha Gupta) is the gynaecologist who examined PW-7. PW-4 (Amir Hussain) is the informant/complainant who has been examined as an eye witness to the offence. He was sleeping just a few steps away when he heard noises and rushed to the scene of the crime. PW-5 (Allah Baksh) and PW-6 (Mohd. Hanif) have been examined as eye-witnesses and arrived at the crime scene on hearing a gunshot. PW-7 is an injured witness who was allegedly in an illicit relationship with the deceased and was declared hostile when she claimed that PW-4 and accused no. 1 shot the deceased and wounded her. PW-8 (Raj Bahadur Singh) is the constable who accompanied the dead body for autopsy. PW-9 (Noora) was acquainted with both the deceased and PW-7 and deposed on the existence of a relationship between the deceased and PW-7. PW-10 (Harpal Singh) is the Investigating Officer who initiated the inquest proceedings, drew a site map, made seizures and recorded statements of witnesses. SUBMISSIONS\n\nLearned senior counsel appearing for the appellants has taken us through the evidence of the prosecution witnesses. He submitted that both PW-5 (Allah Baksh) and PW-6 (Mohd. Hanif) had sworn affidavits at the time of consideration of bail applications of the appellants. Those affidavits were in favour of the accused. Though both the witnesses during their cross-examination have denied having filed such affidavits, the defence witnesses have proved the fact that such affidavits were filed. He pointed out that PW-5 stated that he had gone to the police station along with PW-4 and was detained at the police station. However, PW-6, son of PW-5, says that PW-5 had not gone to the police station.\n\nLearned senior counsel submitted that there was no material on record to show that the deceased and PW-7 were maintaining an illicit relationship. He submitted that evidence of PW-7 shows that PW-4 and one Abrar are the real culprits. They have falsely implicated the brothers of PW-7. He pointed out that although the incident occurred at 2:00 am on 5th May 1981, the First Information Report (FIR) was lodged only at 6:30 am. Inquest of the dead body of deceased was done at 11:30 am. The postmortem was conducted at 03:40 pm. He submitted that this delay creates a doubt about the veracity of the prosecution’s case. He submitted that the recovery of articles (weapons of offence) was not proved. Even the Forensic Science Laboratory Report (for short, the FSL Report) is not placed on record. He submitted that there are contradictions in the versions of PW-5 and PW-6, which make the evidence vulnerable.",
+      "text": "Learned senior counsel appearing for the appellants has taken us through the evidence of the prosecution witnesses. He submitted that both PW-5 (Allah Baksh) and PW-6 (Mohd. Hanif) had sworn affidavits at the time of consideration of bail applications of the appellants. Those affidavits were in favour of the accused. Though both the witnesses during their cross-examination have denied having filed such affidavits, the defence witnesses have proved the fact that such affidavits were filed. He pointed out that PW-5 stated that he had gone to the police station along with PW-4 and was detained at the police station. However, PW-6, son of PW-5, says that PW-5 had not gone to the police station.\n\nLearned senior counsel submitted that there was no material on record to show that the deceased and PW-7 were maintaining an illicit relationship. He submitted that evidence of PW-7 shows that PW-4 and one Abrar are the real culprits. They have falsely implicated the brothers of PW-7. He pointed out that although the incident occurred at 2:00 am on 5th May 1981, the First Information Report (FIR) was lodged only at 6:30 am. Inquest of the dead body of deceased was done at 11:30 am. The postmortem was conducted at 03:40 pm. He submitted that this delay creates a doubt about the veracity of the prosecution’s case. He submitted that the recovery of articles (weapons of offence) was not proved. Even the Forensic Science Laboratory Report (for short, the FSL Report) is not placed on record. He submitted that there are contradictions in the versions of PW-5 and PW-6, which make the evidence vulnerable.\n\nLearned senior counsel appearing for the State pointed out that the evidence of PW-5 and PW-6, which clearly ascribes roles to the appellants, has gone unchallenged as there was neither any material contradiction nor any omission brought on record. He submitted that even evidence of PW-4 is reliable and deserves acceptance. He pointed out that PW-7 turned hostile and therefore, her evidence will have to be kept out of consideration. He also pointed out that there are concurrent findings of fact by both the Trial Court and the High Court. By relying on the testimonies of PW-4, PW-5, and PW-6, and in the absence of any perversity in the findings of the Trial Court and the High Court, there is no reason to interfere with the impugned judgments. CONSIDERATION",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          5,
           6,
-          7
+          7,
+          8
         ],
         "page_start": 4,
         "page_end": 5
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:first_information_report_fir"
-      ],
-      "cited_cases": [],
-      "token_count": 626
-    },
-    {
-      "chunk_id": "2025_INSC_777_JUDGMENT_003",
-      "case_id": "2025 INSC 777",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Learned senior counsel submitted that there was no material on record to show that the deceased and PW-7 were maintaining an illicit relationship. He submitted that evidence of PW-7 shows that PW-4 and one Abrar are the real culprits. They have falsely implicated the brothers of PW-7. He pointed out that although the incident occurred at 2:00 am on 5th May 1981, the First Information Report (FIR) was lodged only at 6:30 am. Inquest of the dead body of deceased was done at 11:30 am. The postmortem was conducted at 03:40 pm. He submitted that this delay creates a doubt about the veracity of the prosecution’s case. He submitted that the recovery of articles (weapons of offence) was not proved. Even the Forensic Science Laboratory Report (for short, the FSL Report) is not placed on record. He submitted that there are contradictions in the versions of PW-5 and PW-6, which make the evidence vulnerable.\n\nLearned senior counsel appearing for the State pointed out that the evidence of PW-5 and PW-6, which clearly ascribes roles to the appellants, has gone unchallenged as there was neither any material contradiction nor any omission brought on record. He submitted that even evidence of PW-4 is reliable and deserves acceptance. He pointed out that PW-7 turned hostile and therefore, her evidence will have to be kept out of consideration. He also pointed out that there are concurrent findings of fact by both the Trial Court and the High Court. By relying on the testimonies of PW-4, PW-5, and PW-6, and in the absence of any perversity in the findings of the Trial Court and the High Court, there is no reason to interfere with the impugned judgments. CONSIDERATION\n\nWe have carefully perused the evidence of the material prosecution witnesses. PW-4 is the first informant. He stated that he knew the appellants. He stated that accused no. 1 and the appellants were present in the Court. He stated that accused no. 1 and appellant no. 1 were real brothers, and appellant no. 3 was their cousin. He pointed out that the appellant no. 1 and accused no. 1 were the brothers of the injured witness, PW-7. He stated that the deceased had an illicit relationship with PW-7. He stated that he was doing joint farming with the deceased. He described the incident that took place at 2:00 a.m. He stated that the deceased was sleeping in his hut, and he was sleeping under a Babool tree. When he heard the sound of a gunshot, he opened his eyes and found that PW-5 and PW-6 had come there. He heard a voice from inside the hut saying, “Brother, you have done this wrong”. Thereafter, another gunshot was heard. He stated that he switched on a torchlight and looked towards the hut. He saw appellant no.1 with a country-made pistol in his hand. Appellant no. 2 had a knife in his hand, and accused no. 1 had a danda in his hand. They were clinging to PW-7. When the witness raised an alarm, all three accused ran away. He stated that PW-7 had a bullet wound on her stomach and a knife wound on her back. He stated that the deceased had already died. In the cross-examination, he stated that he did not see the illicit relationship between the deceased and PW-7. He stated that this was a common discussion in the village. On the second sound of firing, while answering the question in the cross-examination about who fired the gunshot and at whom, PW-4 stated that he had only heard the sound of the second gunshot. He denied the suggestion that the police came to the village between 10:00 am and 11:00 am and arrested him. He also denied the suggestion that the police had kept him in custody till the next day.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          7,
-          8,
-          9
-        ],
-        "page_start": 4,
-        "page_end": 6
       },
       "legal_references": [],
       "legal_concepts": [
@@ -144,10 +124,10 @@
         "LEGAL_CONCEPT:material_contradiction"
       ],
       "cited_cases": [],
-      "token_count": 845
+      "token_count": 528
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_004",
+      "chunk_id": "2025_INSC_777_JUDGMENT_003",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -167,27 +147,7 @@
       "token_count": 829
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_005",
-      "case_id": "2025 INSC 777",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Now, we come to the evidence of PW-5. He identified the three accused before the Court. He stated that at 2:00 am, he was sleeping in his hut along with PW-6 (Mohd. Hanif). He was awakened by the sound of a firearm. He went near the hut of the deceased (Sukha) with a three-cell torch, when he saw that accused no. 1, appellant no. 1 and appellant no. 2 were clinging to PW-7, who was telling them, “Brother, you had done wrong”. Thereafter, the second sound of fire came. Then the three accused fled. He stated that appellant no. 1 was carrying a country-made pistol and appellant no. 2 was carrying a knife. In the cross-examination, he was confronted with the affidavit marked as ‘A’ by giving a suggestion that this affidavit was verified by him at the time when an application for bail of the appellants was considered. Witness denied having executed any such affidavit. He reiterated that he did not submit any affidavit. However, he has not been confronted with the specific parts of the affidavit during his cross-examination. He stated that he went to the police station at 8:00 am and was there until 8:00 am the next day. He stated that the Sub-Inspector left the police station after recording the report and directed that the witness should not be allowed to go. He stated that his son, PW-6 (Mohd. Hanif), did not visit the police station. The statement of PW-5 that the appellants were present with a country-made revolver and a knife, and were clinging to PW-7, has also not been challenged in the cross-examination at all.\n\nNow, we come to the evidence of PW-6 (Mohd. Hanif). He stated that at 02:00 am on the date of the incident, he was sleeping at home with his father, PW-5. His eyes opened after hearing a sound of firing. Thereafter, he, along with PW-5 (Allah Baksh), went towards the hut of the deceased (Sukha). He stated that PW-4, who was sleeping under a babool tree, also woke up. He heard a voice saying, “Brother, I am telling the truth and will tell everyone that you have done wrong”. Then they heard one more gunshot. He stated that PW-4 and PW-5 were carrying a torch, and in the light of the torch, they saw the three accused clinging to PW-7. He also stated that appellant no. 1 was having a country-made pistol in his hand and appellant no.2 had a knife in his hand. When they shouted and ran towards the accused, all three accused fled away. PW-6 was confronted, in cross-examination, by showing an affidavit marked as ‘B’. He denied having submitted any such affidavit. On the presence of appellants with a country-made gun and a knife, respectively, there was no serious cross-examination. Thus, his version about hearing two gunshots, the accused clinging to PW-7, and the accused carrying weapons has gone unchallenged.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          10,
-          11
-        ],
-        "page_start": 6,
-        "page_end": 7
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 645
-    },
-    {
-      "chunk_id": "2025_INSC_777_JUDGMENT_006",
+      "chunk_id": "2025_INSC_777_JUDGMENT_004",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -209,15 +169,14 @@
       "token_count": 502
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_007",
+      "chunk_id": "2025_INSC_777_JUDGMENT_005",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "PW-7 was declared hostile. She tried to make out a case that it was PW-4 who shot her in the stomach, and that one, Abrar, stabbed her in her neck.\n\nDW-1 is one Chhangu, who was the Pradhan of the village. He was examined to show that PW-4 was arrested and was kept in lockup for two days. He stated that affidavits of PW-5 and PW-6 were prepared in his presence in Rampur Kachehri. He stated that after the typist typed the affidavits, he read over them. DW-1 stated that the Oath Commissioner read over the affidavits to them. He stated that the deponents had put their thumb impressions below the statements. We find that in the examination-in-chief, he was not shown the affidavits marked as ‘A’ and ‘B’.\n\nDW-2 is Mumtaz Ali, who was working with an advocate in his office. He stated that PW-5 and PW-6 put their thumb impressions in his presence, and he had verified the same. DW-3 (Radhyeshyam, Advocate) was the Oath Commissioner who stated that PW-5 and PW-6 affirmed affidavits before him, which were marked as ‘A’ and ‘B’. DW-4 (Pradeep Kumar Gupta) is the clerk of the Oath Commissioner who claimed to have read over the affidavits to PW-5 and PW-6. DW-2 (Mumtaz Ali) identified his signatures as attesting witness on statements marked as ‘A’ and ‘B’.\n\nWe must record here that in the cross-examination of PWs-4, 5 and 6, no material contradictions and omissions have been brought on record. The cross-examination, unfortunately, is very sketchy. But, there is something which goes to the root of the matter. Under Article 21 of the Constitution of India, the accused is entitled to a fair trial. Even the Police are under an obligation to carry out a fair investigation. This is a crucial aspect of fairness. The objective of the investigation is to ensure that the real culprits are brought to justice. The legal system must ensure that an innocent person is not punished.\n\nWe have perused the entire trial Court record. The appellant no.1 made an application for bail before the Sessions Court. Appellant No. 2 and accused no.1 made another application. The order sheet of the bail application made by the appellant no.1 shows that the affidavits were produced in the bail application, and time was granted by the Session Court to file a counter-affidavit to the Investigating Officer. Bail was granted to the appellant no.1,by observing that all the eyewitnesses except PW-4 (complainant) have given their affidavits stating that the appellant no.1 was not the person who shot at the deceased. The order also refers to the affidavit of PW-7 (Nanhi), which is on record of the bail application. In the affidavit, she states that PW-4 (Amir Hussain) and one Akbar are the assailants of the deceased who injured her. Accused no.1 and appellant no.2 were granted bail by the Sessions Court by relying upon the affidavit of PW-7 (Nanhi).",
+      "text": "DW-1 is one Chhangu, who was the Pradhan of the village. He was examined to show that PW-4 was arrested and was kept in lockup for two days. He stated that affidavits of PW-5 and PW-6 were prepared in his presence in Rampur Kachehri. He stated that after the typist typed the affidavits, he read over them. DW-1 stated that the Oath Commissioner read over the affidavits to them. He stated that the deponents had put their thumb impressions below the statements. We find that in the examination-in-chief, he was not shown the affidavits marked as ‘A’ and ‘B’.\n\nDW-2 is Mumtaz Ali, who was working with an advocate in his office. He stated that PW-5 and PW-6 put their thumb impressions in his presence, and he had verified the same. DW-3 (Radhyeshyam, Advocate) was the Oath Commissioner who stated that PW-5 and PW-6 affirmed affidavits before him, which were marked as ‘A’ and ‘B’. DW-4 (Pradeep Kumar Gupta) is the clerk of the Oath Commissioner who claimed to have read over the affidavits to PW-5 and PW-6. DW-2 (Mumtaz Ali) identified his signatures as attesting witness on statements marked as ‘A’ and ‘B’.\n\nWe must record here that in the cross-examination of PWs-4, 5 and 6, no material contradictions and omissions have been brought on record. The cross-examination, unfortunately, is very sketchy. But, there is something which goes to the root of the matter. Under Article 21 of the Constitution of India, the accused is entitled to a fair trial. Even the Police are under an obligation to carry out a fair investigation. This is a crucial aspect of fairness. The objective of the investigation is to ensure that the real culprits are brought to justice. The legal system must ensure that an innocent person is not punished.\n\nWe have perused the entire trial Court record. The appellant no.1 made an application for bail before the Sessions Court. Appellant No. 2 and accused no.1 made another application. The order sheet of the bail application made by the appellant no.1 shows that the affidavits were produced in the bail application, and time was granted by the Session Court to file a counter-affidavit to the Investigating Officer. Bail was granted to the appellant no.1,by observing that all the eyewitnesses except PW-4 (complainant) have given their affidavits stating that the appellant no.1 was not the person who shot at the deceased. The order also refers to the affidavit of PW-7 (Nanhi), which is on record of the bail application. In the affidavit, she states that PW-4 (Amir Hussain) and one Akbar are the assailants of the deceased who injured her. Accused no.1 and appellant no.2 were granted bail by the Sessions Court by relying upon the affidavit of PW-7 (Nanhi).",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          14,
           15,
           16,
           17,
@@ -227,34 +186,14 @@
         "page_end": 8
       },
       "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 649
-    },
-    {
-      "chunk_id": "2025_INSC_777_JUDGMENT_008",
-      "case_id": "2025 INSC 777",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "We have perused the entire trial Court record. The appellant no.1 made an application for bail before the Sessions Court. Appellant No. 2 and accused no.1 made another application. The order sheet of the bail application made by the appellant no.1 shows that the affidavits were produced in the bail application, and time was granted by the Session Court to file a counter-affidavit to the Investigating Officer. Bail was granted to the appellant no.1,by observing that all the eyewitnesses except PW-4 (complainant) have given their affidavits stating that the appellant no.1 was not the person who shot at the deceased. The order also refers to the affidavit of PW-7 (Nanhi), which is on record of the bail application. In the affidavit, she states that PW-4 (Amir Hussain) and one Akbar are the assailants of the deceased who injured her. Accused no.1 and appellant no.2 were granted bail by the Sessions Court by relying upon the affidavit of PW-7 (Nanhi).\n\nThere is something very crucial that the High Court and the Sessions Court have missed. In the cross-examination of PW-10 (Harpal Singh), Investigating Officer, the following questions were put: “Que. Except complainant other eyewitnesses had submitted their affidavits on behalf of accused persons in this Court at the time of bail, you had not filed any counter affidavit to those affidavits? Ans. Witnesses were not found available to me as such I could not verify as to whether they had filed affidavits or not and on account of this reason I could not file any counter-affidavit also. Que. Whether you had gone in search of those witnesses in regard to counter affidavit yourself or you had sent someone? Ans. I had gone personally. Que. You have not recorded anything in case diary about searching witnesses for counter-affidavit? Ans. No, Sir, I had closed case diary after completing investigation. Que. Have you recorded any entry in C.D. about tracing witnesses for counter-affidavit? Ans. I do not recollect. Que. When you did not find witnesses available whether you moved any application before court that you could not find witnesses available as such time be extended? Ans. I had reported to Government counsel about not finding witnesses available. Que. From copy of affidavit of injured Nanhi you had come to know this fact that Amir Hussain has committed murder? Ans. Copy of the said affidavit had reached to me and such fact was lying mentioned in that affidavit.”",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          18,
-          19
-        ],
-        "page_start": 8,
-        "page_end": 9
-      },
-      "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
-      "token_count": 537
+      "token_count": 609
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_009",
+      "chunk_id": "2025_INSC_777_JUDGMENT_006",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -270,48 +209,49 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
       "token_count": 634
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_010",
+      "chunk_id": "2025_INSC_777_JUDGMENT_007",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Thus, the fact that PW-5 and PW-6 had submitted the affidavits in the bail application in favour of the accused is admitted by the investigating officer. Even the affidavit of PW-7 (Nanhi) is admitted. Though there is a defence evidence adduced to prove the execution of the affidavits by PW-5 and PW-6, marked as Annexure ‘A’ and ‘B’, the police did not conduct an investigation by sending the affidavits and admitted thumb impressions of the witnesses for examination by an expert. Thus, three major prosecution witnesses, who were the eyewitnesses, had admittedly filed the affidavits before the Session Court stating that the present appellants were not the culprits. The Session Court relied upon the affidavits for granting bail to the accused. After getting the knowledge of the affidavits, it was the duty of the Investigating Officer to record supplementary statements of these three eyewitnesses about the affidavits and the contents of the affidavits. He has come out with a lame excuse that he did not controvert the said affidavit by filing a counter-affidavit, as the witnesses could not be traced. If the presence of the witness is required during the investigation, there are elaborate provisions in the Code of Criminal Procedure, 1973 (for short, ‘the CrPC’) for procuring the presence of the witnesses. PW-10 has not explained what efforts he has made to call PW-5 to PW-7 to record their further statements.\n\nThus, the scenario which emerges is that three out of four eyewitnesses had admittedly filed the affidavits during the bail hearing of the accused, stating that the accused were not involved. For whatever reason, the investigating officer did not controvert the affidavits, though time was granted to him. In fact, the stand taken by the affidavit of PW-7 is that PW-4 and Akbar are the assailants who killed the deceased and who injured her.\n\nThus, by failing to carry out further investigation on the basis of the said affidavits, the prosecution has failed to carry out a fair investigation. Moreover, the prosecution tried to suppress the affidavits.\n\nTherefore, there is a serious doubt created about the truthfulness of the versions of PW-5 to PW-7 before the Court. It is pertinent to note that PW-5 was detained at the police station for 24 hours before his statement was recorded. A serious doubt is created whether these witnesses are telling the truth. Then, what survives is the evidence of PW-4. PW-7 in the affidavit has stated that, in fact, PW-4 was the assailant. As the prosecution has not conducted a fair investigation and has suppressed important material in the form of affidavits of PW-5 to PW-7, it is unsafe to convict the appellants only on the basis of the testimony of PW-4. The failure to conduct further investigation based on the affidavits goes to the root of the matter. The failure to recover the weapons of offence also becomes relevant in the background of these circumstances.",
+      "text": "Thus, the scenario which emerges is that three out of four eyewitnesses had admittedly filed the affidavits during the bail hearing of the accused, stating that the accused were not involved. For whatever reason, the investigating officer did not controvert the affidavits, though time was granted to him. In fact, the stand taken by the affidavit of PW-7 is that PW-4 and Akbar are the assailants who killed the deceased and who injured her.\n\nThus, by failing to carry out further investigation on the basis of the said affidavits, the prosecution has failed to carry out a fair investigation. Moreover, the prosecution tried to suppress the affidavits.\n\nTherefore, there is a serious doubt created about the truthfulness of the versions of PW-5 to PW-7 before the Court. It is pertinent to note that PW-5 was detained at the police station for 24 hours before his statement was recorded. A serious doubt is created whether these witnesses are telling the truth. Then, what survives is the evidence of PW-4. PW-7 in the affidavit has stated that, in fact, PW-4 was the assailant. As the prosecution has not conducted a fair investigation and has suppressed important material in the form of affidavits of PW-5 to PW-7, it is unsafe to convict the appellants only on the basis of the testimony of PW-4. The failure to conduct further investigation based on the affidavits goes to the root of the matter. The failure to recover the weapons of offence also becomes relevant in the background of these circumstances.\n\nTherefore, this is a case where there is failure on the part of the High Court and the Session Court to consider the cross-examination of PW-10 and the suppression of the affidavits by the prosecution. These highly relevant aspects have been completely overlooked by the High Court.\n\nBefore we part with the judgment, we reiterate the direction issued in the order dated 8th February 2024, that the record of the Trial Court should not be referred to as “Lower Court Record”. Describing any Court as a “Lower Court” is against the ethos of our Constitution. The Registry has issued a Circular dated 28th February 2024 for giving effect to the order. The High Courts must take note of the above direction and act upon the same.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          20,
           21,
           22,
-          23
+          23,
+          24,
+          25
         ],
-        "page_start": 9,
-        "page_end": 10
+        "page_start": 10,
+        "page_end": 11
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
       "cited_cases": [],
-      "token_count": 646
+      "token_count": 505
     },
     {
-      "chunk_id": "2025_INSC_777_JUDGMENT_011",
+      "chunk_id": "2025_INSC_777_JUDGMENT_008",
       "case_id": "2025 INSC 777",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Therefore, there is a serious doubt created about the truthfulness of the versions of PW-5 to PW-7 before the Court. It is pertinent to note that PW-5 was detained at the police station for 24 hours before his statement was recorded. A serious doubt is created whether these witnesses are telling the truth. Then, what survives is the evidence of PW-4. PW-7 in the affidavit has stated that, in fact, PW-4 was the assailant. As the prosecution has not conducted a fair investigation and has suppressed important material in the form of affidavits of PW-5 to PW-7, it is unsafe to convict the appellants only on the basis of the testimony of PW-4. The failure to conduct further investigation based on the affidavits goes to the root of the matter. The failure to recover the weapons of offence also becomes relevant in the background of these circumstances.\n\nTherefore, this is a case where there is failure on the part of the High Court and the Session Court to consider the cross-examination of PW-10 and the suppression of the affidavits by the prosecution. These highly relevant aspects have been completely overlooked by the High Court.\n\nBefore we part with the judgment, we reiterate the direction issued in the order dated 8th February 2024, that the record of the Trial Court should not be referred to as “Lower Court Record”. Describing any Court as a “Lower Court” is against the ethos of our Constitution. The Registry has issued a Circular dated 28th February 2024 for giving effect to the order. The High Courts must take note of the above direction and act upon the same.\n\nTherefore, the appeal succeeds. The impugned judgments and orders insofar as the appellants are concerned are hereby set aside, and the appellants are acquitted of the offences alleged against them. Their bail bonds stand cancelled.",
+      "text": "Therefore, the appeal succeeds. The impugned judgments and orders insofar as the appellants are concerned are hereby set aside, and the appellants are acquitted of the offences alleged against them. Their bail bonds stand cancelled.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          23,
-          24,
-          25,
           26
         ],
-        "page_start": 10,
+        "page_start": 11,
         "page_end": 11
       },
       "legal_references": [],
@@ -319,7 +259,7 @@
         "LEGAL_CONCEPT:acquittal"
       ],
       "cited_cases": [],
-      "token_count": 409
+      "token_count": 46
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "case_id": "2025 INSC 880",
-  "total_chunks": 13,
+  "total_chunks": 11,
   "chunk_counts": {
     "issue": 1,
     "headnote": 2,
     "legal_topic": 1,
-    "judgment": 9
+    "judgment": 7
   },
   "chunks": [
     {
@@ -102,7 +102,6 @@
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
-          1,
           2,
           3,
           4,
@@ -115,6 +114,8 @@
         "IPC:302"
       ],
       "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
@@ -125,14 +126,16 @@
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "It is the case of the prosecution that on the day of the incident, i.e. on 14.04.2013 at around 12 noon, A2 went over to the residence of the deceased and asked him to accompany him to a TASMAC shop for consuming alcohol. The deceased and A2 left for the said purpose on A2’s motorcycle. PW-1 and PW-2 were at home and knew about the deceased’s departure with A2. However, it is alleged that they grew suspicious of A2’s conduct and decided to reach the said TASMAC shop in order to bring back the deceased. It is essential to note that, thereafter, PW-1 and PW-2 claim to have left their residence on a bicycle, reach the said shop and, from the south-entrance of the shop, saw the deceased person sitting and drinking with A2. At that point in time, A2 is said to have administered a threat to the deceased, gave a signal towards the north entrance of the shop/bar calling out A1 and asking him to finish off the deceased, whereupon A1 appeared and started attacking the deceased indiscriminately with a weapon, by way of retaliation to the injuries caused to Balasubramaniam by the deceased, in the past. The said occurrence is described to take place at 12.30 p.m., having allegedly been witnessed by PW-1 and PW-2. The two accused persons escaped from the crime spot and the deceased succumbed to the multiple injuries at the spot itself.\n\nThe prosecution, thereby, charged A1 for the offence under Section 302 IPC and A2 for the offence under Section 302 r/w 34 of the IPC. The charge under Section 120B of IPC was also framed against the two accused persons. Charges read out which were denied by the appellants and they claimed trial.\n\nDuring the course of trial, in order to prove its case and establish the guilt of the accused persons, the prosecution examined PW-1 3 “Goondas Act”, hereinafter. to PW-22, marked Ex-P1 to Ex-P24, and also produced material objects, MO-1 to MO-8. The accused persons did not examine any witness or produce any document in defence.\n\nThe Trial Court, vide judgment dated 04.03.2020, convicted A1 for offence under Section 302 of IPC and sentenced him to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. Similarly, A2 was convicted for the offence under Section 302 r/w 34 of IPC and sentenced to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. The accused persons were held not guilty of charges under Section 120B of the IPC as the same remained unproven.",
+      "text": "The prosecution, thereby, charged A1 for the offence under Section 302 IPC and A2 for the offence under Section 302 r/w 34 of the IPC. The charge under Section 120B of IPC was also framed against the two accused persons. Charges read out which were denied by the appellants and they claimed trial.\n\nDuring the course of trial, in order to prove its case and establish the guilt of the accused persons, the prosecution examined PW-1 3 “Goondas Act”, hereinafter. to PW-22, marked Ex-P1 to Ex-P24, and also produced material objects, MO-1 to MO-8. The accused persons did not examine any witness or produce any document in defence.\n\nThe Trial Court, vide judgment dated 04.03.2020, convicted A1 for offence under Section 302 of IPC and sentenced him to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. Similarly, A2 was convicted for the offence under Section 302 r/w 34 of IPC and sentenced to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. The accused persons were held not guilty of charges under Section 120B of the IPC as the same remained unproven.\n\nThe basis of the conviction by the Trial Court was the eye-witness accounts of PW-1 and PW-2, which were considered to be natural, consistent, credible and unblemished, even though the other witnesses had turned hostile. The criminal complaint was considered to be proved owing to the “I know” signature of PW-3 Backiyaraj. It was also held that the motive for the crime has been sufficiently established by the prosecution. Further, it was held that even though there are some contradictions between the evidence of village administrative officers and the investigative officers about obtaining the confession statements from the accused, the said contradictions were considered to have no effect on the prosecution case. The motorcycle of A2, on which A2 and the deceased had travelled to the liquor shop, and an “aruval”, the alleged weapon of offence, were recovered at the instance of accused persons, based on their respective confessional statement.\n\nBoth the accused persons preferred an appeal before the High Court challenging their conviction as well as sentence.\n\nThe High Court, vide the impugned order, dismissed the appeals, upheld the judgment of the Trial Court and affirmed the appellants’ conviction and sentence.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          5,
           6,
           7,
-          8
+          8,
+          9,
+          10,
+          11
         ],
         "page_start": 4,
         "page_end": 5
@@ -141,69 +144,42 @@
         "IPC:120B",
         "IPC:302"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [],
-      "token_count": 593
+      "token_count": 530
     },
     {
       "chunk_id": "2025_INSC_880_JUDGMENT_003",
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "The Trial Court, vide judgment dated 04.03.2020, convicted A1 for offence under Section 302 of IPC and sentenced him to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. Similarly, A2 was convicted for the offence under Section 302 r/w 34 of IPC and sentenced to undergo life imprisonment and to pay a fine of Rs. 5,000/-, in default of which to undergo two years’ simple imprisonment. The accused persons were held not guilty of charges under Section 120B of the IPC as the same remained unproven.\n\nThe basis of the conviction by the Trial Court was the eye-witness accounts of PW-1 and PW-2, which were considered to be natural, consistent, credible and unblemished, even though the other witnesses had turned hostile. The criminal complaint was considered to be proved owing to the “I know” signature of PW-3 Backiyaraj. It was also held that the motive for the crime has been sufficiently established by the prosecution. Further, it was held that even though there are some contradictions between the evidence of village administrative officers and the investigative officers about obtaining the confession statements from the accused, the said contradictions were considered to have no effect on the prosecution case. The motorcycle of A2, on which A2 and the deceased had travelled to the liquor shop, and an “aruval”, the alleged weapon of offence, were recovered at the instance of accused persons, based on their respective confessional statement.\n\nBoth the accused persons preferred an appeal before the High Court challenging their conviction as well as sentence.\n\nThe High Court, vide the impugned order, dismissed the appeals, upheld the judgment of the Trial Court and affirmed the appellants’ conviction and sentence.\n\nThe High Court, while ruling out any due importance to minor discrepancies in the depositions of PW-1 and PW-2, held that there are no material lapses in the evidence of PW-1 and PW-2. Therefore, it was concluded that involvement of A1 and A2 in the murder of the deceased person has been established beyond reasonable doubt.\n\nAggrieved by the impugned order, the appellants are before us.\n\nWe have heard Mr. S. Nagamuthu, learned senior counsel appearing for the appellants and Mr. V. Krishnamurthy, learned senior counsel appearing for the respondent-state. We have also thoroughly perused the material on record.",
+      "text": "The High Court, while ruling out any due importance to minor discrepancies in the depositions of PW-1 and PW-2, held that there are no material lapses in the evidence of PW-1 and PW-2. Therefore, it was concluded that involvement of A1 and A2 in the murder of the deceased person has been established beyond reasonable doubt.\n\nAggrieved by the impugned order, the appellants are before us.\n\nWe have heard Mr. S. Nagamuthu, learned senior counsel appearing for the appellants and Mr. V. Krishnamurthy, learned senior counsel appearing for the respondent-state. We have also thoroughly perused the material on record.\n\nThe counsel for the appellants has primarily submitted that it is highly improbable that the distance of 16 kilometers between the house of the deceased and the liquor shop was covered by PW-1 and PW-2 on a bicycle within 30 minutes. Further, it has been contended that the conduct of PW-1 and PW-2 also does not inspire confidence since there was no occasion for them to have followed the deceased, provided that they had themselves stated A2 to be a good friend of the deceased.\n\nAdditionally, there were further unnatural behaviors pointed out on the part of the key witnesses, especially the fact that they both travelled back the entire distance to their home after the incident and chose not to give any information about the crime to a police station which fell on their way back. Therefore, it was submitted that the presence of PW-1 and PW-2 is highly doubtful, and their eye-witness accounts should be discarded in light of such improbability.\n\nIt has also been submitted that the evidence of the interested witnesses should be subjected to careful scrutiny and accepted with caution, and hence, PW-1 and PW-2’s statements should not be relied on unless duly corroborated by other witnesses. Reliance has been placed on the case of Hari Obula Reddy and others v. State of Andhra Pradesh4 for the above argument.\n\nOn the other hand, it has been submitted by the counsel for the respondent that the prosecution has successfully established a clear motive for A1 to commit the murder in light of the ongoing enmity between the two parties and their families. Further, it has been argued that the direct and consistent testimony of the eye-witnesses, PW-1 and PW-2, who are the son and wife of the deceased respectively, have been held to be credible by the Trial Court as well as the High Court, and should not be discarded solely on the ground of their relationship or the factum of them being interested witnesses. 4 (1981) 3 SCC 675",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          8,
-          9,
-          10,
-          11,
           12,
           13,
-          14
-        ],
-        "page_start": 5,
-        "page_end": 6
-      },
-      "legal_references": [
-        "IPC:120B",
-        "IPC:302"
-      ],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:murder"
-      ],
-      "cited_cases": [],
-      "token_count": 518
-    },
-    {
-      "chunk_id": "2025_INSC_880_JUDGMENT_004",
-      "case_id": "2025 INSC 880",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "We have heard Mr. S. Nagamuthu, learned senior counsel appearing for the appellants and Mr. V. Krishnamurthy, learned senior counsel appearing for the respondent-state. We have also thoroughly perused the material on record.\n\nThe counsel for the appellants has primarily submitted that it is highly improbable that the distance of 16 kilometers between the house of the deceased and the liquor shop was covered by PW-1 and PW-2 on a bicycle within 30 minutes. Further, it has been contended that the conduct of PW-1 and PW-2 also does not inspire confidence since there was no occasion for them to have followed the deceased, provided that they had themselves stated A2 to be a good friend of the deceased.\n\nAdditionally, there were further unnatural behaviors pointed out on the part of the key witnesses, especially the fact that they both travelled back the entire distance to their home after the incident and chose not to give any information about the crime to a police station which fell on their way back. Therefore, it was submitted that the presence of PW-1 and PW-2 is highly doubtful, and their eye-witness accounts should be discarded in light of such improbability.\n\nIt has also been submitted that the evidence of the interested witnesses should be subjected to careful scrutiny and accepted with caution, and hence, PW-1 and PW-2’s statements should not be relied on unless duly corroborated by other witnesses. Reliance has been placed on the case of Hari Obula Reddy and others v. State of Andhra Pradesh4 for the above argument.\n\nOn the other hand, it has been submitted by the counsel for the respondent that the prosecution has successfully established a clear motive for A1 to commit the murder in light of the ongoing enmity between the two parties and their families. Further, it has been argued that the direct and consistent testimony of the eye-witnesses, PW-1 and PW-2, who are the son and wife of the deceased respectively, have been held to be credible by the Trial Court as well as the High Court, and should not be discarded solely on the ground of their relationship or the factum of them being interested witnesses. 4 (1981) 3 SCC 675\n\nIt has also been contended that the medical evidence, particularly the post-mortem report, strongly corroborates the ocular testimony regarding the fact that the deceased was actually taken to the TASMAC shop in order to consume liquor, as stated by PW-1 and PW-2, and the nature of injuries as described by these witnesses in their testimonies.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           14,
           15,
           16,
           17,
-          18,
-          19
+          18
         ],
-        "page_start": 6,
-        "page_end": 7
+        "page_start": 5,
+        "page_end": 6
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
-      "token_count": 561
+      "token_count": 575
     },
     {
-      "chunk_id": "2025_INSC_880_JUDGMENT_005",
+      "chunk_id": "2025_INSC_880_JUDGMENT_004",
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -224,7 +200,9 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:medical_evidence"
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [
         "Gangadhar Behera v. State of Orissa [2002] Supp. 3 SCR 183 : AIR 2002 SC 3633 – relied on. Hari Obula Reddy and others v. State of Andhra Pradesh (1981) 3 SCC 675 – referred to",
@@ -233,38 +211,17 @@
       "token_count": 602
     },
     {
-      "chunk_id": "2025_INSC_880_JUDGMENT_006",
+      "chunk_id": "2025_INSC_880_JUDGMENT_005",
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "The Trial Court has brushed aside the particular argument of the appellant(s), about the unlikelihood of two main witnesses having covered this distance in half an hour by bicycle, pointing out that on the date of the incident, PW-l was a young boy of 17 years and that both PW-1 and PW-2 were anxious about the safety of the deceased, who was their father/husband. It was held that, therefore, there was every possibility of them reaching the TASMAC shop within the said time period.\n\nIn the like manner, the High Court agreed with the view taken by the Trial Court and observed that PW-l, a young boy aged 17 years, and in an agitated state of mind to protect his father, could have cycled at quite a speed to reach Ponnankudi TASMAC shop in the given time. Further, the High Court went ahead to presume that since the actual route and pathway and course of pathway had not been given, it is probable that PW-1 could have taken an alternate route which may have been less than 16 kilometers.\n\nFirstly, it seems absurd to presume that the distance was less than almost 16 kilometers when PW-1 has himself deposed and agreed about the said distance range. Further, in our considered opinion, the appellants have rightly raised the contention regarding the improbability of PW-1 and PW-2 covering a distance of 16 kilometers in a matter of barely thirty minutes on a single bicycle. Even after affording due consideration to factors like an anxious state of mind, it seems highly unlikely that a boy of 17 years of age would be able to cover such a long distance, that too with his middle-aged mother as a pillion rider. It is the prosecution’s own account that the deceased had left the house with A2 at around 12 noon on a motorcycle, and that the incident took place at around 12.30 p.m. This leaves PW-1 and PW-2 with a bare period of thirty minutes to reach the place of occurrence, encounter the deceased over there and subsequently witness the horrific incident. It seems exceedingly improbable and raises huge doubts about the presence of PW-1 and PW-2 at the crime spot. Once their presence at the scene becomes immensely doubtful, it renders the entire prosecution story highly unbelievable and lacks any substantial evidence about the appellants’ involvement in the crime.",
+      "text": "In the like manner, the High Court agreed with the view taken by the Trial Court and observed that PW-l, a young boy aged 17 years, and in an agitated state of mind to protect his father, could have cycled at quite a speed to reach Ponnankudi TASMAC shop in the given time. Further, the High Court went ahead to presume that since the actual route and pathway and course of pathway had not been given, it is probable that PW-1 could have taken an alternate route which may have been less than 16 kilometers.\n\nFirstly, it seems absurd to presume that the distance was less than almost 16 kilometers when PW-1 has himself deposed and agreed about the said distance range. Further, in our considered opinion, the appellants have rightly raised the contention regarding the improbability of PW-1 and PW-2 covering a distance of 16 kilometers in a matter of barely thirty minutes on a single bicycle. Even after affording due consideration to factors like an anxious state of mind, it seems highly unlikely that a boy of 17 years of age would be able to cover such a long distance, that too with his middle-aged mother as a pillion rider. It is the prosecution’s own account that the deceased had left the house with A2 at around 12 noon on a motorcycle, and that the incident took place at around 12.30 p.m. This leaves PW-1 and PW-2 with a bare period of thirty minutes to reach the place of occurrence, encounter the deceased over there and subsequently witness the horrific incident. It seems exceedingly improbable and raises huge doubts about the presence of PW-1 and PW-2 at the crime spot. Once their presence at the scene becomes immensely doubtful, it renders the entire prosecution story highly unbelievable and lacks any substantial evidence about the appellants’ involvement in the crime.\n\nAs per their own testimony, PW-1 and PW-2 while being at the spot and actively witnessing the entire crime, do not make any attempt to save the deceased person while he was allegedly being indiscriminately attacked by the accused persons. Even if this behavior, which was certainly unnatural on their part, is not weighed adversely against the factum of their presence, considering that different people react differently in moments of danger, and that PW-2 was naturally worried about the safety of her young son amidst the occurrence and, thereby, thought it best not to interfere. Yet, we are unable to circumscribe to the account of events which led to PW1 and PW2’s presence at the place of occurrence, i.e. having peddled on a bicycle for 16 kilometers within less than thirty minutes. This brings forth an inherent improbability in the prosecution story which goes to the root of the case altogether and cannot be overlooked.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          25,
           26,
-          27
-        ],
-        "page_start": 8,
-        "page_end": 8
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 525
-    },
-    {
-      "chunk_id": "2025_INSC_880_JUDGMENT_007",
-      "case_id": "2025 INSC 880",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Firstly, it seems absurd to presume that the distance was less than almost 16 kilometers when PW-1 has himself deposed and agreed about the said distance range. Further, in our considered opinion, the appellants have rightly raised the contention regarding the improbability of PW-1 and PW-2 covering a distance of 16 kilometers in a matter of barely thirty minutes on a single bicycle. Even after affording due consideration to factors like an anxious state of mind, it seems highly unlikely that a boy of 17 years of age would be able to cover such a long distance, that too with his middle-aged mother as a pillion rider. It is the prosecution’s own account that the deceased had left the house with A2 at around 12 noon on a motorcycle, and that the incident took place at around 12.30 p.m. This leaves PW-1 and PW-2 with a bare period of thirty minutes to reach the place of occurrence, encounter the deceased over there and subsequently witness the horrific incident. It seems exceedingly improbable and raises huge doubts about the presence of PW-1 and PW-2 at the crime spot. Once their presence at the scene becomes immensely doubtful, it renders the entire prosecution story highly unbelievable and lacks any substantial evidence about the appellants’ involvement in the crime.\n\nAs per their own testimony, PW-1 and PW-2 while being at the spot and actively witnessing the entire crime, do not make any attempt to save the deceased person while he was allegedly being indiscriminately attacked by the accused persons. Even if this behavior, which was certainly unnatural on their part, is not weighed adversely against the factum of their presence, considering that different people react differently in moments of danger, and that PW-2 was naturally worried about the safety of her young son amidst the occurrence and, thereby, thought it best not to interfere. Yet, we are unable to circumscribe to the account of events which led to PW1 and PW2’s presence at the place of occurrence, i.e. having peddled on a bicycle for 16 kilometers within less than thirty minutes. This brings forth an inherent improbability in the prosecution story which goes to the root of the case altogether and cannot be overlooked.\n\nAdditionally, it also remains highly questionable as to why, after the incident, the two eye-witnesses travelled back the entire distance of 16 kilometers to their house first and went to the police station only subsequently thereafter, despite there being a police station en route from the liquor shop to their home. No satisfactory answer to such glaring loopholes in the prosecution story has been provided by the star witnesses.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
           27,
-          28,
-          29
+          28
         ],
         "page_start": 8,
         "page_end": 9
@@ -272,10 +229,10 @@
       "legal_references": [],
       "legal_concepts": [],
       "cited_cases": [],
-      "token_count": 585
+      "token_count": 619
     },
     {
-      "chunk_id": "2025_INSC_880_JUDGMENT_008",
+      "chunk_id": "2025_INSC_880_JUDGMENT_006",
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -294,21 +251,21 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:medical_evidence"
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [],
       "token_count": 529
     },
     {
-      "chunk_id": "2025_INSC_880_JUDGMENT_009",
+      "chunk_id": "2025_INSC_880_JUDGMENT_007",
       "case_id": "2025 INSC 880",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "From the above discussion, it cannot be said that the prosecution has discharged its burden of establishing the guilt of the accused persons beyond reasonable doubt. In such circumstances, the accused persons have to be declared innocent and there is no alternative to such a conclusion.\n\nAccordingly, the appeals are allowed. The impugned judgment dated 10.09.2024 passed by the Madras High Court, as well as the Trial Court’s judgment dated 04.03.2020, are hereby, quashed and set aside. The appellants are acquitted of the charges alleged against them, and are accordingly ordered to be released forthwith unless required in connection with any other case.\n\nPending application(s), if any, shall stand disposed of.",
+      "text": "Accordingly, the appeals are allowed. The impugned judgment dated 10.09.2024 passed by the Madras High Court, as well as the Trial Court’s judgment dated 04.03.2020, are hereby, quashed and set aside. The appellants are acquitted of the charges alleged against them, and are accordingly ordered to be released forthwith unless required in connection with any other case.\n\nPending application(s), if any, shall stand disposed of.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          33,
           34,
           35
         ],
@@ -320,7 +277,7 @@
         "LEGAL_CONCEPT:acquittal"
       ],
       "cited_cases": [],
-      "token_count": 147
+      "token_count": 86
     }
   ]
 }

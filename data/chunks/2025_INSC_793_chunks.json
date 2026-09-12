@@ -18,7 +18,8 @@
         "field": "issue_for_consideration"
       },
       "legal_references": [
-        "IPC:302"
+        "IPC:302",
+        "IPC:304"
       ],
       "legal_concepts": [],
       "cited_cases": [],
@@ -41,7 +42,10 @@
         "EvidenceAct:27",
         "EvidenceAct:302",
         "IPC:25",
-        "IPC:302"
+        "IPC:27",
+        "IPC:302",
+        "IPC:304",
+        "IPC:313"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:benefit_of_doubt",
@@ -79,7 +83,8 @@
         "field": "legal_topics"
       },
       "legal_references": [
-        "CrPC:313"
+        "CrPC:313",
+        "IPC:313"
       ],
       "legal_concepts": [],
       "cited_cases": [],
@@ -95,7 +100,6 @@
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
-          1,
           2,
           3
         ],
@@ -105,7 +109,8 @@
       "legal_references": [
         "IPC:25",
         "IPC:3",
-        "IPC:302"
+        "IPC:302",
+        "IPC:304"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence"
@@ -120,11 +125,10 @@
       "case_id": "2025 INSC 793",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "As the appellant is seeking reversal of the concurrent findings by the two courts below, the Sessions Court and the High Court, this Court has to tread very cautiously, as observed by this Court on numerous occasions including in Mekala Sivaiah v. State of Andhra Pradesh, (2022) 8 SCC 253, wherein it has been held that unless the findings are perverse and rendered in ignorance of material evidence, this Court should be slow in interfering with concurring findings. It was thus observed by this Court in Mekala Sivaiah (supra) in the following words: “15. It is well settled by judicial pronouncement that Article 136 is worded in wide terms and powers conferred under the said Article are not hedged by any technical hurdles. This overriding and exceptional power is, however, to be exercised sparingly and only in furtherance of cause of justice. Thus, when the judgment under appeal has resulted in grave miscarriage of justice by some misapprehension or misreading of evidence or by ignoring material evidence then this Court is not only empowered but is well expected to interfere to promote the cause of justice. 16. It is not the practice of this Court to re-appreciate the evidence for the purpose of examining whether the findings of fact concurrently arrived at by the trial court and the High Court are correct or not. It is only in rare and exceptional cases where there is some manifest illegality or grave and serious miscarriage of justice on account of misreading or ignoring material evidence, that this Court would interfere with such finding of fact.”\n\nKeeping the aforesaid cautionary approach in mind, this Court would proceed to examine the appeal at hand by considering whether there is manifest error or illegality in the impugned judgment and whether any grave and serious miscarriage of justice on account of misreading or ignoring material evidence has occurred in the present case. This would invariably require a proper examination of the facts and context of the case, for which we must revisit the background facts of the case and the evidence adduced, considered by the Trial Court as well as the High Court.",
+      "text": "Keeping the aforesaid cautionary approach in mind, this Court would proceed to examine the appeal at hand by considering whether there is manifest error or illegality in the impugned judgment and whether any grave and serious miscarriage of justice on account of misreading or ignoring material evidence has occurred in the present case. This would invariably require a proper examination of the facts and context of the case, for which we must revisit the background facts of the case and the evidence adduced, considered by the Trial Court as well as the High Court.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          3,
           4
         ],
         "page_start": 5,
@@ -132,10 +136,8 @@
       },
       "legal_references": [],
       "legal_concepts": [],
-      "cited_cases": [
-        "Mekala Sivaiah v. State of Andhra Pradesh [2022] 6 SCR 989 : (2022) 8 SCC 253"
-      ],
-      "token_count": 474
+      "cited_cases": [],
+      "token_count": 125
     },
     {
       "chunk_id": "2025_INSC_793_JUDGMENT_003",
@@ -154,8 +156,12 @@
         "page_end": 9
       },
       "legal_references": [
+        "IPC:25",
+        "IPC:27",
+        "IPC:3",
         "IPC:302",
-        "IPC:404"
+        "IPC:404",
+        "IPC:5"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:medical_evidence"
@@ -205,7 +211,12 @@
         "page_start": 6,
         "page_end": 9
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:25",
+        "IPC:27",
+        "IPC:3",
+        "IPC:5"
+      ],
       "legal_concepts": [],
       "cited_cases": [],
       "token_count": 268
@@ -228,7 +239,8 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [
         "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116"
@@ -253,11 +265,15 @@
       },
       "legal_references": [
         "EvidenceAct:25",
-        "EvidenceAct:27"
+        "EvidenceAct:27",
+        "IPC:25",
+        "IPC:27"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:motive",
+        "LEGAL_CONCEPT:murder",
+        "LEGAL_CONCEPT:sentence_alteration"
       ],
       "cited_cases": [
         "Sharad Birdhichand Sarda v. State of Maharashtra [1985] 1 SCR 88 : (1984) 4 SCC 116"
@@ -282,6 +298,7 @@
       },
       "legal_references": [],
       "legal_concepts": [
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [
@@ -312,6 +329,7 @@
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [
@@ -335,7 +353,8 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:medical_evidence"
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [],
       "token_count": 794
@@ -357,7 +376,9 @@
         "page_end": 20
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:ocular_evidence"
+      ],
       "cited_cases": [],
       "token_count": 771
     },
@@ -379,7 +400,9 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:material_contradiction",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [],
       "token_count": 476
@@ -399,7 +422,9 @@
         "page_end": 21
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [],
       "token_count": 720
     },
@@ -679,7 +704,8 @@
         "page_end": 55
       },
       "legal_references": [
-        "EvidenceAct:27"
+        "EvidenceAct:27",
+        "IPC:27"
       ],
       "legal_concepts": [],
       "cited_cases": [
@@ -705,7 +731,8 @@
         "page_end": 55
       },
       "legal_references": [
-        "EvidenceAct:8"
+        "EvidenceAct:8",
+        "IPC:8"
       ],
       "legal_concepts": [],
       "cited_cases": [
@@ -758,7 +785,8 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:benefit_of_doubt"
+        "LEGAL_CONCEPT:benefit_of_doubt",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [
         "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to",
@@ -786,7 +814,8 @@
         "IPC:302"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [
         "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to",
@@ -837,11 +866,13 @@
         "page_end": 55
       },
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:106"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:medical_evidence"
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [
         "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to",
@@ -866,10 +897,12 @@
         "page_end": 55
       },
       "legal_references": [
-        "CrPC:313"
+        "CrPC:313",
+        "IPC:313"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [
         "Manu Sao v. State of Bihar [2010] 8 SCR 811 : (2010) 12 SCC 310 – referred to",
@@ -898,6 +931,7 @@
         "IPC:25",
         "IPC:3",
         "IPC:302",
+        "IPC:313",
         "IPC:404"
       ],
       "legal_concepts": [

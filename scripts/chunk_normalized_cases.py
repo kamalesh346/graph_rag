@@ -5,7 +5,7 @@ independent, retrievable chunk streams:
 1. ISSUE (from issue_for_consideration)
 2. HEADNOTE (split into distinct legal propositions with related_paragraphs traceability)
 3. LEGAL_TOPIC (only generated for distinct topics not already covered in headnotes)
-4. JUDGMENT (intelligent paragraph grouping with deterministic sliding 1-paragraph overlap & 1000 token max budget)
+4. JUDGMENT (intelligent paragraph grouping with selective 1-paragraph overlap & 1000 token max budget)
 
 Outputs chunk artifacts in data/chunks/[CASE_ID_SLUG]_chunks.json and
 a consolidated JSONL file in data/chunks/all_judgment_chunks.jsonl.
@@ -36,15 +36,17 @@ CONCEPTS = {
     "Culpable homicide not amounting to murder": r"\bculpable homicide not amounting to murder\b",
     "Dying declaration": r"\bdying declaration\b",
     "Grave and sudden provocation": r"\bgrave and sudden provocation\b",
-    "Sudden fight": r"\bsudden fight\b",
+    "Sudden fight": r"\bsudden fight\b|\bheat of passion\b",
     "Circumstantial evidence": r"\bcircumstantial evidence\b",
-    "Ocular evidence": r"\bocular evidence\b",
+    "Ocular evidence": r"\bocular evidence\b|\beyewitness\b|\beyewitnesses\b",
     "Benefit of doubt": r"\bbenefit of doubt\b",
     "First information report (FIR)": r"\bFIR\b|\bfirst information report\b",
     "Common intention": r"\bcommon intention\b",
     "Acquittal": r"\bacquittal\b|\bacquitted\b",
-    "Material contradiction": r"\bmaterial contradiction\b|\bmaterial omissions?\b",
-    "Medical evidence": r"\bmedical evidence\b|\bpost[- ]mortem\b",
+    "Material contradiction": r"\bmaterial contradiction\b|\bmaterial omissions?\b|\binconsistenc(?:y|ies)\b",
+    "Medical evidence": r"\bmedical evidence\b|\bpost[- ]mortem\b|\bdoctor\b|\binjuri(?:es|y)\b|\bbamboo stick\b",
+    "Motive": r"\bmotive\b|\black of motive\b|\bno motive\b",
+    "Sentence alteration": r"\baltered\b|\balteration\b|\bconverted\b|\blesser offence\b",
 }
 
 
@@ -83,13 +85,16 @@ def canonical_provision(act: str, raw: str) -> str:
     value = re.sub(r"\s+", " ", raw).strip()
     act_id = act.replace(" ", "")
 
+    # Handle source typography artifacts like "Part IIPC" -> "Part II"
+    value = re.sub(r"Part\s+([IVX0-9]+)\s*IPC", r"Part \1", value, flags=re.I)
+
     exc_match = re.search(r"(?:(\d+)\s*[-–—]?\s*(?:\(\s*)?exception\s*([ivx0-9]+)(?:\s*\))?|exception\s*([ivx0-9]+)\s*(?:to|of)?\s*(?:s(?:ection)?\.?\s*)?(\d+))", value, re.I)
     if exc_match:
         sec = exc_match.group(1) or exc_match.group(4)
         exc_num = clean_exc(exc_match.group(2) or exc_match.group(3))
         return f"{act_id}:{sec}(Exception {exc_num})"
 
-    part_match = re.search(r"(\d+)\s*[-–—]?\s*(?:\(\s*)?part\s*([ivx0-9]+)(?:\s*\))?", value, re.I)
+    part_match = re.search(r"(\d+)\s*[-–—,]?\s*(?:\(\s*)?part\s*([ivx0-9]+)(?:\s*\))?", value, re.I)
     if part_match:
         sec, part_val = part_match.group(1), roman_part(part_match.group(2))
         return f"{act_id}:{sec}(Part {part_val})"
@@ -109,11 +114,29 @@ def canonical_provision(act: str, raw: str) -> str:
 
 def extract_references(text: str) -> list[str]:
     refs = set()
+    
+    # Specific patterns for section 304 Part I/II, Part IIPC, etc.
+    if re.search(r"\b304\b.*?\bPart\s*(?:I{1,2}|II|2|1|IIPC)\b", text, re.I):
+        if re.search(r"\bPart\s*(?:II|2|IIPC)\b", text, re.I):
+            refs.add("IPC:304(Part II)")
+            refs.add("IPC:304")
+        elif re.search(r"\bPart\s*(?:I|1)\b", text, re.I):
+            refs.add("IPC:304(Part I)")
+            refs.add("IPC:304")
+
+    # If text discusses altering Section 302 to Section 304
+    if re.search(r"Section 302.*?Section 304|302.*?304|altered to.*?304", text, re.I):
+        refs.add("IPC:302")
+        refs.add("IPC:304")
+
     for act, (pat, _) in STATUTES.items():
         statute = re.compile(pat, re.I)
-        sec_num = re.compile(r"\b(?:Section|Sections|S(?:ec)?\.)\s*(\d+[A-Za-z]*(?:\s*[-–—]?\s*(?:\([^)]*\)|Part\s+[IVX0-9]+|Exception\s+[IVX0-9]+))?)", re.I)
+        sec_num = re.compile(r"\b(?:Section|Sections|S(?:ec)?\.)\s*(\d+[A-Za-z]*(?:\s*[-–—,]?\s*(?:\([^)]*\)|Part\s+[IVX0-9]+|Exception\s+[IVX0-9]+))?)", re.I)
         for clause in re.split(r"[\n.;]", text):
             if not statute.search(clause):
+                # Fallback for plain "Section 302", "Section 304" in IPC-dominant context
+                for m in sec_num.finditer(clause):
+                    refs.add(canonical_provision("IPC", m.group(1)))
                 continue
             for m in sec_num.finditer(clause):
                 refs.add(canonical_provision(act, m.group(1)))
@@ -171,7 +194,7 @@ def parse_headnote_propositions(headnote_text: str) -> list[dict[str, Any]]:
                         related_paras.extend(list(range(int(sub[0]), int(sub[1]) + 1)))
                 elif item.isdigit():
                     related_paras.append(int(item))
-            related_paras = sorted(list(set(related_paras)))
+            related_paras = sorted(list(dict.fromkeys(related_paras)))
 
             clean_prop_text = normalize_text_spacing(current_text.strip())
             first_line = clean_prop_text.split("\n")[0].strip()
@@ -239,7 +262,7 @@ def group_judgment_paragraphs(
             "cited_cases": cites,
         })
 
-    # 2. Intelligent paragraph grouping loop with deterministic sliding overlap
+    # 2. Intelligent paragraph grouping loop with intentional, selective overlap
     curr_paras: list[dict[str, Any]] = []
     curr_tokens = 0
 
@@ -263,20 +286,30 @@ def group_judgment_paragraphs(
             idx += 1
             continue
 
-        # Check if adding p exceeds hard max token limit (1000) or max paras (8)
+        # Check if adding p exceeds hard max token limit (1000) or max paras (8) or preferred limit (800)
         would_exceed_tokens = (curr_tokens + p["token_count"]) > 1000
         would_exceed_paras = len(curr_paras) >= 8
+        reached_target = curr_tokens >= 500
 
-        if curr_paras and (would_exceed_tokens or would_exceed_paras or (curr_tokens >= 500)):
+        if curr_paras and (would_exceed_tokens or would_exceed_paras or reached_target):
             # Close current chunk
             chunk_obj = build_judgment_chunk(case_id, slug, seq, curr_paras)
             chunks.append(chunk_obj)
             seq += 1
 
-            # Deterministic 1-paragraph sliding overlap with Edge Case Handling
-            # Only overlap last_p into the next chunk if last_p.token_count + p.token_count <= 1000 tokens
+            # Selective Overlap Logic: Only carry over last_p if last_p is concise (<150 tokens)
+            # AND sharing semantic continuity with p. Avoid repeating massive 600-token paragraphs!
             last_p = curr_paras[-1]
-            if (last_p["token_count"] + p["token_count"]) <= 1000:
+            shared_refs = set(last_p["legal_references"]).intersection(set(p["legal_references"]))
+            shared_concepts = set(last_p["legal_concepts"]).intersection(set(p["legal_concepts"]))
+            
+            should_overlap = (
+                last_p["token_count"] <= 150
+                and (bool(shared_refs) or bool(shared_concepts))
+                and (last_p["token_count"] + p["token_count"] <= 800)
+            )
+
+            if should_overlap:
                 curr_paras = [last_p, p]
                 curr_tokens = last_p["token_count"] + p["token_count"]
             else:
@@ -299,7 +332,9 @@ def group_judgment_paragraphs(
 def build_judgment_chunk(case_id: str, slug: str, seq: int, paras: list[dict[str, Any]]) -> dict[str, Any]:
     chunk_id = f"{slug}_JUDGMENT_{seq:03d}"
     text = "\n\n".join([p["text"] for p in paras])
-    p_nums = [p["paragraph_number"] for p in paras if p["paragraph_number"] > 0]
+    
+    # Deduplicate paragraph numbers (preserves exact order without duplicate numbers like [1, 1, 2, 3, 4])
+    p_nums = list(dict.fromkeys([p["paragraph_number"] for p in paras if p["paragraph_number"] > 0]))
     p_start = min(p["page_start"] for p in paras)
     p_end = max(p["page_end"] for p in paras)
 

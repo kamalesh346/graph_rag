@@ -1,28 +1,28 @@
 INTELLIGENT CHUNKING REPORT
 ========================================
 Total Cases Chunked: 17
-Total Chunks Generated: 348
+Total Chunks Generated: 285
   - Issue Chunks: 17
   - Headnote Chunks: 48
   - Legal Topic Chunks: 11
-  - Judgment Chunks: 272
+  - Judgment Chunks: 209
 
 PER-CASE BREAKDOWN:
 ----------------------------------------
-PASS: 2024_12_743_754 | Total: 15 chunks (issue: 1, headnote: 3, topic: 0, judgment: 11) | Avg tokens: 589 | Max tokens: 976
-PASS: 2024 INSC 823 | Total: 18 chunks (issue: 1, headnote: 3, topic: 1, judgment: 13) | Avg tokens: 532 | Max tokens: 871
-PASS: 2024 INSC 878 | Total: 9 chunks (issue: 1, headnote: 1, topic: 0, judgment: 7) | Avg tokens: 581 | Max tokens: 897
-PASS: 2025 INSC 1203 | Total: 50 chunks (issue: 1, headnote: 8, topic: 5, judgment: 36) | Avg tokens: 573 | Max tokens: 942
-PASS: 2025 INSC 1318 | Total: 19 chunks (issue: 1, headnote: 2, topic: 0, judgment: 16) | Avg tokens: 537 | Max tokens: 928
-PASS: 2025 INSC 1412 | Total: 6 chunks (issue: 1, headnote: 2, topic: 0, judgment: 3) | Avg tokens: 233 | Max tokens: 538
-PASS: 2025 INSC 148 | Total: 20 chunks (issue: 1, headnote: 1, topic: 1, judgment: 17) | Avg tokens: 559 | Max tokens: 1001
-PASS: 2025 INSC 263 | Total: 6 chunks (issue: 1, headnote: 1, topic: 0, judgment: 4) | Avg tokens: 374 | Max tokens: 594
-PASS: 2025 INSC 378 | Total: 8 chunks (issue: 1, headnote: 1, topic: 0, judgment: 6) | Avg tokens: 514 | Max tokens: 929
-PASS: 2025 INSC 577 | Total: 37 chunks (issue: 1, headnote: 7, topic: 0, judgment: 29) | Avg tokens: 560 | Max tokens: 989
-PASS: 2025 INSC 710 | Total: 17 chunks (issue: 1, headnote: 2, topic: 0, judgment: 14) | Avg tokens: 606 | Max tokens: 844
-PASS: 2025 INSC 751 | Total: 17 chunks (issue: 1, headnote: 4, topic: 0, judgment: 12) | Avg tokens: 483 | Max tokens: 832
-PASS: 2025 INSC 777 | Total: 14 chunks (issue: 1, headnote: 2, topic: 0, judgment: 11) | Avg tokens: 540 | Max tokens: 845
-PASS: 2025 INSC 793 | Total: 37 chunks (issue: 1, headnote: 1, topic: 2, judgment: 33) | Avg tokens: 660 | Max tokens: 1194
-PASS: 2025 INSC 845 | Total: 48 chunks (issue: 1, headnote: 4, topic: 1, judgment: 42) | Avg tokens: 673 | Max tokens: 989
-PASS: 2025 INSC 880 | Total: 13 chunks (issue: 1, headnote: 2, topic: 1, judgment: 9) | Avg tokens: 435 | Max tokens: 740
-PASS: 2025 INSC 90 | Total: 14 chunks (issue: 1, headnote: 4, topic: 0, judgment: 9) | Avg tokens: 435 | Max tokens: 981
+PASS: 2024_12_743_754 | Total: 11 chunks (issue: 1, headnote: 3, topic: 0, judgment: 7) | Avg tokens: 517 | Max tokens: 976
+PASS: 2024 INSC 823 | Total: 15 chunks (issue: 1, headnote: 3, topic: 1, judgment: 10) | Avg tokens: 452 | Max tokens: 776
+PASS: 2024 INSC 878 | Total: 8 chunks (issue: 1, headnote: 1, topic: 0, judgment: 6) | Avg tokens: 446 | Max tokens: 767
+PASS: 2025 INSC 1203 | Total: 43 chunks (issue: 1, headnote: 8, topic: 5, judgment: 29) | Avg tokens: 534 | Max tokens: 942
+PASS: 2025 INSC 1318 | Total: 14 chunks (issue: 1, headnote: 2, topic: 0, judgment: 11) | Avg tokens: 502 | Max tokens: 928
+PASS: 2025 INSC 1412 | Total: 5 chunks (issue: 1, headnote: 2, topic: 0, judgment: 2) | Avg tokens: 247 | Max tokens: 500
+PASS: 2025 INSC 148 | Total: 14 chunks (issue: 1, headnote: 1, topic: 1, judgment: 11) | Avg tokens: 503 | Max tokens: 989
+PASS: 2025 INSC 263 | Total: 5 chunks (issue: 1, headnote: 1, topic: 0, judgment: 3) | Avg tokens: 299 | Max tokens: 594
+PASS: 2025 INSC 378 | Total: 7 chunks (issue: 1, headnote: 1, topic: 0, judgment: 5) | Avg tokens: 427 | Max tokens: 893
+PASS: 2025 INSC 577 | Total: 28 chunks (issue: 1, headnote: 7, topic: 0, judgment: 20) | Avg tokens: 514 | Max tokens: 977
+PASS: 2025 INSC 710 | Total: 13 chunks (issue: 1, headnote: 2, topic: 0, judgment: 10) | Avg tokens: 544 | Max tokens: 829
+PASS: 2025 INSC 751 | Total: 12 chunks (issue: 1, headnote: 4, topic: 0, judgment: 7) | Avg tokens: 423 | Max tokens: 940
+PASS: 2025 INSC 777 | Total: 11 chunks (issue: 1, headnote: 2, topic: 0, judgment: 8) | Avg tokens: 445 | Max tokens: 829
+PASS: 2025 INSC 793 | Total: 37 chunks (issue: 1, headnote: 1, topic: 2, judgment: 33) | Avg tokens: 651 | Max tokens: 1194
+PASS: 2025 INSC 845 | Total: 40 chunks (issue: 1, headnote: 4, topic: 1, judgment: 34) | Avg tokens: 634 | Max tokens: 989
+PASS: 2025 INSC 880 | Total: 11 chunks (issue: 1, headnote: 2, topic: 1, judgment: 7) | Avg tokens: 412 | Max tokens: 740
+PASS: 2025 INSC 90 | Total: 11 chunks (issue: 1, headnote: 4, topic: 0, judgment: 6) | Avg tokens: 381 | Max tokens: 981

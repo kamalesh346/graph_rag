@@ -1,11 +1,11 @@
 {
   "case_id": "2024_12_743_754",
-  "total_chunks": 15,
+  "total_chunks": 11,
   "chunk_counts": {
     "issue": 1,
     "headnote": 3,
     "legal_topic": 0,
-    "judgment": 11
+    "judgment": 7
   },
   "chunks": [
     {
@@ -65,7 +65,8 @@
         19
       ],
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:106"
       ],
       "legal_concepts": [],
       "cited_cases": [],
@@ -97,7 +98,6 @@
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
-          1,
           2
         ],
         "page_start": 3,
@@ -105,47 +105,21 @@
       },
       "legal_references": [
         "CrPC:174",
+        "IPC:174",
         "IPC:201",
         "IPC:300",
         "IPC:302",
         "IPC:498A"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:first_information_report_fir"
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
       "token_count": 654
     },
     {
       "chunk_id": "2024_12_743_754_JUDGMENT_002",
-      "case_id": "2024_12_743_754",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Shortly stated, the prosecution case is as hereunder: - The marriage between the appellant-convict and the deceased Smt. Pushpa was solemnised in the year 2006. The incident which led to the conviction of the appellant in connection with the death of Smt. Pushpa occurred on 26.01.2012 at his house, which is the matrimonial home of the deceased. The paternal home of the deceased is also proximately situated viz., around 50 meters from her matrimonial home. The appellant is addicted to gambling and to lash out money therefor, he used to torture her physically and mentally. He had even mortgaged the jewellery of the deceased for the said purpose. The deceased used to share such sorrowful incidents with PW-8 Aarti, who is her own sister. On 26.01.2012, also when PW-8 went to the house of the deceased she told that she was thrashed by the appellant-husband. At about quarter to 7 pm on 26.01.2012, the appellant went to his in-laws’ house and informed them that Pushpa hanged herself and thereupon, he along with her parents gone back home where Pushpa was seen on bed on her knees and still knotted by dupatta around the neck, which in turn, was tied to a piece of wood near the ceiling fan. Despite the opposition, the appellant cut the noose and took her in a vehicle to Sector-9 Hospital, where the doctor checked and declared her as dead. Autopsy on her body was conducted by PW-11, Dr. P. Akhtar. In fact, initially a case was registered only under Section 174 of the Code of Criminal Procedure, 1973 (for short the “Cr.P.C.”) but, later First Information Report (FIR) No.269/12 was registered on 07.04.2012 under Sections 302, 201 and 498A, IPC against the appellant. On being tried, the trial Court convicted him as noted above and for the conviction under Section 300, IPC, he was sentenced under Section 302, IPC, to undergo life imprisonment and also with a fine of Rs.1000/-, for the conviction under Section 201, IPC, he was sentenced to undergo rigorous imprisonment for three years with fine of Rs.500/- and for the conviction under Section 498A, IPC, he was sentenced to undergo rigorous imprisonment for one year with a fine of Rs.500/-. Default sentences were also passed in case of payment of fine imposed for the conviction under the aforesaid sections. The corporeal sentences were ordered to be run concurrently. In the appeal viz., in Criminal Appeal No.845 of 2013, the High Court confirmed the conviction under the aforesaid sections and also the sentences imposed therefor.\n\nHeard the learned senior counsel appearing for the appellant and the learned counsel appearing for the respondent-State.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          2,
-          3
-        ],
-        "page_start": 4,
-        "page_end": 5
-      },
-      "legal_references": [
-        "CrPC:174",
-        "IPC:201",
-        "IPC:300",
-        "IPC:302",
-        "IPC:498A"
-      ],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:first_information_report_fir"
-      ],
-      "cited_cases": [],
-      "token_count": 585
-    },
-    {
-      "chunk_id": "2024_12_743_754_JUDGMENT_003",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -171,7 +145,7 @@
       "token_count": 877
     },
     {
-      "chunk_id": "2024_12_743_754_JUDGMENT_004",
+      "chunk_id": "2024_12_743_754_JUDGMENT_003",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -185,36 +159,17 @@
         "page_end": 7
       },
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:106"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
       "cited_cases": [],
       "token_count": 668
     },
     {
-      "chunk_id": "2024_12_743_754_JUDGMENT_005",
-      "case_id": "2024_12_743_754",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Now, the question is about the sustainability of the concurrent finding on the culpability of the appellant. Of course, various contentions have been raised by the appellant to assail the finding of guilt against him concurrently referred to in the judgments of the trial Court and the High Court. There can be no doubt that while dealing with the such a question creation of fake scene by the appellant, absence of explanation by the accused despite being bound by virtue of Section 106 of the Evidence Act are also to be taken into consideration. In the context of the case on hand, the case established by the oral testimony of PW-8, Arti who is the own sister of the deceased would show that at about 7 pm on the fateful day the appellant came to the paternal home of the deceased and informed that Smt. Pushpa hanged herself and immediately thereupon, herself, her mother and sister went along with him to his house viz., matrimonial home of the deceased. The further fact established through the mouth of the said prosecution witness is that upon reaching there Pushpa was seen on her knees on bed and still knotted by dupatta around the neck which, in turn, tied to a wood near the ceiling fan. As per PW-8, despite the opposition of their mother when he attempted to cut the noose of the ligature and request to wait for the arrival of their relatives, he cut it immediately and took her to a nearby hospital at Sector 9. Soon on check-up, the doctor declared that she was dead. In this context, it is also worthy to note the oral evidence of DW-1, Subhash Rao. DW-1 had deposed that on that day, he along with the appellant went to Maitri Garden and from there returned home between 6 pm and 7 pm and he got down near the lane leading to his house. Thereafter, the appellant came to him and informed that Pushpa had hanged herself. According to him, thereupon, he along with the appellant went to the latter’s house and thereafter, he cut the noose of the ligature and took Pushpa to the hospital where she was checked and declared as dead. In this context it is also relevant to note that there is no scintilla of evidence suggesting that she was alive when the noose was cut or that she breathed her last enroute to the hospital. We have referred to the evidence of DW-1 to show that the cutting of the noose of the ligature, as per the version of prosecution witness as also that of DW-1 was done only after the appellant went to the witness(es) and informed of seeing Pushpa hanged herself. In short, going by the case of the prosecution or that of the defence even after seeing Pushpa hanged using her dupatta, he did not care to cut the noose then and there and had chosen to do so, only after witness(es) were brought to the scene of occurrence.\n\nIn the above context, it is also relevant to note the absence of self- inflicted injuries like scratches on the body of the deceased, going by the necroscopical evidence consisting of the oral evidence of PW-11, Dr. P. Akhtar with his report. When this be the evidence on record how can the appellant contend that he made a bid to save the life of the deceased wife Pushpa and in that regard cut the noose of the ligature and took her to the hospital. Had it been a bona fide, genuine attempt on his part to save her life, he would have cut the noose of the ligature then and there itself upon seeing her hanged, before going to inform the aforesaid witness(es) that she had hanged herself. We are of the considered opinion that the contention of the counsel for the appellant as aforesaid regarding the lifesaving attempt, will be of no assistance in the face of evidence of the facts established.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          8,
-          9
-        ],
-        "page_start": 6,
-        "page_end": 8
-      },
-      "legal_references": [
-        "EvidenceAct:106"
-      ],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 885
-    },
-    {
-      "chunk_id": "2024_12_743_754_JUDGMENT_006",
+      "chunk_id": "2024_12_743_754_JUDGMENT_004",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -229,41 +184,19 @@
         "page_end": 9
       },
       "legal_references": [
-        "EvidenceAct:11"
+        "EvidenceAct:11",
+        "IPC:11"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
       "cited_cases": [
         "Binay Kumar Singh v. State of Bihar [1996] Supp. 8 SCR 225 : AIR 1997 SC 322"
       ],
       "token_count": 976
     },
     {
-      "chunk_id": "2024_12_743_754_JUDGMENT_007",
-      "case_id": "2024_12_743_754",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "We will now consider the question whether the contention of the appellant that the plea of alibi was considered perversely, especially without properly appreciating the evidence of DW-1. In the decision in Binay Kumar Singh v. State of Bihar,1 this Court took note of the meaning of the Latin word ‘alibi’ as ‘elsewhere’ and observed and held that the said plea would be available only if that ‘elsewhere’ is a place which is that much far off making it extremely impossible or improbable for the person concerned to reach the place of occurrence and participate in the offence concerned on the relevant date and time. Paragraph 22 and 23 of the said decision which is relevant for the purpose reads thus: - “22. We must bear in mind that an alibi is not an exception (special or general) envisaged in the Penal Code, 1860 or any other law. It is only a rule of evidence recognised in Section 11 of the Evidence Act that facts which are inconsistent with the fact in issue are relevant. Illustration (a) given under the provision is worth reproducing in this context: “The question is whether A committed a crime at Calcutta on a certain date; the fact that on that date, A was at Lahore is relevant.” 23. The Latin word alibi means “elsewhere” and that word is used for convenience when an accused takes recourse to a defence line that when the occurrence took place he was so far away from the place of occurrence that it is extremely improbable that he would have participated in the crime. It is a basic law that in a criminal case, in which the accused is alleged to have inflicted physical injury to another person, the burden is on the prosecution to prove that the accused was present at the scene and has participated in the crime. The burden would not be lessened by the mere fact that the accused has adopted the defence of alibi. The plea of the accused in such 1 1996 INSC 1260 : [1996] Supp. 8 SCR 225 : AIR 1997 SC 322 cases need be considered only when the burden has been discharged by the prosecution satisfactorily. But once the prosecution succeeds in discharging the burden it is incumbent on the accused, who adopts the plea of alibi, to prove it with absolute certainty so as to exclude the possibility of his presence at the place of occurrence. When the presence of the accused at the scene of occurrence has been established satisfactorily by the prosecution through reliable evidence, normally the court would be slow to believe any counter-evidence to the effect that he was elsewhere when the occurrence happened. But if the evidence adduced by the accused is of such a quality and of such a standard that the court may entertain some reasonable doubt regarding his presence at the scene when the occurrence took place, the accused would, no doubt, be entitled to the benefit of that reasonable doubt. For that purpose, it would be a sound proposition to be laid down that, in such circumstances, the burden on the accused is rather heavy. It follows, therefore, that strict proof is required for establishing the plea of alibi. This Court has observed so on earlier occasions (vide Dudh Nath Pandey v. State of U.P. [(1981) 2 SCC 166; State of Maharashtra v. Narsingrao Gangaram Pimple [(1984) 1 SCC 446.”\n\nIn the context of the afore-extracted paragraphs, it is relevant to note that in the case on hand, the appellant was bound to explain what happened on that day at his house by virtue of Section 106 of the Evidence Act since the appellant and the deceased were man and wife and the incident had occurred in the house where they were residing. Therefore, he was bound to explain and establish the same as it is a fact, exclusively within his knowledge, by concrete evidence, if he fails to establish the plea of ‘alibi’.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          10,
-          11
-        ],
-        "page_start": 8,
-        "page_end": 9
-      },
-      "legal_references": [
-        "EvidenceAct:106",
-        "EvidenceAct:11"
-      ],
-      "legal_concepts": [],
-      "cited_cases": [
-        "Binay Kumar Singh v. State of Bihar [1996] Supp. 8 SCR 225 : AIR 1997 SC 322"
-      ],
-      "token_count": 884
-    },
-    {
-      "chunk_id": "2024_12_743_754_JUDGMENT_008",
+      "chunk_id": "2024_12_743_754_JUDGMENT_005",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -279,22 +212,22 @@
         "page_end": 10
       },
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:106"
       ],
       "legal_concepts": [],
       "cited_cases": [],
       "token_count": 514
     },
     {
-      "chunk_id": "2024_12_743_754_JUDGMENT_009",
+      "chunk_id": "2024_12_743_754_JUDGMENT_006",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "As held in Binay Kumar Singh’s case (supra), strict proof is required to establish the plea of alibi. There is absolutely no evidence establishing that DW-1 was there in the garden during the said period. Then, how his version could be relied on by the appellant to establish the plea of alibi. That apart, the very fact is that the appellant took up the plea of alibi on the ground that he was in a nearby garden itself would be sufficient to throw the case put forth by him as defence, in the light of Binay Kumar Singh’s case (supra). The plea of alibi, in the light of the decision in Binay Kumar Singh’s case (supra) can be applied only if the ‘elsewhere place’ is far away from the place of occurrence so that it was extremely improbable or impossible for the person concerned to reach the place of occurrence and to participate in the crime on the relevant date and time of occurrence. In such circumstances, we are of the considered view that the said contention was rightly rejected by the Courts below.\n\nThe effect of false plea of alibi was considered by this Court in Babudas v. State of M.P.2 and in G. Parshwanath v. State of Karnataka.3 In G. Parshwanath’s case, this Court held that when the accused gave a false plea that he was not present on the spot, his statement would be regarded as additional circumstance against him strengthening the chain of circumstances already found firm.\n\nIn the decision in Babudas’s case (supra), this Court held that in a case of circumstantial evidence, a false plea of alibi set up by the accused would be a link in the chain of circumstances but then it could not be the sole link or sole circumstances based on which a conviction could be passed.\n\nIn the decision in Paramjeet Singh v. State of Uttarakhand,4 this Court held that the aid of false defence led on behalf of accused could be used to lend assurance to the Court when the case of the prosecution is established on the basis of circumstantial evidence.\n\nNow, we will deal with the contention made as a last-ditch effort against the finding of the Courts below that Pushpa’s death is homicidal, 2 (2003) 9 SCC 86 3 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593 4 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439 based on the non-rupture of hyoid bone. Based on the decision in Satish Nirankari v. State of Rajasthan,5 and the relevant text at page 454 and 456 of Modi’s Medical Jurisprudence and Toxicology, the contention(s) unsuccessfully raised before the High Court were reiterated before us and in other words, contended that non-rupture of hyoid bone would indicate that death of Pushpa is suicidal and not homicidal in nature. We have already held that sturdy and sound reasons have been given by two Courts to conclude that it is a case of homicide. Non-rupture of hyoid bone of Pushpa would not and should not be taken as the sole reason to upturn the said concurrent finding that it is a case of strangulation. In this context, it is to be noted that in Satish Nirankari’s case, this Court held even in the absence of non-rupture of hyoid bone cause of death can be of strangulation. The position and posture of the body of Pushpa when PW-8 and others came to the house of the appellant-convict, as deposed by PW-8, were not challenged in cross-examination. This was duly taken note of by the Courts. In view of the said decision and what is stated sin Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307-08, which were extracted in paragraph 14 of the impugned judgment and in view of the position obtained from the evidence of PW-8, we do not find any reason to proceed further with the said contention that owing to the non-rupture of hyoid bone the finding of homicidal death invites interference.",
+      "text": "The effect of false plea of alibi was considered by this Court in Babudas v. State of M.P.2 and in G. Parshwanath v. State of Karnataka.3 In G. Parshwanath’s case, this Court held that when the accused gave a false plea that he was not present on the spot, his statement would be regarded as additional circumstance against him strengthening the chain of circumstances already found firm.\n\nIn the decision in Babudas’s case (supra), this Court held that in a case of circumstantial evidence, a false plea of alibi set up by the accused would be a link in the chain of circumstances but then it could not be the sole link or sole circumstances based on which a conviction could be passed.\n\nIn the decision in Paramjeet Singh v. State of Uttarakhand,4 this Court held that the aid of false defence led on behalf of accused could be used to lend assurance to the Court when the case of the prosecution is established on the basis of circumstantial evidence.\n\nNow, we will deal with the contention made as a last-ditch effort against the finding of the Courts below that Pushpa’s death is homicidal, 2 (2003) 9 SCC 86 3 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593 4 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439 based on the non-rupture of hyoid bone. Based on the decision in Satish Nirankari v. State of Rajasthan,5 and the relevant text at page 454 and 456 of Modi’s Medical Jurisprudence and Toxicology, the contention(s) unsuccessfully raised before the High Court were reiterated before us and in other words, contended that non-rupture of hyoid bone would indicate that death of Pushpa is suicidal and not homicidal in nature. We have already held that sturdy and sound reasons have been given by two Courts to conclude that it is a case of homicide. Non-rupture of hyoid bone of Pushpa would not and should not be taken as the sole reason to upturn the said concurrent finding that it is a case of strangulation. In this context, it is to be noted that in Satish Nirankari’s case, this Court held even in the absence of non-rupture of hyoid bone cause of death can be of strangulation. The position and posture of the body of Pushpa when PW-8 and others came to the house of the appellant-convict, as deposed by PW-8, were not challenged in cross-examination. This was duly taken note of by the Courts. In view of the said decision and what is stated sin Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307-08, which were extracted in paragraph 14 of the impugned judgment and in view of the position obtained from the evidence of PW-8, we do not find any reason to proceed further with the said contention that owing to the non-rupture of hyoid bone the finding of homicidal death invites interference.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          13,
           14,
           15,
           16,
@@ -310,32 +243,10 @@
       "cited_cases": [
         "Babudas v. State of M.P. (2003) 9 SCC 86"
       ],
-      "token_count": 897
+      "token_count": 653
     },
     {
-      "chunk_id": "2024_12_743_754_JUDGMENT_010",
-      "case_id": "2024_12_743_754",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Now, we will deal with the contention made as a last-ditch effort against the finding of the Courts below that Pushpa’s death is homicidal, 2 (2003) 9 SCC 86 3 2010 INSC 525 : [2010] 10 SCR 377 : (2010) 8 SCC 593 4 2010 INSC 647 : [2010] 11 SCR 1064 : (2010) 10 SCC 439 based on the non-rupture of hyoid bone. Based on the decision in Satish Nirankari v. State of Rajasthan,5 and the relevant text at page 454 and 456 of Modi’s Medical Jurisprudence and Toxicology, the contention(s) unsuccessfully raised before the High Court were reiterated before us and in other words, contended that non-rupture of hyoid bone would indicate that death of Pushpa is suicidal and not homicidal in nature. We have already held that sturdy and sound reasons have been given by two Courts to conclude that it is a case of homicide. Non-rupture of hyoid bone of Pushpa would not and should not be taken as the sole reason to upturn the said concurrent finding that it is a case of strangulation. In this context, it is to be noted that in Satish Nirankari’s case, this Court held even in the absence of non-rupture of hyoid bone cause of death can be of strangulation. The position and posture of the body of Pushpa when PW-8 and others came to the house of the appellant-convict, as deposed by PW-8, were not challenged in cross-examination. This was duly taken note of by the Courts. In view of the said decision and what is stated sin Taylor’s Principles and Practice of Medical Jurisprudence, 13th Edn., Pp 307-08, which were extracted in paragraph 14 of the impugned judgment and in view of the position obtained from the evidence of PW-8, we do not find any reason to proceed further with the said contention that owing to the non-rupture of hyoid bone the finding of homicidal death invites interference.\n\nNow, we will consider whether the appellant who was bound to offer his version as to how the occurrence had taken place in the circumstances obtained in this case, had discharged his onus by virtue of Section 106 of the Evidence Act. Section 106 is an exception to the general rule laid down in Section 101, that the burden of proving a fact rest on the party who substantially asserts the affirmative of the issues and that this Section is not intended to relieve any person of that duty or burden.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          17,
-          18
-        ],
-        "page_start": 10,
-        "page_end": 11
-      },
-      "legal_references": [
-        "EvidenceAct:106"
-      ],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 547
-    },
-    {
-      "chunk_id": "2024_12_743_754_JUDGMENT_011",
+      "chunk_id": "2024_12_743_754_JUDGMENT_007",
       "case_id": "2024_12_743_754",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -352,7 +263,9 @@
         "page_end": 12
       },
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:101",
+        "IPC:106"
       ],
       "legal_concepts": [],
       "cited_cases": [],

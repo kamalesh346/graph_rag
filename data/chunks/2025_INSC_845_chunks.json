@@ -1,11 +1,11 @@
 {
   "case_id": "2025 INSC 845",
-  "total_chunks": 48,
+  "total_chunks": 40,
   "chunk_counts": {
     "issue": 1,
     "headnote": 4,
     "legal_topic": 1,
-    "judgment": 42
+    "judgment": 34
   },
   "chunks": [
     {
@@ -54,11 +54,13 @@
         "EvidenceAct:106",
         "EvidenceAct:27",
         "EvidenceAct:302",
+        "IPC:106",
         "IPC:27",
         "IPC:302"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
@@ -132,11 +134,13 @@
         "EvidenceAct:106",
         "EvidenceAct:27",
         "EvidenceAct:302",
+        "IPC:106",
         "IPC:27",
         "IPC:302"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [],
@@ -151,14 +155,15 @@
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          1,
           1
         ],
         "page_start": 5,
         "page_end": 7
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [
         "State of Punjab v. Jagir Singh [1974] 1 SCR 328 : (1974) 3 SCC 277"
       ],
@@ -169,11 +174,10 @@
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "A visit to the forest, while a narrow escape for two persons, turned fatal for another two. The genesis allegedly was greed, with the accused person wanting to take away jewellery to put to his use, but the end result was far worse. Two people who were in the prime of their youth were hastily and brutally made to meet their maker, well before they should have. This Court is now tasked with examining the correctness of guilt of the person (the appellant) who, according to the State, was responsible for this barbarity. THE CHALLENGE\n\nThe present Appeal arises from the judgment and order dated 13th March 2019, in Referred Trial [MD] No.1 of 2018 passed by the High Court of Judicature at Madras, Madurai Bench, which, in turn, was preferred against the judgment dated 07th March 2018 in Special Sessions Case No.9 of 2013 passed by the Principal District and Sessions Judge, Theni, whereby the conviction of the Appellant under Section 302, 376 and 397 of the Indian Penal Code, 18602, came to be affirmed. The Trial Court imposed the death penalty on the Appellant-convict, which also came to be affirmed by the High Court. FACTUAL PRISM\n\nThe incident in question, relates to the unfortunate death of two young people. The prosecution case as emerging from the record, as also set out by the Courts below, is as follows: 1 (1974) 3 SCC 277 2 Hereinafter referred to as “IPC” 3.1 On 14th May 2011, a young man named Ezhil Muthalvan3, left his house on his father’s motorbike under the pretext of playing cricket. Similarly, the second victim4 left home that morning telling her parents that she was going to college. Unbeknownst to either set of parents, the two victims went to Suruli Falls, which was apparently a popular meeting point for friends and lovers. 3.2 Already there, was another couple, one Rajkumar (PW-5) and Bhagyalakshmi5 (not examined), eating food. The two victims were also seated a short distance away, approximately 60 meters from them. It is alleged that the appellant-convict, first came to PW-5 and his partner asking Bhagiyalakshmi, to part with her jewellery, which she did but upon finding that they were not made of gold and instead were imitation made of brass, he threw the same back at her and approached the victims. PW-5 and his partner subsequently fled from the place having noticed the former having some conversation with the victims. 3.3 The appellant-convict is said to have threatened the victims to part with money and gold, which they refused. Such refusal, according to the prosecution is what led to him killing the victims. 3.4 Given that D-2 was missing, her father Ganesan (PW-4) lodged a complaint dated 15th May 2011 with All Women Police Station, Theni, being Crime No.30 of 2011 under Section 366 of IPC alleging that D-1, son of Thanganathi (PW-2) had kidnapped his daughter. 3.5 On 15th May 2011, Ramesh (PW-11) who was the proprietor of a tea stall near the Falls, informed forest officials that a bike of Hero Honda make had been parked, unattended near his tea stall for the last two days. On receipt of such information, Forest Officials, namely, Thangaraj (PW-1) and Chelladurai (PW-6) came to the spot and informed higher officials as also the Sub-Inspector of Police, Rayappanpatti Police Station about such fact. The said vehicle was taken and parked at the forest bungalow. On 18th May 2011, having come to know of this from 3 Hereinafter D1",
+      "text": "The present Appeal arises from the judgment and order dated 13th March 2019, in Referred Trial [MD] No.1 of 2018 passed by the High Court of Judicature at Madras, Madurai Bench, which, in turn, was preferred against the judgment dated 07th March 2018 in Special Sessions Case No.9 of 2013 passed by the Principal District and Sessions Judge, Theni, whereby the conviction of the Appellant under Section 302, 376 and 397 of the Indian Penal Code, 18602, came to be affirmed. The Trial Court imposed the death penalty on the Appellant-convict, which also came to be affirmed by the High Court. FACTUAL PRISM\n\nThe incident in question, relates to the unfortunate death of two young people. The prosecution case as emerging from the record, as also set out by the Courts below, is as follows: 1 (1974) 3 SCC 277 2 Hereinafter referred to as “IPC” 3.1 On 14th May 2011, a young man named Ezhil Muthalvan3, left his house on his father’s motorbike under the pretext of playing cricket. Similarly, the second victim4 left home that morning telling her parents that she was going to college. Unbeknownst to either set of parents, the two victims went to Suruli Falls, which was apparently a popular meeting point for friends and lovers. 3.2 Already there, was another couple, one Rajkumar (PW-5) and Bhagyalakshmi5 (not examined), eating food. The two victims were also seated a short distance away, approximately 60 meters from them. It is alleged that the appellant-convict, first came to PW-5 and his partner asking Bhagiyalakshmi, to part with her jewellery, which she did but upon finding that they were not made of gold and instead were imitation made of brass, he threw the same back at her and approached the victims. PW-5 and his partner subsequently fled from the place having noticed the former having some conversation with the victims. 3.3 The appellant-convict is said to have threatened the victims to part with money and gold, which they refused. Such refusal, according to the prosecution is what led to him killing the victims. 3.4 Given that D-2 was missing, her father Ganesan (PW-4) lodged a complaint dated 15th May 2011 with All Women Police Station, Theni, being Crime No.30 of 2011 under Section 366 of IPC alleging that D-1, son of Thanganathi (PW-2) had kidnapped his daughter. 3.5 On 15th May 2011, Ramesh (PW-11) who was the proprietor of a tea stall near the Falls, informed forest officials that a bike of Hero Honda make had been parked, unattended near his tea stall for the last two days. On receipt of such information, Forest Officials, namely, Thangaraj (PW-1) and Chelladurai (PW-6) came to the spot and informed higher officials as also the Sub-Inspector of Police, Rayappanpatti Police Station about such fact. The said vehicle was taken and parked at the forest bungalow. On 18th May 2011, having come to know of this from 3 Hereinafter D1",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          1,
           2,
           3
         ],
@@ -186,32 +190,10 @@
       ],
       "legal_concepts": [],
       "cited_cases": [],
-      "token_count": 774
+      "token_count": 647
     },
     {
       "chunk_id": "2025_INSC_845_JUDGMENT_003",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "The incident in question, relates to the unfortunate death of two young people. The prosecution case as emerging from the record, as also set out by the Courts below, is as follows: 1 (1974) 3 SCC 277 2 Hereinafter referred to as “IPC” 3.1 On 14th May 2011, a young man named Ezhil Muthalvan3, left his house on his father’s motorbike under the pretext of playing cricket. Similarly, the second victim4 left home that morning telling her parents that she was going to college. Unbeknownst to either set of parents, the two victims went to Suruli Falls, which was apparently a popular meeting point for friends and lovers. 3.2 Already there, was another couple, one Rajkumar (PW-5) and Bhagyalakshmi5 (not examined), eating food. The two victims were also seated a short distance away, approximately 60 meters from them. It is alleged that the appellant-convict, first came to PW-5 and his partner asking Bhagiyalakshmi, to part with her jewellery, which she did but upon finding that they were not made of gold and instead were imitation made of brass, he threw the same back at her and approached the victims. PW-5 and his partner subsequently fled from the place having noticed the former having some conversation with the victims. 3.3 The appellant-convict is said to have threatened the victims to part with money and gold, which they refused. Such refusal, according to the prosecution is what led to him killing the victims. 3.4 Given that D-2 was missing, her father Ganesan (PW-4) lodged a complaint dated 15th May 2011 with All Women Police Station, Theni, being Crime No.30 of 2011 under Section 366 of IPC alleging that D-1, son of Thanganathi (PW-2) had kidnapped his daughter. 3.5 On 15th May 2011, Ramesh (PW-11) who was the proprietor of a tea stall near the Falls, informed forest officials that a bike of Hero Honda make had been parked, unattended near his tea stall for the last two days. On receipt of such information, Forest Officials, namely, Thangaraj (PW-1) and Chelladurai (PW-6) came to the spot and informed higher officials as also the Sub-Inspector of Police, Rayappanpatti Police Station about such fact. The said vehicle was taken and parked at the forest bungalow. On 18th May 2011, having come to know of this from 3 Hereinafter D1\n\nHereinafter D2",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          3,
-          4
-        ],
-        "page_start": 7,
-        "page_end": 8
-      },
-      "legal_references": [
-        "IPC:366"
-      ],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 513
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_004",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -225,33 +207,17 @@
         "page_start": 8,
         "page_end": 11
       },
-      "legal_references": [],
-      "legal_concepts": [],
+      "legal_references": [
+        "IPC:174"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
       "cited_cases": [],
       "token_count": 841
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_005",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Numerous spellings have been used throughout the record for this name. For the purpose of this judgment, we use ‘Bhagyalakshmi’ a local person Pitchai, PW-2 (father of D-1) went there and identified the bike to be belonging to him. 3.6 Thinking that since the bike was in the vicinity of the jungle, D-1 must be nearby, they requested for grant of permission to search the forest area. However, they were asked to come the next day. Upon conducting the search the following day, they found the two victims whose bodies had decomposed considerably, lying face down. Certain relatives were brought in, and due identification of the bodies was conducted. 3.7 PW-1 made a complaint pursuant to which Ramakrishnan (PW-38) the then Sub-Inspector of Police, Cumbum North Police Station, registered the case as Rayappanpatti P.S. Cr.No.145/11 under Section 174 Cr.P.C., and forwarded the same to the Judicial Magistrate Court, Uthamapalayam, and also to the higher officials through Mr. L. Prasath, Spl. Sub Inspector (PW-39). Vinoji (PW-52) Inspector of Police, Cumbum North Police Station, took reigns of the investigation. Dr. Juliana Jeyanthi (PW-37) conducted the postmortem of the victims at the spot of the crime and noticed the following injuries, while concluding that both the deaths were homicidal in nature, having occurred 5-6 days prior to the autopsy :- “D1 1) A chop wound of size 36 cms x 12 cms through and through noted over the front, both sides and back of the neck leaving a tag of skin of the length 4cms at the bruise side of the back of the neck with the surrounding bruise injuring the underlying muscles vessels, nerves and bones. Margins were regular. On dissection: The wound passed downwards and inwards below the seventh cervical vertebra, vertebral column and spinal cord with the surrounding bruise. D2 1) A chop wound of size 12 cms x 4.5 cms x 2.5 cms noted over the left side of the face extending from left eye to the left side of the chin with the surrounding bruise injuring the underlying muscles, vessels an nerves. Margins were regular. On dissection: The wound passed downwards and inwards injuring the underlying muscles, vessels and nerves, with the surrounding bruise. 2) A chop wound of size 12 cms x 4.5 cms x through and through noted over the right wrist joint, with the surrounding bruise injuring the underlying muscles, vessels, nerves and bones. Margins were regular. Right hand was missing. On dissection: The wound passed downwards and inwards injuring the underlying muslces, vessels, nerves and bones with the surrounding bruise. 3) Chop wounds of sizes 2 cms x 1.5 cms x through and through, 2 cms x 1 cm x through and through, 1.5 cms x 1 cm x through and through and 1 cm x 1 cm x through and through seen over left second, third and fourth fingers with the surrounding bruise injuring the underlying muscles, vessels, nerves and bones. Margins were regular. On dissection: The wound passed downwards and inwards injuring the underlying muscles, vessels, nerves and bones with the surrounding bruise. 4) A chop wound of size 23 cms x 10 cms x through and through noted over the middle of the right leg with the surrounding bruise injuring the underlying muscles, vessels, nerves and bones. Margins were regular. The chopped right leg was missing. On dissection: The wound passed downwards and inwards injuring the underlying muscles, vessels, nerves and bones with the surrounding bruise. 5) A chop wound of size 8 cms x 6 cms x through and through noted over the left ankle joint, with the surrounding bruise injuring the underlying muscles, vessels, nerves and bones. Margins were regular. On dissection: The wound passed downwards and inwards injuring the underlying, muscles, vessels, nerves and bones with the surrounding bruise.\n\n) A stab wound of size 4.5 cms x 3 cms x 2.5 cms noted over the back of the right arm with the surrounding bruise injuring the underlying muscles, vessels and nerves. Margins were regular. One end was pointed and the other end was rounded. On dissection: The wound passed downwards and inwards injuring the underlying muscles, vessels and nerves with the surrounding bruise.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          5,
-          6
-        ],
-        "page_start": 8,
-        "page_end": 11
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 925
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_006",
+      "chunk_id": "2025_INSC_845_JUDGMENT_004",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -267,7 +233,12 @@
       },
       "legal_references": [
         "CrPC:366(1)",
-        "IPC:302"
+        "IPC:235(1)",
+        "IPC:302",
+        "IPC:366(1)",
+        "IPC:376",
+        "IPC:392",
+        "IPC:397"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence"
@@ -276,7 +247,7 @@
       "token_count": 925
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_007",
+      "chunk_id": "2025_INSC_845_JUDGMENT_005",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -293,16 +264,20 @@
       },
       "legal_references": [
         "CrPC:366",
-        "CrPC:368"
+        "CrPC:368",
+        "IPC:366",
+        "IPC:368"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [
         "State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370"
       ],
       "token_count": 776
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_008",
+      "chunk_id": "2025_INSC_845_JUDGMENT_006",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -319,7 +294,9 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:first_information_report_fir"
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence",
+        "LEGAL_CONCEPT:motive"
       ],
       "cited_cases": [
         "State of Himachal Pradesh v. Jeet Singh [1999] 1 SCR 1033 : (1999) 4 SCC 370"
@@ -327,7 +304,7 @@
       "token_count": 791
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_009",
+      "chunk_id": "2025_INSC_845_JUDGMENT_007",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -350,7 +327,7 @@
       "token_count": 368
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_010",
+      "chunk_id": "2025_INSC_845_JUDGMENT_008",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -367,7 +344,8 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
+        "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:ocular_evidence"
       ],
       "cited_cases": [
         "Hanumant v. State of M.P [1952] 1 SCR 1091 : (1952) 2 SCC 71",
@@ -376,7 +354,7 @@
       "token_count": 766
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_011",
+      "chunk_id": "2025_INSC_845_JUDGMENT_009",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -397,7 +375,7 @@
       "token_count": 811
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_012",
+      "chunk_id": "2025_INSC_845_JUDGMENT_010",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -415,12 +393,14 @@
       "legal_references": [
         "IPC:366"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [],
       "token_count": 816
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_013",
+      "chunk_id": "2025_INSC_845_JUDGMENT_011",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -441,7 +421,7 @@
       "token_count": 816
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_014",
+      "chunk_id": "2025_INSC_845_JUDGMENT_012",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -457,12 +437,14 @@
         "page_end": 30
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
       "cited_cases": [],
       "token_count": 815
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_015",
+      "chunk_id": "2025_INSC_845_JUDGMENT_013",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -481,13 +463,14 @@
         "IPC:309"
       ],
       "legal_concepts": [
-        "LEGAL_CONCEPT:first_information_report_fir"
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
       "token_count": 747
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_016",
+      "chunk_id": "2025_INSC_845_JUDGMENT_014",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -502,13 +485,15 @@
         "page_start": 20,
         "page_end": 30
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:161(3)"
+      ],
       "legal_concepts": [],
       "cited_cases": [],
       "token_count": 671
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_017",
+      "chunk_id": "2025_INSC_845_JUDGMENT_015",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -524,9 +509,12 @@
         "page_end": 32
       },
       "legal_references": [
-        "EvidenceAct:106"
+        "EvidenceAct:106",
+        "IPC:106"
       ],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [
         "Bodhraj v. State of J&K [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45",
         "Nizam v. State of Rajasthan [2015] 10 SCR 786 : (2016) 1 SCC 550",
@@ -539,37 +527,7 @@
       "token_count": 934
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_018",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "The next circumstance that is to consider is the last seen theory. It is well established that this is a weak piece of evidence and cannot be the sole basis of conviction.11 We may further refer to certain judgments that expand upon the application of this theory. 15.1 In Ravasaheb v. State of Karnataka12, a three Judge Bench (which included two of us, Nath and Karol JJ.) observed thus: “29. On its own, last seen theory is considered to be a weak basis for conviction. However, when the same is coupled with other factors such as when the deceased was last seen with the accused, proximity of time to the recovery of the body of the deceased, etc. The accused is bound to give an explanation under Section 106 of the Evidence Act, 1872. If he does not do so, or furnishes what may be termed as wrong explanation or if a motive is established — pleading securely to the conviction of the accused closing out the possibility of any other hypothesis, then a conviction can be based thereon. [Satpal v. State of Haryana [Satpal v. State of Haryana, (2018) 6 SCC 610] and Ram Gopal v. State of M.P. [Ram Gopal v. State of M.P., (2023) 5 SCC 534]]” [See also: Sanjay v. State of U.P.13] 15.2 The application of Section 106 of the Indian Evidence Act, 1872, doesn’t absolve the prosecution of its duty to establish its case against the accused, beyond reasonable doubt. [See: Sawal Das v. State of Bihar14 and Shivaji Chintappa Patil v. State of Maharashtra15] 15.3 In applying the last-seen theory, Courts should keep in mind the totality of the circumstances, or the case put forward by the prosecution. In other words, also to be seen is, what 11 Nizam v. State of Rajasthan, (2016) 1 SCC 550 12 (2023) 5 SCC 391 13 2025 SCC OnLine SC 572 14 (1974) 4 SCC 193 15 (2021) 5 SCC 626 preceded and followed the accused person being last seen with the deceased. [See: Surajdeo Mahto v. State of Bihar16] 15.4 In Veerendra v. State of M.P.17, referring to Nizam (supra) it was observed that when the time between the ‘last seen’ and the ‘time of occurrence’ is significant, conviction thereon would not be advisable or sustainable. 15.5 The converse of the above is that the theory comes into play “where the time gap between the point of time when the accused and the deceased were last seen alive and when the deceased is found dead is so small that possibility of any person other than the accused being the author of the crime becomes impossible.” [See: Bodhraj v. State of J&K18 , State of U.P. v. Shyam Behari19 and Sambhubhai Raisangbhai Padhiyar v. State of Gujarat20]\n\nThe two witnesses relied on by the prosecution to establish the evidence of last seen are PW-5 and PW-25. The High Court found the evidence of PW-5 to be inspiring in confidence, rejecting the argument advanced on behalf of the Appellant-convict that his silence from 14th May 2011 to 20th May 2011 renders his testimony doubtful. This was done on the ground that the reaction of PW-5 – relief of having escaped the negative consequence of attempted robbery of Bhagyalakshmi’s jewels; the assumption that D1 and D2 would have faced something similar; would be alive and well; also, would have gone into the forest to get married, an entirely plausible manner of perceiving the event having taken place. The question is – Is it so?",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          15,
-          16
-        ],
-        "page_start": 31,
-        "page_end": 32
-      },
-      "legal_references": [
-        "EvidenceAct:106"
-      ],
-      "legal_concepts": [],
-      "cited_cases": [
-        "Bodhraj v. State of J&K [2002] Supp. 2 SCR 67 : (2002) 8 SCC 45",
-        "Nizam v. State of Rajasthan [2015] 10 SCR 786 : (2016) 1 SCC 550",
-        "Ravasaheb v. State of Karnataka [2023] 2 SCR 965 : (2023) 5 SCC 391",
-        "Sawal Das v. State of Bihar [1974] 3 SCR 74 : (1974) 4 SCC 193",
-        "State of U.P. v. Shyam Behari [2009] 6 SCR 4 : (2009) 15 SCC 548",
-        "Surajdeo Mahto v. State of Bihar [2021] 8 SCR 911 : (2022) 11 SCC 800",
-        "Veerendra v. State of M.P. [2022] 4 SCR 225 : (2022) 8 SCC 668"
-      ],
-      "token_count": 779
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_019",
+      "chunk_id": "2025_INSC_845_JUDGMENT_016",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -591,7 +549,7 @@
       "token_count": 303
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_020",
+      "chunk_id": "2025_INSC_845_JUDGMENT_017",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -614,7 +572,7 @@
       "token_count": 804
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_021",
+      "chunk_id": "2025_INSC_845_JUDGMENT_018",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -637,7 +595,7 @@
       "token_count": 420
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_022",
+      "chunk_id": "2025_INSC_845_JUDGMENT_019",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -650,13 +608,15 @@
         "page_start": 35,
         "page_end": 36
       },
-      "legal_references": [],
+      "legal_references": [
+        "IPC:313"
+      ],
       "legal_concepts": [],
       "cited_cases": [],
       "token_count": 498
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_023",
+      "chunk_id": "2025_INSC_845_JUDGMENT_020",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -677,29 +637,7 @@
       "token_count": 539
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_024",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "The appellant convict made two confession statements before the police authorities, Ex. P.8 dated 28th May, 2011 and Ex. P.75 dated 31st May, 2012. The evidentiary value of such a confession has been considered many a times before this Court. In Nikhil Chandra Mondal v. State of W.B.21 B.R Gavai, J., (as his Lordship then was) discussed the law as follows: “16. It is a settled principle of law that extra-judicial confession is a weak piece of evidence. It has been held that where an extra-judicial confession is surrounded by suspicious circumstances, its credibility becomes doubtful and it loses its importance. It has further been held that it is well-settled that it is a rule of caution where the court would generally look for an independent reliable corroboration before placing any reliance upon such extra-judicial confession. It has been held that there is no doubt that conviction can be based on extra-judicial confession, but in the very nature of things, it is a weak piece of evidence. 17. Reliance in this respect could be placed on the judgment of this Court in Sahadevan v. State of T.N. [Sahadevan v. State of T.N., (2012) 6 SCC 403 : (2012) 3 SCC (Cri) 146] This Court, in the said case, after referring to various earlier judgments on the point, observed thus : (SCC pp. 412-13, para 16) “16. Upon a proper analysis of the abovereferred judgments of this Court, it will be appropriate to state the principles which would make an extra-judicial confession an admissible piece of evidence capable of forming the basis of conviction of an accused. These precepts would guide the judicial mind while dealing with the veracity of cases where the prosecution heavily relies upon an extra-judicial confession alleged to have been made by the accused: 21 (2023) 6 SCC (i) The extra-judicial confession is a weak evidence by itself. It has to be examined by the court with greater care and caution. (ii) It should be made voluntarily and should be truthful. (iii) It should inspire confidence. (iv) An extra-judicial confession attains greater credibility and evidentiary value if it is supported by a chain of cogent circumstances and is further corroborated by other prosecution evidence. (v) For an extra-judicial confession to be the basis of conviction, it should not suffer from any material discrepancies and inherent improbabilities. (vi) Such statement essentially has to be proved like any other fact and in accordance with law.”\n\nKeeping in view the aforesaid principles of law, we have perused both the confessions. In the first confession dated 28th May, 2011 after giving a background of his upbringing and also previous involvement in petty crimes, coming to the instant crime he admitted that he struck a blow on D1 who, as a result thereof, started bleeding. PW-54, to some extent corroborates this stating that he had recovered sand both with and without blood near the corpse of D2. However, contrary to this version of events, PW-28 who is the Scientific Officer at the Regional Laboratory states that from the material recovered, there was no blood to be found. The confessional statement records that having hacked the body of D2, he threw the severed limbs in the nearby bushes but, it is a matter of record that despite an extensive search, they could not be located. It is also unclear that a man, who by his own admission, has been in the past involved in petty crimes would take stolen articles not only back to his own home but also give one of them to be pledged in order to get money - the natural question is that once he has stolen the said chain, it would be easier to dispose it of and get whatever money it is worth rather than using it as collateral to get money from other, more legitimate sources leaving open the possibility of it being traced back.",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          22,
-          23
-        ],
-        "page_start": 36,
-        "page_end": 37
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [
-        "Nikhil Chandra Mondal v. State of W.B. [2023] 2 SCR 20 : (2023) 6 SCC"
-      ],
-      "token_count": 863
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_025",
+      "chunk_id": "2025_INSC_845_JUDGMENT_021",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -719,7 +657,7 @@
       "token_count": 583
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_026",
+      "chunk_id": "2025_INSC_845_JUDGMENT_022",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -735,7 +673,8 @@
         "page_end": 40
       },
       "legal_references": [
-        "EvidenceAct:27"
+        "EvidenceAct:27",
+        "IPC:27"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
@@ -749,7 +688,7 @@
       "token_count": 706
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_027",
+      "chunk_id": "2025_INSC_845_JUDGMENT_023",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -765,7 +704,9 @@
         "page_end": 40
       },
       "legal_references": [
-        "EvidenceAct:27"
+        "EvidenceAct:27",
+        "IPC:25",
+        "IPC:27"
       ],
       "legal_concepts": [],
       "cited_cases": [
@@ -775,7 +716,7 @@
       "token_count": 380
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_028",
+      "chunk_id": "2025_INSC_845_JUDGMENT_024",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -797,15 +738,14 @@
       "token_count": 258
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_029",
+      "chunk_id": "2025_INSC_845_JUDGMENT_025",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "How any and/or all of these articles related to the alleged murder of two victims and rape of one of them is undemonstrated from the record. None of the relatives of either D1 or D2 have testified to any of these belongings being that of the victims.\n\nStill further, we would separately deal with the recovery of each of the articles relating to the guilt of the Appellant-convict: (a) Sickle- The sickle, M.O. 18, has not been sent for FSL-in other words, on what basis is it established that this very sickle was used to hack the victims? Also, sickle is an easily available item for a person like the accused whose work is to cut coconut. No blood was found on the weapon. Even the doctor doesn’t state that the injuries on the body of the deceased could have been caused with the same. There is a total disconnect with the weapon and the injuries resulting into death. None has also testified the weapon to be owned by the Appellant-convict. (b) Semen or Blood- There is no forensic report as to the recovery of either semen or blood on the clothes so recovered; the manner in which it was preserved and kept in whose custody. (c) Jute Bag- There is no identification of the owner and possessor of the jute bag. (d) Black bag, a different box and a book- recoveries were also made of a black bag, a different box, and a book - M.Os.23, 24 and 25, from the bushes near Karuppasamy Temple. These items, too, were not verified or ownership established. In other words, how they are to be considered to be the ‘material objects’ for the purpose of this case? More so, when these items were recovered on the basis of confessional statement of the accused himself, as recorded by PW-52, but the confessional statement is in itself not reliable, even otherwise to what effect. (e) Gold chain - Further, insofar as the gold chain is concerned, it is the uncontroverted testimony of PW-16 that a chain of such a design is readily available in stores. That apart, the testimony of PW-18 reveals that she came into possession of the said chain through her adopted daughter, who is the wife of the Appellant convict. Such wife, namely Pavithra, was not examined to establish the chain’s ownership or the source of such acquisition on her part. The parents of D-2 have indeed identified the chain (M.O.10) as hers, but we record our surprise that only the chain was produced before them for identification and none of the other material allegedly recovered at the instance of the Appellant-convict. Be that as it may, even if the identification of the chain by the parents of D2 is taken at face value, even then, to affix the gauntlet of guilt upon the Appellant-convict on this count alone, would be entirely unwarranted. Circumstance Four: The Incident of Rape and DNA Evidence 28. According to the prosecution, since the vaginal swabs collected from D2 show penetrative sexual assault and since the DNA found, matches that of the Appellant-convict, the factum of rape is established. The case put up by the Appellant-convict, on the other hand, is that DNA evidence, in the facts and circumstances of this case is unreliable, and therefore, the fact of rape cannot be established. The primary ground urged in this regard is concerning the chain of custody of the DNA. A sequence of events concerning DNA evidence, as per the prosecution may be useful to be noted at this stage: 19.05.2011 PW 37 (Asst. Professor Medical Department) - Internal organs were sent to FSL, Madurai (Pg.128) - Two Vaginal Swabs were collected and sent to FSL, Chennai. PW 56 (D.S.P CBCID) - Vaginal Swabs were kept in Royappanppatti Police Station. (Pg.219) 31.05.2011 PW 30 (Assistant Director FSL, Madurai) - Internal Organ received in laboratory from FSL, Theni (Pg.105) PW 41 (Sub-inspector PS Cumbum) - Brought internal organ of D2 to FSL, Madurai (Pg.144) - Handed over the VISCERA to Doctors | and handed over to Judicial Magistrate 06.06.2011 Pw 28 (Scientific Officer) - Received Wooden Box at Regional Laboratory, Madurai from Judicial Magistrate, Uthamapalayam. (Pg.100)",
+      "text": "Still further, we would separately deal with the recovery of each of the articles relating to the guilt of the Appellant-convict: (a) Sickle- The sickle, M.O. 18, has not been sent for FSL-in other words, on what basis is it established that this very sickle was used to hack the victims? Also, sickle is an easily available item for a person like the accused whose work is to cut coconut. No blood was found on the weapon. Even the doctor doesn’t state that the injuries on the body of the deceased could have been caused with the same. There is a total disconnect with the weapon and the injuries resulting into death. None has also testified the weapon to be owned by the Appellant-convict. (b) Semen or Blood- There is no forensic report as to the recovery of either semen or blood on the clothes so recovered; the manner in which it was preserved and kept in whose custody. (c) Jute Bag- There is no identification of the owner and possessor of the jute bag. (d) Black bag, a different box and a book- recoveries were also made of a black bag, a different box, and a book - M.Os.23, 24 and 25, from the bushes near Karuppasamy Temple. These items, too, were not verified or ownership established. In other words, how they are to be considered to be the ‘material objects’ for the purpose of this case? More so, when these items were recovered on the basis of confessional statement of the accused himself, as recorded by PW-52, but the confessional statement is in itself not reliable, even otherwise to what effect. (e) Gold chain - Further, insofar as the gold chain is concerned, it is the uncontroverted testimony of PW-16 that a chain of such a design is readily available in stores. That apart, the testimony of PW-18 reveals that she came into possession of the said chain through her adopted daughter, who is the wife of the Appellant convict. Such wife, namely Pavithra, was not examined to establish the chain’s ownership or the source of such acquisition on her part. The parents of D-2 have indeed identified the chain (M.O.10) as hers, but we record our surprise that only the chain was produced before them for identification and none of the other material allegedly recovered at the instance of the Appellant-convict. Be that as it may, even if the identification of the chain by the parents of D2 is taken at face value, even then, to affix the gauntlet of guilt upon the Appellant-convict on this count alone, would be entirely unwarranted. Circumstance Four: The Incident of Rape and DNA Evidence 28. According to the prosecution, since the vaginal swabs collected from D2 show penetrative sexual assault and since the DNA found, matches that of the Appellant-convict, the factum of rape is established. The case put up by the Appellant-convict, on the other hand, is that DNA evidence, in the facts and circumstances of this case is unreliable, and therefore, the fact of rape cannot be established. The primary ground urged in this regard is concerning the chain of custody of the DNA. A sequence of events concerning DNA evidence, as per the prosecution may be useful to be noted at this stage: 19.05.2011 PW 37 (Asst. Professor Medical Department) - Internal organs were sent to FSL, Madurai (Pg.128) - Two Vaginal Swabs were collected and sent to FSL, Chennai. PW 56 (D.S.P CBCID) - Vaginal Swabs were kept in Royappanppatti Police Station. (Pg.219) 31.05.2011 PW 30 (Assistant Director FSL, Madurai) - Internal Organ received in laboratory from FSL, Theni (Pg.105) PW 41 (Sub-inspector PS Cumbum) - Brought internal organ of D2 to FSL, Madurai (Pg.144) - Handed over the VISCERA to Doctors | and handed over to Judicial Magistrate 06.06.2011 Pw 28 (Scientific Officer) - Received Wooden Box at Regional Laboratory, Madurai from Judicial Magistrate, Uthamapalayam. (Pg.100)",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          27,
           28
         ],
         "page_start": 41,
@@ -813,33 +753,13 @@
       },
       "legal_references": [],
       "legal_concepts": [
-        "LEGAL_CONCEPT:murder"
+        "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
-      "token_count": 928
+      "token_count": 865
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_030",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "Still further, we would separately deal with the recovery of each of the articles relating to the guilt of the Appellant-convict: (a) Sickle- The sickle, M.O. 18, has not been sent for FSL-in other words, on what basis is it established that this very sickle was used to hack the victims? Also, sickle is an easily available item for a person like the accused whose work is to cut coconut. No blood was found on the weapon. Even the doctor doesn’t state that the injuries on the body of the deceased could have been caused with the same. There is a total disconnect with the weapon and the injuries resulting into death. None has also testified the weapon to be owned by the Appellant-convict. (b) Semen or Blood- There is no forensic report as to the recovery of either semen or blood on the clothes so recovered; the manner in which it was preserved and kept in whose custody. (c) Jute Bag- There is no identification of the owner and possessor of the jute bag. (d) Black bag, a different box and a book- recoveries were also made of a black bag, a different box, and a book - M.Os.23, 24 and 25, from the bushes near Karuppasamy Temple. These items, too, were not verified or ownership established. In other words, how they are to be considered to be the ‘material objects’ for the purpose of this case? More so, when these items were recovered on the basis of confessional statement of the accused himself, as recorded by PW-52, but the confessional statement is in itself not reliable, even otherwise to what effect. (e) Gold chain - Further, insofar as the gold chain is concerned, it is the uncontroverted testimony of PW-16 that a chain of such a design is readily available in stores. That apart, the testimony of PW-18 reveals that she came into possession of the said chain through her adopted daughter, who is the wife of the Appellant convict. Such wife, namely Pavithra, was not examined to establish the chain’s ownership or the source of such acquisition on her part. The parents of D-2 have indeed identified the chain (M.O.10) as hers, but we record our surprise that only the chain was produced before them for identification and none of the other material allegedly recovered at the instance of the Appellant-convict. Be that as it may, even if the identification of the chain by the parents of D2 is taken at face value, even then, to affix the gauntlet of guilt upon the Appellant-convict on this count alone, would be entirely unwarranted. Circumstance Four: The Incident of Rape and DNA Evidence 28. According to the prosecution, since the vaginal swabs collected from D2 show penetrative sexual assault and since the DNA found, matches that of the Appellant-convict, the factum of rape is established. The case put up by the Appellant-convict, on the other hand, is that DNA evidence, in the facts and circumstances of this case is unreliable, and therefore, the fact of rape cannot be established. The primary ground urged in this regard is concerning the chain of custody of the DNA. A sequence of events concerning DNA evidence, as per the prosecution may be useful to be noted at this stage: 19.05.2011 PW 37 (Asst. Professor Medical Department) - Internal organs were sent to FSL, Madurai (Pg.128) - Two Vaginal Swabs were collected and sent to FSL, Chennai. PW 56 (D.S.P CBCID) - Vaginal Swabs were kept in Royappanppatti Police Station. (Pg.219) 31.05.2011 PW 30 (Assistant Director FSL, Madurai) - Internal Organ received in laboratory from FSL, Theni (Pg.105) PW 41 (Sub-inspector PS Cumbum) - Brought internal organ of D2 to FSL, Madurai (Pg.144) - Handed over the VISCERA to Doctors | and handed over to Judicial Magistrate 06.06.2011 Pw 28 (Scientific Officer) - Received Wooden Box at Regional Laboratory, Madurai from Judicial Magistrate, Uthamapalayam. (Pg.100)\n\n09.2011 PW 27 (Scientific Officer) - After analysis the Swab, Sent the same to FSL Chennai. PW 42 (Head Constable) - Collected samples from Government College took them to FSL Madurai (Pg.147)",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          28,
-          29
-        ],
-        "page_start": 41,
-        "page_end": 43
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [],
-      "token_count": 908
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_031",
+      "chunk_id": "2025_INSC_845_JUDGMENT_026",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -854,12 +774,14 @@
         "page_end": 45
       },
       "legal_references": [],
-      "legal_concepts": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence"
+      ],
       "cited_cases": [],
       "token_count": 978
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_032",
+      "chunk_id": "2025_INSC_845_JUDGMENT_027",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -876,6 +798,7 @@
       },
       "legal_references": [],
       "legal_concepts": [
+        "LEGAL_CONCEPT:medical_evidence",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [
@@ -885,17 +808,17 @@
       "token_count": 680
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_033",
+      "chunk_id": "2025_INSC_845_JUDGMENT_028",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Rahul (supra) was a case concerning the kidnap, rape and murder of a woman, wherein 3 persons were convicted by the Special Fast-Track Court, Dwarka Courts in Sessions Case No.91 of 2013. These persons had kidnapped a woman as she returned from work, proceeded to do horrible things to her, and then dumped her lifeless remains in a field, from where it was discovered four days later. The DNA evidence, here, was rejected because it remained in the police Malkhana for two months and in such time, the possibility of tampering could not be ruled out. It was also held that neither the Trial Court nor the High Court had examined the underlying basis of the findings in the DNA reports or whether the techniques used had been reliably applied by the concerned expert. As such, it was concluded that the DNA profile, in the absence of such evidence, had become highly vulnerable when the collection and sealing of the samples sent for examination was not free from suspicion.\n\nPrakash Nishad v. State of Maharashtra27 was a case concerning the rape and murder of a 6-year-old child. Similar to the present case, it was a case of circumstantial evidence. Based on the disclosure statement made by the Appellant therein, the police found certain garments as also traces of semen of the Appellant on the vaginal smear of the minor victim, based on which he was sought to be convicted. DNA evidence had to be rejected by this Court on the grounds that there was a delay in sending the samples to the FSL, which was unexplained. It was observed that because of the delay, the concomitant prospect of contamination could not be ruled out. The need for expediency in sending samples to the concerned laboratories was underscored.\n\nThis case, incidentally, if not unfortunately, is another one of the like of the above. Despite the presence of DNA evidence, it has to be discarded for the reason that proper methods and procedures were not followed in the collection, sealing, storage, and employment of 27 (2023) 16 SCC 357 the evidence in the course of the Appellant-convict’s conviction. DNA, as we have observed, has been held to be largely dependable, even though this evidence is only of probative value, subject to the condition that it is properly dealt with. Over the past decades, many cases have come to their logical conclusion with the aid of DNA evidence in many regions across the world. It is also equally true that many persons wrongly convicted have finally had justice served, with them being declared innocent because of advancements in this technology. It is unfortunate that, alongside such advancements, we still have cases where, despite the evidence being present, it has to be rejected for the reason that the concerned persons, either doctors or investigators, have been careless in the handling of such sensitive evidence. Circumstance Five: Motive",
+      "text": "Prakash Nishad v. State of Maharashtra27 was a case concerning the rape and murder of a 6-year-old child. Similar to the present case, it was a case of circumstantial evidence. Based on the disclosure statement made by the Appellant therein, the police found certain garments as also traces of semen of the Appellant on the vaginal smear of the minor victim, based on which he was sought to be convicted. DNA evidence had to be rejected by this Court on the grounds that there was a delay in sending the samples to the FSL, which was unexplained. It was observed that because of the delay, the concomitant prospect of contamination could not be ruled out. The need for expediency in sending samples to the concerned laboratories was underscored.\n\nThis case, incidentally, if not unfortunately, is another one of the like of the above. Despite the presence of DNA evidence, it has to be discarded for the reason that proper methods and procedures were not followed in the collection, sealing, storage, and employment of 27 (2023) 16 SCC 357 the evidence in the course of the Appellant-convict’s conviction. DNA, as we have observed, has been held to be largely dependable, even though this evidence is only of probative value, subject to the condition that it is properly dealt with. Over the past decades, many cases have come to their logical conclusion with the aid of DNA evidence in many regions across the world. It is also equally true that many persons wrongly convicted have finally had justice served, with them being declared innocent because of advancements in this technology. It is unfortunate that, alongside such advancements, we still have cases where, despite the evidence being present, it has to be rejected for the reason that the concerned persons, either doctors or investigators, have been careless in the handling of such sensitive evidence. Circumstance Five: Motive\n\nIt is settled law that, in a case of circumstantial evidence as this one is, motive forms one of the chains of circumstance which can collectively point to the guilt of the accused. According to the prosecution, robbery was the Appellant-convict’s motive for ending the lives of D1 and D2. On first blush, this hypothesis appears to be attractive for the reason that the robbery of gold ornaments worn by Bhagyalakshmi at the first instance, and subsequently D2, is what eventually gave way to the crimes for which he stands convicted concurrently by the Courts below. The counsel for the Appellant-convict seeks to dispel the presence of motive by stating that there were other instruments/ ornaments of the two victims, which could have been taken by the Appellant-convict and put to his own use or sold off for one sum of money or another; however, that was not the case. The ring worn by D2 and the mobile phone of D1, which undoubtedly were in their possession, were neither found in the possession of the Appellant- convict nor near the scene of the crime.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          33,
           34,
-          35
+          35,
+          36
         ],
         "page_start": 46,
         "page_end": 47
@@ -903,38 +826,16 @@
       "legal_references": [],
       "legal_concepts": [
         "LEGAL_CONCEPT:circumstantial_evidence",
+        "LEGAL_CONCEPT:motive",
         "LEGAL_CONCEPT:murder"
       ],
       "cited_cases": [
         "Prakash Nishad v. State of Maharashtra [2023] 8 SCR 152 : (2023) 16 SCC 357"
       ],
-      "token_count": 642
+      "token_count": 662
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_034",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "This case, incidentally, if not unfortunately, is another one of the like of the above. Despite the presence of DNA evidence, it has to be discarded for the reason that proper methods and procedures were not followed in the collection, sealing, storage, and employment of 27 (2023) 16 SCC 357 the evidence in the course of the Appellant-convict’s conviction. DNA, as we have observed, has been held to be largely dependable, even though this evidence is only of probative value, subject to the condition that it is properly dealt with. Over the past decades, many cases have come to their logical conclusion with the aid of DNA evidence in many regions across the world. It is also equally true that many persons wrongly convicted have finally had justice served, with them being declared innocent because of advancements in this technology. It is unfortunate that, alongside such advancements, we still have cases where, despite the evidence being present, it has to be rejected for the reason that the concerned persons, either doctors or investigators, have been careless in the handling of such sensitive evidence. Circumstance Five: Motive\n\nIt is settled law that, in a case of circumstantial evidence as this one is, motive forms one of the chains of circumstance which can collectively point to the guilt of the accused. According to the prosecution, robbery was the Appellant-convict’s motive for ending the lives of D1 and D2. On first blush, this hypothesis appears to be attractive for the reason that the robbery of gold ornaments worn by Bhagyalakshmi at the first instance, and subsequently D2, is what eventually gave way to the crimes for which he stands convicted concurrently by the Courts below. The counsel for the Appellant-convict seeks to dispel the presence of motive by stating that there were other instruments/ ornaments of the two victims, which could have been taken by the Appellant-convict and put to his own use or sold off for one sum of money or another; however, that was not the case. The ring worn by D2 and the mobile phone of D1, which undoubtedly were in their possession, were neither found in the possession of the Appellant- convict nor near the scene of the crime.\n\nIt has come on record that the Appellant-convict, due to various factors, had taken to crime. As we have already discussed, it is not the case of the prosecution that the said objects were taken by the Appellant-convict and then misused or sold. When the identity of the gold chain could not be unquestionably established and the fact that the other goods that were in possession of the victims at the time of the crime were also not recovered from or at the instance of the Appellant-convict, we find it difficult to ascribe any motive on his part. Circumstance Six: Test Identification Parade",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          35,
-          36,
-          37
-        ],
-        "page_start": 46,
-        "page_end": 48
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:circumstantial_evidence"
-      ],
-      "cited_cases": [],
-      "token_count": 629
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_035",
+      "chunk_id": "2025_INSC_845_JUDGMENT_029",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -948,8 +849,12 @@
         "page_start": 47,
         "page_end": 49
       },
-      "legal_references": [],
-      "legal_concepts": [],
+      "legal_references": [
+        "IPC:162"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:motive"
+      ],
       "cited_cases": [
         "Ashok Debbarma v. State of Tripura [2014] 4 SCR 287 : (2014) 4 SCC 747",
         "Budhsen v. State of U.P. [1971] 1 SCR 564 : (1970) 2 SCC 128",
@@ -969,42 +874,7 @@
       "token_count": 847
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_036",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "The investigating authorities conducted a test identification parade - asking PW-5 to identify the Appellant-convict from a long line of habitual offenders. He did so thrice. This has been taken as another circumstance against the convict Appellant. Before proceeding to the merits of this circumstance, let us appreciate the law on this point. 38.1 No provision of law casts an obligation upon the investigating authorities to conduct a test identification parade. If it is conducted, the provision that governs is Section 162, Cr.P.C. [See: Munshi Singh Gautam v. State of M.P.28; Malkhansingh v. State of M.P.29; Visveswaran v. State30; and Ashok Debbarma v. State of Tripura31.] 38.2 The onus to show that the T.I.P. has been conducted in accordance with law lies on the prosecution, and only after this burden stands prima facie discharged, does the question of considering objections in this regard arise. [See: Umesh Chandra v. State of Uttarakhand32.] 38.3 It is not a substantive piece of evidence. Its only purpose is for the investigating authorities to analyse the correctness, or lack thereof, of the direction in which they are steering the investigation. [See: Hari Nath v. State of U.P.33; and Iqbal v. State of U.P.34] 38.4 If the prosecution does not establish, by examination of witnesses to the T.I.P., and the Magistrate entrusted therewith, it cannot be said that it was conducted per law. [See: Umesh Chandra (supra).] 38.5 There is no hard and fast rule about delay in conducting T.I.P. being fatal to the case of the prosecution. In certain cases, 28 (2005) 9 SCC 631 29 (2003) 5 SCC 746 30 (2003) 6 SCC 73 31 (2014) 4 SCC 747 32 (2021) 17 SCC 616 33 (1988) 1 SCC 14 34 (2015) 6 SCC 623 relatively small delay has been considered fatal yet in others, a delay of as much as 40 days is not fatal. [See: Raja v. State35.] 38.6 The prosecution must establish that prior to the test identification parade being conducted, the witness had no opportunity to see the accused. In other words, the accused must be kept ‘baparda’. [See: Gireesan Nair v. State of Kerala36; and Budhsen v. State of U.P.37.] 38.7 If the above has not been ensured, the evidence of the T.I.P. becomes inadmissible. It has also been held that if, prior to the T.I.P. the witness has the opportunity to see even the photograph of the accused person, such process becomes inconsequential. [See: Maya Kaur Baldevsingh Sardar v. State of Maharashtra38; C. Muniappan v. State of T.N.39; and Sk. Umar Ahmed Shaikh v. State of Maharashtra40.] 38.8 Dock identification by the informant, even in the absence of T.I.P., can be accepted, but generally, as a matter of prudence, a witness’s identification of an accused in Court is sought to be corroborated by the identification by the former of the latter in previously conducted identification proceedings [Rajesh v. State of Haryana41; and Mukesh v. State (NCT of Delhi)42.] 38.9 Considering the facts and circumstances of the case at hand, it is open for the Court to draw an adverse inference against the witness, should they put forth a refusal to participate in the identification proceedings. [See: Mohd. Anwar v. State (NCT of Delhi)43.]\n\nIt is plain as day that the above principles were not observed in the present case. We are constrained to record our astonishment as to how the Courts below considered the identification proceedings as a 35 (2020) 15 SCC 562 36 (2023) 1 SCC 180 37 (1970) 2 SCC 128 38 (2007) 12 SCC 654 39 (2010) 9 SCC 567",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          38,
-          39
-        ],
-        "page_start": 48,
-        "page_end": 49
-      },
-      "legal_references": [],
-      "legal_concepts": [],
-      "cited_cases": [
-        "Ashok Debbarma v. State of Tripura [2014] 4 SCR 287 : (2014) 4 SCC 747",
-        "Budhsen v. State of U.P. [1971] 1 SCR 564 : (1970) 2 SCC 128",
-        "C. Muniappan v. State of T.N. [2010] 10 SCR 262 : (2010) 9 SCC 567",
-        "Gireesan Nair v. State of Kerala [2022] 8 SCR 599 : (2023) 1 SCC 180",
-        "Hari Nath v. State of U.P. [1988] 1 SCR 848 : (1988) 1 SCC 14",
-        "Maya Kaur Baldevsingh Sardar v. State of Maharashtra [2007] 10 SCR 752 : (2007) 12 SCC 654",
-        "Mohd. Anwar v. State (NCT of Delhi) [2020] 7 SCR 150 : (2020) 7 SCC 391",
-        "Mukesh v. State (NCT of Delhi) [2017] 6 SCR 1 : (2017) 6 SCC 1",
-        "Munshi Singh Gautam v. State of M.P. [2004] Supp. 5 SCR 1092 : (2005) 9 SCC 631",
-        "Raja v. State [2019] 17 SCR 1187 : (2020) 15 SCC 562",
-        "Rajesh v. State of Haryana [2020] 14 SCR 1 : (2021) 1 SCC 118",
-        "Sk. Umar Ahmed Shaikh v. State of Maharashtra [1998] 2 SCR 1209 : (1998) 5 SCC 103",
-        "Umesh Chandra v. State of Uttarakhand (2021) 17 SCC 616",
-        "Visveswaran v. State [2003] 3 SCR 978 : (2003) 6 SCC 73"
-      ],
-      "token_count": 790
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_037",
+      "chunk_id": "2025_INSC_845_JUDGMENT_030",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -1031,34 +901,30 @@
       "token_count": 554
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_038",
+      "chunk_id": "2025_INSC_845_JUDGMENT_031",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "(2020) 7 SCC 391 circumstance accruing against the Appellant-convict. It is undoubted that PW-50, in his testimony, gives sufficient detail as to the procedure followed in conducting the T.I.P., and on that count, no assault can be made thereon, however, as the preceding paragraph establishes, there are other equally crucial factors. It is a matter of record that PW-5 (the witness who participated in the T.I.P.), in his testimony, stated that about a week after he gave information to the concerned police about the incident of 14th May, 2011, he saw the Appellant- convict at the said police station. Most importantly, as has come on record, the police officials had informed him about the Appellant- convict committing the crime. As held by Budhsen (supra) as far back as the year 1970, by Suryamoorthy v. Govindaswamy44 in 1989, Suresh Chandra Bahri v. State of Bihar45 in 1995, Mulla v. State of U.P46 in 2010, i.e., well before the judgment of the learned Trial Court was pronounced, that if the said witness had the opportunity to see the accused, in any form, after the incident the subject matter of testimony, but prior to the identification proceedings, it would render the same to be ineffective. Then, in our view, the courts below committed an error of elephantine proportions in considering these proceedings as forming one of the chains of circumstances against the Appellant-convict. Two Additional Points One: Other Suspects Remained Unexplored 40. Most importantly, PW-2, the father of D1 in his testimony deposed that he feared the involvement of four other persons. In order to have that possibility sufficiently explored, he filed a case before the High Court seeking transfer of the investigation to CBCID. PW-56, the Investigating Officer on behalf of the CBCID submitted that on 8th August, 2011, he recorded the statements of PW-5 (Rajkumar), Bhagyalakshmi, and suspects - Francis, Arjunan, Ambazhagan. These statements are not on record. How these statements were pursued, verified, and taken to their logical conclusion is unknown to record, more so, to the findings of the Courts below. PW-56, in his\n\n(1989) 3 SCC 24\n\n(1995) Supp. 1 SCC 80\n\n(2010) 3 SCC 508 own deposition, also does not give any details as to what they may have said to him during his examination. Curiously, if Bhagyalakshmi had been examined by him, why her statement was not produced before the Trial Court is a question which remains unanswered. The prosecution has nowhere stated that PW-2’s suspicion on these persons was unfounded or misguided. That being the case, the non-pursuance of these suspects is a circumstance to be taken against the prosecution case. Two: Non-examination of Bhagyalakshami 41. PW-5 in his testimony states that he knew both the victims, D1 and D2 through Bhagyakshami. Undisputably, D2 and she were friends. She was obviously there at the time of the incident. She was the one who had informed PW-5 that D2 did not attend college the next day. Further, she was the one who told PW-5 that they had been murdered in suspicious circumstances which led the latter to go to the police on 20th May, 2011 and tell them his version of events on the fateful day of 14th May 2011. All of these essential happenings have a link, i.e., the lover of PW-5. Then, why she remained unexamined by the prosecution is a mystery. Still further, it has come on record, as we have noticed supra that PW-56 recorded her statement. However, how it escaped the attention of both the Courts below that the statement was not on record, is surprising. She could have given essential testimony for the last seen theory to be applied to the present case; she could have deposed as to the relationship between D1 and D2; the possibility of an elopement which formed the basis of PW-5 not approaching the authorities even after he came to know from her that D2 did not attend college. She could have further been an additional witness in the T.I.P., which would have lent credence to the prosecution case. Undoubtedly, she would have been a material witness, and her non-examination is a negative circumstance against the prosecution’s case. We are supported in our conclusion by the observations made Takhaji Hiraji v. Thakore Kubersing Chamansing47, which are extracted as follows : “19… It is true that if a material witness, who would unfold the genesis of the incident or an essential part of",
+      "text": "(1989) 3 SCC 24\n\n(1995) Supp. 1 SCC 80\n\n(2010) 3 SCC 508 own deposition, also does not give any details as to what they may have said to him during his examination. Curiously, if Bhagyalakshmi had been examined by him, why her statement was not produced before the Trial Court is a question which remains unanswered. The prosecution has nowhere stated that PW-2’s suspicion on these persons was unfounded or misguided. That being the case, the non-pursuance of these suspects is a circumstance to be taken against the prosecution case. Two: Non-examination of Bhagyalakshami 41. PW-5 in his testimony states that he knew both the victims, D1 and D2 through Bhagyakshami. Undisputably, D2 and she were friends. She was obviously there at the time of the incident. She was the one who had informed PW-5 that D2 did not attend college the next day. Further, she was the one who told PW-5 that they had been murdered in suspicious circumstances which led the latter to go to the police on 20th May, 2011 and tell them his version of events on the fateful day of 14th May 2011. All of these essential happenings have a link, i.e., the lover of PW-5. Then, why she remained unexamined by the prosecution is a mystery. Still further, it has come on record, as we have noticed supra that PW-56 recorded her statement. However, how it escaped the attention of both the Courts below that the statement was not on record, is surprising. She could have given essential testimony for the last seen theory to be applied to the present case; she could have deposed as to the relationship between D1 and D2; the possibility of an elopement which formed the basis of PW-5 not approaching the authorities even after he came to know from her that D2 did not attend college. She could have further been an additional witness in the T.I.P., which would have lent credence to the prosecution case. Undoubtedly, she would have been a material witness, and her non-examination is a negative circumstance against the prosecution’s case. We are supported in our conclusion by the observations made Takhaji Hiraji v. Thakore Kubersing Chamansing47, which are extracted as follows : “19… It is true that if a material witness, who would unfold the genesis of the incident or an essential part of",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          43,
           44,
           45,
           46
         ],
-        "page_start": 49,
+        "page_start": 50,
         "page_end": 51
       },
       "legal_references": [],
       "legal_concepts": [],
       "cited_cases": [
-        "Mulla v. State of U.P [2010] 2 SCR 633 : (2010) 3 SCC 508",
-        "Suresh Chandra Bahri v. State of Bihar [1994] Supp. 1 SCR 483 : (1995) Supp. 1 SCC 80",
-        "Suryamoorthy v. Govindaswamy (1989) 3 SCC 24",
         "Takhaji Hiraji v. Thakore Kubersing Chamansing (2001) 6 SCC 145"
       ],
-      "token_count": 980
+      "token_count": 521
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_039",
+      "chunk_id": "2025_INSC_845_JUDGMENT_032",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -1079,29 +945,7 @@
       "token_count": 897
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_040",
-      "case_id": "2025 INSC 845",
-      "document_type": "judgment",
-      "chunk_type": "judgment",
-      "text": "(2001) 6 SCC 145 the prosecution case, not convincingly brought to fore otherwise, or where there is a gap or infirmity in the prosecution case which could have been supplied or made good by examining a witness who though available is not examined, the prosecution case can be termed as suffering from a deficiency and withholding of such a material witness would oblige the court to draw an adverse inference against the prosecution by holding that if the witness would have been examined it would not have supported the prosecution case. On the other hand if already overwhelming evidence is available and examination of other witnesses would only be a repetition or duplication of the evidence already adduced, non-examination of such other witnesses may not be material. In such a case the court ought to scrutinise the worth of the evidence adduced. The court of facts must ask itself — whether in the facts and circumstances of the case, it was necessary to examine such other witness, and if so, whether such witness was available to be examined and yet was being withheld from the court. If the answer be positive then only a question of drawing an adverse inference may arise. If the witnesses already examined are reliable and the testimony coming from their mouth is unimpeachable the court can safely act upon it, uninfluenced by the factum of non-examination of other witnesses.” FAULTY INVESTIGATION 42. A common thread that can be seen to be running through the entire process that has culminated by way of this judgment, is that of faulty investigation. Since we have already discussed the evidence on record in detail, we may only point out various instances : A) The identity of the accused could not be sufficiently protected leading to its disclosure well before the T.I.P. was conducted; B) Although there is no straight-jacket formula as to when T.I.P. can be/cannot be conducted, the delay in doing so has to be examined in the facts and circumstances of the case. The nine- day delay herein is entirely unexplained; C) Lack of coordination between investigating agencies. Bhagyalakshmi has not been arrayed as a witness, despite examination by PW-56 who is the person concerned at the CBCID. The other investigating officer did not examine her despite a clear link to the deceased persons and the star witness of the prosecution; D) Requisite care regarding the sensitive evidence (DNA etc.) was not taken in the slightest. There are large gaps in the chain of custody which are unexplained; E) Surprisingly and shockingly, we may say that the post-mortem of the deceased persons was conducted at the spot of the crime without due regard to the possibility of contamination, effect of such examination being conducted in the open, etc. None of the Courts below have found this to be objectionable; F) Possibility of ruling out the involvement of third party in the crime. DNA- A NECISSITATED ADDENDUM 43. As we have discussed earlier in this judgment, the DNA evidence collected has been rendered unusable. It suffers from various shortcomings in as much as there is large amount of unexplained delay; the chain of custody cannot be established; possibility of contamination cannot be ruled out etc. We have also referred to instances in the recent past where, similar to the case at hand the DNA evidence was rendered unusable on account of similar lapses. A perusal of the various documents released by a number of bodies such as the Standard Operating Procedure for Crime Scene Investigation issued by the Directorate of Forensic Science Service, Ministry of Home Affairs and Government of India48; Guidelines for collection, storage and transportation of Crime Scene DNA samples issued by the Central Forensic Science Laboratory, Directorate of Forensic Science Service, Ministry of Home Affairs and Government of India49; a Forensic Guide for Crime Investigators (Standard Operating Procedures) issued by LNJN National Institute of Criminology and Forensic Science, Ministry of Home Affairs, Government of India50 show that, although, procedures have been suggested, there is no uniformity nor there is a\n\nhttp://164.100.117.138/pdfs/crime%20scene%20manual%20full_organized.pdf",
-      "source": {
-        "field": "judgment.paragraphs",
-        "paragraphs": [
-          47,
-          48
-        ],
-        "page_start": 51,
-        "page_end": 53
-      },
-      "legal_references": [],
-      "legal_concepts": [
-        "LEGAL_CONCEPT:medical_evidence"
-      ],
-      "cited_cases": [],
-      "token_count": 899
-    },
-    {
-      "chunk_id": "2025_INSC_845_JUDGMENT_041",
+      "chunk_id": "2025_INSC_845_JUDGMENT_033",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
@@ -1120,13 +964,14 @@
       "legal_concepts": [
         "LEGAL_CONCEPT:acquittal",
         "LEGAL_CONCEPT:circumstantial_evidence",
-        "LEGAL_CONCEPT:first_information_report_fir"
+        "LEGAL_CONCEPT:first_information_report_fir",
+        "LEGAL_CONCEPT:sentence_alteration"
       ],
       "cited_cases": [],
       "token_count": 989
     },
     {
-      "chunk_id": "2025_INSC_845_JUDGMENT_042",
+      "chunk_id": "2025_INSC_845_JUDGMENT_034",
       "case_id": "2025 INSC 845",
       "document_type": "judgment",
       "chunk_type": "judgment",
