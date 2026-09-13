@@ -1,0 +1,44 @@
+==================================================
+   PHASE S1: STATUTE VALIDATION REPORT
+==================================================
+Total Acts Validated: 6
+Total Sections      : 109
+Total Critical Issues: 2
+Total Warnings      : 77
+Overall Status      : FAIL
+--------------------------------------------------
+[FAIL] bns.json (BNS): 29 sections
+   [ISSUE] Duplicate section_id detected: 'BNS:61'
+   [ISSUE] Duplicate section_id detected: 'BNS:80'
+   [WARN]  Section 'BNS:105' text appears truncated (ends with: 'ury asis likely to cause death')
+   [WARN]  Subsection 'BNS:106(2)' text appears truncated (ends with: 'd shall also be liable to fine')
+   [WARN]  Subsection 'BNS:80(2)' text appears truncated (ends with: 'xtend to imprisonment for life')
+   [WARN]  Section 'BNS:87' text appears truncated (ends with: 'lso be punishable as aforesaid')
+   [WARN]  Section 'BNS:22' text appears truncated (ends with: 'ither wrong or contrary to law')
+   [WARN]  ... plus 22 more warnings.
+[PASS] bnss.json (BNSS): 14 sections
+   [WARN]  Subsection 'BNSS:351(2)' text appears truncated (ends with: ' is examined under sub-section')
+   [WARN]  Subsection 'BNSS:181(2)' text appears truncated (ends with: 'o affect the provisions of the')
+   [WARN]  Subsection 'BNSS:193(8)' text appears truncated (ends with: 'sions contained in sub-section')
+   [WARN]  Section 'BNSS:193': Duplicate subsection_id 'BNSS:193(7)' (subsection 7)
+   [WARN]  Subsection 'BNSS:193(9)' text appears truncated (ends with: 'ter a report under sub-section')
+   [WARN]  ... plus 5 more warnings.
+[PASS] bsa.json (BSA): 12 sections
+   [WARN]  Subsection 'BSA:108(2)' text appears truncated (ends with: 'ing the case under sub-section')
+[PASS] crpc.json (CrPC): 14 sections
+   [WARN]  Section #1: Non-standard section_id format 'CrPC:313'
+   [WARN]  Subsection 'CrPC:313(2)' text appears truncated (ends with: ' is examined under Sub-Section')
+   [WARN]  Section #2: Non-standard section_id format 'CrPC:161'
+   [WARN]  Section #3: Non-standard section_id format 'CrPC:162'
+   [WARN]  Subsection 'CrPC:162(2)' text appears truncated (ends with: 'ithin the provisions of clause')
+   [WARN]  ... plus 24 more warnings.
+[PASS] iea.json (IEA): 12 sections
+   [WARN]  Section 'IEA:105' text appears truncated (ends with: 'case within any of the General')
+   [WARN]  Subsection 'IEA:8(1)' text appears truncated (ends with: 'ation under section 32, clause')
+[PASS] ipc.json (IPC): 28 sections
+   [WARN]  Subsection 'IPC:120A(1)' text appears truncated (ends with: 'an illegal act, or')
+   [WARN]  Subsection 'IPC:354A(2)' text appears truncated (ends with: 'or clause (iii) of sub-section')
+   [WARN]  Section 'IPC:354A': Duplicate subsection_id 'IPC:354A(1)' (subsection 1)
+   [WARN]  Subsection 'IPC:354A(3)' text appears truncated (ends with: ' in clause (iv) of sub-section')
+   [WARN]  Section 'IPC:354A': Duplicate subsection_id 'IPC:354A(1)' (subsection 1)
+   [WARN]  ... plus 3 more warnings.

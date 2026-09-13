@@ -1,0 +1,443 @@
+{
+  "act_id": "CrPC",
+  "total_chunks": 14,
+  "sections_processed": 14,
+  "chunks": [
+    {
+      "chunk_id": "CrPC_313_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:313",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 313 - Power to examine the accused\n\nDescription:\n\n(1) In every inquiry or trial, for the purpose of enabling the accused personally to explain any circumstances appearing in the evidence against him, the court- (a) may at any stage, without previously warning the accused put such questions to him as the Court considers necessary; (b) shall after the witnesses for the prosecution have been examined and before he is called on for his efence question him generally on the case;\n\n(2) No oath shall be administered to the accused when he is examined under Sub-Section\n\n(3) The accused shall not render himself liable to punishment by refusing to answer such question, or by giving false answers to them.\n\n(4) The answers given by the accused may be taken into consideration in such inquiry or trial, and put in evidence for or against him in any other inquiry into, or trial for, any other offence which such answers may tend to show he had committed.\n\nProvided that: in a summons-case where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause (b).",
+      "source": {
+        "section_number": "313",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": [
+          "1"
+        ]
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:351"
+      ],
+      "predecessor_references": [],
+      "token_count": 255
+    },
+    {
+      "chunk_id": "CrPC_161_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:161",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 161 -\n\nExamination of witnesses by police Description:\n\n(1) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.\n\n(2) Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.\n\n(3) The police officer may reduce into writing any statement made to him in the course of an examination under this section; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records.\n\nProvided that: statement made under this sub-section may also be recorded by audio-video electronic means.\n\nProvided further that: the statement of a woman against whom an offence under section 354, section 376A, section \" 376AB, section 376B, section 376C, section 376D, section 376DA, section 376DB, section 376E or section 509 of The Indian Penal Code is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer.",
+      "source": {
+        "section_number": "161",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2",
+          "3"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": [
+          "1",
+          "2"
+        ]
+      },
+      "legal_references": [
+        "CrPC:354",
+        "CrPC:376A",
+        "CrPC:376B",
+        "CrPC:376C",
+        "CrPC:376D",
+        "CrPC:376DA",
+        "CrPC:376DB",
+        "CrPC:376E",
+        "CrPC:509",
+        "IPC:161",
+        "IPC:354",
+        "IPC:376A",
+        "IPC:376B",
+        "IPC:376C",
+        "IPC:376D",
+        "IPC:376DA",
+        "IPC:376DB",
+        "IPC:376E",
+        "IPC:509"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:180"
+      ],
+      "predecessor_references": [],
+      "token_count": 307
+    },
+    {
+      "chunk_id": "CrPC_162_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:162",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 162 -\n\nStatements to police not to be signed; Use of statements in evidence Description:\n\n(1) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made;\n\n(2) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause\n\nProvided that: when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 145 of the Indian Evidence Act, 1872 (1 of 1872); and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.",
+      "source": {
+        "section_number": "162",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": [
+          "1"
+        ]
+      },
+      "legal_references": [
+        "CrPC:145"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:181"
+      ],
+      "predecessor_references": [],
+      "token_count": 299
+    },
+    {
+      "chunk_id": "CrPC_173_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:173",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 173 -\n\nReport of police officer on completion of investigation Description:\n\n(1) Every investigation under this Chapter shall be completed without unnecessary delay. 1A. The investigation in relation to an offence under sections 376, 376A, 376AB, 376B, 376C, 376D, 376DA, 376DB or 376E of the Indian Penal Code shall be completed within two months \" from the date on which the information was recorded by the officer in charge of the police station.\n\n(2) - (i) As soon as it is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government, stating- (a) the names of the parties; (b) the nature of the information; (c) the names of the persons who appear to be acquainted with the circumstances of the case; (d) whether any offence appears to have been committed and, if so, by whom; (e) whether the accused has been arrested; (f) whether he has been released on his bond and, if so, whether with or without sureties; (g) whether he has been forwarded in custody under section 170. (h) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 376. 376A. 376AB. 376B. 376C. 376D. 376DA, 376DB, or 376E of the Indian Penal Code. (ii) The officer shall also communicate, in such manner as may be prescribed by the State Government, the action taken by him, to the person, if any whom the information relating to the commission of the offence was first given.\n\n(3) Where a superior officer of police has been appointed under section 158, the report, shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.\n\n(4) Whenever it appears from a report forwarded under this section that the accused has been released on his bond, the Magistrate shall make such order for the discharge of such bond or otherwise as he thinks fit.\n\n(5) When such report is in respect of a case to which section 170 applies, the police officer shall forward to the Magistrate along with the report- (a) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation; (b) the statements recorded under section 161 of all the persons whom the prosecution proposes to examine as its witnesses.\n\n(6) If the police officer is of opinion that any part of any such statement is not relevant to the subject-matter of the proceeding or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.\n\n(7) Where the police officer investigating the case finds it convenient so to do, he may furnish to the accused copies of all or any of the documents referred to in Sub-Section .\n\n(8) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a eport under Sub-Section has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding, such evidence in the form prescribed; and the provisions of Sub-Sections to shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under Sub-Section .",
+      "source": {
+        "section_number": "173",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [
+        "CrPC:158",
+        "CrPC:161",
+        "CrPC:170",
+        "CrPC:376",
+        "IPC:158",
+        "IPC:161",
+        "IPC:170",
+        "IPC:173"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:193"
+      ],
+      "predecessor_references": [],
+      "token_count": 865
+    },
+    {
+      "chunk_id": "CrPC_172_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:172",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 172 -\n\nDiary of proceeding in investigation Description:\n\n(1) Every police officer making an investigation under this Chapter shall day by day enter his proceeding in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by Mm, and a statement of the circumstances ascertained through his investigation.\n\n(2) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.\n\n(3) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 161 or section 145, as the case may be, of the Indian Evidence Act, 1872 (1 of 1872), shall apply.",
+      "source": {
+        "section_number": "172",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2",
+          "3"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [
+        "CrPC:145",
+        "CrPC:161"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:192"
+      ],
+      "predecessor_references": [],
+      "token_count": 262
+    },
+    {
+      "chunk_id": "CrPC_193_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:193",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 193 -\n\nCognizance of offences by Courts of Session Description: Except as otherwise expressly provided by this Code or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Code.",
+      "source": {
+        "section_number": "193",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:213"
+      ],
+      "predecessor_references": [],
+      "token_count": 79
+    },
+    {
+      "chunk_id": "CrPC_207_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:207",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 207 -\n\nSupply to the accused of copy of police report and other documents Description: In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay furnish to the accused, free of cost, a copy of each of the following;\n\n(i)the police report; (ii)the first information report recorded under section 154; (iii)the statements recorded under Sub-Section\n\n(3) of section 161 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under Sub-Section of section 173; (iv)the confessions and statements, if any, recorded under section 164; (v)any other document or relevant extract thereof forwarded to the Magistrate with the police report under Sub-Section of section 173;\n\nProvided that: the Magistrate may, after perusing any such pan of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused;\n\nProvided further that: if the Magistrate is satisfied that any document referred to in clause (v) is voluminous, he shall, instead of furnishing the accused with a copy thereof, direct that he will only be allowed to inspect it either personally or through pleader in Court.",
+      "source": {
+        "section_number": "207",
+        "has_main_text": true,
+        "subsections": [
+          "3"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": [
+          "1",
+          "2"
+        ]
+      },
+      "legal_references": [
+        "CrPC:154",
+        "CrPC:161",
+        "CrPC:164",
+        "CrPC:173"
+      ],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:first_information_report"
+      ],
+      "successor_references": [
+        "BNSS:230"
+      ],
+      "predecessor_references": [],
+      "token_count": 317
+    },
+    {
+      "chunk_id": "CrPC_209_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:209",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 209 - Commitment of case to Court of Session when offence is triable exclusively by it Description: When in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he shall\n\n(a)commit, after complying with the provisions of section 207 or section 208, as the case may be, the case to the Court of Session, and subject to the provisions of this Code relating to bail, remand the accused to custody until such commitment has been made; (b)subject to the provisions of this Code relating to bail, remand the accused to custody during, and until the conclusion of, the trial; (c)send to that Court the record of the case and the documents and articles, if any, which are to be produced in evidence; (d)notify the Public Prosecutor of the commitment of the case to the Court of Session.",
+      "source": {
+        "section_number": "209",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [
+        "CrPC:207",
+        "CrPC:208"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:232"
+      ],
+      "predecessor_references": [],
+      "token_count": 218
+    },
+    {
+      "chunk_id": "CrPC_230_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:230",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 230 -\n\nDate for prosecution evidence Description: If the accused refuses to plead, or does not plead, or claims to be tried or is not convicted under section 229, the Judge shall fix a date for the examination of witnesses, and may, on the application of the prosecution, issue any process for compelling the attendance of any witness or the production of any document or other thing.",
+      "source": {
+        "section_number": "230",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [
+        "CrPC:229"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:253"
+      ],
+      "predecessor_references": [],
+      "token_count": 90
+    },
+    {
+      "chunk_id": "CrPC_232_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:232",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 232 -\n\nAcquittal Description: If after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Judge considers that there is no evidence that the accused committed the offence, the judge shall record an order of acquittal.",
+      "source": {
+        "section_number": "232",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [],
+      "legal_concepts": [
+        "LEGAL_CONCEPT:acquittal"
+      ],
+      "successor_references": [
+        "BNSS:255"
+      ],
+      "predecessor_references": [],
+      "token_count": 63
+    },
+    {
+      "chunk_id": "CrPC_296_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:296",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 296 -\n\nEvidence of formal character on affidavit Description: (i)The evidence of any person whose evidence is of a formal character may be given by affidavit and may, subject to all just , be read in evidence in any inquiry, trial or other proceeding under this Code. (ii)The Court may, if it thinks fit, and shall, on the application of the prosecution or the accused, summon and examine any such person as to the facts contained in his affidavit.",
+      "source": {
+        "section_number": "296",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:332"
+      ],
+      "predecessor_references": [],
+      "token_count": 106
+    },
+    {
+      "chunk_id": "CrPC_315_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:315",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 315 - Accused person to be competent witness Description: (1)Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial; Provided that\n\n(a)he shall not be called as a witness except on his own request in writing; (b)his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial.\n\n(2) Any person against whom proceedings are instituted in any Criminal Court under section 98, or section 107, or section 108, or section 109, or section 110, or under Chapter IX or under Part B, Part C or Part D of Chapter X, may offer himself as a witness in such proceedings;\n\nProvided that: in proceedings under section 108, section 109 or section 110, the failure of such person to give evidence shall not be made the subject or any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.",
+      "source": {
+        "section_number": "315",
+        "has_main_text": true,
+        "subsections": [
+          "2"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": [
+          "1"
+        ]
+      },
+      "legal_references": [
+        "CrPC:107",
+        "CrPC:108",
+        "CrPC:109",
+        "CrPC:110",
+        "CrPC:98"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:353"
+      ],
+      "predecessor_references": [],
+      "token_count": 293
+    },
+    {
+      "chunk_id": "CrPC_366_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:366",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 366 -\n\nSentence of death to be submitted by Court of Session for confirmation Description:\n\n(1) When the Court of Session passes a sentence of death, the proceedings shall be submitted to the High Court, and the sentence shall not be executed unless it is confirmed by the High Court.\n\n(2) The Court passing the sentence shall commit the convicted person to jail custody under a warrant.",
+      "source": {
+        "section_number": "366",
+        "has_main_text": true,
+        "subsections": [
+          "1",
+          "2"
+        ],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:407"
+      ],
+      "predecessor_references": [],
+      "token_count": 90
+    },
+    {
+      "chunk_id": "CrPC_189_SECTION_001",
+      "act_id": "CrPC",
+      "section_id": "CrPC:189",
+      "document_type": "statute",
+      "chunk_type": "section",
+      "text": "Section 189 -\n\nReceipt of evidence relating to offences committed outside India Description: When any offence alleged to have been committed in a territory outside India is being inquired into or tried under the provisions of section 188, the Central Government may, if it thinks fit, direct that copies of depositions made or exhibits produced before a judicial officer in or for that territory or before a diplomatic or consular representative of India in or for that territory shall be received as evidence by the Court holding such inquiry or trial in any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate.",
+      "source": {
+        "section_number": "189",
+        "has_main_text": true,
+        "subsections": [],
+        "explanations": [],
+        "illustrations": [],
+        "exceptions": [],
+        "provisos": []
+      },
+      "legal_references": [
+        "CrPC:188"
+      ],
+      "legal_concepts": [],
+      "successor_references": [
+        "BNSS:209"
+      ],
+      "predecessor_references": [],
+      "token_count": 154
+    }
+  ]
+}

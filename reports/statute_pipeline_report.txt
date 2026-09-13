@@ -1,0 +1,35 @@
+==================================================
+   STATUTE GRAPH-RAG PIPELINE REPORT (S1-S12)
+==================================================
+Execution Time       : 29.66s
+Acts Processed       : 6 (IPC, BNS, CrPC, BNSS, IEA, BSA)
+Consolidated Sections: 107
+Atomic Legal Units   : 279
+Generated Chunks     : 107
+ChromaDB Ingestion   : 107 items in 'legal_statute_chunks'
+Neo4j Status         : OFFLINE/SKIPPED
+Hybrid Search Sim    : PASS
+--------------------------------------------------
+TOKEN STATISTICS (per Section Chunk):
+  Min Tokens   : 33
+  Max Tokens   : 1574
+  Mean Tokens  : 256.59
+  Median Tokens: 170
+--------------------------------------------------
+STRUCTURAL COMPLETENESS SUMMARY:
+  Subsections        : 41 sections
+  Explanations       : 19 sections
+  Illustrations      : 22 sections
+  Exceptions         : 2 sections
+  Provisos           : 22 sections
+  CRPC:296 Exceptions: N/A (PASS)
+  Self-References    : 0 detected (PASS)
+--------------------------------------------------
+PER-ACT BREAKDOWN:
+--------------------------------------------------
+  - BNS: 27 sections -> 27 chunks
+  - BNSS: 14 sections -> 14 chunks
+  - BSA: 12 sections -> 12 chunks
+  - CrPC: 14 sections -> 14 chunks
+  - IEA: 12 sections -> 12 chunks
+  - IPC: 28 sections -> 28 chunks

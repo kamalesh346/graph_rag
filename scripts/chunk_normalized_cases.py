@@ -5,7 +5,7 @@ independent, retrievable chunk streams:
 1. ISSUE (from issue_for_consideration)
 2. HEADNOTE (split into distinct legal propositions with related_paragraphs traceability)
 3. LEGAL_TOPIC (only generated for distinct topics not already covered in headnotes)
-4. JUDGMENT (intelligent paragraph grouping with selective 1-paragraph overlap & 1000 token max budget)
+4. JUDGMENT (intelligent paragraph grouping with sentence continuity mending & selective 1-paragraph overlap)
 
 Outputs chunk artifacts in data/chunks/[CASE_ID_SLUG]_chunks.json and
 a consolidated JSONL file in data/chunks/all_judgment_chunks.jsonl.
@@ -85,8 +85,8 @@ def canonical_provision(act: str, raw: str) -> str:
     value = re.sub(r"\s+", " ", raw).strip()
     act_id = act.replace(" ", "")
 
-    # Handle source typography artifacts like "Part IIPC" -> "Part II"
-    value = re.sub(r"Part\s+([IVX0-9]+)\s*IPC", r"Part \1", value, flags=re.I)
+    # Fix typographical artifact: Part IIPC is Part I + IPC
+    value = re.sub(r"Part\s+IIPC\b", "Part I IPC", value, flags=re.I)
 
     exc_match = re.search(r"(?:(\d+)\s*[-–—]?\s*(?:\(\s*)?exception\s*([ivx0-9]+)(?:\s*\))?|exception\s*([ivx0-9]+)\s*(?:to|of)?\s*(?:s(?:ection)?\.?\s*)?(\d+))", value, re.I)
     if exc_match:
@@ -115,26 +115,27 @@ def canonical_provision(act: str, raw: str) -> str:
 def extract_references(text: str) -> list[str]:
     refs = set()
     
-    # Specific patterns for section 304 Part I/II, Part IIPC, etc.
-    if re.search(r"\b304\b.*?\bPart\s*(?:I{1,2}|II|2|1|IIPC)\b", text, re.I):
-        if re.search(r"\bPart\s*(?:II|2|IIPC)\b", text, re.I):
-            refs.add("IPC:304(Part II)")
-            refs.add("IPC:304")
-        elif re.search(r"\bPart\s*(?:I|1)\b", text, re.I):
-            refs.add("IPC:304(Part I)")
-            refs.add("IPC:304")
+    # Normalize artifact Part IIPC -> Part I IPC
+    text_norm = re.sub(r"Part\s+IIPC\b", "Part I IPC", text, flags=re.I)
+
+    # Specific check for Section 304 Part I vs Part II
+    if re.search(r"\b304\b.*?\bPart\s*(?:I|1)\b", text_norm, re.I) and not re.search(r"\b304\b.*?\bPart\s*(?:II|2)\b", text_norm, re.I):
+        refs.add("IPC:304(Part I)")
+        refs.add("IPC:304")
+    elif re.search(r"\b304\b.*?\bPart\s*(?:II|2)\b", text_norm, re.I):
+        refs.add("IPC:304(Part II)")
+        refs.add("IPC:304")
 
     # If text discusses altering Section 302 to Section 304
-    if re.search(r"Section 302.*?Section 304|302.*?304|altered to.*?304", text, re.I):
+    if re.search(r"Section 302.*?Section 304|302.*?304|altered to.*?304", text_norm, re.I):
         refs.add("IPC:302")
         refs.add("IPC:304")
 
     for act, (pat, _) in STATUTES.items():
         statute = re.compile(pat, re.I)
         sec_num = re.compile(r"\b(?:Section|Sections|S(?:ec)?\.)\s*(\d+[A-Za-z]*(?:\s*[-–—,]?\s*(?:\([^)]*\)|Part\s+[IVX0-9]+|Exception\s+[IVX0-9]+))?)", re.I)
-        for clause in re.split(r"[\n.;]", text):
+        for clause in re.split(r"[\n.;]", text_norm):
             if not statute.search(clause):
-                # Fallback for plain "Section 302", "Section 304" in IPC-dominant context
                 for m in sec_num.finditer(clause):
                     refs.add(canonical_provision("IPC", m.group(1)))
                 continue
@@ -262,14 +263,44 @@ def group_judgment_paragraphs(
             "cited_cases": cites,
         })
 
-    # 2. Intelligent paragraph grouping loop with intentional, selective overlap
+    # 2. Pre-pass: Mend broken sentences across page/header split paragraphs
+    mended_paras = []
+    i = 0
+    while i < len(enriched_paras):
+        p = enriched_paras[i]
+        if i + 1 < len(enriched_paras):
+            next_p = enriched_paras[i + 1]
+            p_text = p["text"].strip()
+            next_text = next_p["text"].strip()
+            
+            # Check if paragraph ends with open bracket like "(PW-" or "(PW" or ends without punctuation
+            is_broken_bracket = re.search(r"\(\s*PW\s*[-–—]?$", p_text, re.I) or p_text.endswith("(PW-") or p_text.endswith("(PW")
+            starts_closing_bracket = next_text.startswith(")") or re.match(r"^\s*\d*\s*\)", next_text)
+            
+            if is_broken_bracket and starts_closing_bracket:
+                # Merge paragraphs cleanly
+                clean_next = re.sub(r"^\s*\d*\s*\)\s*", ") ", next_text)
+                merged_text = p_text + clean_next
+                p["text"] = merged_text
+                p["page_end"] = next_p["page_end"]
+                p["token_count"] = estimate_tokens(merged_text)
+                p["legal_references"] = sorted(list(set(p["legal_references"] + next_p["legal_references"])))
+                p["legal_concepts"] = sorted(list(set(p["legal_concepts"] + next_p["legal_concepts"])))
+                p["cited_cases"] = sorted(list(set(p["cited_cases"] + next_p["cited_cases"])))
+                mended_paras.append(p)
+                i += 2  # Skip next_p as it is merged!
+                continue
+        mended_paras.append(p)
+        i += 1
+
+    # 3. Intelligent paragraph grouping loop with selective 1-paragraph overlap
     curr_paras: list[dict[str, Any]] = []
     curr_tokens = 0
 
     idx = 0
     seq = 1
-    while idx < len(enriched_paras):
-        p = enriched_paras[idx]
+    while idx < len(mended_paras):
+        p = mended_paras[idx]
         
         # Check oversized paragraph handling (>1000 tokens)
         if p["token_count"] > 1000:

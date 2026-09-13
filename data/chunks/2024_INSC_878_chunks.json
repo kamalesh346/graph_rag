@@ -20,7 +20,7 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
-        "IPC:304(Part II)"
+        "IPC:304(Part I)"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:sentence_alteration"
@@ -49,8 +49,7 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
-        "IPC:304(Part I)",
-        "IPC:304(Part II)"
+        "IPC:304(Part I)"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:benefit_of_doubt",
@@ -69,14 +68,13 @@
       "case_id": "2024 INSC 878",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": "Judgment B.R. Gavai, J.\n\nLeave granted.\n\nThe present appeal arises out of the final judgment and order dated 5th August, 2020, passed by a Division Bench of the High Court of Judicature at Bombay (hereinafter, “High Court”), in Criminal Appeal No. 927 of 2015, whereby the High Court has negatived the challenge to the judgment and order dated 7th July, 2015, passed by the Court of Additional Sessions Judge – 3, at Satara (hereinafter, “trial court”), in Sessions Case No. 121 of 2014, thereby upholding the conviction for the offence punishable under Section 302 of the Indian Penal Code, 1860 (hereinafter, “IPC”) and the imposition of sentence to suffer imprisonment for life along with fine of Rs. 500/- on the appellant.\n\nBy way of the present appeal, the appellant has called into question the dismissal of his Criminal Appeal by the High Court.\n\nThe facts, in brief, giving rise to the present appeal are as given below. 4.1 The prosecution story is that on 21st March 2014, Sunita Bhosale (PW-6) and her husband Gopal Bhosale went to the house of Rajendra Bhosale (PW-5). At that moment, Rajendra Bhosale had gone to answer nature’s call. Sunita Bhosale (PW-6) and her husband were having a conversation with Chayya – wife of Rajendra Bhosale (PW-5). At about 10:30 PM, Sunny @ Santosh (appellant) came in front of the house of Rajendra Bhosale (PW-",
+      "text": "Judgment B.R. Gavai, J.\n\nLeave granted.\n\nThe present appeal arises out of the final judgment and order dated 5th August, 2020, passed by a Division Bench of the High Court of Judicature at Bombay (hereinafter, “High Court”), in Criminal Appeal No. 927 of 2015, whereby the High Court has negatived the challenge to the judgment and order dated 7th July, 2015, passed by the Court of Additional Sessions Judge – 3, at Satara (hereinafter, “trial court”), in Sessions Case No. 121 of 2014, thereby upholding the conviction for the offence punishable under Section 302 of the Indian Penal Code, 1860 (hereinafter, “IPC”) and the imposition of sentence to suffer imprisonment for life along with fine of Rs. 500/- on the appellant.\n\nBy way of the present appeal, the appellant has called into question the dismissal of his Criminal Appeal by the High Court.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
           1,
           2,
-          3,
-          4
+          3
         ],
         "page_start": 3,
         "page_end": 3
@@ -86,18 +84,18 @@
       ],
       "legal_concepts": [],
       "cited_cases": [],
-      "token_count": 305
+      "token_count": 190
     },
     {
       "chunk_id": "2024_INSC_878_JUDGMENT_002",
       "case_id": "2024 INSC 878",
       "document_type": "judgment",
       "chunk_type": "judgment",
-      "text": ") and started abusing Chayya and Rajendra Bhosale (PW-5) on account of a loan they had taken. When Chayya tried to pacify the appellant, he attempted to assault her. Seeing this, Gopal Bhosale intervened and requested the appellant not to use abusive language and that his grievance could be resolved the next day. The appellant went some distance away from the house of Rajendra Bhosale (PW-5) but then suddenly started abusing Gopal Bhosale in filthy language and called him out of the house in a threatening tone. Gopal Bhosale went out of the house and followed the appellant towards the Northern side of tar road leading towards Khadkoba Temple in the village. It is then that the appellant beat and assaulted Gopal Bhosale particularly on his face and head by means of a bamboo stick causing bleeding injuries. Mangesh Bhosale (PW-3) and Aniket Bhosale (not examined), upon hearing the sound of quarrel so also Rajendra Bhosale (PW-5) who was informed by Sunita Bhosale (PW-6) and his wife Chayya, rushed towards the spot and saw the appellant assaulting Gopal Bhosale by means of a bamboo stick and the injured lying on the ground. Seeing the three of them, the appellant ran away from there. Other people including Sharad Bhosale (PW-4) gathered at the spot. The injured Gopal Bhosale was taken to the Rural Hospital, Khandala, where the doctor declared him brought dead. 4.2 Sharad Bhosale (PW-4) lodged the First Information Report being First Information Report (FIR) No. 54 of 2014 at Police Station Khandala, District Satara, on the intervening night of 21st March 2014 and 22nd March 2014 at around 1:35 AM. The First Information Report (FIR) was registered for offences punishable under Sections 302 and 504 of IPC. 4.3 Investigating Officer Ashok Shelke (PW-10) conducted the investigation. After preparing the inquest panchnama, the dead body was sent for postmortem. The appellant was arrested. The blood-stained clothes of the appellant were seized by preparing a panchnama. While in police custody, the disclosure statement of the appellant was recorded and at his instance muddemal i.e., bamboo stick was seized under panchnama. The Investigating Officer also recorded the statement of witnesses. He sent blood-stained clothes, bamboo stick, etc., for chemical analysis. 4.4 The Investigating Officer, upon completion of the investigation, filed a chargesheet forwarding the appellant to face the trial. The case was committed to the Sessions Court as the offence punishable under Section 302 of the IPC is exclusively triable by the Sessions Court. 4.5 The trial court, upon hearing, framed charge against the appellant. The appellant pleaded not guilty and claimed to be tried. 4.6 In order to bring home the guilt of the appellant, the prosecution examined ten witnesses. Besides the oral evidence, prosecution has also placed reliance on a number of documents. The incriminating circumstances in evidence were put to the appellant. The appellant denied the circumstances. He led no defence evidence. The defence was of total denial. 4.7 The Sessions Court, upon trial, convicted the appellant for the offence punishable under Section 302 of the IPC and sentenced him to undergo imprisonment for life. 4.8 Aggrieved thereby, the appellant preferred an appeal before the High Court. Vide impugned final judgment and order, the High Court dismissed the appeal filed by the appellant. Aggrieved still, the appellant has filed the present appeal. 5. We have heard Shri D.N. Goburdhun, learned Senior Counsel appearing for the appellant and Shri Siddharth Dharmadhikari, learned Counsel appearing for the respondent-State.",
+      "text": "The facts, in brief, giving rise to the present appeal are as given below. 4.1 The prosecution story is that on 21st March 2014, Sunita Bhosale (PW-6) and her husband Gopal Bhosale went to the house of Rajendra Bhosale (PW-5). At that moment, Rajendra Bhosale had gone to answer nature’s call. Sunita Bhosale (PW-6) and her husband were having a conversation with Chayya – wife of Rajendra Bhosale (PW-5). At about 10:30 PM, Sunny @ Santosh (appellant) came in front of the house of Rajendra Bhosale (PW-) and started abusing Chayya and Rajendra Bhosale (PW-5) on account of a loan they had taken. When Chayya tried to pacify the appellant, he attempted to assault her. Seeing this, Gopal Bhosale intervened and requested the appellant not to use abusive language and that his grievance could be resolved the next day. The appellant went some distance away from the house of Rajendra Bhosale (PW-5) but then suddenly started abusing Gopal Bhosale in filthy language and called him out of the house in a threatening tone. Gopal Bhosale went out of the house and followed the appellant towards the Northern side of tar road leading towards Khadkoba Temple in the village. It is then that the appellant beat and assaulted Gopal Bhosale particularly on his face and head by means of a bamboo stick causing bleeding injuries. Mangesh Bhosale (PW-3) and Aniket Bhosale (not examined), upon hearing the sound of quarrel so also Rajendra Bhosale (PW-5) who was informed by Sunita Bhosale (PW-6) and his wife Chayya, rushed towards the spot and saw the appellant assaulting Gopal Bhosale by means of a bamboo stick and the injured lying on the ground. Seeing the three of them, the appellant ran away from there. Other people including Sharad Bhosale (PW-4) gathered at the spot. The injured Gopal Bhosale was taken to the Rural Hospital, Khandala, where the doctor declared him brought dead. 4.2 Sharad Bhosale (PW-4) lodged the First Information Report being First Information Report (FIR) No. 54 of 2014 at Police Station Khandala, District Satara, on the intervening night of 21st March 2014 and 22nd March 2014 at around 1:35 AM. The First Information Report (FIR) was registered for offences punishable under Sections 302 and 504 of IPC. 4.3 Investigating Officer Ashok Shelke (PW-10) conducted the investigation. After preparing the inquest panchnama, the dead body was sent for postmortem. The appellant was arrested. The blood-stained clothes of the appellant were seized by preparing a panchnama. While in police custody, the disclosure statement of the appellant was recorded and at his instance muddemal i.e., bamboo stick was seized under panchnama. The Investigating Officer also recorded the statement of witnesses. He sent blood-stained clothes, bamboo stick, etc., for chemical analysis. 4.4 The Investigating Officer, upon completion of the investigation, filed a chargesheet forwarding the appellant to face the trial. The case was committed to the Sessions Court as the offence punishable under Section 302 of the IPC is exclusively triable by the Sessions Court. 4.5 The trial court, upon hearing, framed charge against the appellant. The appellant pleaded not guilty and claimed to be tried. 4.6 In order to bring home the guilt of the appellant, the prosecution examined ten witnesses. Besides the oral evidence, prosecution has also placed reliance on a number of documents. The incriminating circumstances in evidence were put to the appellant. The appellant denied the circumstances. He led no defence evidence. The defence was of total denial. 4.7 The Sessions Court, upon trial, convicted the appellant for the offence punishable under Section 302 of the IPC and sentenced him to undergo imprisonment for life. 4.8 Aggrieved thereby, the appellant preferred an appeal before the High Court. Vide impugned final judgment and order, the High Court dismissed the appeal filed by the appellant. Aggrieved still, the appellant has filed the present appeal. 5. We have heard Shri D.N. Goburdhun, learned Senior Counsel appearing for the appellant and Shri Siddharth Dharmadhikari, learned Counsel appearing for the respondent-State.",
       "source": {
         "field": "judgment.paragraphs",
         "paragraphs": [
-          5
+          4
         ],
         "page_start": 3,
         "page_end": 5
@@ -110,7 +108,7 @@
         "LEGAL_CONCEPT:medical_evidence"
       ],
       "cited_cases": [],
-      "token_count": 767
+      "token_count": 881
     },
     {
       "chunk_id": "2024_INSC_878_JUDGMENT_003",
@@ -217,7 +215,7 @@
       "legal_references": [
         "IPC:302",
         "IPC:304",
-        "IPC:304(Part II)"
+        "IPC:304(Part I)"
       ],
       "legal_concepts": [
         "LEGAL_CONCEPT:benefit_of_doubt",
