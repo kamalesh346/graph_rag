@@ -26,7 +26,7 @@
         {
           "section_id": "BNSS:351(2)",
           "subsection_number": "2",
-          "text": "No oath shall be administered to the accused when he is examined under sub-section"
+          "text": "No oath shall be administered to the accused when he is examined under sub-section (1)."
         },
         {
           "section_id": "BNSS:351(3)",
@@ -179,17 +179,12 @@
         {
           "section_id": "BNSS:193(8)",
           "subsection_number": "8",
-          "text": "Subject to the provisions contained in sub-section"
-        },
-        {
-          "section_id": "BNSS:193(7)",
-          "subsection_number": "7",
-          "text": ", the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230:"
+          "text": "Subject to the provisions contained in sub-section (7), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230:"
         },
         {
           "section_id": "BNSS:193(9)",
           "subsection_number": "9",
-          "text": "Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section"
+          "text": "Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section (3) has been forwarded to the Magistrate."
         }
       ],
       "explanations": [],
@@ -228,12 +223,7 @@
         {
           "section_id": "BNSS:192(3)",
           "subsection_number": "3",
-          "text": "The diary referred to in sub-section"
-        },
-        {
-          "section_id": "BNSS:192(1)",
-          "subsection_number": "1",
-          "text": "shall be a volume and duly paginated."
+          "text": "The diary referred to in sub-section (1) shall be a volume and duly paginated."
         },
         {
           "section_id": "BNSS:192(4)",
@@ -270,26 +260,10 @@
       "section_id": "BNSS:230",
       "section_number": "230",
       "title": "Supply to accused of copy of police report and other documents",
-      "text": "In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:—\n    (i) the police report;\n    (ii) the first information report recorded under section 173;\n    (iii) the statements recorded under sub-section",
+      "text": "In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:—\n    (i) the police report;\n    (ii) the first information report recorded under section 173;\n    (iii) the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193;\n    (iv) the confessions and statements, if any, recorded under section 183;\n    (v) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193:",
       "predecessor_act": "CrPC:207",
       "successor_act": null,
-      "subsections": [
-        {
-          "section_id": "BNSS:230(3)",
-          "subsection_number": "3",
-          "text": "of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section"
-        },
-        {
-          "section_id": "BNSS:230(7)",
-          "subsection_number": "7",
-          "text": "of section 193;\n    (iv) the confessions and statements, if any, recorded under section 183;\n    (v) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section"
-        },
-        {
-          "section_id": "BNSS:230(6)",
-          "subsection_number": "6",
-          "text": "of section 193:"
-        }
-      ],
+      "subsections": [],
       "explanations": [],
       "illustrations": [],
       "exceptions": [],

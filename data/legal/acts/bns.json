@@ -127,50 +127,77 @@
       ],
       "illustrations": [
         {
-          "label": "Illustrations",
-          "text": "(a) A shoots Z with the intention of killing him. Z dies in consequence. A commits murder.\n    (b) A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death.\n    (c) A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here A is guilty of murder, although he may not have intended to cause Z's death.\n    (d) A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual."
+          "label": "Illustration (a)",
+          "text": "A shoots Z with the intention of killing him. Z dies in consequence. A commits murder."
         },
         {
-          "label": "Illustrations.",
-          "text": "(a) A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation.\n    (b) Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide.\n    (c) A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers.\n    (d) A appears as a witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder.\n    (e) A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was giving by a thing done in the exercise of the right of private defence.\n    (f) Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder."
+          "label": "Illustration (b)",
+          "text": "A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death."
         },
         {
-          "label": "Illustration",
+          "label": "Illustration (c)",
+          "text": "A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here A is guilty of murder, although he may not have intended to cause Z's death."
+        },
+        {
+          "label": "Illustration (d)",
+          "text": "A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual."
+        },
+        {
+          "label": "Illustration (a) to Exception 1",
+          "text": "A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation."
+        },
+        {
+          "label": "Illustration (b) to Exception 1",
+          "text": "Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide."
+        },
+        {
+          "label": "Illustration (c) to Exception 1",
+          "text": "A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers."
+        },
+        {
+          "label": "Illustration (d) to Exception 1",
+          "text": "A appears as a witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder."
+        },
+        {
+          "label": "Illustration (e) to Exception 1",
+          "text": "A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was giving by a thing done in the exercise of the right of private defence."
+        },
+        {
+          "label": "Illustration (f) to Exception 1",
+          "text": "Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder."
+        },
+        {
+          "label": "Illustration to Exception 2",
           "text": "Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide."
         },
         {
-          "label": "Illustration",
-          "text": "A, by instigation, voluntarily causes Z, a child to commit suicide. Here, on account of Z’s youth, hewas incapable of giving consent to his own death; A has therefore abetted"
+          "label": "Illustration to Exception 5",
+          "text": "A, by instigation, voluntarily causes Z, a child to commit suicide. Here, on account of Z's youth, he was incapable of giving consent to his own death; A has therefore abetted murder."
         }
       ],
       "exceptions": [
         {
           "label": "Exception 1",
-          "text": "Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident:"
+          "text": "Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident:\n\nProvided that the provocation is not,—\n    (a) sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person;\n    (b) given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant;\n    (c) given by anything done in the lawful exercise of the right of private defence."
         },
         {
           "label": "Exception 2",
           "text": "Culpable homicide is not murder if the offender in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence."
         },
         {
-          "label": "Exception 3.",
-          "text": "Culpable homicide is not murder if the offender, being a public servant or aiding apublic servant acting for the advancement of public justice, exceeds the powers given to him by law, andcauses death by doing an act which he, in good faith, believes to be lawful and necessary for the duedischarge of his duty as such public servant and without ill-will towards the person whose death iscaused."
+          "label": "Exception 3",
+          "text": "Culpable homicide is not murder if the offender, being a public servant or aiding a public servant acting for the advancement of public justice, exceeds the powers given to him by law, and causes death by doing an act which he, in good faith, believes to be lawful and necessary for the due discharge of his duty as such public servant and without ill-will towards the person whose death is caused."
         },
         {
-          "label": "Exception 4.",
-          "text": "Culpable homicide is not murder if it is committed without premeditation in a suddenfight in the heat of passion upon a sudden quarrel and without the offender’s having taken undueadvantage or acted in a cruel or unusual manner."
+          "label": "Exception 4",
+          "text": "Culpable homicide is not murder if it is committed without premeditation in a sudden fight in the heat of passion upon a sudden quarrel and without the offender having taken undue advantage or acted in a cruel or unusual manner."
         },
         {
-          "label": "Exception 5.",
-          "text": "Culpable homicide is not murder when the person whose death is caused, being abovethe age of eighteen years, suffers death or takes the risk of death with his own consent."
+          "label": "Exception 5",
+          "text": "Culpable homicide is not murder when the person whose death is caused, being above the age of eighteen years, suffers death or takes the risk of death with his own consent."
         }
       ],
-      "provisos": [
-        {
-          "label": "Provided that",
-          "text": "the provocation is not,-\n\n    (a) sought or voluntarily provoked by the offender as an excuse for killing or doing harm to anyperson;\n    (b) given by anything done in obedience to the law, or by a public servant in the lawful exerciseof the powers of such public servant;\n    (c) given by anything done in the lawful exercise of the right of private defence"
-        }
-      ],
+      "provisos": [],
       "legal_concepts": [
         "murder",
         "culpable homicide",
@@ -421,12 +448,7 @@
         {
           "section_id": "BNS:109(2)",
           "subsection_number": "2",
-          "text": "When any person offending under sub-section"
-        },
-        {
-          "section_id": "BNS:109(1)",
-          "subsection_number": "1",
-          "text": "is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death or with imprisonment for life, which shall mean the remainder of that person's natural life."
+          "text": "When any person offending under sub-section (1) is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death or with imprisonment for life, which shall mean the remainder of that person's natural life."
         }
       ],
       "explanations": [],
@@ -453,17 +475,12 @@
         {
           "section_id": "BNS:115(1)",
           "subsection_number": "1",
-          "text": "Whoever does any act with the intention of thereby causing hurt to any person, or with the knowledge that he is likely thereby to cause hurt to any person, and does thereby cause hurt to any person, is said \" voluntarily to cause hurt \"."
+          "text": "Whoever does any act with the intention of thereby causing hurt to any person, or with the knowledge that he is likely thereby to cause hurt to any person, and does thereby cause hurt to any person, is said \"voluntarily to cause hurt\"."
         },
         {
           "section_id": "BNS:115(2)",
           "subsection_number": "2",
-          "text": "Whoever, except in the case provided for by sub-section"
-        },
-        {
-          "section_id": "BNS:115(1)",
-          "subsection_number": "1",
-          "text": "of section 122 voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both."
+          "text": "Whoever, except in the case provided for by sub-section (1) of section 122 voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both."
         }
       ],
       "explanations": [],
@@ -483,27 +500,12 @@
         {
           "section_id": "BNS:118(1)",
           "subsection_number": "1",
-          "text": "Whoever, except in the case provided for by sub-section"
-        },
-        {
-          "section_id": "BNS:118(1)",
-          "subsection_number": "1",
-          "text": "of section 122, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to twenty thousand rupees, or with both."
+          "text": "Whoever, except in the case provided for by sub-section (1) of section 122, voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to twenty thousand rupees, or with both."
         },
         {
           "section_id": "BNS:118(2)",
           "subsection_number": "2",
-          "text": "Whoever, except in the case provided for by sub-section"
-        },
-        {
-          "section_id": "BNS:118(2)",
-          "subsection_number": "2",
-          "text": "of section 122, voluntarily causes grievous hurt by any means referred to in sub-section"
-        },
-        {
-          "section_id": "BNS:118(1)",
-          "subsection_number": "1",
-          "text": ", shall be punished with imprisonment for life, or with imprisonment of either description for a term which shall not be less than one year but which may extend to ten years, and shall also be liable to fine."
+          "text": "Whoever, except in the case provided for by sub-section (1) of section 122, voluntarily causes grievous hurt by any means referred to in sub-section (1), shall be punished with imprisonment for life, or with imprisonment of either description for a term which shall not be less than one year but which may extend to ten years, and shall also be liable to fine."
         }
       ],
       "explanations": [],
@@ -537,27 +539,17 @@
         {
           "section_id": "BNS:75(1)",
           "subsection_number": "1",
-          "text": "A man committing any of the following acts:—\n    (i) physical contact and advances involving unwelcome and explicit sexual overtures; or\n    (ii) a demand or request for sexual favours; or\n    (iii) showing pornography against the will of a woman; or\n    (iv) making sexually coloured remarks,shall be guilty of the offence of sexual harassment."
+          "text": "A man committing any of the following acts:—\n    (i) physical contact and advances involving unwelcome and explicit sexual overtures; or\n    (ii) a demand or request for sexual favours; or\n    (iii) showing pornography against the will of a woman; or\n    (iv) making sexually coloured remarks,\nshall be guilty of the offence of sexual harassment."
         },
         {
           "section_id": "BNS:75(2)",
           "subsection_number": "2",
-          "text": "Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) ofsub-section"
-        },
-        {
-          "section_id": "BNS:75(1)",
-          "subsection_number": "1",
-          "text": "shall be punished with rigorous imprisonment for a term which may extend to three years,or with fine, or with both."
+          "text": "Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of sub-section (1) shall be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."
         },
         {
           "section_id": "BNS:75(3)",
           "subsection_number": "3",
-          "text": "Any man who commits the offence specified in clause (iv) of sub-section"
-        },
-        {
-          "section_id": "BNS:75(1)",
-          "subsection_number": "1",
-          "text": "shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+          "text": "Any man who commits the offence specified in clause (iv) of sub-section (1) shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
         }
       ],
       "explanations": [],
@@ -628,17 +620,12 @@
         {
           "section_id": "BNS:64(1)",
           "subsection_number": "1",
-          "text": "Whoever, except in the cases provided for in sub-section"
+          "text": "Whoever, except in the cases provided for in sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine."
         },
         {
           "section_id": "BNS:64(2)",
           "subsection_number": "2",
-          "text": ",commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine."
-        },
-        {
-          "section_id": "BNS:64(2)",
-          "subsection_number": "2",
-          "text": "Whoever,-\n    (a) being a police officer, commits rape,-\n        (i) within the limits of the police station to which such police officer is appointed; or\n        (ii) in the premises of any station house; or\n        (iii) on a woman in such police officer's custody or in the custody of a police officer\n    subordinate to such police officer; or\n    (b) being a public servant, commits rape on a woman in such public servant's custody or in the\n    custody of a public servant subordinate to such public servant; or\n    (c) being a member of the armed forces deployed in an area by the Central Government or a\n    State Government commits rape in such area; or\n    (d) being on the management or on the staff of a jail, remand home or other place of custody\n    established by or under any law for the time being in force or of a women's or children's institution,\n    commits rape on any inmate of such jail, remand home, place or institution; or\n    (e) being on the management or on the staff of a hospital, commits rape on a woman in that\n    hospital; or\n    (f) being a relative, guardian or teacher of, or a person in a position of trust or authority towards\n    the woman, commits rape on such woman; or\n    (g) commits rape during communal or sectarian violence; or\n    (h) commits rape on a woman knowing her to be pregnant; or\n    (i) commits rape, on a woman incapable of giving consent; or\n    (j) being in a position of control or dominance over a woman, commits rape on such woman; or\n    (k) commits rape on a woman suffering from mental or physical disability; or\n    (I) while committing rape causes grievous bodily harm or maims or disfigures or endangers the\n    life of a woman; or\n    (m) commits rape repeatedly on the same woman,\nshall be punished with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine."
+          "text": "Whoever,—\n    (a) being a police officer, commits rape,—\n        (i) within the limits of the police station to which such police officer is appointed; or\n        (ii) in the premises of any station house; or\n        (iii) on a woman in such police officer's custody or in the custody of a police officer subordinate to such police officer; or\n    (b) being a public servant, commits rape on a woman in such public servant's custody or in the custody of a public servant subordinate to such public servant; or\n    (c) being a member of the armed forces deployed in an area by the Central Government or a State Government commits rape in such area; or\n    (d) being on the management or on the staff of a jail, remand home or other place of custody established by or under any law for the time being in force or of a women's or children's institution, commits rape on any inmate of such jail, remand home, place or institution; or\n    (e) being on the management or on the staff of a hospital, commits rape on a woman in that hospital; or\n    (f) being a relative, guardian or teacher of, or a person in a position of trust or authority towards the woman, commits rape on such woman; or\n    (g) commits rape during communal or sectarian violence; or\n    (h) commits rape on a woman knowing her to be pregnant; or\n    (i) commits rape, on a woman incapable of giving consent; or\n    (j) being in a position of control or dominance over a woman, commits rape on such woman; or\n    (k) commits rape on a woman suffering from mental or physical disability; or\n    (l) while committing rape causes grievous bodily harm or maims or disfigures or endangers the life of a woman; or\n    (m) commits rape repeatedly on the same woman,\nshall be punished with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine."
         }
       ],
       "explanations": [
@@ -658,21 +645,10 @@
       "section_id": "BNS:66",
       "section_number": "66",
       "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
-      "text": "Whoever, commits an offence punishable under sub-section",
+      "text": "Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 64 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death.",
       "predecessor_act": "IPC:376A",
       "successor_act": null,
-      "subsections": [
-        {
-          "section_id": "BNS:66(1)",
-          "subsection_number": "1",
-          "text": "or sub-section"
-        },
-        {
-          "section_id": "BNS:66(2)",
-          "subsection_number": "2",
-          "text": "of section 64 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death."
-        }
-      ],
+      "subsections": [],
       "explanations": [],
       "illustrations": [],
       "exceptions": [],

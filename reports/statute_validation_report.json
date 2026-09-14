@@ -1,9 +1,9 @@
 {
   "summary": {
     "total_acts_validated": 6,
-    "total_sections": 109,
+    "total_sections": 108,
     "total_issues": 2,
-    "total_warnings": 77,
+    "total_warnings": 43,
     "overall_valid": false
   },
   "acts": [
@@ -24,25 +24,8 @@
         "Section 'BNS:80': Duplicate subsection_id 'BNS:80(1)' (subsection 1)",
         "Section 'BNS:80': Duplicate subsection_id 'BNS:80(2)' (subsection 2)",
         "Subsection 'BNS:80(2)' text appears truncated (ends with: 'xtend to imprisonment for life')",
-        "Subsection 'BNS:109(2)' text appears truncated (ends with: 'on offending under sub-section')",
-        "Section 'BNS:109': Duplicate subsection_id 'BNS:109(1)' (subsection 1)",
-        "Subsection 'BNS:115(2)' text appears truncated (ends with: 'se provided for by sub-section')",
-        "Section 'BNS:115': Duplicate subsection_id 'BNS:115(1)' (subsection 1)",
-        "Subsection 'BNS:118(1)' text appears truncated (ends with: 'se provided for by sub-section')",
-        "Section 'BNS:118': Duplicate subsection_id 'BNS:118(1)' (subsection 1)",
-        "Subsection 'BNS:118(2)' text appears truncated (ends with: 'se provided for by sub-section')",
-        "Section 'BNS:118': Duplicate subsection_id 'BNS:118(2)' (subsection 2)",
-        "Subsection 'BNS:118(2)' text appears truncated (ends with: 'ans referred to in sub-section')",
-        "Section 'BNS:118': Duplicate subsection_id 'BNS:118(1)' (subsection 1)",
         "Section 'BNS:74' text appears truncated (ends with: 'ears, and shall also be liable')",
-        "Subsection 'BNS:75(2)' text appears truncated (ends with: ' or clause (iii) ofsub-section')",
-        "Section 'BNS:75': Duplicate subsection_id 'BNS:75(1)' (subsection 1)",
-        "Subsection 'BNS:75(3)' text appears truncated (ends with: ' in clause (iv) of sub-section')",
-        "Section 'BNS:75': Duplicate subsection_id 'BNS:75(1)' (subsection 1)",
-        "Section 'BNS:76' text appears truncated (ends with: 'd shall also be liable to fine')",
-        "Subsection 'BNS:64(1)' text appears truncated (ends with: 'es provided for in sub-section')",
-        "Section 'BNS:64': Duplicate subsection_id 'BNS:64(2)' (subsection 2)",
-        "Subsection 'BNS:66(1)' text appears truncated (ends with: 'or sub-section')"
+        "Section 'BNS:76' text appears truncated (ends with: 'd shall also be liable to fine')"
       ],
       "info": [
         "Section 'BNS:103' has empty main text, but contains 2 subsections.",
@@ -52,12 +35,12 @@
         "Section 'BNS:61' has empty main text, but contains 1 subsections.",
         "Section 'BNS:61' has empty main text, but contains 1 subsections.",
         "Section 'BNS:80' has empty main text, but contains 2 subsections.",
-        "Section 'BNS:109' has empty main text, but contains 3 subsections.",
-        "Section 'BNS:115' has empty main text, but contains 3 subsections.",
-        "Section 'BNS:118' has empty main text, but contains 5 subsections.",
-        "Section 'BNS:75' has empty main text, but contains 5 subsections.",
+        "Section 'BNS:109' has empty main text, but contains 2 subsections.",
+        "Section 'BNS:115' has empty main text, but contains 2 subsections.",
+        "Section 'BNS:118' has empty main text, but contains 2 subsections.",
+        "Section 'BNS:75' has empty main text, but contains 3 subsections.",
         "Section 'BNS:137' has empty main text, but contains 2 subsections.",
-        "Section 'BNS:64' has empty main text, but contains 3 subsections.",
+        "Section 'BNS:64' has empty main text, but contains 2 subsections.",
         "Section 'BNS:309' has empty main text, but contains 6 subsections."
       ],
       "valid": false
@@ -68,23 +51,15 @@
       "total_sections": 14,
       "issues": [],
       "warnings": [
-        "Subsection 'BNSS:351(2)' text appears truncated (ends with: ' is examined under sub-section')",
         "Subsection 'BNSS:181(2)' text appears truncated (ends with: 'o affect the provisions of the')",
-        "Subsection 'BNSS:193(8)' text appears truncated (ends with: 'sions contained in sub-section')",
-        "Section 'BNSS:193': Duplicate subsection_id 'BNSS:193(7)' (subsection 7)",
-        "Subsection 'BNSS:193(9)' text appears truncated (ends with: 'ter a report under sub-section')",
-        "Subsection 'BNSS:192(3)' text appears truncated (ends with: 'ary referred to in sub-section')",
-        "Section 'BNSS:192': Duplicate subsection_id 'BNSS:192(1)' (subsection 1)",
-        "Subsection 'BNSS:230(3)' text appears truncated (ends with: 'lice officer under sub-section')",
-        "Subsection 'BNSS:230(7)' text appears truncated (ends with: 'olice report under sub-section')",
         "Subsection 'BNSS:332(1)' text appears truncated (ends with: 't and may, subject to all just')"
       ],
       "info": [
         "Section 'BNSS:351' has empty main text, but contains 5 subsections.",
         "Section 'BNSS:180' has empty main text, but contains 3 subsections.",
         "Section 'BNSS:181' has empty main text, but contains 2 subsections.",
-        "Section 'BNSS:193' has empty main text, but contains 10 subsections.",
-        "Section 'BNSS:192' has empty main text, but contains 6 subsections.",
+        "Section 'BNSS:193' has empty main text, but contains 9 subsections.",
+        "Section 'BNSS:192' has empty main text, but contains 5 subsections.",
         "Section 'BNSS:332' has empty main text, but contains 2 subsections.",
         "Section 'BNSS:353' has empty main text, but contains 2 subsections.",
         "Section 'BNSS:407' has empty main text, but contains 2 subsections."
@@ -94,18 +69,18 @@
     {
       "filename": "bsa.json",
       "act_id": "BSA",
-      "total_sections": 12,
+      "total_sections": 11,
       "issues": [],
-      "warnings": [
-        "Subsection 'BSA:108(2)' text appears truncated (ends with: 'ing the case under sub-section')"
-      ],
+      "warnings": [],
       "info": [
-        "Section 'BSA:23(1)': Concept 'confession' is outside standard concept inventory.",
-        "Section 'BSA:23(2)': Concept 'confession' is outside standard concept inventory.",
         "Section 'BSA:108': Concept 'unsoundness of mind' is outside standard concept inventory.",
         "Section 'BSA:108': Concept 'burden of proof' is outside standard concept inventory.",
         "Section 'BSA:6' has empty main text, but contains 2 subsections.",
-        "Section 'BSA:119' has empty main text, but contains 2 subsections."
+        "Section 'BSA:119' has empty main text, but contains 2 subsections.",
+        "Section 'BSA:23' has empty main text, but contains 2 subsections.",
+        "Section 'BSA:23': Concept 'confession' is outside standard concept inventory.",
+        "Section 'BSA:23': Concept 'police custody' is outside standard concept inventory.",
+        "Section 'BSA:23': Concept 'discovery' is outside standard concept inventory."
       ],
       "valid": true
     },
@@ -170,21 +145,12 @@
       "act_id": "IPC",
       "total_sections": 28,
       "issues": [],
-      "warnings": [
-        "Subsection 'IPC:120A(1)' text appears truncated (ends with: 'an illegal act, or')",
-        "Subsection 'IPC:354A(2)' text appears truncated (ends with: 'or clause (iii) of sub-section')",
-        "Section 'IPC:354A': Duplicate subsection_id 'IPC:354A(1)' (subsection 1)",
-        "Subsection 'IPC:354A(3)' text appears truncated (ends with: ' in clause (iv) of sub-section')",
-        "Section 'IPC:354A': Duplicate subsection_id 'IPC:354A(1)' (subsection 1)",
-        "Subsection 'IPC:376(1)' text appears truncated (ends with: 'es provided for in sub-section')",
-        "Subsection 'IPC:376(2)' text appears truncated (ends with: 'd shall also be liable to fine')",
-        "Subsection 'IPC:376A(1)' text appears truncated (ends with: 'or subsection')"
-      ],
+      "warnings": [],
       "info": [
         "Section 'IPC:304B' has empty main text, but contains 2 subsections.",
         "Section 'IPC:84': Concept 'unsoundness of mind' is outside standard concept inventory.",
         "Section 'IPC:120B' has empty main text, but contains 2 subsections.",
-        "Section 'IPC:354A' has empty main text, but contains 5 subsections.",
+        "Section 'IPC:354A' has empty main text, but contains 3 subsections.",
         "Section 'IPC:376' has empty main text, but contains 2 subsections."
       ],
       "valid": true

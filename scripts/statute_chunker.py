@@ -125,11 +125,12 @@ def parse_numeric_illustrations(illustrations: list[dict[str, Any]]) -> list[str
 
 
 def clean_statute_text(text: str) -> str:
-    """Normalizes internal single newlines and OCR artifacts while preserving structural paragraph breaks."""
+    """Normalizes all internal newlines and OCR artifacts into clean single spaces so chunks contain zero \\n characters."""
     if not text:
         return ""
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = text.replace("\r\n", " ").replace("\r", " ").replace("\n", " ").replace("\ufffd", "")
     word_fixes = {
+        r"\bllustrations?\b": "Illustrations",
         r"\borimprisonment\b": "or imprisonment",
         r"\beitherdescription\b": "either description",
         r"\beachmember\b": "each member",
@@ -150,15 +151,8 @@ def clean_statute_text(text: str) -> str:
     for pat, repl in word_fixes.items():
         text = re.sub(pat, repl, text, flags=re.I)
     text = re.sub(r"([a-zA-Z]),([a-zA-Z])", r"\1, \2", text)
-    paragraphs = text.split("\n\n")
-    cleaned_paragraphs = []
-    for p in paragraphs:
-        lines = [line.strip() for line in p.split("\n") if line.strip()]
-        cleaned_p = " ".join(lines)
-        cleaned_p = re.sub(r"[ \t]+", " ", cleaned_p)
-        if cleaned_p:
-            cleaned_paragraphs.append(cleaned_p)
-    return "\n\n".join(cleaned_paragraphs)
+    text = re.sub(r"[ \t\n\r]+", " ", text).strip()
+    return text
 
 
 class StatuteChunker:
@@ -175,7 +169,7 @@ class StatuteChunker:
             chunk_id = f"{act_id}_{sec_num_clean}_SECTION_001"
 
             # Deterministic text assembly
-            text_parts = [f"Section {sec.section_number} - {sec.title}"]
+            text_parts = [f"Section {sec.section_number} - {sec.title}".strip(" -")]
             if sec.main_text:
                 text_parts.append(sec.main_text)
 
@@ -187,39 +181,51 @@ class StatuteChunker:
                 if s_num and s_num not in sub_nums:
                     sub_nums.append(s_num)
                 if s_text:
-                    text_parts.append(f"({s_num}) {s_text}" if s_num else s_text)
+                    if s_text.startswith(f"({s_num})") or s_text.startswith(f"{s_num}."):
+                        text_parts.append(s_text)
+                    else:
+                        text_parts.append(f"({s_num}) {s_text}" if s_num else s_text)
 
             # Explanations
-            for exp in sec.explanations:
-                exp_label = exp.get("label", "Explanation").strip()
+            for idx, exp in enumerate(sec.explanations, start=1):
+                exp_label = exp.get("label", "Explanation").strip().rstrip(".")
                 exp_text = exp.get("text", "").strip()
+                if exp_label.lower() in ["explanation", "explanations"]:
+                    exp_label = f"Explanation {idx}" if len(sec.explanations) > 1 else "Explanation"
                 if exp_text:
                     full_exp = f"{exp_label}: {exp_text}" if not exp_text.startswith(exp_label) else exp_text
                     text_parts.append(full_exp)
 
             # Exceptions
-            for exc in sec.exceptions:
-                exc_label = exc.get("label", "Exception").strip()
+            for idx, exc in enumerate(sec.exceptions, start=1):
+                exc_label = exc.get("label", "Exception").strip().rstrip(".")
                 exc_text = exc.get("text", "").strip()
+                if exc_label.lower() in ["exception", "exceptions"]:
+                    exc_label = f"Exception {idx}" if len(sec.exceptions) > 1 else "Exception"
                 if exc_text:
-                    full_exc = f"{exc_label} {exc_text}" if not exc_text.startswith(exc_label) else exc_text
+                    full_exc = f"{exc_label}: {exc_text}" if not exc_text.startswith(exc_label) else exc_text
                     text_parts.append(full_exc)
 
             # Provisos
             for prv in sec.provisos:
-                prv_label = prv.get("label", "Provided that").strip()
+                prv_label = prv.get("label", "Provided that").strip().rstrip(":")
                 prv_text = prv.get("text", "").strip()
+                if prv_label.lower() in ["proviso", "provisos"]:
+                    prv_label = "Provided that"
                 if prv_text:
-                    full_prv = f"{prv_label}: {prv_text}" if not prv_text.startswith(prv_label) else prv_text
+                    full_prv = f"{prv_label}: {prv_text}" if not (prv_text.startswith("Provided that") or prv_text.startswith("Provided further") or prv_text.startswith(prv_label)) else prv_text
                     text_parts.append(full_prv)
 
-            # Illustrations
-            for ill in sec.illustrations:
-                ill_label = ill.get("label", "Illustrations").strip()
-                ill_text = ill.get("text", "").strip()
-                if ill_text:
-                    full_ill = f"{ill_label}\n{ill_text}" if not ill_text.startswith(ill_label) else ill_text
-                    text_parts.append(full_ill)
+            # Illustrations (grouped under a single Illustrations header block)
+            if sec.illustrations:
+                ill_lines = ["Illustrations:"]
+                for ill in sec.illustrations:
+                    ill_text = ill.get("text", "").strip()
+                    if ill_text:
+                        ill_clean = re.sub(r"^(?:Illustrations?|llustrations?)\s*", "", ill_text, flags=re.I)
+                        ill_lines.append(ill_clean)
+                if len(ill_lines) > 1:
+                    text_parts.append("\n\n".join(ill_lines))
 
             assembled_text = clean_statute_text("\n\n".join(text_parts))
 

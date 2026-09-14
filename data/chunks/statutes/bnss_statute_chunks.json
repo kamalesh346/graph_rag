@@ -9,13 +9,14 @@
       "section_id": "BNSS:351",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 351 - Power to examine accused\n\n(1) In every inquiry or trial, for the purpose of enabling the accused personally to explain any circumstances appearing in the evidence against him, the Court— (a) may at any stage, without previously warning the accused put such questions to him as the Court considers necessary; (b) shall, after the witnesses for the prosecution have been examined and before he is called on for his defence, question him generally on the case:\n\n(2) No oath shall be administered to the accused when he is examined under sub-section The accused shall not render himself liable to punishment by refusing to answer such questions, or by giving false answers to them.\n\n(4) The answers given by the accused may be taken into consideration in such inquiry or trial, and put in evidence for or against him in any other inquiry into, or trial for, any other offence which such answers may tend to show he has committed.\n\n(5) The Court may take help of Prosecutor and Defence Counsel in preparing relevant questions which are to be put to the accused and the Court may permit filing of written statement by the accused as sufficient compliance of this section.\n\nProvided that: in a summons case, where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause (b).",
+      "text": "Section 351 - Power to examine accused (1) In every inquiry or trial, for the purpose of enabling the accused personally to explain any circumstances appearing in the evidence against him, the Court— (a) may at any stage, without previously warning the accused put such questions to him as the Court considers necessary; (b) shall, after the witnesses for the prosecution have been examined and before he is called on for his defence, question him generally on the case: (2) No oath shall be administered to the accused when he is examined under sub-section (1). (3) The accused shall not render himself liable to punishment by refusing to answer such questions, or by giving false answers to them. (4) The answers given by the accused may be taken into consideration in such inquiry or trial, and put in evidence for or against him in any other inquiry into, or trial for, any other offence which such answers may tend to show he has committed. (5) The Court may take help of Prosecutor and Defence Counsel in preparing relevant questions which are to be put to the accused and the Court may permit filing of written statement by the accused as sufficient compliance of this section. Provided that: in a summons case, where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause (b).",
       "source": {
         "section_number": "351",
         "has_main_text": false,
         "subsections": [
           "1",
           "2",
+          "3",
           "4",
           "5"
         ],
@@ -32,7 +33,7 @@
       "predecessor_references": [
         "CrPC:313"
       ],
-      "token_count": 307
+      "token_count": 309
     },
     {
       "chunk_id": "BNSS_180_SECTION_001",
@@ -40,7 +41,7 @@
       "section_id": "BNSS:180",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 180 - Examination of witnesses by police\n\n(1) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.\n\n(2) Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.\n\n(3) The police officer may reduce into writing any statement made to him in the course of an examination under this section; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records:\n\nProvided that: statement made under this sub-section may also be recorded by audio-video electronic means:\n\nProvided further that: the statement of a woman against whom an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer.",
+      "text": "Section 180 - Examination of witnesses by police (1) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case. (2) Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture. (3) The police officer may reduce into writing any statement made to him in the course of an examination under this section; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records: Provided that: statement made under this sub-section may also be recorded by audio-video electronic means: Provided further that: the statement of a woman against whom an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer.",
       "source": {
         "section_number": "180",
         "has_main_text": false,
@@ -87,7 +88,7 @@
       "section_id": "BNSS:181",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 181 - Statements to police and use thereof\n\n(1) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made:\n\n(2) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause (a) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of the\n\nExplanation.: An omission to state a fact or circumstance in the statement referred to in sub-section\n\nProvided that: when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bharatiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.\n\nproviso: to sub-section",
+      "text": "Section 181 - Statements to police and use thereof (1) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made: (2) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause (a) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of the Explanation: An omission to state a fact or circumstance in the statement referred to in sub-section Provided that: when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bharatiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination. Provided that: to sub-section",
       "source": {
         "section_number": "181",
         "has_main_text": false,
@@ -114,7 +115,7 @@
       "predecessor_references": [
         "CrPC:162"
       ],
-      "token_count": 333
+      "token_count": 335
     },
     {
       "chunk_id": "BNSS_193_SECTION_001",
@@ -122,7 +123,7 @@
       "section_id": "BNSS:193",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 193 - Report of police officer on completion of investigation\n\n(1) Every investigation under this Chapter shall be completed without unnecessary delay.\n\n(2) The investigation in relation to an offence under sections 64, 65, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station.\n\n(3) (i) As soon as the investigation is completed, the officer in charge of the police station shall forward, including through electronic communication to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating— (a) the names of the parties; (b) the nature of the information; (c) the names of the persons who appear to be acquainted with the circumstances of the case; (d) whether any offence appears to have been committed and, if so, by whom; (e) whether the accused has been arrested; (f) whether the accused has been released on his bond or bail bond; (g) whether the accused has been forwarded in custody under section 190; (h) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 64, 65, 66, 67, 68, 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023; (i) the sequence of custody in case of electronic device;\n\n(ii) the police officer shall, within a period of ninety days, inform the progress of the investigation by any means including through electronic communication to the informant or the victim; (iii) the officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.\n\n(4) Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.\n\n(5) Whenever it appears from a report forwarded under this section that the accused has been released on his bond or bail bond, the Magistrate shall make such order for the discharge of such bond or bail bond or otherwise as he thinks fit.\n\n(6) When such report is in respect of a case to which section 190 applies, the police officer shall forward to the Magistrate along with the report— (a) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation; (b) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses.\n\n(7) If the police officer is of opinion that any part of any such statement is not relevant to the subject matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.\n\n(8) Subject to the provisions contained in sub-section , the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230:\n\n(9) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section\n\nProvided that: supply of report and other documents by electronic communication shall be considered as duly served.\n\nProvided that: further investigation during the trial may be conducted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may be extended with the permission of the Court.",
+      "text": "Section 193 - Report of police officer on completion of investigation (1) Every investigation under this Chapter shall be completed without unnecessary delay. (2) The investigation in relation to an offence under sections 64, 65, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station. (3) (i) As soon as the investigation is completed, the officer in charge of the police station shall forward, including through electronic communication to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating— (a) the names of the parties; (b) the nature of the information; (c) the names of the persons who appear to be acquainted with the circumstances of the case; (d) whether any offence appears to have been committed and, if so, by whom; (e) whether the accused has been arrested; (f) whether the accused has been released on his bond or bail bond; (g) whether the accused has been forwarded in custody under section 190; (h) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 64, 65, 66, 67, 68, 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023; (i) the sequence of custody in case of electronic device; (ii) the police officer shall, within a period of ninety days, inform the progress of the investigation by any means including through electronic communication to the informant or the victim; (iii) the officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given. (4) Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation. (5) Whenever it appears from a report forwarded under this section that the accused has been released on his bond or bail bond, the Magistrate shall make such order for the discharge of such bond or bail bond or otherwise as he thinks fit. (6) When such report is in respect of a case to which section 190 applies, the police officer shall forward to the Magistrate along with the report— (a) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation; (b) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses. (7) If the police officer is of opinion that any part of any such statement is not relevant to the subject matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request. (8) Subject to the provisions contained in sub-section (7), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230: (9) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section (3) has been forwarded to the Magistrate. Provided that: supply of report and other documents by electronic communication shall be considered as duly served. Provided that: further investigation during the trial may be conducted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may be extended with the permission of the Court.",
       "source": {
         "section_number": "193",
         "has_main_text": false,
@@ -160,7 +161,7 @@
       "predecessor_references": [
         "CrPC:173"
       ],
-      "token_count": 948
+      "token_count": 957
     },
     {
       "chunk_id": "BNSS_192_SECTION_001",
@@ -168,7 +169,7 @@
       "section_id": "BNSS:192",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 192 - Diary of proceedings in investigation\n\n(1) Every police officer making an investigation under this Chapter shall day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation.\n\n(2) The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary.\n\n(3) The diary referred to in sub-section shall be a volume and duly paginated.\n\n(4) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.\n\n(5) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.",
+      "text": "Section 192 - Diary of proceedings in investigation (1) Every police officer making an investigation under this Chapter shall day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation. (2) The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary. (3) The diary referred to in sub-section (1) shall be a volume and duly paginated. (4) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial. (5) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.",
       "source": {
         "section_number": "192",
         "has_main_text": false,
@@ -194,7 +195,7 @@
       "predecessor_references": [
         "CrPC:172"
       ],
-      "token_count": 303
+      "token_count": 304
     },
     {
       "chunk_id": "BNSS_213_SECTION_001",
@@ -202,7 +203,7 @@
       "section_id": "BNSS:213",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 213 - Cognizance of offences by Court of Session\n\nExcept as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.",
+      "text": "Section 213 - Cognizance of offences by Court of Session Except as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.",
       "source": {
         "section_number": "213",
         "has_main_text": true,
@@ -226,13 +227,11 @@
       "section_id": "BNSS:230",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 230 - Supply to accused of copy of police report and other documents\n\nIn any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:— (i) the police report; (ii) the first information report recorded under section 173; (iii) the statements recorded under sub-section\n\n(3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section of section 193; (iv) the confessions and statements, if any, recorded under section 183; (v) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section of section 193:\n\nProvided that: the Magistrate may, after perusing any such part of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:\n\nProvided further that: if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused and the victim (if represented by an advocate) with a copy thereof, may furnish the copies through electronic means or direct that he will only be allowed to inspect it either personally or through an advocate in Court:\n\nProvided also that: supply of documents in electronic form shall be considered as duly furnished.",
+      "text": "Section 230 - Supply to accused of copy of police report and other documents In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:— (i) the police report; (ii) the first information report recorded under section 173; (iii) the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193; (iv) the confessions and statements, if any, recorded under section 183; (v) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193: Provided that: the Magistrate may, after perusing any such part of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused: Provided further that: if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused and the victim (if represented by an advocate) with a copy thereof, may furnish the copies through electronic means or direct that he will only be allowed to inspect it either personally or through an advocate in Court: Provided also that: supply of documents in electronic form shall be considered as duly furnished.",
       "source": {
         "section_number": "230",
         "has_main_text": true,
-        "subsections": [
-          "3"
-        ],
+        "subsections": [],
         "explanations": [],
         "illustrations": [],
         "exceptions": [],
@@ -255,7 +254,7 @@
       "predecessor_references": [
         "CrPC:207"
       ],
-      "token_count": 392
+      "token_count": 395
     },
     {
       "chunk_id": "BNSS_232_SECTION_001",
@@ -263,7 +262,7 @@
       "section_id": "BNSS:232",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 232 - Commitment of case to Court of Session when offence is triable exclusively by it\n\nWhen in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he shall—\n\n(a) commit, after complying with the provisions of section 230 or section 231 the case to the Court of Session, and subject to the provisions of this Sanhita relating to bail, remand the accused to custody until such commitment has been made; (b) subject to the provisions of this Sanhita relating to bail, remand the accused to custody during, and until the conclusion of, the trial; (c) send to that Court the record of the case and the documents and articles, if any, which are to be produced in evidence; (d) notify the Public Prosecutor of the commitment of the case to the Court of Session:\n\nProvided that: the proceedings under this section shall be completed within a period of ninety days from the date of taking cognizance, and such period may be extended by the Magistrate for a period not exceeding one hundred and eighty days for the reasons to be recorded in writing:\n\nProvided further that: any application filed before the Magistrate by the accused or the victim or any person authorised by such person in a case triable by Court of Session, shall be forwarded to the Court of Session with the committal of the case.\n\nProcedure to be followed when there is a complaint case and police investigation in respect of same offence.",
+      "text": "Section 232 - Commitment of case to Court of Session when offence is triable exclusively by it When in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he shall— (a) commit, after complying with the provisions of section 230 or section 231 the case to the Court of Session, and subject to the provisions of this Sanhita relating to bail, remand the accused to custody until such commitment has been made; (b) subject to the provisions of this Sanhita relating to bail, remand the accused to custody during, and until the conclusion of, the trial; (c) send to that Court the record of the case and the documents and articles, if any, which are to be produced in evidence; (d) notify the Public Prosecutor of the commitment of the case to the Court of Session: Provided that: the proceedings under this section shall be completed within a period of ninety days from the date of taking cognizance, and such period may be extended by the Magistrate for a period not exceeding one hundred and eighty days for the reasons to be recorded in writing: Provided further that: any application filed before the Magistrate by the accused or the victim or any person authorised by such person in a case triable by Court of Session, shall be forwarded to the Court of Session with the committal of the case. Procedure to be followed when there is a complaint case and police investigation in respect of same offence.",
       "source": {
         "section_number": "232",
         "has_main_text": true,
@@ -293,7 +292,7 @@
       "section_id": "BNSS:253",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 253 - Date for prosecution evidence\n\nIf the accused refuses to plead, or does not plead, or claims to be tried or is not convicted under section 252, the Judge shall fix a date for the examination of witnesses, and may, on the application of the prosecution, issue any process for compelling the attendance of any witness or the production of any document or other thing.",
+      "text": "Section 253 - Date for prosecution evidence If the accused refuses to plead, or does not plead, or claims to be tried or is not convicted under section 252, the Judge shall fix a date for the examination of witnesses, and may, on the application of the prosecution, issue any process for compelling the attendance of any witness or the production of any document or other thing.",
       "source": {
         "section_number": "253",
         "has_main_text": true,
@@ -319,7 +318,7 @@
       "section_id": "BNSS:255",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 255 - Acquittal\n\nIf, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Judge considers that there is no evidence that the accused committed the offence, the Judge shall record an order of acquittal.",
+      "text": "Section 255 - Acquittal If, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Judge considers that there is no evidence that the accused committed the offence, the Judge shall record an order of acquittal.",
       "source": {
         "section_number": "255",
         "has_main_text": true,
@@ -345,7 +344,7 @@
       "section_id": "BNSS:332",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 332 - Evidence of formal character on affidavit\n\n, be read in evidence in any inquiry, trial or other proceeding under this Sanhita.\n\n(1) The evidence of any person whose evidence is of a formal character may be given by affidavit and may, subject to all just\n\n(2) The Court may, if it thinks fit, and shall, on the application of the prosecution or the accused, summon and examine any such person as to the facts contained in his affidavit.",
+      "text": "Section 332 - Evidence of formal character on affidavit , be read in evidence in any inquiry, trial or other proceeding under this Sanhita. (1) The evidence of any person whose evidence is of a formal character may be given by affidavit and may, subject to all just (2) The Court may, if it thinks fit, and shall, on the application of the prosecution or the accused, summon and examine any such person as to the facts contained in his affidavit.",
       "source": {
         "section_number": "332",
         "has_main_text": true,
@@ -372,7 +371,7 @@
       "section_id": "BNSS:353",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 353 - Accused person to be competent witness\n\n(1) Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial:\n\n(2) Any person against whom proceedings are instituted in any Criminal Court under section 101, or section 126, or section 127, or section 128, or section 129, or under Chapter X or under Part B, Part C or Part D of Chapter XI, may offer himself as a witness in such proceedings:\n\nProvided that: (a) he shall not be called as a witness except on his own request in writing; (b) his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial.\n\nProvided that: in proceedings under section 127, section 128, or section 129, the failure of such person to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.",
+      "text": "Section 353 - Accused person to be competent witness (1) Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial: (2) Any person against whom proceedings are instituted in any Criminal Court under section 101, or section 126, or section 127, or section 128, or section 129, or under Chapter X or under Part B, Part C or Part D of Chapter XI, may offer himself as a witness in such proceedings: Provided that: (a) he shall not be called as a witness except on his own request in writing; (b) his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial. Provided that: in proceedings under section 127, section 128, or section 129, the failure of such person to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.",
       "source": {
         "section_number": "353",
         "has_main_text": false,
@@ -408,7 +407,7 @@
       "section_id": "BNSS:407",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 407 - Sentence of death to be submitted by Court of Session for confirmation\n\n(1) When the Court of Session passes a sentence of death, the proceedings shall forthwith be submitted to the High Court, and the sentence shall not be executed unless it is confirmed by the High Court.\n\n(2) The Court passing the sentence shall commit the convicted person to jail custody under a warrant.",
+      "text": "Section 407 - Sentence of death to be submitted by Court of Session for confirmation (1) When the Court of Session passes a sentence of death, the proceedings shall forthwith be submitted to the High Court, and the sentence shall not be executed unless it is confirmed by the High Court. (2) The Court passing the sentence shall commit the convicted person to jail custody under a warrant.",
       "source": {
         "section_number": "407",
         "has_main_text": false,
@@ -435,7 +434,7 @@
       "section_id": "BNSS:209",
       "document_type": "statute",
       "chunk_type": "section",
-      "text": "Section 209 -\n\nWhen any offence alleged to have been committed in a territory outside India is being inquired into or tried under the provisions of section 208, the Central Government may, if it thinks fit, direct that copies of depositions made or exhibits produced, either in physical form or in electronic form, before a Judicial officer, in or for that territory or before a diplomatic or consular representative of India in or for that territory shall be received as evidence by the Court holding such inquiry or trial in any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate.",
+      "text": "Section 209 When any offence alleged to have been committed in a territory outside India is being inquired into or tried under the provisions of section 208, the Central Government may, if it thinks fit, direct that copies of depositions made or exhibits produced, either in physical form or in electronic form, before a Judicial officer, in or for that territory or before a diplomatic or consular representative of India in or for that territory shall be received as evidence by the Court holding such inquiry or trial in any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate.",
       "source": {
         "section_number": "209",
         "has_main_text": true,
@@ -453,7 +452,7 @@
       "predecessor_references": [
         "CrPC:189"
       ],
-      "token_count": 151
+      "token_count": 150
     }
   ]
 }

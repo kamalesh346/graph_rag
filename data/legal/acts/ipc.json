@@ -47,70 +47,93 @@
       "section_id": "IPC:300",
       "section_number": "300",
       "title": "Murder",
-      "text": "Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or—\n    (Secondly)— If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or—\n    (Thirdly)— If it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or—\n    (Fourthly)— If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid.",
+      "text": "Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or—\n  (Secondly)— If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or—\n  (Thirdly)— If it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or—\n  (Fourthly)— If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid.",
       "predecessor_act": null,
       "successor_act": "BNS:101",
       "subsections": [],
       "explanations": [
         {
-          "label": "Explanation.",
+          "label": "Explanation",
           "text": "Whether the provocation was grave and sudden enough to prevent the offence from amounting to murder is a question of fact."
         },
         {
-          "label": "Explanation.",
+          "label": "Explanation",
           "text": "It is immaterial in such cases which party offers the provocation or commits the first assault."
         }
       ],
       "illustrations": [
         {
-          "label": "Illustrations",
-          "text": "(a)A shoots Z with the intention of killing him. Z dies in consequence. A commits murder.\n    (b)A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death.\n    (c)A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here, A is guilty of murder, although he may not have intended to cause Z’s death.\n    (d)A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual."
+          "label": "Illustration (a)",
+          "text": "A shoots Z with the intention of killing him. Z dies in consequence. A commits murder."
         },
         {
-          "label": "Illustrations",
-          "text": "(a)A, under the influence of passion excited by a provocation given by Z, intentionally kills. Y, Z’s child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation.\n    (b)Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide.\n    (c)A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers.\n    (d)A appears as witness before Z, a Magistrate, Z says that he does not believe a word of A’s deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder.\n    (e)A attempts to pull Z’s nose, Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was given by a thing done in the exercise of the right of private defence.\n    (f)Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B’s rage, and to cause him to kill Z, puts a knife into B’s hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homi-cide, but A is guilty of murder."
+          "label": "Illustration (b)",
+          "text": "A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death."
         },
         {
-          "label": "Illustration",
+          "label": "Illustration (c)",
+          "text": "A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here, A is guilty of murder, although he may not have intended to cause Z's death."
+        },
+        {
+          "label": "Illustration (d)",
+          "text": "A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual."
+        },
+        {
+          "label": "Illustration (a) to Exception 1",
+          "text": "A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation."
+        },
+        {
+          "label": "Illustration (b) to Exception 1",
+          "text": "Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide."
+        },
+        {
+          "label": "Illustration (c) to Exception 1",
+          "text": "A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers."
+        },
+        {
+          "label": "Illustration (d) to Exception 1",
+          "text": "A appears as witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder."
+        },
+        {
+          "label": "Illustration (e) to Exception 1",
+          "text": "A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was given by a thing done in the exercise of the right of private defence."
+        },
+        {
+          "label": "Illustration (f) to Exception 1",
+          "text": "Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder."
+        },
+        {
+          "label": "Illustration to Exception 2",
           "text": "Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide."
         },
         {
-          "label": "Illustration",
-          "text": "A, by instigation, voluntarily causes, Z, a person under eighteen years of age to commit suicide. Here, on account of Z’s youth, he was incapable of giving consent to his own death; A has therefore abetted murder."
+          "label": "Illustration to Exception 5",
+          "text": "A, by instigation, voluntarily causes Z, a person under eighteen years of age to commit suicide. Here, on account of Z's youth, he was incapable of giving consent to his own death; A has therefore abetted murder."
         }
       ],
       "exceptions": [
         {
-          "label": "Exception 1.",
-          "text": "When culpable homicide is not murder.— Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident. The above"
+          "label": "Exception 1",
+          "text": "When culpable homicide is not murder.— Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident.\n\nThe above exception is subject to the following provisos:—\n(First)— That the provocation is not sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person.\n(Secondly)— That the provocation is not given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant.\n(Thirdly)— That the provocation is not given by anything done in the lawful exercise of the right of private defence."
         },
         {
-          "label": "exception",
-          "text": "is subject to the following"
-        },
-        {
-          "label": "Exception 2.",
+          "label": "Exception 2",
           "text": "Culpable homicide is not murder if the offender, in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence."
         },
         {
-          "label": "Exception 3.",
+          "label": "Exception 3",
           "text": "Culpable homicide is not murder if the offender, being a public servant or aiding a public servant acting for the advancement of public justice, exceeds the powers given to him by law, and causes death by doing an act which he, in good faith, believes to be lawful and necessary for the due discharge of his duty as such public servant and without ill-will towards the person whose death is caused."
         },
         {
-          "label": "Exception 4.",
+          "label": "Exception 4",
           "text": "Culpable homicide is not murder if it is committed without premeditation in a sudden fight in the heat of passion upon a sudden quarrel and without the offender having taken undue advantage or acted in a cruel or unusual manner."
         },
         {
-          "label": "Exception 5.",
+          "label": "Exception 5",
           "text": "Culpable homicide is not murder when the person whose death is caused, being above the age of eighteen years, suffers death or takes the risk of death with his own consent."
         }
       ],
-      "provisos": [
-        {
-          "label": "provisos",
-          "text": "(First)— That the provocation is not sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person.\n    (Secondly)— That the provocation is not given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant.\n    (Thirdly)— That the provocation is not given by anything done in the lawful exercise of the right of private defence."
-        }
-      ],
+      "provisos": [],
       "legal_concepts": [
         "murder",
         "culpable homicide",
@@ -252,24 +275,13 @@
       "section_id": "IPC:120A",
       "section_number": "120A",
       "title": "Definition of criminal conspiracy",
-      "text": "When two or more persons agree to do, or cause to be done, —",
+      "text": "When two or more persons agree to do, or cause to be done, —\n(1) an illegal act, or\n(2) an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy:",
       "predecessor_act": null,
       "successor_act": "BNS:61(1)",
-      "subsections": [
-        {
-          "section_id": "IPC:120A(1)",
-          "subsection_number": "1",
-          "text": "an illegal act, or"
-        },
-        {
-          "section_id": "IPC:120A(2)",
-          "subsection_number": "2",
-          "text": "an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy:"
-        }
-      ],
+      "subsections": [],
       "explanations": [
         {
-          "label": "Explanation.",
+          "label": "Explanation",
           "text": "It is immaterial whether the illegal act is the ultimate object of such agreement, or is merely incidental to that object."
         }
       ],
@@ -336,8 +348,16 @@
       ],
       "illustrations": [
         {
-          "label": "Illustrations",
-          "text": "(a)A lays sticks and turf over a pit, with the intention of thereby causing death, or with the knowledge that death is likely to be thereby caused. Z believing the ground to be firm, treads on it, falls in and is killed. A has committed the offence of culpable homicide.\n(b)A knows Z to be behind a bush. B does not know it A, intending to cause, or knowing it to be likely to cause Z’s death, induces B to fire at the bush. B fires and kills Z. Here B may be guilty of no offence; but A has committed the offence of culpable homicide.\n(c)A, by shooting at a fowl with intent to kill and steal it, kills B who is behind a bush; A not knowing that he was there. Here, although A was doing an unlawful act, he was not guilty of culpable homicide, as he did not intend to kill B, or to cause death by doing an act that he knew was likely to cause death."
+          "label": "Illustration (a)",
+          "text": "A lays sticks and turf over a pit, with the intention of thereby causing death, or with the knowledge that death is likely to be thereby caused. Z believing the ground to be firm, treads on it, falls in and is killed. A has committed the offence of culpable homicide."
+        },
+        {
+          "label": "Illustration (b)",
+          "text": "A knows Z to be behind a bush. B does not know it. A, intending to cause, or knowing it to be likely to cause Z's death, induces B to fire at the bush. B fires and kills Z. Here B may be guilty of no offence; but A has committed the offence of culpable homicide."
+        },
+        {
+          "label": "Illustration (c)",
+          "text": "A, by shooting at a fowl with intent to kill and steal it, kills B who is behind a bush; A not knowing that he was there. Here, although A was doing an unlawful act, he was not guilty of culpable homicide, as he did not intend to kill B, or to cause death by doing an act that he knew was likely to cause death."
         }
       ],
       "exceptions": [],
@@ -366,12 +386,29 @@
       "section_id": "IPC:307",
       "section_number": "307",
       "title": "Attempt to murder",
-      "text": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.\n\nAttempts by life convicts.— When any person offending under this section is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death. llustrations\n(a)A shoots at Z with intention to kill him, under such circumstances that, if death ensued. A would be guilty of murder. A is liable to punishment under this section.\n(b)A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue.\n(c)A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and if by such firing he wounds Z, he is liable to the punishment provided by the latter part of the first paragraph of this section.\n(d)A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A’s keeping; A has not yet committed the offence defined in this section. A places the food on Z’s table or delivers it to Z’s servant to place it on Z’s table. A has committed the offence defined in this section.",
+      "text": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.\n\nAttempts by life convicts.—When any person offending under this section is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death.",
       "predecessor_act": null,
       "successor_act": "BNS:109",
       "subsections": [],
       "explanations": [],
-      "illustrations": [],
+      "illustrations": [
+        {
+          "label": "Illustration (a)",
+          "text": "A shoots at Z with intention to kill him, under such circumstances that, if death ensued, A would be guilty of murder. A is liable to punishment under this section."
+        },
+        {
+          "label": "Illustration (b)",
+          "text": "A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue."
+        },
+        {
+          "label": "Illustration (c)",
+          "text": "A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and if by such firing he wounds Z, he is liable to the punishment provided by the latter part of the first paragraph of this section."
+        },
+        {
+          "label": "Illustration (d)",
+          "text": "A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence defined in this section. A places the food on Z's table or delivers it to Z's servant to place it on Z's table. A has committed the offence defined in this section."
+        }
+      ],
       "exceptions": [],
       "provisos": [],
       "legal_concepts": [
@@ -431,27 +468,17 @@
         {
           "section_id": "IPC:354A(1)",
           "subsection_number": "1",
-          "text": "A man committing any of the following acts--\n    (i)physical contact and advances involving unwelcome and explicit sexual overtures; or\n    (ii)a demand or request for sexual favours; or\n    (iii)showing pornography against the will of a woman; or\n    (iv)making sexually coloured remarks,\nshall be guilty of the offence of sexual harassment."
+          "text": "A man committing any of the following acts, namely:—\n    (i) physical contact and advances involving unwelcome and explicit sexual overtures; or\n    (ii) a demand or request for sexual favours; or\n    (iii) showing pornography against the will of a woman; or\n    (iv) making sexually coloured remarks,\nshall be guilty of the offence of sexual harassment."
         },
         {
           "section_id": "IPC:354A(2)",
           "subsection_number": "2",
-          "text": "Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of sub-section"
-        },
-        {
-          "section_id": "IPC:354A(1)",
-          "subsection_number": "1",
-          "text": "shall be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."
+          "text": "Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of sub-section (1) shall be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."
         },
         {
           "section_id": "IPC:354A(3)",
           "subsection_number": "3",
-          "text": "Any man who commits the offence specified in clause (iv) of sub-section"
-        },
-        {
-          "section_id": "IPC:354A(1)",
-          "subsection_number": "1",
-          "text": "shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+          "text": "Any man who commits the offence specified in clause (iv) of sub-section (1) shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
         }
       ],
       "explanations": [],
@@ -499,12 +526,12 @@
         {
           "section_id": "IPC:376(1)",
           "subsection_number": "1",
-          "text": "Whoever, except in the cases provided for in sub-section"
+          "text": "Whoever, except in the cases provided for in sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine."
         },
         {
           "section_id": "IPC:376(2)",
           "subsection_number": "2",
-          "text": ", commits rape, shall be punished with rigorous imprisonment of either description for a term which [shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine"
+          "text": "Whoever,—\n    (a) being a police officer, commits rape—\n        (i) within the limits of the police station to which such police officer is appointed; or\n        (ii) in the premises of any station house; or\n        (iii) on a woman in such police officer's custody or in the custody of a police officer subordinate to such police officer; or\n    (b) being a public servant, commits rape on a woman in such public servant's custody or in the custody of a public servant subordinate to such public servant; or\n    (c) being a member of the armed forces deployed in an area by the Central Government or a State Government, commits rape in such area; or\n    (d) being on the management or on the staff of a jail, remand home or other place of custody established by or under any law for the time being in force, or of a women's or children's institution, commits rape on any inmate of such jail, remand home, place or institution; or\n    (e) being on the management or on the staff of a hospital, commits rape on a woman in that hospital; or\n    (f) being a relative, guardian or teacher of, or a person in a position of trust or authority towards the woman, commits rape on such woman; or\n    (g) commits rape on a woman knowing her to be pregnant; or\n    (h) commits rape on a woman when she is under sixteen years of age; or\n    (i) commits rape on a woman incapable of giving consent; or\n    (j) being in a position of control or dominance over a woman, commits rape on such woman; or\n    (k) commits rape causing bodily harm, injury or disease to the woman; or\n    (l) commits gang rape; or\n    (m) commits rape repeatedly on the same woman,\nshall be punished with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine."
         }
       ],
       "explanations": [],
@@ -517,21 +544,10 @@
       "section_id": "IPC:376A",
       "section_number": "376A",
       "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
-      "text": "Whoever, commits an offence punishable under sub-section",
+      "text": "Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death.",
       "predecessor_act": null,
       "successor_act": "BNS:66",
-      "subsections": [
-        {
-          "section_id": "IPC:376A(1)",
-          "subsection_number": "1",
-          "text": "or subsection"
-        },
-        {
-          "section_id": "IPC:376A(2)",
-          "subsection_number": "2",
-          "text": "of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, or with death."
-        }
-      ],
+      "subsections": [],
       "explanations": [],
       "illustrations": [],
       "exceptions": [],

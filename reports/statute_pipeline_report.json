@@ -1,37 +1,37 @@
 {
   "pipeline": "Statute Chunking & Ingestion Pipeline (S1-S12)",
-  "execution_time_seconds": 29.66,
+  "execution_time_seconds": 68.98,
   "summary": {
     "acts_processed": 6,
     "per_act_section_counts": {
       "BNS": 27,
       "BNSS": 14,
-      "BSA": 12,
+      "BSA": 11,
       "CrPC": 14,
       "IEA": 12,
       "IPC": 28
     },
-    "consolidated_sections": 107,
-    "atomic_units": 279,
-    "total_statute_chunks": 107,
-    "chromadb_indexed_items": 107,
-    "neo4j_ingestion_status": "OFFLINE/SKIPPED",
+    "consolidated_sections": 106,
+    "atomic_units": 295,
+    "total_statute_chunks": 106,
+    "chromadb_indexed_items": 106,
+    "neo4j_ingestion_status": "SUCCESS",
     "hybrid_search_simulation": "PASS"
   },
   "token_statistics": {
     "min_tokens": 33,
-    "max_tokens": 1574,
-    "mean_tokens": 256.59,
-    "median_tokens": 170
+    "max_tokens": 1570,
+    "mean_tokens": 263.52,
+    "median_tokens": 172.0
   },
   "structural_completeness": {
-    "total_sections": 107,
-    "total_chunks": 107,
-    "sections_with_subsections": 41,
+    "total_sections": 106,
+    "total_chunks": 106,
+    "sections_with_subsections": 37,
     "sections_with_explanations": 19,
-    "sections_with_illustrations": 22,
+    "sections_with_illustrations": 23,
     "sections_with_exceptions": 2,
-    "sections_with_provisos": 22,
+    "sections_with_provisos": 18,
     "missing_content_errors": [],
     "self_reference_errors": [],
     "passed": true
@@ -39,9 +39,9 @@
   "crpc_296_validation": "FAIL",
   "validation_summary": {
     "total_acts_validated": 6,
-    "total_sections": 109,
+    "total_sections": 108,
     "total_issues": 2,
-    "total_warnings": 77,
+    "total_warnings": 43,
     "overall_valid": false
   }
 }

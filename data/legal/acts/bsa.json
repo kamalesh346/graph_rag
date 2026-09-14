@@ -30,79 +30,30 @@
       "legal_concepts": []
     },
     {
-      "section_id": "BSA:23(1)",
-      "section_number": "23(1)",
-      "title": "",
-      "text": "Confession to police officer.\n\nNo confession made to a police officer shall be proved as against a person accused of any offence.",
-      "predecessor_act": "IEA:25",
-      "successor_act": null,
-      "subsections": [],
-      "explanations": [],
-      "illustrations": [],
-      "exceptions": [],
-      "provisos": [],
-      "legal_concepts": [
-        "confession"
-      ]
-    },
-    {
-      "section_id": "BSA:23(2)",
-      "section_number": "23(2)",
-      "title": "Confession to police officer",
-      "text": "No confession made by any person while he is in the custody of a police officer, unless it is made in the immediate presence of a Magistrate shall be proved against him:",
-      "predecessor_act": "IEA:27",
-      "successor_act": null,
-      "subsections": [],
-      "explanations": [],
-      "illustrations": [],
-      "exceptions": [],
-      "provisos": [
-        {
-          "label": "Provided that",
-          "text": "when any fact is deposed to as discovered in consequence of information received from a person accused of any offence, in the custody of a police officer, so much of such information, whether it amounts to a confession or not, as relates distinctly to the fact discovered, may be proved."
-        }
-      ],
-      "legal_concepts": [
-        "confession"
-      ]
-    },
-    {
       "section_id": "BSA:108",
       "section_number": "108",
       "title": "Burden of proving that case of accused comes within exceptions",
-      "text": "When a person is accused of any offence, the burden of proving the existence of circumstances bringing the case within any of the General",
+      "text": "When a person is accused of any offence, the burden of proving the existence of circumstances bringing the case within any of the General Exceptions in the Bharatiya Nyaya Sanhita, 2023, or within any special exception or proviso contained in any other part of the said Sanhita, or in any law defining the offence, is upon him, and the Court shall presume the absence of such circumstances.",
       "predecessor_act": "IEA:105",
       "successor_act": null,
-      "subsections": [
-        {
-          "section_id": "BSA:108(2)",
-          "subsection_number": "2",
-          "text": "of section 122, voluntarily causes grievous hurt, shall be subject to certain punishments. A is charged with voluntarily causing grievous hurt under section 117. The burden of proving the circumstances bringing the case under sub-section"
-        }
-      ],
+      "subsections": [],
       "explanations": [],
       "illustrations": [
         {
-          "label": "Illustrations",
-          "text": "(a) A, accused of murder, alleges that, by reason of unsoundness of mind, he did not know the nature of the act. The burden of proof is on A.\n    (b) A, accused of murder, alleges that, by grave and sudden provocation, he was deprived of the power of self-control. The burden of proof is on A.\n    (c) Section 117 of the Bharatiya Nyaya Sanhita, 2023 provides that whoever, except in the case provided for by sub-section"
-        }
-      ],
-      "exceptions": [
-        {
-          "label": "Exceptions",
-          "text": "in the Bharatiya Nyaya Sanhita, 2023 or within any special"
+          "label": "Illustration (a)",
+          "text": "A, accused of murder, alleges that, by reason of unsoundness of mind, he did not know the nature of the act. The burden of proof is on A."
         },
         {
-          "label": "exception",
-          "text": "or"
-        }
-      ],
-      "provisos": [
+          "label": "Illustration (b)",
+          "text": "A, accused of murder, alleges that, by grave and sudden provocation, he was deprived of the power of self-control. The burden of proof is on A."
+        },
         {
-          "label": "proviso",
-          "text": "contained in any other part of the said Sanhita, or in any law defining the offence, is upon him, and the Court shall presume the absence of such circumstances."
+          "label": "Illustration (c)",
+          "text": "Section 117 of the Bharatiya Nyaya Sanhita, 2023 provides that whoever, except in the case provided for by sub-section (1) of section 122, voluntarily causes grievous hurt, shall be subject to certain punishments. A is charged with voluntarily causing grievous hurt under section 117. The burden of proving the circumstances bringing the case under sub-section (1) of section 122 is on A."
         }
       ],
+      "exceptions": [],
+      "provisos": [],
       "legal_concepts": [
         "murder",
         "unsoundness of mind",
@@ -302,6 +253,35 @@
         }
       ],
       "legal_concepts": []
+    },
+    {
+      "section_id": "BSA:23",
+      "section_number": "23",
+      "title": "Confession to police officer and confession in custody",
+      "text": "",
+      "predecessor_act": "IEA:25, IEA:27",
+      "successor_act": null,
+      "subsections": [
+        {
+          "section_id": "BSA:23(1)",
+          "subsection_number": "1",
+          "text": "No confession made to a police officer shall be proved as against a person accused of any offence."
+        },
+        {
+          "section_id": "BSA:23(2)",
+          "subsection_number": "2",
+          "text": "No confession made by any person while he is in the custody of a police officer, unless it is made in the immediate presence of a Magistrate shall be proved against him:\n\nProvided that when any fact is deposed to as discovered in consequence of information received from a person accused of any offence, in the custody of a police officer, so much of such information, whether it amounts to a confession or not, as relates distinctly to the fact discovered, may be proved."
+        }
+      ],
+      "explanations": [],
+      "illustrations": [],
+      "exceptions": [],
+      "provisos": [],
+      "legal_concepts": [
+        "confession",
+        "police custody",
+        "discovery"
+      ]
     }
   ]
 }
