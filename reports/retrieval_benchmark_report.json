@@ -1,0 +1,446 @@
+{
+  "benchmark": "GraphRAG Hybrid Retrieval Engine Evaluation",
+  "execution_time_seconds": 17.08,
+  "metrics": {
+    "total_queries": 8,
+    "hit_1_count": 8,
+    "hit_1_rate_pct": 100.0,
+    "hit_3_count": 8,
+    "hit_3_rate_pct": 100.0,
+    "mrr": 1.0
+  },
+  "query_results": [
+    {
+      "id": "Q1",
+      "query": "What are the exceptions to murder under Section 300?",
+      "category": "Statutory Exception",
+      "expected_targets": [
+        "IPC:300",
+        "BNS:101"
+      ],
+      "retrieved_top_5": [
+        "IPC:300",
+        "BNS:101",
+        "IPC:302",
+        "BNS:103",
+        "IPC:304"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "IPC_300_SECTION_001",
+        "section_id": "IPC:300",
+        "act": null,
+        "section_number": "300",
+        "title": null,
+        "text": "Section 300 - Murder Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or— (Secondly)— If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or— (Thirdly)— If it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or— (Fourthly)— If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid. Explanation: Whether the provocation was grave and sudden enough to prevent the offence from amounting to murder is a question of fact. It is immaterial in such cases which party offers the provocation or commits the first assault. Exception 1: When culpable homicide is not murder.— Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident. The above exception is subject to the following provisos:— (First)— That the provocation is not sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person. (Secondly)— That the provocation is not given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant. (Thirdly)— That the provocation is not given by anything done in the lawful exercise of the right of private defence. Exception 2: Culpable homicide is not murder if the offender, in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence. Exception 3: Culpable homicide is not murder if the offender, being a public servant or aiding a public servant acting for the advancement of public justice, exceeds the powers given to him by law, and causes death by doing an act which he, in good faith, believes to be lawful and necessary for the due discharge of his duty as such public servant and without ill-will towards the person whose death is caused. Exception 4: Culpable homicide is not murder if it is committed without premeditation in a sudden fight in the heat of passion upon a sudden quarrel and without the offender having taken undue advantage or acted in a cruel or unusual manner. Exception 5: Culpable homicide is not murder when the person whose death is caused, being above the age of eighteen years, suffers death or takes the risk of death with his own consent. Illustrations: A shoots Z with the intention of killing him. Z dies in consequence. A commits murder. A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death. A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here, A is guilty of murder, although he may not have intended to cause Z's death. A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual. A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation. Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide. A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, in as much as the provocation was given by a thing done by a public servant in the exercise of his powers. A appears as witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder. A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, in as much as the provocation was given by a thing done in the exercise of the right of private defence. Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder. Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide. A, by instigation, voluntarily causes Z, a person under eighteen years of age to commit suicide. Here, on account of Z's youth, he was incapable of giving consent to his own death; A has therefore abetted murder.",
+        "metadata": {
+          "document_type": "statute",
+          "predecessor_references": "",
+          "exceptions": "1,2,3,4,5",
+          "explanations": "1",
+          "section_number": "300",
+          "illustrations": "1,2,3,4,5",
+          "section_id": "IPC:300",
+          "provisos": "",
+          "token_count": 1570,
+          "act_id": "IPC",
+          "subsections": "",
+          "successor_references": "BNS:101",
+          "chunk_type": "section",
+          "legal_references": "",
+          "legal_concepts": "LEGAL_CONCEPT:consent,LEGAL_CONCEPT:culpable_homicide,LEGAL_CONCEPT:grave_and_sudden_provocation,LEGAL_CONCEPT:murder,LEGAL_CONCEPT:private_defence,LEGAL_CONCEPT:sudden_fight",
+          "has_main_text": true
+        },
+        "vector_distance": 0.40934473276138306,
+        "vector_rank": 6,
+        "type": "statute",
+        "rrf_score": 2.515152,
+        "boost_applied": 2.5,
+        "boost_reasons": [
+          "Exact Target Section Match (IPC:300)",
+          "Graph Related Section (IPC:300)"
+        ]
+      }
+    },
+    {
+      "id": "Q2",
+      "query": "Punishment for murder under Section 302 or BNS 103",
+      "category": "Punishment & Transition",
+      "expected_targets": [
+        "IPC:302",
+        "BNS:103"
+      ],
+      "retrieved_top_5": [
+        "BNS:103",
+        "IPC:302",
+        "IPC:304",
+        "IPC:307",
+        "BNS:105"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "BNS_103_SECTION_001",
+        "section_id": "BNS:103",
+        "act": null,
+        "section_number": "103",
+        "title": null,
+        "text": "Section 103 - Punishment for murder (1) Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. (2) When a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other similar ground each member of such group shall be punished with death or with imprisonment for life, and shall also be liable to fine.",
+        "metadata": {
+          "legal_concepts": "LEGAL_CONCEPT:murder",
+          "chunk_type": "section",
+          "illustrations": "",
+          "successor_references": "",
+          "token_count": 109,
+          "document_type": "statute",
+          "legal_references": "",
+          "exceptions": "",
+          "provisos": "",
+          "explanations": "",
+          "has_main_text": false,
+          "subsections": "1,2",
+          "act_id": "BNS",
+          "section_id": "BNS:103",
+          "predecessor_references": "IPC:302",
+          "section_number": "103"
+        },
+        "vector_distance": 0.2847777009010315,
+        "vector_rank": 2,
+        "type": "statute",
+        "rrf_score": 3.016129,
+        "boost_applied": 3.0,
+        "boost_reasons": [
+          "Exact Target Section Match (BNS:103)",
+          "Graph Act-Correspondence Match (BNS:103)"
+        ]
+      }
+    },
+    {
+      "id": "Q3",
+      "query": "Culpable homicide not amounting to murder under Section 304 or BNS 105",
+      "category": "Culpable Homicide",
+      "expected_targets": [
+        "IPC:304",
+        "BNS:105"
+      ],
+      "retrieved_top_5": [
+        "BNS:105",
+        "IPC:304",
+        "IPC:304A",
+        "IPC:302",
+        "IPC:300"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "BNS_105_SECTION_001",
+        "section_id": "BNS:105",
+        "act": null,
+        "section_number": "105",
+        "title": null,
+        "text": "Section 105 - Punishment for culpable homicide not amounting to murder whoever commits culpable homicide not amounting to murder, shall be punished with imprisonment for life, or imprisonment of either description for a term which shall not be less than five years but which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention ofcausing death, or of causing such bodily injury as is likely to cause death; or with imprisonment of either description for a term which may extend to ten years and with fine, if the act is done with the knowledgethat it is likely to cause death, but without any intention to cause death, or to cause such bodily injury asis likely to cause death",
+        "metadata": {
+          "illustrations": "",
+          "act_id": "BNS",
+          "section_number": "105",
+          "chunk_type": "section",
+          "has_main_text": true,
+          "section_id": "BNS:105",
+          "provisos": "",
+          "subsections": "",
+          "legal_references": "",
+          "legal_concepts": "LEGAL_CONCEPT:culpable_homicide,LEGAL_CONCEPT:culpable_homicide_not_amounting_to_murder,LEGAL_CONCEPT:murder",
+          "successor_references": "",
+          "token_count": 178,
+          "exceptions": "",
+          "explanations": "",
+          "predecessor_references": "IPC:304",
+          "document_type": "statute"
+        },
+        "vector_distance": 0.35558193922042847,
+        "vector_rank": 2,
+        "type": "statute",
+        "rrf_score": 3.016129,
+        "boost_applied": 3.0,
+        "boost_reasons": [
+          "Exact Target Section Match (BNS:105)",
+          "Graph Act-Correspondence Match (BNS:105)"
+        ]
+      }
+    },
+    {
+      "id": "Q4",
+      "query": "Procedure for statement examination under CrPC 313 or BNSS 351",
+      "category": "Criminal Procedure",
+      "expected_targets": [
+        "CRPC:313",
+        "BNSS:351"
+      ],
+      "retrieved_top_5": [
+        "BNSS:351",
+        "CrPC:313",
+        "CrPC:161",
+        "BNSS:180",
+        "CrPC:189"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "BNSS_351_SECTION_001",
+        "section_id": "BNSS:351",
+        "act": null,
+        "section_number": "351",
+        "title": null,
+        "text": "Section 351 - Power to examine accused (1) In every inquiry or trial, for the purpose of enabling the accused personally to explain any circumstances appearing in the evidence against him, the Court— (a) may at any stage, without previously warning the accused put such questions to him as the Court considers necessary; (b) shall, after the witnesses for the prosecution have been examined and before he is called on for his defence, question him generally on the case: (2) No oath shall be administered to the accused when he is examined under sub-section (1). (3) The accused shall not render himself liable to punishment by refusing to answer such questions, or by giving false answers to them. (4) The answers given by the accused may be taken into consideration in such inquiry or trial, and put in evidence for or against him in any other inquiry into, or trial for, any other offence which such answers may tend to show he has committed. (5) The Court may take help of Prosecutor and Defence Counsel in preparing relevant questions which are to be put to the accused and the Court may permit filing of written statement by the accused as sufficient compliance of this section. Provided that: in a summons case, where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause (b).",
+        "metadata": {
+          "legal_concepts": "",
+          "predecessor_references": "CrPC:313",
+          "section_number": "351",
+          "token_count": 309,
+          "subsections": "1,2,3,4,5",
+          "has_main_text": false,
+          "section_id": "BNSS:351",
+          "chunk_type": "section",
+          "successor_references": "",
+          "illustrations": "",
+          "act_id": "BNSS",
+          "provisos": "1",
+          "legal_references": "",
+          "document_type": "statute",
+          "exceptions": "",
+          "explanations": ""
+        },
+        "vector_distance": 0.5493780970573425,
+        "vector_rank": 9,
+        "type": "statute",
+        "rrf_score": 2.014493,
+        "boost_applied": 2.0,
+        "boost_reasons": [
+          "Extracted Query Section Match (BNSS:351)",
+          "Graph Related Section (BNSS:351)"
+        ]
+      }
+    },
+    {
+      "id": "Q5",
+      "query": "Admissibility of confession to police under Section 25 IEA or BSA 23",
+      "category": "Evidence & Confession to Police",
+      "expected_targets": [
+        "IEA:25",
+        "BSA:23"
+      ],
+      "retrieved_top_5": [
+        "IEA:25",
+        "BSA:23",
+        "BNSS:193",
+        "CrPC:161",
+        "BNSS:180"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "IEA_25_SECTION_001",
+        "section_id": "IEA:25",
+        "act": null,
+        "section_number": "25",
+        "title": null,
+        "text": "Section 25 - Confession to police officer not to be proved No confession made to a police officer1, shall be proved as against a person accused of any offence. 1. As to statements made to a police officer investigating a case, see the Code of Criminal Procedure, 1973 (2 of 1974), section 162.",
+        "metadata": {
+          "legal_references": "IEA:162",
+          "act_id": "IEA",
+          "provisos": "",
+          "exceptions": "",
+          "predecessor_references": "",
+          "token_count": 70,
+          "chunk_type": "section",
+          "illustrations": "",
+          "explanations": "",
+          "section_number": "25",
+          "subsections": "",
+          "legal_concepts": "LEGAL_CONCEPT:confession",
+          "document_type": "statute",
+          "section_id": "IEA:25",
+          "has_main_text": true,
+          "successor_references": "BSA:23(1)"
+        },
+        "vector_distance": 0.25735312700271606,
+        "vector_rank": 1,
+        "type": "statute",
+        "rrf_score": 2.016393,
+        "boost_applied": 2.0,
+        "boost_reasons": [
+          "Extracted Query Section Match (IEA:25)",
+          "Graph Related Section (IEA:25)"
+        ]
+      }
+    },
+    {
+      "id": "Q6",
+      "query": "Definition of criminal conspiracy under IPC 120A or BNS 61",
+      "category": "Criminal Conspiracy",
+      "expected_targets": [
+        "IPC:120A",
+        "BNS:61"
+      ],
+      "retrieved_top_5": [
+        "BNS:61",
+        "IPC:120A",
+        "IPC:120B",
+        "CrPC:189",
+        "BNSS:209"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "BNS_61_SECTION_001",
+        "section_id": "BNS:61",
+        "act": null,
+        "section_number": "61",
+        "title": null,
+        "text": "Section 61 - Criminal conspiracy (1) When two or more persons agree with the common object to do, or cause to be done- (a) an illegal act; or (b) an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy: (2) Whoever is a party to a criminal conspiracy,- (a) to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, shall, where no express provision is made in this Sanhita for the punishment of such a conspiracy, be punished in the same manner as if he had abetted such offence; (b) other than a criminal conspiracy to commit an offence punishable as aforesaid shall be punished with imprisonment of either description for a term not exceeding six months, or with fine or with both. Explanation: It is immaterial whether the illegal act is the ultimate object of such agreement, or is merely incidental to that object. Provided that: no agreement except an agreement to commit an offence shall amount to a criminal conspiracy unless some act besides the agreement is done by one or more parties to such agreement in pursuance thereof.",
+        "metadata": {
+          "predecessor_references": "",
+          "explanations": "1",
+          "legal_concepts": "LEGAL_CONCEPT:criminal_conspiracy",
+          "section_number": "61",
+          "exceptions": "",
+          "has_main_text": false,
+          "document_type": "statute",
+          "illustrations": "",
+          "act_id": "BNS",
+          "successor_references": "",
+          "chunk_type": "section",
+          "subsections": "1,2",
+          "token_count": 264,
+          "section_id": "BNS:61",
+          "provisos": "1",
+          "legal_references": ""
+        },
+        "vector_distance": 0.38086169958114624,
+        "vector_rank": 2,
+        "type": "statute",
+        "rrf_score": 2.516129,
+        "boost_applied": 2.5,
+        "boost_reasons": [
+          "Exact Target Section Match (BNS:61)",
+          "Graph Related Section (BNS:61)"
+        ]
+      }
+    },
+    {
+      "id": "Q7",
+      "query": "Punishment for rape and definition under IPC 376 or BNS 64",
+      "category": "Sexual Offences",
+      "expected_targets": [
+        "IPC:376",
+        "BNS:64"
+      ],
+      "retrieved_top_5": [
+        "IPC:376",
+        "BNS:64",
+        "BNS:76",
+        "IPC:376A",
+        "IPC:366"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "IPC_376_SECTION_001",
+        "section_id": "IPC:376",
+        "act": null,
+        "section_number": "376",
+        "title": null,
+        "text": "Section 376 - Punishment for rape (1) Whoever, except in the cases provided for in sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine. (2) Whoever,— (a) being a police officer, commits rape— (i) within the limits of the police station to which such police officer is appointed; or (ii) in the premises of any station house; or (iii) on a woman in such police officer's custody or in the custody of a police officer subordinate to such police officer; or (b) being a public servant, commits rape on a woman in such public servant's custody or in the custody of a public servant subordinate to such public servant; or (c) being a member of the armed forces deployed in an area by the Central Government or a State Government, commits rape in such area; or (d) being on the management or on the staff of a jail, remand home or other place of custody established by or under any law for the time being in force, or of a women's or children's institution, commits rape on any inmate of such jail, remand home, place or institution; or (e) being on the management or on the staff of a hospital, commits rape on a woman in that hospital; or (f) being a relative, guardian or teacher of, or a person in a position of trust or authority towards the woman, commits rape on such woman; or (g) commits rape on a woman knowing her to be pregnant; or (h) commits rape on a woman when she is under sixteen years of age; or (i) commits rape on a woman incapable of giving consent; or (j) being in a position of control or dominance over a woman, commits rape on such woman; or (k) commits rape causing bodily harm, injury or disease to the woman; or (l) commits gang rape; or (m) commits rape repeatedly on the same woman, shall be punished with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine.",
+        "metadata": {
+          "document_type": "statute",
+          "section_number": "376",
+          "exceptions": "",
+          "section_id": "IPC:376",
+          "token_count": 521,
+          "explanations": "",
+          "act_id": "IPC",
+          "legal_concepts": "LEGAL_CONCEPT:consent,LEGAL_CONCEPT:rape",
+          "subsections": "1,2",
+          "illustrations": "",
+          "successor_references": "BNS:64",
+          "has_main_text": false,
+          "predecessor_references": "",
+          "provisos": "",
+          "chunk_type": "section",
+          "legal_references": ""
+        },
+        "vector_distance": 0.28998440504074097,
+        "vector_rank": 1,
+        "type": "statute",
+        "rrf_score": 3.016393,
+        "boost_applied": 3.0,
+        "boost_reasons": [
+          "Exact Target Section Match (IPC:376)",
+          "Graph Act-Correspondence Match (IPC:376)"
+        ]
+      }
+    },
+    {
+      "id": "Q8",
+      "query": "Causing death by negligence under IPC 304A or BNS 106",
+      "category": "Negligent Homicide",
+      "expected_targets": [
+        "IPC:304A",
+        "BNS:106"
+      ],
+      "retrieved_top_5": [
+        "IPC:304A",
+        "BNS:106",
+        "IPC:304",
+        "IPC:299",
+        "BNS:102"
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "target_rank": 1,
+      "top_statute": {
+        "id": "IPC_304A_SECTION_001",
+        "section_id": "IPC:304A",
+        "act": null,
+        "section_number": "304A",
+        "title": null,
+        "text": "Section 304A - Causing death by negligence Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+        "metadata": {
+          "section_id": "IPC:304A",
+          "explanations": "",
+          "provisos": "",
+          "subsections": "",
+          "exceptions": "",
+          "token_count": 65,
+          "legal_references": "",
+          "section_number": "304A",
+          "document_type": "statute",
+          "has_main_text": true,
+          "act_id": "IPC",
+          "successor_references": "BNS:106",
+          "legal_concepts": "LEGAL_CONCEPT:culpable_homicide",
+          "predecessor_references": "",
+          "illustrations": "",
+          "chunk_type": "section"
+        },
+        "vector_distance": 0.3128097653388977,
+        "vector_rank": 1,
+        "type": "statute",
+        "rrf_score": 3.016393,
+        "boost_applied": 3.0,
+        "boost_reasons": [
+          "Exact Target Section Match (IPC:304A)",
+          "Graph Act-Correspondence Match (IPC:304A)"
+        ]
+      }
+    }
+  ]
+}

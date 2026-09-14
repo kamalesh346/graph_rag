@@ -1,0 +1,27 @@
+==================================================
+   GRAPHRAG HYBRID RETRIEVAL BENCHMARK REPORT
+==================================================
+Execution Time       : 17.08s
+Total Queries        : 8
+Hit@1 Accuracy       : 100.0% (8/8)
+Hit@3 Accuracy       : 100.0% (8/8)
+MRR (Mean Recip. Rank): 1.0
+--------------------------------------------------
+PER-QUERY BENCHMARK RESULTS:
+--------------------------------------------------
+[Q1] PASS [Hit@1] - 'What are the exceptions to murder under Section 300?'
+     Expected: ['IPC:300', 'BNS:101'] | Retrieved: ['IPC:300', 'BNS:101', 'IPC:302']
+[Q2] PASS [Hit@1] - 'Punishment for murder under Section 302 or BNS 103'
+     Expected: ['IPC:302', 'BNS:103'] | Retrieved: ['BNS:103', 'IPC:302', 'IPC:304']
+[Q3] PASS [Hit@1] - 'Culpable homicide not amounting to murder under Section 304 or BNS 105'
+     Expected: ['IPC:304', 'BNS:105'] | Retrieved: ['BNS:105', 'IPC:304', 'IPC:304A']
+[Q4] PASS [Hit@1] - 'Procedure for statement examination under CrPC 313 or BNSS 351'
+     Expected: ['CRPC:313', 'BNSS:351'] | Retrieved: ['BNSS:351', 'CrPC:313', 'CrPC:161']
+[Q5] PASS [Hit@1] - 'Admissibility of confession to police under Section 25 IEA or BSA 23'
+     Expected: ['IEA:25', 'BSA:23'] | Retrieved: ['IEA:25', 'BSA:23', 'BNSS:193']
+[Q6] PASS [Hit@1] - 'Definition of criminal conspiracy under IPC 120A or BNS 61'
+     Expected: ['IPC:120A', 'BNS:61'] | Retrieved: ['BNS:61', 'IPC:120A', 'IPC:120B']
+[Q7] PASS [Hit@1] - 'Punishment for rape and definition under IPC 376 or BNS 64'
+     Expected: ['IPC:376', 'BNS:64'] | Retrieved: ['IPC:376', 'BNS:64', 'BNS:76']
+[Q8] PASS [Hit@1] - 'Causing death by negligence under IPC 304A or BNS 106'
+     Expected: ['IPC:304A', 'BNS:106'] | Retrieved: ['IPC:304A', 'BNS:106', 'IPC:304']
