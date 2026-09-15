@@ -5,15 +5,21 @@ Validates storage integrity across both Vector DB (ChromaDB) and Knowledge Graph
 Performs sample similarity search and reports total chunk/node counts.
 """
 
-import os
 import sys
+user_site = r"C:\Users\kamal\AppData\Roaming\Python\Python312\site-packages"
+anaconda_site = r"C:\Users\kamal\anaconda3\Lib\site-packages"
+if user_site in sys.path and anaconda_site in sys.path:
+    sys.path.remove(anaconda_site)
+    sys.path.insert(0, anaconda_site)
+
+import os
 from pathlib import Path
 
 os.environ["USE_TF"] = "0"
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
+os.environ["PYTHONNOUSERSITE"] = "1"
 
 import chromadb
-from chromadb.utils import embedding_functions
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CHROMA_DB_DIR = PROJECT_ROOT / "data" / "chroma_db"
@@ -29,10 +35,7 @@ def validate_chromadb():
     client = chromadb.PersistentClient(path=str(CHROMA_DB_DIR))
     
     try:
-        ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name="all-MiniLM-L6-v2"
-        )
-        collection = client.get_collection(name=COLLECTION_NAME, embedding_function=ef)
+        collection = client.get_collection(name=COLLECTION_NAME)
     except Exception as e:
         print(f"FAIL: Could not retrieve collection '{COLLECTION_NAME}': {e}")
         return False

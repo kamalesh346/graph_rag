@@ -1,27 +1,37 @@
 ==================================================
    GRAPHRAG HYBRID RETRIEVAL BENCHMARK REPORT
 ==================================================
-Execution Time       : 17.08s
-Total Queries        : 8
-Hit@1 Accuracy       : 100.0% (8/8)
-Hit@3 Accuracy       : 100.0% (8/8)
-MRR (Mean Recip. Rank): 1.0
+Execution Time       : 22.09s
+Total Queries        : 13
+Hit@1 Accuracy       : 92.31% (12/13)
+Hit@3 Accuracy       : 100.0% (13/13)
+MRR (Mean Recip. Rank): 0.9615
 --------------------------------------------------
 PER-QUERY BENCHMARK RESULTS:
 --------------------------------------------------
 [Q1] PASS [Hit@1] - 'What are the exceptions to murder under Section 300?'
      Expected: ['IPC:300', 'BNS:101'] | Retrieved: ['IPC:300', 'BNS:101', 'IPC:302']
 [Q2] PASS [Hit@1] - 'Punishment for murder under Section 302 or BNS 103'
-     Expected: ['IPC:302', 'BNS:103'] | Retrieved: ['BNS:103', 'IPC:302', 'IPC:304']
+     Expected: ['IPC:302', 'BNS:103'] | Retrieved: ['IPC:302', 'BNS:103', 'IPC:304']
 [Q3] PASS [Hit@1] - 'Culpable homicide not amounting to murder under Section 304 or BNS 105'
-     Expected: ['IPC:304', 'BNS:105'] | Retrieved: ['BNS:105', 'IPC:304', 'IPC:304A']
+     Expected: ['IPC:304', 'BNS:105'] | Retrieved: ['IPC:304', 'BNS:105', 'IPC:304A']
 [Q4] PASS [Hit@1] - 'Procedure for statement examination under CrPC 313 or BNSS 351'
      Expected: ['CRPC:313', 'BNSS:351'] | Retrieved: ['BNSS:351', 'CrPC:313', 'CrPC:161']
 [Q5] PASS [Hit@1] - 'Admissibility of confession to police under Section 25 IEA or BSA 23'
-     Expected: ['IEA:25', 'BSA:23'] | Retrieved: ['IEA:25', 'BSA:23', 'BNSS:193']
+     Expected: ['IEA:25', 'BSA:23'] | Retrieved: ['BSA:23', 'IEA:25', 'BNSS:193']
 [Q6] PASS [Hit@1] - 'Definition of criminal conspiracy under IPC 120A or BNS 61'
-     Expected: ['IPC:120A', 'BNS:61'] | Retrieved: ['BNS:61', 'IPC:120A', 'IPC:120B']
+     Expected: ['IPC:120A', 'BNS:61'] | Retrieved: ['IPC:120A', 'BNS:61', 'IPC:120B']
 [Q7] PASS [Hit@1] - 'Punishment for rape and definition under IPC 376 or BNS 64'
      Expected: ['IPC:376', 'BNS:64'] | Retrieved: ['IPC:376', 'BNS:64', 'BNS:76']
 [Q8] PASS [Hit@1] - 'Causing death by negligence under IPC 304A or BNS 106'
-     Expected: ['IPC:304A', 'BNS:106'] | Retrieved: ['IPC:304A', 'BNS:106', 'IPC:304']
+     Expected: ['IPC:304A', 'BNS:106'] | Retrieved: ['BNS:106', 'IPC:304A', 'IPC:304']
+[Q9] PASS [Hit@1] - 'What happens if someone kills a person under grave and sudden provocation during a sudden fight?'
+     Expected: ['IPC:300', 'BNS:101', 'IPC:304', 'BNS:105'] | Retrieved: ['BNS:101', 'IPC:300', 'IPC:304A']
+[Q10] FAIL [Rank 2] - 'What is the legal procedure for examining the accused person during a criminal trial?'
+     Expected: ['CRPC:313', 'BNSS:351'] | Retrieved: ['CrPC:313', 'BNSS:351', 'CrPC:232']
+[Q11] PASS [Hit@1] - 'Is a confession made by an accused person to a police officer admissible as evidence in court?'
+     Expected: ['IEA:25', 'BSA:23'] | Retrieved: ['BSA:23', 'IEA:25', 'CrPC:161']
+[Q12] PASS [Hit@1] - 'What is the legal definition when two or more persons agree to commit an illegal act together?'
+     Expected: ['IPC:120A', 'BNS:61'] | Retrieved: ['IPC:120A', 'BNS:61', 'BNS:25']
+[Q13] PASS [Hit@1] - 'What is the punishment for causing the death of a person by a rash or negligent driving act?'
+     Expected: ['IPC:304A', 'BNS:106'] | Retrieved: ['BNS:106', 'IPC:304A', 'IPC:304']

@@ -80,6 +80,37 @@ BENCHMARK_QUERIES = [
         "expected_targets": ["IPC:304A", "BNS:106"],
         "category": "Negligent Homicide",
     },
+    # --- PURE NATURAL LANGUAGE QUERIES (ZERO SECTION OR ACT MENTIONS) ---
+    {
+        "id": "Q9",
+        "query": "What happens if someone kills a person under grave and sudden provocation during a sudden fight?",
+        "expected_targets": ["IPC:300", "BNS:101", "IPC:304", "BNS:105"],
+        "category": "Pure Semantic - Provocation & Homicide",
+    },
+    {
+        "id": "Q10",
+        "query": "What is the legal procedure for examining the accused person during a criminal trial?",
+        "expected_targets": ["CRPC:313", "BNSS:351"],
+        "category": "Pure Semantic - Criminal Trial Examination",
+    },
+    {
+        "id": "Q11",
+        "query": "Is a confession made by an accused person to a police officer admissible as evidence in court?",
+        "expected_targets": ["IEA:25", "BSA:23"],
+        "category": "Pure Semantic - Police Confession",
+    },
+    {
+        "id": "Q12",
+        "query": "What is the legal definition when two or more persons agree to commit an illegal act together?",
+        "expected_targets": ["IPC:120A", "BNS:61"],
+        "category": "Pure Semantic - Conspiracy",
+    },
+    {
+        "id": "Q13",
+        "query": "What is the punishment for causing the death of a person by a rash or negligent driving act?",
+        "expected_targets": ["IPC:304A", "BNS:106"],
+        "category": "Pure Semantic - Rash & Negligent Death",
+    },
 ]
 
 
