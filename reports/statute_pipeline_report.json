@@ -1,6 +1,6 @@
 {
   "pipeline": "Statute Chunking & Ingestion Pipeline (S1-S12)",
-  "execution_time_seconds": 68.98,
+  "execution_time_seconds": 16.62,
   "summary": {
     "acts_processed": 6,
     "per_act_section_counts": {

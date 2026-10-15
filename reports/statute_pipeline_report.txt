@@ -1,7 +1,7 @@
 ==================================================
    STATUTE GRAPH-RAG PIPELINE REPORT (S1-S12)
 ==================================================
-Execution Time       : 68.98s
+Execution Time       : 16.62s
 Acts Processed       : 6 (IPC, BNS, CrPC, BNSS, IEA, BSA)
 Consolidated Sections: 106
 Atomic Legal Units   : 295

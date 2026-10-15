@@ -7,11 +7,6 @@ across core legal queries. Exports reports to reports/retrieval_benchmark_report
 """
 
 import sys
-user_site = r"C:\Users\kamal\AppData\Roaming\Python\Python312\site-packages"
-anaconda_site = r"C:\Users\kamal\anaconda3\Lib\site-packages"
-if user_site in sys.path and anaconda_site in sys.path:
-    sys.path.remove(anaconda_site)
-    sys.path.insert(0, anaconda_site)
 
 import json
 import os
