@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -37,10 +38,14 @@ frontend_origins = [
 ]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=frontend_origins,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://10.10.119.57:3000",
+    ],
     allow_credentials=True,
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -66,8 +71,9 @@ def _title_from_text(text: str, fallback: str) -> str:
     """Use the stored title when available; otherwise derive a concise heading."""
     first_line = next((line.strip() for line in text.splitlines() if line.strip()), "")
     if " - " in first_line:
-        return first_line.split(" - ", 1)[1].strip()
-    return first_line[:160] or fallback
+        first_line = first_line.split(" - ", 1)[1].strip()
+    first_line = re.split(r"\s+(?:Description:|\(|If,|Whoever|When|Where|In every)\b", first_line, maxsplit=1)[0]
+    return first_line[:160].strip(" -:") or fallback
 
 
 def _provision_payload(item: dict[str, Any]) -> dict[str, Any]:
@@ -89,6 +95,7 @@ def _provision_payload(item: dict[str, Any]) -> dict[str, Any]:
 
 def _judgment_payload(item: dict[str, Any]) -> dict[str, Any]:
     return {
+        "source_id": item.get("id"),
         "case_id": item.get("case_id") or "Unknown case",
         "excerpt": str(item.get("text", ""))[:800],
         "related_sections": _split_references(item.get("legal_references")),

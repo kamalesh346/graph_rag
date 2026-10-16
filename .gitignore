@@ -32,6 +32,17 @@ ENV/
 env.bak/
 venv.bak/
 
+# JavaScript dependencies and Next.js build output
+node_modules/
+.next/
+out/
+
+# Frontend test output and TypeScript incremental build metadata
+frontend/coverage/
+frontend/playwright-report/
+frontend/test-results/
+frontend/*.tsbuildinfo
+
 # IDE & Editor settings
 .vscode/
 .idea/
