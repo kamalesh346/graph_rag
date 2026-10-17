@@ -18,11 +18,11 @@ RETRIEVAL_DIR = PROJECT_ROOT / "scripts" / "retrieval"
 
 load_dotenv(PROJECT_ROOT / ".env")
 
-if str(RETRIEVAL_DIR) not in sys.path:
-    sys.path.insert(0, str(RETRIEVAL_DIR))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
-from graph_retriever import Neo4jGraphRetriever  # noqa: E402
-from hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
+from scripts.retrieval.graph_retriever import Neo4jGraphRetriever  # noqa: E402
+from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
 
 
 app = FastAPI(
@@ -123,20 +123,48 @@ def research(request: ResearchRequest) -> dict[str, Any]:
     if not query:
         raise HTTPException(status_code=422, detail="Query must not be blank.")
 
+    # Instantiate the hybrid retriever – it internally handles Neo4j connectivity.
     retriever: GraphRAGHybridRetriever | None = None
     try:
         retriever = GraphRAGHybridRetriever()
+        # If Neo4j is unavailable, the retriever will still function with vector‑only flow.
+        neo4j_available = retriever.graph_retriever.is_connected()
         result = retriever.search(query)
-    except FileNotFoundError as error:
-        raise HTTPException(status_code=503, detail=str(error)) from error
     except Exception as error:
+        # Unexpected failure – respond with a generic error.
         raise HTTPException(status_code=503, detail="Research retrieval is currently unavailable.") from error
     finally:
         if retriever:
             retriever.close()
 
-    return {
+    # Include Neo4j availability in the response for client awareness.
+    response_payload = {
         "query": query,
         "provisions": [_provision_payload(item) for item in result["statute_results"]],
         "judgments": [_judgment_payload(item) for item in result["judgment_results"]],
+        "neo4j_available": neo4j_available,
     }
+    return response_payload
+
+
+@app.post("/api/trace")
+def trace(request: ResearchRequest) -> dict[str, Any]:
+    """Return detailed internal retrieval information for debugging.
+    The payload includes the raw hybrid retriever output (vector scores,
+    graph anchors, fusion results, etc.) without any post‑processing.
+    """
+    query = request.query.strip()
+    if not query:
+        raise HTTPException(status_code=422, detail="Query must not be blank.")
+    retriever: GraphRAGHybridRetriever | None = None
+    try:
+        retriever = GraphRAGHybridRetriever()
+        result = retriever.search(query)
+    finally:
+        if retriever:
+            retriever.close()
+    return {
+        "query": query,
+        "raw_result": result,
+    }
+

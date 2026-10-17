@@ -78,3 +78,15 @@ scratch/
 # notes 
 benchmark.txt
 plan.txt
+# Unnecessary files for this repo
+reports/
+benchmark.txt
+benchmark_modes.txt
+plan.txt
+
+# Test artifacts and build outputs
+.coverage
+.mypy_cache/
+dist/
+build/
+logs/

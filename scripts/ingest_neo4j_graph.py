@@ -50,6 +50,21 @@ def create_constraints(session):
         except Exception as e:
             print(f"  Warning setting constraint ({cypher[:30]}...): {e}")
 
+def create_fulltext_indexes(session):
+    """Create IF NOT EXISTS full‑text indexes for graph‑native search."""
+    indexes = [
+        "CALL db.index.fulltext.createNodeIndex('chunk_text_index', ['Chunk'], ['text','section_id','act_id'])",
+        "CALL db.index.fulltext.createNodeIndex('concept_name_index', ['LegalConcept'], ['id','name'])",
+        "CALL db.index.fulltext.createNodeIndex('cited_case_index', ['CitedCase'], ['id','name'])",
+        "CALL db.index.fulltext.createNodeIndex('section_id_index', ['StatuteSection'], ['id'])",
+        "CALL db.index.fulltext.createNodeIndex('case_id_index', ['Case'], ['id'])",
+    ]
+    for stmt in indexes:
+        try:
+            session.run(stmt)
+        except Exception as e:
+            print(f"  ⚠️ Index creation warning: {e}")
+
 
 def ingest_statute_mappings(session):
     print("Ingesting statutory act correspondence mappings...")
@@ -201,6 +216,7 @@ def main():
 
     with driver.session() as session:
         create_constraints(session)
+        create_fulltext_indexes(session)
         ingest_statute_mappings(session)
         ingest_judgment_chunks(session)
 

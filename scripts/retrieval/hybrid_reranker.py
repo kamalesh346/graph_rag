@@ -9,16 +9,17 @@ os.environ["PYTHONNOUSERSITE"] = "1"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RETRIEVAL_DIR = Path(__file__).resolve().parent
-if str(RETRIEVAL_DIR) not in sys.path:
-    sys.path.insert(0, str(RETRIEVAL_DIR))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 import chromadb
 from chromadb.utils import embedding_functions
 
-from query_parser import LegalQueryParser
-from graph_retriever import Neo4jGraphRetriever
+from scripts.retrieval.query_parser import LegalQueryParser
+from scripts.retrieval.graph_retriever import Neo4jGraphRetriever
+from scripts.retrieval.fusion import fuse_candidates
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 CHROMA_DB_DIR = PROJECT_ROOT / "data" / "chroma_db"
@@ -97,7 +98,8 @@ class GraphRAGHybridRetriever:
                     "metadata": s_metas[rank_idx],
                     "vector_distance": s_dists[rank_idx],
                     "vector_rank": rank_idx + 1,
-                    "type": "statute",
+                                        "type": "statute",
+                    "source": "vector",
                 })
 
         # 4. Rerank & Score Fusion for Statutes
@@ -109,6 +111,24 @@ class GraphRAGHybridRetriever:
             all_graph_secs=all_graph_secs,
             rrf_k=rrf_k,
         )
+
+        # 4b. Graph candidate generation and fusion
+        if self.graph_retriever.is_connected():
+            anchors = self.graph_retriever.find_graph_anchors(query, parsed_query=parsed)
+            graph_candidates = []
+            for cat, anchor_list in anchors.items():
+                for anchor in anchor_list:
+                    traversal = self.graph_retriever.traverse_anchor(anchor)
+                    graph_candidates.append({
+                        "statutes": traversal.get("statutes", set()),
+                        "judgments": traversal.get("judgments", set()),
+                        "cited_cases": traversal.get("cited_cases", set()),
+                        "relevance": 0.0,
+                    })
+            # Fuse vector and graph candidates (rule-based)
+            fused_statutes = fuse_candidates(reranked_statutes, graph_candidates, query)
+        else:
+            fused_statutes = reranked_statutes
 
         # 5. Dense Vector Retrieval (Judgments)
         reranked_judgments = []
@@ -158,7 +178,7 @@ class GraphRAGHybridRetriever:
             "query": query,
             "parsed_intent": parsed,
             "graph_expansion": graph_expansion,
-            "statute_results": reranked_statutes[:top_k_statutes],
+            "statute_results": fused_statutes[:top_k_statutes],
             "judgment_results": reranked_judgments[:top_k_judgments],
         }
 
