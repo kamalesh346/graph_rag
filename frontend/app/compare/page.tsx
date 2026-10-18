@@ -18,15 +18,49 @@ import {
   type CompareResponse,
   type Provision,
   type Judgment,
+  type RelatedProvision,
 } from "@/lib/research-api";
 
 /* ------------------------------------------------------------------ */
 /*  Shared sub-components                                             */
 /* ------------------------------------------------------------------ */
 
-function ProvisionCard({ provision }: { provision: Provision }) {
+function RelatedProvisionCard({ rel }: { rel: RelatedProvision }) {
+  const [open, setOpen] = useState(false);
+  const preview = rel.excerpt.slice(0, 150);
+  return (
+    <div className="rounded-md border border-dashed bg-muted/40 p-3 text-xs space-y-1">
+      <div className="flex flex-wrap items-center gap-1.5">
+        <span className="rounded-full bg-muted px-2 py-0.5 font-medium">
+          {rel.act} §{rel.section}
+        </span>
+        <span className="font-medium text-foreground">{rel.title}</span>
+      </div>
+      <p className="leading-5 text-muted-foreground">
+        {open ? rel.excerpt : `${preview}${rel.excerpt.length > preview.length ? "…" : ""}`}
+      </p>
+      {rel.excerpt.length > preview.length && (
+        <button
+          className="text-primary underline-offset-2 hover:underline"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? "Show less" : "Show more"}
+        </button>
+      )}
+    </div>
+  );
+}
+
+function ProvisionCard({
+  provision,
+  hideRelated,
+}: {
+  provision: Provision;
+  hideRelated?: boolean;
+}) {
   const [expanded, setExpanded] = useState(false);
   const preview = provision.excerpt.slice(0, 200);
+  const detail = provision.related_provisions_detail ?? [];
 
   return (
     <Card>
@@ -55,18 +89,26 @@ function ProvisionCard({ provision }: { provision: Provision }) {
             {expanded ? "Less" : "More"}
           </Button>
         )}
-        {provision.related_provisions.length > 0 && (
-          <p className="text-xs text-muted-foreground">
-            <span className="font-medium">Related:</span>{" "}
-            {provision.related_provisions.join(", ")}
-          </p>
+        {!hideRelated && detail.length > 0 && (
+          <div className="space-y-2">
+            <p className="text-xs font-medium text-muted-foreground">Related sections</p>
+            {detail.map((rel) => (
+              <RelatedProvisionCard key={rel.id} rel={rel} />
+            ))}
+          </div>
         )}
       </CardContent>
     </Card>
   );
 }
 
-function JudgmentCard({ judgment }: { judgment: Judgment }) {
+function JudgmentCard({
+  judgment,
+  hideRelated,
+}: {
+  judgment: Judgment;
+  hideRelated?: boolean;
+}) {
   return (
     <Card>
       <CardContent className="space-y-2 p-4">
@@ -75,7 +117,7 @@ function JudgmentCard({ judgment }: { judgment: Judgment }) {
           {judgment.excerpt.slice(0, 300)}
           {judgment.excerpt.length > 300 ? "…" : ""}
         </p>
-        {judgment.related_sections.length > 0 && (
+        {!hideRelated && judgment.related_sections.length > 0 && (
           <p className="text-xs text-muted-foreground">
             Sections: {judgment.related_sections.join(", ")}
           </p>
@@ -92,12 +134,16 @@ function ResultPanel({
   provisions,
   judgments,
   accentClass,
+  hideRelated,
+  showJudgments = true,
 }: {
   label: string;
   icon: React.ReactNode;
   provisions: Provision[];
   judgments: Judgment[];
   accentClass: string;
+  hideRelated?: boolean;
+  showJudgments?: boolean;
 }) {
   return (
     <div className="space-y-4">
@@ -115,26 +161,36 @@ function ResultPanel({
         ) : (
           <div className="grid gap-3">
             {provisions.map((p) => (
-              <ProvisionCard key={`${p.act}-${p.section}`} provision={p} />
+              <ProvisionCard
+                key={`${p.act}-${p.section}`}
+                provision={p}
+                hideRelated={hideRelated}
+              />
             ))}
           </div>
         )}
       </div>
 
-      <div>
-        <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-          Judgments ({judgments.length})
-        </p>
-        {judgments.length === 0 ? (
-          <p className="text-sm text-muted-foreground">No judgments returned.</p>
-        ) : (
-          <div className="grid gap-3">
-            {judgments.map((j) => (
-              <JudgmentCard key={j.source_id} judgment={j} />
-            ))}
-          </div>
-        )}
-      </div>
+      {showJudgments && (
+        <div>
+          <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+            Judgments ({judgments.length})
+          </p>
+          {judgments.length === 0 ? (
+            <p className="text-sm text-muted-foreground">No judgments returned.</p>
+          ) : (
+            <div className="grid gap-3">
+              {judgments.map((j) => (
+                <JudgmentCard
+                  key={j.source_id}
+                  judgment={j}
+                  hideRelated={hideRelated}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -290,6 +346,8 @@ export default function ComparePage() {
               provisions={result.rag.provisions}
               judgments={result.rag.judgments}
               accentClass="text-blue-600"
+              hideRelated={true}
+              showJudgments={false}
             />
             <ResultPanel
               label="GraphRAG (vector + graph)"

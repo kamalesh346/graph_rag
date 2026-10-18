@@ -17,6 +17,7 @@ import sys
 from pathlib import Path
 from typing import Any, Literal
 
+import chromadb
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -32,6 +33,17 @@ if str(PROJECT_ROOT) not in sys.path:
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever          # noqa: E402
 from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
 from scripts.retrieval.plain_rag import PlainRAGRetriever                  # noqa: E402
+
+_chroma_client: chromadb.PersistentClient | None = None
+_statute_col = None
+
+def _get_statute_col():
+    """Lazy singleton for the ChromaDB statute collection."""
+    global _chroma_client, _statute_col
+    if _statute_col is None:
+        _chroma_client = chromadb.PersistentClient(path=str(CHROMA_DB_DIR))
+        _statute_col = _chroma_client.get_collection("legal_statute_chunks")
+    return _statute_col
 
 
 # ---------------------------------------------------------------------------
@@ -50,9 +62,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://10.10.119.57:3000",
+        "http://localhost:3002",
+        "http://127.0.0.1:3002",
+        "http://10.10.119.57:3002",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -99,20 +111,70 @@ def _title_from_text(text: str, fallback: str) -> str:
     return first_line[:160].strip(" -:") or fallback
 
 
+def _fetch_related_sections(section_ids: list[str]) -> list[dict[str, Any]]:
+    """
+    Given a list of 'ACT:SECTION' strings (e.g. 'IPC:302'), fetch their text
+    from ChromaDB by querying the 'section_id' metadata field.
+
+    We cannot use col.get(ids=...) because ChromaDB doc IDs use a different
+    format (e.g. 'IPC_302_SECTION_001') than the reference strings.
+    """
+    if not section_ids:
+        return []
+
+    col = _get_statute_col()
+    out: list[dict[str, Any]] = []
+
+    for sid in section_ids:
+        try:
+            res = col.get(
+                where={"section_id": sid},
+                include=["documents", "metadatas"],
+            )
+        except Exception:
+            continue
+
+        if not res or not res.get("ids"):
+            continue
+
+        # Take the first matching chunk
+        meta = (res.get("metadatas") or [[]])[0] or {}
+        text = ((res.get("documents") or [[]])[0]) or ""
+
+        # section_id is "ACT:SECTION" — derive act from it if metadata missing
+        raw_act, _, raw_sec = sid.partition(":")
+        act = meta.get("act") or meta.get("act_id") or raw_act
+        section = meta.get("section_number") or raw_sec
+        title = meta.get("title") or _title_from_text(text, sid)
+
+        out.append({
+            "id": sid,
+            "act": act,
+            "section": section,
+            "title": title,
+            "excerpt": text[:400],
+        })
+
+    return out
+
+
+
 def _provision_payload(item: dict[str, Any]) -> dict[str, Any]:
     metadata = item.get("metadata", {})
     section_id = str(item.get("section_id", ""))
     act, _, section_from_id = section_id.partition(":")
     text = str(item.get("text", ""))
-    related = _split_references(metadata.get("successor_references"))
-    related.extend(_split_references(metadata.get("predecessor_references")))
+    related_ids = _split_references(metadata.get("successor_references"))
+    related_ids.extend(_split_references(metadata.get("predecessor_references")))
+    related_ids = list(dict.fromkeys(related_ids))  # dedup, preserve order
 
     return {
         "act": item.get("act") or metadata.get("act") or metadata.get("act_id") or act,
         "section": item.get("section_number") or metadata.get("section_number") or section_from_id,
         "title": item.get("title") or metadata.get("title") or _title_from_text(text, section_id),
         "excerpt": text[:800],
-        "related_provisions": list(dict.fromkeys(related)),
+        "related_provisions": related_ids,
+        "related_provisions_detail": _fetch_related_sections(related_ids),
     }
 
 

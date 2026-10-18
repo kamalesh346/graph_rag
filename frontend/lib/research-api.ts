@@ -2,12 +2,21 @@
 // Shared types
 // ---------------------------------------------------------------------------
 
+export type RelatedProvision = {
+  id: string;
+  act: string;
+  section: string;
+  title: string;
+  excerpt: string;
+};
+
 export type Provision = {
   act: string;
   section: string;
   title: string;
   excerpt: string;
   related_provisions: string[];
+  related_provisions_detail: RelatedProvision[];
 };
 
 export type Judgment = {

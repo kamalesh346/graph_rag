@@ -5,11 +5,37 @@ import { AlertCircle, ChevronDown, FileText, LoaderCircle, Search } from "lucide
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
-import { research, type Provision, type ResearchResponse } from "@/lib/research-api";
+import { research, type Provision, type RelatedProvision, type ResearchResponse } from "@/lib/research-api";
+
+function RelatedProvisionCard({ rel }: { rel: RelatedProvision }) {
+  const [open, setOpen] = useState(false);
+  const preview = rel.excerpt.slice(0, 150);
+  return (
+    <div className="rounded-md border border-dashed bg-muted/40 p-3 text-xs space-y-1">
+      <div className="flex flex-wrap items-center gap-1.5">
+        <span className="rounded-full bg-muted px-2 py-0.5 font-medium">
+          {rel.act} §{rel.section}
+        </span>
+        <span className="font-medium">{rel.title}</span>
+      </div>
+      <p className="leading-5 text-muted-foreground">
+        {open ? rel.excerpt : `${preview}${rel.excerpt.length > preview.length ? "…" : ""}`}
+      </p>
+      {rel.excerpt.length > preview.length && (
+        <button
+          className="text-primary underline-offset-2 hover:underline"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? "Show less" : "Show more"}
+        </button>
+      )}
+    </div>
+  );
+}
 
 function ProvisionCard({ provision }: { provision: Provision }) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const hasRelatedProvision = provision.related_provisions.length > 0;
+  const detail = provision.related_provisions_detail ?? [];
   const preview = provision.excerpt.slice(0, 280);
 
   return (
@@ -26,9 +52,12 @@ function ProvisionCard({ provision }: { provision: Provision }) {
             {isExpanded ? "Hide section text" : "Read section text"}
           </Button>
         )}
-        {hasRelatedProvision && (
-          <div className="rounded-lg bg-muted/70 p-3 text-sm">
-            <p><span className="font-medium">Related provision:</span> {provision.related_provisions.join(", ")}</p>
+        {detail.length > 0 && (
+          <div className="space-y-2">
+            <p className="text-xs font-medium text-muted-foreground">Related sections</p>
+            {detail.map((rel) => (
+              <RelatedProvisionCard key={rel.id} rel={rel} />
+            ))}
           </div>
         )}
       </CardContent>
