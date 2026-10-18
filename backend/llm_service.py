@@ -167,9 +167,11 @@ def _validate(raw: dict[str, Any], valid_ids: set[str]) -> AskResult:
 def _call_gemini(user_msg: str) -> dict[str, Any]:
     from google import genai
     from google.genai import types
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    api_key = os.getenv("GEMINI_API_KEY", GEMINI_API_KEY)
+    model   = os.getenv("LLM_GEMINI_MODEL", GEMINI_MODEL)
+    client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
-        model=GEMINI_MODEL,
+        model=model,
         contents=user_msg,
         config=types.GenerateContentConfig(
             system_instruction=_SYSTEM_PROMPT,
@@ -182,9 +184,10 @@ def _call_gemini(user_msg: str) -> dict[str, Any]:
 
 def _call_groq(user_msg: str) -> dict[str, Any]:
     from groq import Groq
-    client = Groq(api_key=GROQ_API_KEY)
+    model  = os.getenv("LLM_GROQ_MODEL", GROQ_MODEL)
+    client = Groq(api_key=os.getenv("GROQ_API_KEY", GROQ_API_KEY))
     completion = client.chat.completions.create(
-        model=GROQ_MODEL,
+        model=model,
         messages=[
             {"role": "system", "content": _SYSTEM_PROMPT},
             {"role": "user",   "content": user_msg},
@@ -227,13 +230,17 @@ def generate_answer(
 
     user_msg = f"CONTEXT:\n{context}\n\nUSER QUERY:\n{query}\n\nRespond with JSON only."
 
-    providers = []
-    # Groq first (GPT-OSS 120B) — reliable fallback
-    if GROQ_API_KEY:
-        providers.append(("groq", _call_groq))
-    # Gemini as second option
-    if GEMINI_API_KEY:
-        providers.append(("gemini", _call_gemini))
+    # Re-read env at call time so server restart is not required after .env changes
+    primary = os.getenv("LLM_PRIMARY", "gemini").lower()
+
+    _all = [
+        ("gemini", _call_gemini, os.getenv("GEMINI_API_KEY", "")),
+        ("groq",   _call_groq,   os.getenv("GROQ_API_KEY",   "")),
+    ]
+    if primary == "groq":
+        _all = list(reversed(_all))
+
+    providers = [(name, fn) for name, fn, key in _all if key]
 
     last_error = "No LLM provider configured."
     for provider_name, call_fn in providers:
