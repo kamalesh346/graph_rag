@@ -348,53 +348,91 @@ export default function ResearchPage() {
           <AnswerCard result={displayed} />
 
           {/* Provisions */}
-          {displayed.provisions.length > 0 && (
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <BookOpen className="size-4 text-muted-foreground" />
-                <h2 className="text-base font-semibold">Statutory provisions</h2>
-                <span className="text-xs text-muted-foreground">
-                  ({displayed.provisions.length} retrieved
-                  {displayedCited.size > 0
-                    ? `, ${[...displayedCited].filter((id) =>
-                        displayed.provisions.some(
-                          (p) => `${p.act}:${p.section}` === id
-                        )
-                      ).length} cited`
-                    : ""}
-                  )
-                </span>
+          {displayed.provisions.length > 0 && (() => {
+            const cited    = displayed.provisions.filter((p) => displayedCited.has(`${p.act}:${p.section}`));
+            const uncited  = displayed.provisions.filter((p) => !displayedCited.has(`${p.act}:${p.section}`));
+            return (
+              <div className="space-y-3">
+                <div className="flex items-center gap-2">
+                  <BookOpen className="size-4 text-muted-foreground" />
+                  <h2 className="text-base font-semibold">Statutory provisions</h2>
+                  <span className="text-xs text-muted-foreground">
+                    ({cited.length} cited
+                    {uncited.length > 0 ? `, ${uncited.length} not cited` : ""})
+                  </span>
+                </div>
+
+                {/* Cited first */}
+                {cited.length > 0 && (
+                  <div className="grid gap-3">
+                    {cited.map((p) => (
+                      <ProvisionCard key={`${p.act}-${p.section}`} provision={p} cited={true} />
+                    ))}
+                  </div>
+                )}
+
+                {/* Uncited — collapsed disclosure */}
+                {uncited.length > 0 && (
+                  <details className="group">
+                    <summary className="cursor-pointer list-none">
+                      <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors">
+                        <ChevronDown className="size-3 transition-transform group-open:rotate-180" />
+                        {uncited.length} retrieved but not cited by the answer
+                      </span>
+                    </summary>
+                    <div className="mt-2 grid gap-3 opacity-60">
+                      {uncited.map((p) => (
+                        <ProvisionCard key={`${p.act}-${p.section}`} provision={p} cited={false} />
+                      ))}
+                    </div>
+                  </details>
+                )}
               </div>
-              <div className="grid gap-3">
-                {displayed.provisions.map((p) => (
-                  <ProvisionCard
-                    key={`${p.act}-${p.section}`}
-                    provision={p}
-                    cited={displayedCited.has(`${p.act}:${p.section}`)}
-                  />
-                ))}
-              </div>
-            </div>
-          )}
+            );
+          })()}
 
           {/* Judgments */}
-          {displayed.judgments.length > 0 && (
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <Gavel className="size-4 text-muted-foreground" />
-                <h2 className="text-base font-semibold">Supporting judgments</h2>
+          {displayed.judgments.length > 0 && (() => {
+            const cited   = displayed.judgments.filter((j) => displayedCited.has(j.source_id));
+            const uncited = displayed.judgments.filter((j) => !displayedCited.has(j.source_id));
+            return (
+              <div className="space-y-3">
+                <div className="flex items-center gap-2">
+                  <Gavel className="size-4 text-muted-foreground" />
+                  <h2 className="text-base font-semibold">Supporting judgments</h2>
+                  <span className="text-xs text-muted-foreground">
+                    ({cited.length} cited
+                    {uncited.length > 0 ? `, ${uncited.length} not cited` : ""})
+                  </span>
+                </div>
+
+                {cited.length > 0 && (
+                  <div className="grid gap-3 md:grid-cols-2">
+                    {cited.map((j) => (
+                      <JudgmentCard key={j.source_id} judgment={j} cited={true} />
+                    ))}
+                  </div>
+                )}
+
+                {uncited.length > 0 && (
+                  <details className="group">
+                    <summary className="cursor-pointer list-none">
+                      <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors">
+                        <ChevronDown className="size-3 transition-transform group-open:rotate-180" />
+                        {uncited.length} retrieved but not cited by the answer
+                      </span>
+                    </summary>
+                    <div className="mt-2 grid gap-3 md:grid-cols-2 opacity-60">
+                      {uncited.map((j) => (
+                        <JudgmentCard key={j.source_id} judgment={j} cited={false} />
+                      ))}
+                    </div>
+                  </details>
+                )}
               </div>
-              <div className="grid gap-3 md:grid-cols-2">
-                {displayed.judgments.map((j) => (
-                  <JudgmentCard
-                    key={j.source_id}
-                    judgment={j}
-                    cited={displayedCited.has(j.source_id)}
-                  />
-                ))}
-              </div>
-            </div>
-          )}
+            );
+          })()}
+
         </section>
       )}
 
