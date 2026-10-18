@@ -58,6 +58,31 @@ export type CompareResponse = {
 };
 
 // ---------------------------------------------------------------------------
+// Ask response  (POST /api/ask)  — Phase 7
+// ---------------------------------------------------------------------------
+
+export type AskResponse = {
+  query: string;
+  mode: string;
+  neo4j_available: boolean;
+  /** LLM-generated plain-language answer */
+  answer: string;
+  /** Validated source IDs — guaranteed to exist in provisions or judgments */
+  sources: string[];
+  /** Caveats and uncertainties noted by the LLM */
+  limitations: string[];
+  /** True when no retrieved sources were relevant to the query */
+  is_out_of_scope: boolean;
+  /** Which LLM provider generated this answer */
+  provider_used: string;
+  /** Full retrieved provision cards (for display) */
+  provisions: Provision[];
+  /** Full retrieved judgment cards (for display) */
+  judgments: Judgment[];
+};
+
+
+// ---------------------------------------------------------------------------
 // API base
 // ---------------------------------------------------------------------------
 
@@ -103,4 +128,9 @@ export function researchPlain(query: string): Promise<ResearchResponse> {
 /** Side-by-side comparison (Phase 6) — both modes in one call */
 export function researchCompare(query: string): Promise<CompareResponse> {
   return postJSON<CompareResponse>("/api/research/compare", { query });
+}
+
+/** Source-grounded Q&A (Phase 7) — GraphRAG retrieval + LLM synthesis */
+export function ask(query: string): Promise<AskResponse> {
+  return postJSON<AskResponse>("/api/ask", { query });
 }

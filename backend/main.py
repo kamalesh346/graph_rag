@@ -6,6 +6,7 @@ GET  /api/health          – liveness + store availability check
 POST /api/research        – GraphRAG retrieval  (Phase 3.5)
 POST /api/research/plain  – Plain-RAG baseline  (Phase 5, vector-only)
 POST /api/research/compare – Both modes in one call, with graph_additions diff
+POST /api/ask             – Source-grounded Q&A via LLM  (Phase 7)
 POST /api/trace           – Raw debug output (internal use only)
 """
 
@@ -33,6 +34,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever          # noqa: E402
 from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
 from scripts.retrieval.plain_rag import PlainRAGRetriever                  # noqa: E402
+from backend.llm_service import generate_answer                            # noqa: E402
 
 _chroma_client: chromadb.PersistentClient | None = None
 _statute_col = None
@@ -357,3 +359,57 @@ def trace(request: ResearchRequest) -> dict[str, Any]:
         if retriever:
             retriever.close()
     return {"query": query, "raw_result": result}
+
+
+@app.post("/api/ask")
+def ask(request: ResearchRequest) -> dict[str, Any]:
+    """
+    Phase 7 — Source-grounded Q&A.
+
+    Runs GraphRAG retrieval then passes retrieved provisions and judgments
+    to the LLM service.  Every cited source ID is validated against the
+    actual retrieved set — the LLM cannot invent citations.
+
+    Returns
+    -------
+    {
+      query, mode, neo4j_available,
+      answer, sources, limitations, is_out_of_scope,
+      provider_used,
+      provisions, judgments     ← full retrieved cards for display
+    }
+    """
+    query = request.query.strip()
+    if not query:
+        raise HTTPException(status_code=422, detail="Query must not be blank.")
+
+    retriever: GraphRAGHybridRetriever | None = None
+    try:
+        retriever = GraphRAGHybridRetriever()
+        neo4j_available = retriever.graph_retriever.is_connected()
+        result = retriever.search(query)
+    except Exception as error:
+        raise HTTPException(status_code=503, detail="Retrieval unavailable.") from error
+    finally:
+        if retriever:
+            retriever.close()
+
+    provisions = [_provision_payload(item) for item in result["statute_results"]]
+    judgments  = [_judgment_payload(item)  for item in result["judgment_results"]]
+
+    llm_result = generate_answer(query, provisions, judgments)
+
+    return {
+        "query":           query,
+        "mode":            "graphrag+llm",
+        "neo4j_available": neo4j_available,
+        # LLM answer fields
+        "answer":          llm_result.answer,
+        "sources":         llm_result.sources,          # validated IDs
+        "limitations":     llm_result.limitations,
+        "is_out_of_scope": llm_result.is_out_of_scope,
+        "provider_used":   llm_result.provider_used,
+        # Full retrieval cards for UI display
+        "provisions":      provisions,
+        "judgments":       judgments,
+    }
