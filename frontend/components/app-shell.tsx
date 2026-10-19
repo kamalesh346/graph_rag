@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, History, Scale, Search } from "lucide-react";
+import { BookOpen, FileSearch, History, Scale, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { href: "/research", label: "Research", icon: Search },
-  { href: "/compare", label: "Compare", icon: Scale },
-  { href: "/history", label: "History", icon: History }
+  { href: "/research",  label: "Research",     icon: Search },
+  { href: "/compare",   label: "Compare",      icon: Scale },
+  { href: "/fir",       label: "FIR Analysis", icon: FileSearch },
+  { href: "/history",   label: "History",      icon: History },
 ];
 
 export function AppShell({ children }: { children: React.ReactNode }) {

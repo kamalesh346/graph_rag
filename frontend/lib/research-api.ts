@@ -134,3 +134,52 @@ export function researchCompare(query: string): Promise<CompareResponse> {
 export function ask(query: string): Promise<AskResponse> {
   return postJSON<AskResponse>("/api/ask", { query });
 }
+
+// ---------------------------------------------------------------------------
+// FIR Analysis  (POST /api/fir)  — Phase 8
+// ---------------------------------------------------------------------------
+
+export type FirEntities = {
+  people: string[];
+  events: string[];
+  injury: string;
+  weapon: string;
+  location: string;
+  time: string;
+};
+
+export type FirCandidateProvision = {
+  /** e.g. "IPC:302" — guaranteed to exist in provisions[] */
+  source_id: string;
+  act: string;
+  section: string;
+  title: string;
+  /** One sentence with cautionary "may be relevant" language */
+  why_relevant: string;
+  /** Specific phrases from the FIR that raise this provision */
+  facts_from_fir: string[];
+  /** Ingredients or thresholds that cannot be determined from the FIR alone */
+  unclear_points: string[];
+  /** Supporting judgment source_id if matched, or null */
+  judgment_id: string | null;
+};
+
+export type FirResponse = {
+  neo4j_available: boolean;
+  entities: FirEntities;
+  candidate_provisions: FirCandidateProvision[];
+  is_out_of_scope: boolean;
+  provider_used: string;
+  /** Full retrieved provision cards — for statutory text display */
+  provisions: Provision[];
+  /** Full retrieved judgment cards — for supporting judgment display */
+  judgments: Judgment[];
+  error: string;
+  /** Number of provisions retrieved — 0 means retrieval failure, >0 means genuine no-match */
+  retrieval_count: number;
+};
+
+/** FIR legal analysis (Phase 8) — entity extraction + candidate provision matching */
+export function analyseFir(firText: string): Promise<FirResponse> {
+  return postJSON<FirResponse>("/api/fir", { fir_text: firText });
+}

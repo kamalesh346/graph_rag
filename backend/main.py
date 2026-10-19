@@ -7,11 +7,13 @@ POST /api/research        – GraphRAG retrieval  (Phase 3.5)
 POST /api/research/plain  – Plain-RAG baseline  (Phase 5, vector-only)
 POST /api/research/compare – Both modes in one call, with graph_additions diff
 POST /api/ask             – Source-grounded Q&A via LLM  (Phase 7)
+POST /api/fir             – FIR legal analysis  (Phase 8)
 POST /api/trace           – Raw debug output (internal use only)
 """
 
 from __future__ import annotations
 
+import logging
 import os
 import re
 import sys
@@ -35,6 +37,9 @@ from scripts.retrieval.graph_retriever import Neo4jGraphRetriever          # noq
 from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
 from scripts.retrieval.plain_rag import PlainRAGRetriever                  # noqa: E402
 from backend.llm_service import generate_answer                            # noqa: E402
+from backend.fir_service import analyse_fir                                # noqa: E402
+
+logger = logging.getLogger(__name__)
 
 _chroma_client: chromadb.PersistentClient | None = None
 _statute_col = None
@@ -64,6 +69,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://10.10.119.57:3000",
         "http://localhost:3002",
         "http://127.0.0.1:3002",
         "http://10.10.119.57:3002",
@@ -412,4 +420,64 @@ def ask(request: ResearchRequest) -> dict[str, Any]:
         # Full retrieval cards for UI display
         "provisions":      provisions,
         "judgments":       judgments,
+    }
+
+
+class FirRequest(BaseModel):
+    fir_text: str = Field(..., min_length=10, description="Raw FIR text to analyse.")
+
+
+@app.post("/api/fir")
+def fir_analysis(request: FirRequest) -> dict[str, Any]:
+    """
+    Phase 8 — FIR Legal Analysis.
+
+    Runs GraphRAG retrieval using the FIR text as the search query, then
+    calls fir_service to extract entities and match candidate provisions.
+    All cited source IDs are validated against the retrieved set.
+
+    FIR text is long and narrative — we retrieve more candidates (top_k=6)
+    than the default (3) so the LLM has a broader pool to match against.
+    """
+    fir_text = request.fir_text.strip()
+    if not fir_text:
+        raise HTTPException(status_code=422, detail="FIR text must not be blank.")
+
+    retriever: GraphRAGHybridRetriever | None = None
+    try:
+        retriever = GraphRAGHybridRetriever()
+        neo4j_available = retriever.graph_retriever.is_connected()
+        # FIR text is narrative — retrieve more candidates than the default
+        result = retriever.search(
+            fir_text[:800],          # cap to avoid token overload
+            top_k_statutes=6,        # wider net for FIR matching
+            top_k_judgments=4,
+        )
+    except Exception as error:
+        raise HTTPException(status_code=503, detail="Retrieval unavailable.") from error
+    finally:
+        if retriever:
+            retriever.close()
+
+    provisions = [_provision_payload(item) for item in result["statute_results"]]
+    judgments  = [_judgment_payload(item)  for item in result["judgment_results"]]
+
+    # Debug: log what retrieval returned before sending to LLM
+    prov_ids = [f"{p['act']}:{p['section']}" for p in provisions]
+    logger.info("FIR retrieval: %d provisions %s, %d judgments",
+                len(provisions), prov_ids, len(judgments))
+
+    fir_result = analyse_fir(fir_text, provisions, judgments)
+
+    return {
+        "neo4j_available":      neo4j_available,
+        "entities":             fir_result.entities,
+        "candidate_provisions": fir_result.candidate_provisions,
+        "is_out_of_scope":      fir_result.is_out_of_scope,
+        "provider_used":        fir_result.provider_used,
+        "provisions":           provisions,
+        "judgments":            judgments,
+        "error":                fir_result.error,
+        # Debug / transparency fields
+        "retrieval_count":      len(provisions),
     }
