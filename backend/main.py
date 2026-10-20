@@ -451,7 +451,7 @@ def fir_analysis(request: FirRequest) -> dict[str, Any]:
         # FIR text is narrative — retrieve more candidates than the default
         result = retriever.search(
             fir_text[:800],          # cap to avoid token overload
-            top_k_statutes=6,        # wider net for FIR matching
+            top_k_statutes=12,       # wider net: BNS + IPC both need room in top-k
             top_k_judgments=4,
         )
     except Exception as error:

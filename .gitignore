@@ -83,6 +83,7 @@ reports/
 benchmark.txt
 benchmark_modes.txt
 plan.txt
+query.txt
 
 # Test artifacts and build outputs
 .coverage

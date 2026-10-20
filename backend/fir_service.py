@@ -71,7 +71,32 @@ Your tasks:
 
 2. For each provision in CONTEXT that MAY be relevant, produce a candidate card.
    A provision is a candidate only if the FIR text describes facts that could
-   conceivably overlap with one or more ingredients of that provision.
+   conceivably overlap with one or more SUBSTANTIVE INGREDIENTS of that provision.
+
+   STRICT REJECTION RULES — exclude a provision if it:
+   a) Only describes INVESTIGATION PROCEDURE (e.g. how police must file a report,
+      how witnesses are examined, timelines for completing investigation).
+      Examples to ALWAYS reject: CrPC § 173, CrPC § 161, CrPC § 203,
+      BNSS § 193, BNSS § 180, BNSS § 351, and any section whose title contains
+      "Report of police officer", "Examination of witnesses by police",
+      "Dismissal of complaint", "Inquiry", or "Investigation procedure".
+   b) Defines a GENERAL CONCEPT without creating a substantive offence.
+   c) Is about EVIDENCE RULES that apply only at trial (unless the FIR explicitly
+      involves an evidence-tampering allegation).
+
+   In short: only include sections that define or punish the SPECIFIC OFFENCE
+   described in the FIR.
+
+   LAW APPLICABILITY — mandatory rule:
+   The Bharatiya Nyaya Sanhita (BNS) replaced the Indian Penal Code (IPC) on 1 July 2024.
+   The BNSS replaced CrPC, and the BSA replaced IEA on the same date.
+   - For any FIR dated ON OR AFTER 1 July 2024: BNS / BNSS / BSA are the applicable laws.
+   - If CONTEXT contains BOTH a BNS section AND an IPC section covering the same offence,
+     include ONLY the BNS section as a candidate provision.
+   - You may mention the IPC predecessor only in the "why_relevant" text as background,
+     but do NOT create a separate candidate card for it.
+   - Include an IPC / CrPC / IEA section as a candidate ONLY if no BNS / BNSS / BSA
+     equivalent is present anywhere in CONTEXT (i.e., a KB gap).
 
 3. For each candidate, clearly separate:
    - facts_from_fir: specific phrases or facts from the FIR that raise this provision
@@ -82,7 +107,8 @@ Language rules — strictly enforced:
 - NEVER write "the offence is established", "the accused is guilty", or anything definitive.
 - ALWAYS use: "may be relevant", "alleged", "if the facts alleged are proved",
   "based on the FIR text", "cannot be determined from the FIR alone".
-- If no provision is relevant, set is_out_of_scope to true.
+- If no SUBSTANTIVE provision is relevant, set is_out_of_scope to true and
+  candidate_provisions to [].
 - The candidate_provisions list must contain ONLY source IDs present in CONTEXT.
 
 Return ONLY valid JSON — no markdown, no prose:
@@ -149,6 +175,107 @@ def _build_context(provisions: list[dict], judgments: list[dict]) -> tuple[str, 
     return "\n".join(lines), valid_ids
 
 
+# ---------------------------------------------------------------------------
+# Procedural section blocklist — never valid as a substantive offence provision
+# ---------------------------------------------------------------------------
+
+# These sections define investigation procedure, not offences.
+# The LLM is instructed to reject them via the system prompt; this filter is
+# a hard safety net in case the LLM still includes them.
+_PROCEDURAL_SECTION_IDS: set[str] = {
+    # CrPC — investigation procedure
+    "CrPC:154", "CrPC:155", "CrPC:156", "CrPC:157", "CrPC:158",
+    "CrPC:159", "CrPC:160", "CrPC:161", "CrPC:162", "CrPC:163",
+    "CrPC:164", "CrPC:167", "CrPC:168", "CrPC:169", "CrPC:170",
+    "CrPC:172", "CrPC:173", "CrPC:174", "CrPC:175", "CrPC:176",
+    "CrPC:200", "CrPC:202", "CrPC:203", "CrPC:204",
+    # BNSS — investigation procedure (new code)
+    "BNSS:173", "BNSS:174", "BNSS:175", "BNSS:176", "BNSS:177",
+    "BNSS:178", "BNSS:179", "BNSS:180", "BNSS:181", "BNSS:182",
+    "BNSS:190", "BNSS:191", "BNSS:192", "BNSS:193", "BNSS:194",
+    "BNSS:195", "BNSS:220", "BNSS:221", "BNSS:351",
+}
+
+_PROCEDURAL_TITLE_KEYWORDS: tuple[str, ...] = (
+    "report of police officer",
+    "examination of witnesses by police",
+    "dismissal of complaint",
+    "completion of investigation",
+    "inquest",
+    "inquiry by magistrate",
+    "power to examine",
+    "recording of confessions",
+    "statements to police",
+)
+
+
+def _filter_procedural(candidates: list[dict], provisions: list[dict]) -> list[dict]:
+    """
+    Hard post-LLM filter: remove any candidate whose source_id or title
+    identifies it as a pure investigation-procedure section.
+    """
+    prov_map = {f"{p.get('act','')}:{p.get('section','')}": p for p in provisions}
+    kept: list[dict] = []
+    for c in candidates:
+        sid = str(c.get("source_id", ""))
+        if sid in _PROCEDURAL_SECTION_IDS:
+            logger.info("FIR: DROPPED procedural section %s (blocklist)", sid)
+            continue
+        title = (c.get("title") or prov_map.get(sid, {}).get("title", "")).lower()
+        if any(kw in title for kw in _PROCEDURAL_TITLE_KEYWORDS):
+            logger.info("FIR: DROPPED procedural section %s (title match: %r)", sid, title)
+            continue
+        kept.append(c)
+    if len(kept) < len(candidates):
+        logger.info(
+            "FIR procedural filter: %d removed, %d kept",
+            len(candidates) - len(kept), len(kept),
+        )
+    return kept
+
+
+# Superseded acts — applicable before 1 July 2024 only
+_SUPERSEDED_ACTS: frozenset[str] = frozenset({"IPC", "CrPC", "IEA"})
+# Current acts — applicable on/after 1 July 2024
+_CURRENT_ACTS: frozenset[str] = frozenset({"BNS", "BNSS", "BSA"})
+
+
+def _prefer_bns_over_ipc(candidates: list[dict]) -> list[dict]:
+    """
+    Post-LLM law-applicability filter.
+
+    Rule: If the candidate list contains at least one BNS / BNSS / BSA section,
+    drop all IPC / CrPC / IEA sections — they are superseded for FIRs from 2024+.
+
+    Fallback: if ONLY IPC / CrPC / IEA sections exist (no BNS equivalent was
+    retrieved), keep them and log the KB gap.
+    """
+    has_current    = any(c.get("act", "").upper() in _CURRENT_ACTS    for c in candidates)
+    has_superseded = any(c.get("act", "").upper() in _SUPERSEDED_ACTS for c in candidates)
+
+    if not has_current:
+        # No BNS/BNSS/BSA in candidates — KB gap; keep IPC as-is
+        if has_superseded:
+            logger.info(
+                "FIR law-pref: no BNS/BNSS/BSA candidates — keeping %d IPC/CrPC/IEA "
+                "as KB-gap fallback", len(candidates)
+            )
+        return candidates
+
+    # BNS present — drop superseded acts
+    kept    = [c for c in candidates if c.get("act", "").upper() not in _SUPERSEDED_ACTS]
+    dropped = [c for c in candidates if c.get("act", "").upper() in _SUPERSEDED_ACTS]
+    if dropped:
+        logger.info(
+            "FIR law-pref: dropped %d superseded IPC/CrPC/IEA candidate(s) %s; "
+            "kept %d BNS/BNSS/BSA candidate(s)",
+            len(dropped),
+            [c.get("source_id") for c in dropped],
+            len(kept),
+        )
+    return kept
+
+
 def _validate_candidates(
     candidates: list[dict],
     valid_ids: set[str],
@@ -175,7 +302,7 @@ def _validate_candidates(
         jid = c.get("judgment_id")
         if jid and jid not in judg_map:
             logger.warning("FIR: stripped hallucinated judgment_id=%r from candidate %s", jid, sid)
-            c["judgment_id"] = None  # hallucinated judgment ref — remove
+            c["judgment_id"] = None
         logger.debug("FIR: ACCEPTED candidate source_id=%r why=%s",
                      sid, str(c.get('why_relevant', ''))[:80])
         out.append(c)
@@ -296,12 +423,19 @@ def analyse_fir(
                                  i, c.get('source_id'), str(c.get('why_relevant',''))[:80])
 
                 # Validate all cited source IDs
-                validated  = _validate_candidates(candidates, valid_ids, provisions, judgments)
+                validated = _validate_candidates(candidates, valid_ids, provisions, judgments)
+
+                # Hard filter: drop procedural sections the LLM should not have included
+                validated = _filter_procedural(validated, provisions)
+
+                # Law-applicability filter: prefer BNS/BNSS/BSA over superseded IPC/CrPC/IEA
+                validated = _prefer_bns_over_ipc(validated)
 
                 if not validated and not is_oos:
                     logger.warning(
-                        "FIR: all %d candidates rejected and LLM said is_out_of_scope=False — "
-                        "overriding to is_out_of_scope=True (retrieval_count=%d)",
+                        "FIR: all %d candidates rejected (after procedural + law-pref filters) "
+                        "and LLM said is_out_of_scope=False — overriding to is_out_of_scope=True "
+                        "(retrieval_count=%d)",
                         len(candidates), len(provisions),
                     )
                     is_oos = True
