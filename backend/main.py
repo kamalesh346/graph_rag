@@ -38,6 +38,7 @@ from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetri
 from scripts.retrieval.plain_rag import PlainRAGRetriever                  # noqa: E402
 from backend.llm_service import generate_answer                            # noqa: E402
 from backend.fir_service import analyse_fir                                # noqa: E402
+from backend import admin_service                                           # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -69,9 +70,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://10.10.119.57:3000",
+        "http://localhost:3001",
+        "http://127.0.0.1:3001",
+        "http://10.10.119.57:3001",
         "http://localhost:3002",
         "http://127.0.0.1:3002",
         "http://10.10.119.57:3002",
@@ -481,3 +482,86 @@ def fir_analysis(request: FirRequest) -> dict[str, Any]:
         # Debug / transparency fields
         "retrieval_count":      len(provisions),
     }
+
+
+# ===========================================================================
+# Admin endpoints — knowledge-base management
+# ===========================================================================
+
+class StatuteUploadRequest(BaseModel):
+    act:          str = Field(..., description="Act code, e.g. BNS, IPC")
+    section:      str = Field(..., description="Section number, e.g. 115")
+    title:        str = Field(..., description="Short title of the section")
+    text:         str = Field(..., description="Full section text")
+    predecessor:  str = Field("",  description="Old-law equivalent, e.g. IPC:323")
+    successor:    str = Field("",  description="New-law equivalent, e.g. BNS:115")
+    overwrite:    bool = Field(False, description="Replace if already indexed")
+
+
+class JudgmentUploadRequest(BaseModel):
+    case_id:   str  = Field(..., description="Unique case identifier, e.g. 2025 INSC 123")
+    text:      str  = Field(..., description="Full judgment text")
+    overwrite: bool = Field(False, description="Replace if already indexed")
+
+
+@app.get("/api/admin/stats")
+def admin_stats() -> dict[str, Any]:
+    """Return current knowledge-base document counts."""
+    return admin_service.get_stats()
+
+
+@app.get("/api/admin/check/statute/{act}/{section}")
+def admin_check_statute(act: str, section: str) -> dict[str, Any]:
+    """Check whether a statute section is already indexed."""
+    exists = admin_service.statute_exists(act.upper(), section)
+    return {
+        "section_id": f"{act.upper()}:{section}",
+        "exists":     exists,
+    }
+
+
+@app.get("/api/admin/check/judgment/{case_id:path}")
+def admin_check_judgment(case_id: str) -> dict[str, Any]:
+    """Check whether a judgment is already indexed."""
+    exists = admin_service.judgment_exists(case_id)
+    return {"case_id": case_id, "exists": exists}
+
+
+@app.post("/api/admin/statute")
+def admin_upload_statute(request: StatuteUploadRequest) -> dict[str, Any]:
+    """Index a statute section into ChromaDB + JSONL + Neo4j."""
+    try:
+        return admin_service.ingest_statute(
+            act=request.act,
+            section=request.section,
+            title=request.title,
+            text=request.text,
+            predecessor=request.predecessor,
+            successor=request.successor,
+            overwrite=request.overwrite,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.exception("admin statute upload failed")
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@app.post("/api/admin/judgment")
+def admin_upload_judgment(request: JudgmentUploadRequest) -> dict[str, Any]:
+    """Chunk, embed, and index a judgment into ChromaDB + JSONL + Neo4j."""
+    try:
+        return admin_service.ingest_judgment(
+            case_id=request.case_id,
+            text=request.text,
+            overwrite=request.overwrite,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.exception("admin judgment upload failed")
+        raise HTTPException(status_code=500, detail=str(exc)) from exc

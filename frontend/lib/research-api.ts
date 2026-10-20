@@ -111,6 +111,20 @@ async function postJSON<T>(path: string, body: Record<string, unknown>): Promise
   return response.json() as Promise<T>;
 }
 
+async function getJSON<T>(path: string): Promise<T> {
+  const response = await fetch(`${apiBaseUrl}${path}`, {
+    method: "GET",
+    headers: { "Content-Type": "application/json" },
+  });
+
+  if (!response.ok) {
+    const detail = await response.json().catch(() => null);
+    throw new Error(detail?.detail || "Request failed. Please try again.");
+  }
+
+  return response.json() as Promise<T>;
+}
+
 // ---------------------------------------------------------------------------
 // Public API functions
 // ---------------------------------------------------------------------------
@@ -182,4 +196,72 @@ export type FirResponse = {
 /** FIR legal analysis (Phase 8) — entity extraction + candidate provision matching */
 export function analyseFir(firText: string): Promise<FirResponse> {
   return postJSON<FirResponse>("/api/fir", { fir_text: firText });
+}
+
+// ---------------------------------------------------------------------------
+// Admin API — knowledge-base management
+// ---------------------------------------------------------------------------
+
+export type KbStats = {
+  statute_sections: number;
+  judgment_chunks:  number;
+};
+
+export type CheckResult = {
+  section_id?: string;
+  case_id?:    string;
+  exists:      boolean;
+};
+
+export type StatuteUploadResult = {
+  chunk_id:      string;
+  section_id:    string;
+  indexed:       boolean;
+  overwritten:   boolean;
+  neo4j_updated: boolean;
+};
+
+export type JudgmentUploadResult = {
+  case_id:        string;
+  chunks_created: number;
+  indexed:        boolean;
+  overwritten:    boolean;
+  neo4j_updated:  boolean;
+};
+
+export function getAdminStats(): Promise<KbStats> {
+  return getJSON<KbStats>("/api/admin/stats");
+}
+
+export function checkStatuteExists(act: string, section: string): Promise<CheckResult> {
+  return getJSON<CheckResult>(`/api/admin/check/statute/${encodeURIComponent(act)}/${encodeURIComponent(section)}`);
+}
+
+export function checkJudgmentExists(caseId: string): Promise<CheckResult> {
+  return getJSON<CheckResult>(`/api/admin/check/judgment/${encodeURIComponent(caseId)}`);
+}
+
+export function uploadStatute(payload: {
+  act: string; section: string; title: string; text: string;
+  predecessor?: string; successor?: string; overwrite?: boolean;
+}): Promise<StatuteUploadResult> {
+  return postJSON<StatuteUploadResult>("/api/admin/statute", {
+    act:         payload.act,
+    section:     payload.section,
+    title:       payload.title,
+    text:        payload.text,
+    predecessor: payload.predecessor ?? "",
+    successor:   payload.successor  ?? "",
+    overwrite:   payload.overwrite  ?? false,
+  });
+}
+
+export function uploadJudgment(payload: {
+  case_id: string; text: string; overwrite?: boolean;
+}): Promise<JudgmentUploadResult> {
+  return postJSON<JudgmentUploadResult>("/api/admin/judgment", {
+    case_id:  payload.case_id,
+    text:     payload.text,
+    overwrite: payload.overwrite ?? false,
+  });
 }

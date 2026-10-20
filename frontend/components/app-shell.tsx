@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, FileSearch, History, Scale, Search } from "lucide-react";
+import { BookOpen, FileSearch, History, Scale, Search, ShieldCheck } from "lucide-react";
+
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -10,7 +11,9 @@ const navItems = [
   { href: "/compare",   label: "Compare",      icon: Scale },
   { href: "/fir",       label: "FIR Analysis", icon: FileSearch },
   { href: "/history",   label: "History",      icon: History },
+  { href: "/admin",     label: "Admin",        icon: ShieldCheck },
 ];
+
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
