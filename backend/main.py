@@ -72,6 +72,17 @@ def _get_statute_col():
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     start_keep_alive()
+    # Warm-start: preload embedding model and Qdrant client so the
+    # first real request is not slow (model load takes ~20-40s otherwise).
+    try:
+        import asyncio
+        from scripts.retrieval.hybrid_reranker import _get_embed_model, _qdrant_client
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(None, _get_embed_model)
+        await loop.run_in_executor(None, _qdrant_client)
+        logger.info("Startup: embedding model and Qdrant client preloaded.")
+    except Exception as exc:
+        logger.warning("Startup warm-start failed (non-fatal): %s", exc)
     yield
 
 # ---------------------------------------------------------------------------
