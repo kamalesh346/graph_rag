@@ -24,21 +24,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
+
+from scripts.retrieval.embedder import embed_query
 
 STATUTE_COLLECTION  = "legal_statute_chunks"
 JUDGMENT_COLLECTION = "legal_judgment_chunks"
-EMBED_MODEL         = "all-MiniLM-L6-v2"
-
-_embed_model: SentenceTransformer | None = None
-
-
-def _get_embed_model() -> SentenceTransformer:
-    global _embed_model
-    if _embed_model is None:
-        _embed_model = SentenceTransformer(EMBED_MODEL)
-    return _embed_model
 
 
 def _qdrant_client() -> QdrantClient:
@@ -61,7 +52,6 @@ class PlainRAGRetriever:
 
     def __init__(self) -> None:
         self._qdrant = _qdrant_client()
-        self._embed  = _get_embed_model()
 
         existing = {c.name for c in self._qdrant.get_collections().collections}
         if STATUTE_COLLECTION not in existing:
@@ -81,7 +71,7 @@ class PlainRAGRetriever:
         top_k_judgments: int = 3,
     ) -> Dict[str, Any]:
         """Return statute and judgment results using pure vector similarity."""
-        query_vector = self._embed.encode(query).tolist()
+        query_vector = embed_query(query)
 
         statute_results  = self._query_statutes(query_vector, top_k=top_k_statutes)
         judgment_results = self._query_judgments(query_vector, top_k=top_k_judgments)

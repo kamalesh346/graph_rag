@@ -23,26 +23,16 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from typing import Any, Dict, List, Optional, Set
 
-from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 from scripts.retrieval.query_parser import LegalQueryParser
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever
 from scripts.retrieval.fusion import fuse_candidates
+from scripts.retrieval.embedder import embed_query
 
 STATUTE_COLLECTION  = "legal_statute_chunks"
 JUDGMENT_COLLECTION = "legal_judgment_chunks"
-EMBED_MODEL         = "all-MiniLM-L6-v2"
-
-# ── Shared embedding model (loaded once per process) ──────────────────────────
-_embed_model: SentenceTransformer | None = None
-
-def _get_embed_model() -> SentenceTransformer:
-    global _embed_model
-    if _embed_model is None:
-        _embed_model = SentenceTransformer(EMBED_MODEL)
-    return _embed_model
 
 
 def _qdrant_client() -> QdrantClient:
@@ -107,10 +97,9 @@ class GraphRAGHybridRetriever:
     """Integrated GraphRAG Hybrid Search Engine — Qdrant Cloud vector store."""
 
     def __init__(self):
-        self.parser         = LegalQueryParser()
+        self.parser          = LegalQueryParser()
         self.graph_retriever = Neo4jGraphRetriever()
-        self._qdrant        = _qdrant_client()
-        self._embed         = _get_embed_model()
+        self._qdrant         = _qdrant_client()
 
         # Confirm collections are reachable (read-only check)
         existing = {c.name for c in self._qdrant.get_collections().collections}
@@ -155,7 +144,7 @@ class GraphRAGHybridRetriever:
         corresponds_secs = set(graph_expansion["corresponds_to"])
 
         # ── Statute vector search ─────────────────────────────────────────────
-        query_vector     = self._embed.encode(query).tolist()
+        query_vector     = embed_query(query)
         n_fetch_statutes = max(10, top_k_statutes * 3)
 
         s_results = self._qdrant.query_points(
