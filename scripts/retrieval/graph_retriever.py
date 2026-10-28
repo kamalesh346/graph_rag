@@ -38,12 +38,18 @@ class Neo4jGraphRetriever:
     def _connect(self):
         try:
             from neo4j import GraphDatabase
-            driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+            
+            driver = GraphDatabase.driver(
+                NEO4J_URI,
+                auth=(NEO4J_USER, NEO4J_PASSWORD)
+            )
             driver.verify_connectivity()
             self.driver = driver
+            print("Neo4j graph retriever connected successfully.")
+        
         except Exception as e:
-            # Gracefully set driver to None if Neo4j is unavailable
             self.driver = None
+            print(f"Neo4j graph retriever connection failed: {type(e).__name__}:{e}")
 
     def is_connected(self) -> bool:
         return self.driver is not None
