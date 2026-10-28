@@ -19,10 +19,12 @@ import re
 import sys
 from pathlib import Path
 from typing import Any, Literal
+from contextlib import asynccontextmanager
+from keep_alive import start_keep_alive
 
 import chromadb
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -40,7 +42,22 @@ from backend.llm_service import generate_answer                            # noq
 from backend.fir_service import analyse_fir                                # noqa: E402
 from backend import admin_service                                           # noqa: E402
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+)
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Runtime configuration helpers
+# ---------------------------------------------------------------------------
+
+_ENV = os.getenv("APP_ENV", "development").lower()
+_IS_PRODUCTION = _ENV == "production"
+
+# TRACE_TOKEN: when set, /api/trace requires an `X-Trace-Token` header matching
+# this value. Leave unset in development to allow unauthenticated access.
+_TRACE_TOKEN: str = os.getenv("TRACE_TOKEN", "")
 
 _chroma_client: chromadb.PersistentClient | None = None
 _statute_col = None
@@ -53,6 +70,10 @@ def _get_statute_col():
         _statute_col = _chroma_client.get_collection("legal_statute_chunks")
     return _statute_col
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    start_keep_alive()
+    yield
 
 # ---------------------------------------------------------------------------
 # App setup
@@ -65,18 +86,37 @@ app = FastAPI(
         "Retrieves relevant statutory provisions and judgment sources. "
         "Supports plain-RAG (vector-only) and GraphRAG (vector + graph) modes."
     ),
+    lifespan=lifespan,
 )
+
+# ---------------------------------------------------------------------------
+# CORS
+# ---------------------------------------------------------------------------
+# Set FRONTEND_ORIGINS in .env as a comma-separated list of allowed origins.
+# Example (production):  FRONTEND_ORIGINS=https://my-app.vercel.app
+# Example (development): FRONTEND_ORIGINS=http://localhost:3000,http://localhost:3002
+#
+# The local-dev origins below are always included so that development works
+# without requiring an .env change.
+# ---------------------------------------------------------------------------
+
+_LOCAL_DEV_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:3002",
+    "http://127.0.0.1:3002",
+]
+
+_env_origins_raw: str = os.getenv("FRONTEND_ORIGINS", "")
+_env_origins: list[str] = [
+    o.strip() for o in _env_origins_raw.split(",") if o.strip()
+]
+# Merge env-configured origins with always-on local dev origins (dedup)
+_allowed_origins: list[str] = list(dict.fromkeys(_LOCAL_DEV_ORIGINS + _env_origins))
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://10.10.119.57:3000",
-        "http://localhost:3002",
-        "http://127.0.0.1:3002",
-        "http://10.10.119.57:3002",
-    ],
+    allow_origins=_allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -213,6 +253,10 @@ def _section_ids(provisions: list[dict[str, Any]]) -> set[str]:
 # Endpoints
 # ---------------------------------------------------------------------------
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 @app.get("/api/health")
 def health() -> dict[str, Any]:
     """Liveness check — reports ChromaDB and Neo4j availability."""
@@ -240,6 +284,8 @@ def research_graphrag(request: ResearchRequest) -> dict[str, Any]:
         raise HTTPException(status_code=422, detail="Query must not be blank.")
 
     retriever: GraphRAGHybridRetriever | None = None
+    neo4j_available: bool = False
+    result: dict[str, Any] = {}
     try:
         retriever = GraphRAGHybridRetriever()
         neo4j_available = retriever.graph_retriever.is_connected()
@@ -355,8 +401,23 @@ def research_compare(request: ResearchRequest) -> dict[str, Any]:
 
 
 @app.post("/api/trace")
-def trace(request: ResearchRequest) -> dict[str, Any]:
-    """Raw debug output from the GraphRAG retriever (internal use only)."""
+def trace(
+    request: ResearchRequest,
+    x_trace_token: str | None = Header(default=None, alias="X-Trace-Token"),
+) -> dict[str, Any]:
+    """
+    Raw debug output from the GraphRAG retriever (internal use only).
+
+    Access control
+    --------------
+    Set TRACE_TOKEN in the backend environment to protect this endpoint.
+    When TRACE_TOKEN is set, the request must supply a matching
+    ``X-Trace-Token`` header; otherwise 403 is returned.
+    Leave TRACE_TOKEN unset in development for unauthenticated access.
+    """
+    if _TRACE_TOKEN and x_trace_token != _TRACE_TOKEN:
+        raise HTTPException(status_code=403, detail="Forbidden: valid X-Trace-Token header required.")
+
     query = request.query.strip()
     if not query:
         raise HTTPException(status_code=422, detail="Query must not be blank.")
@@ -364,6 +425,8 @@ def trace(request: ResearchRequest) -> dict[str, Any]:
     try:
         retriever = GraphRAGHybridRetriever()
         result = retriever.search(query)
+    except Exception as error:
+        raise HTTPException(status_code=503, detail="Trace retrieval unavailable.") from error
     finally:
         if retriever:
             retriever.close()

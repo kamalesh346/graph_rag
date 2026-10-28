@@ -42,6 +42,7 @@ frontend/coverage/
 frontend/playwright-report/
 frontend/test-results/
 frontend/*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
 
 # IDE & Editor settings
 .vscode/
@@ -69,6 +70,9 @@ chroma-wheels/
 .env
 .env.local
 .env.*.local
+# Keep .env.example files in Git (they contain only placeholders)
+!.env.example
+!frontend/.env.example
 
 # Temporary & scratch files
 tmp/
@@ -78,12 +82,19 @@ scratch/
 # notes 
 benchmark.txt
 plan.txt
+
 # Unnecessary files for this repo
 reports/
 benchmark.txt
 benchmark_modes.txt
 plan.txt
 query.txt
+
+# deploy test files ignored
+quadrant.py
+testqdrant.py
+aura.py
+backups/
 
 # Test artifacts and build outputs
 .coverage
