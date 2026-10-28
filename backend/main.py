@@ -22,7 +22,7 @@ from typing import Any, Literal
 from contextlib import asynccontextmanager
 from keep_alive import start_keep_alive
 
-import chromadb
+# chromadb removed — vector store is now Qdrant Cloud
 from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -36,7 +36,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever          # noqa: E402
-from scripts.retrieval.hybrid_reranker import CHROMA_DB_DIR, GraphRAGHybridRetriever  # noqa: E402
+from scripts.retrieval.hybrid_reranker import STATUTE_COLLECTION, GraphRAGHybridRetriever  # noqa: E402
 from scripts.retrieval.plain_rag import PlainRAGRetriever                  # noqa: E402
 from backend.llm_service import generate_answer                            # noqa: E402
 from backend.fir_service import analyse_fir                                # noqa: E402
@@ -59,16 +59,15 @@ _IS_PRODUCTION = _ENV == "production"
 # this value. Leave unset in development to allow unauthenticated access.
 _TRACE_TOKEN: str = os.getenv("TRACE_TOKEN", "")
 
-_chroma_client: chromadb.PersistentClient | None = None
-_statute_col = None
+_qdrant_statute_proxy = None
 
 def _get_statute_col():
-    """Lazy singleton for the ChromaDB statute collection."""
-    global _chroma_client, _statute_col
-    if _statute_col is None:
-        _chroma_client = chromadb.PersistentClient(path=str(CHROMA_DB_DIR))
-        _statute_col = _chroma_client.get_collection("legal_statute_chunks")
-    return _statute_col
+    """Lazy singleton — returns a Qdrant collection proxy with a .get() interface."""
+    global _qdrant_statute_proxy
+    if _qdrant_statute_proxy is None:
+        from scripts.retrieval.hybrid_reranker import _QdrantCollectionProxy, _qdrant_client
+        _qdrant_statute_proxy = _QdrantCollectionProxy(_qdrant_client(), STATUTE_COLLECTION)
+    return _qdrant_statute_proxy
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -269,16 +268,30 @@ def health():
     return {"status": "ok"}
 
 @app.get("/api/health")
-def health() -> dict[str, Any]:
-    """Liveness check — reports ChromaDB and Neo4j availability."""
+def api_health() -> dict[str, Any]:
+    """Liveness check — reports Qdrant Cloud and Neo4j availability."""
     graph = Neo4jGraphRetriever()
     neo4j_available = graph.is_connected()
     graph.close()
 
+    qdrant_available = False
+    try:
+        from qdrant_client import QdrantClient
+        qc = QdrantClient(
+            url=os.getenv("QDRANT_URL", ""),
+            port=443,
+            api_key=os.getenv("QDRANT_API_KEY", ""),
+            prefer_grpc=False,
+        )
+        cols = {c.name for c in qc.get_collections().collections}
+        qdrant_available = STATUTE_COLLECTION in cols
+    except Exception:
+        pass
+
     return {
-        "status": "ok" if CHROMA_DB_DIR.exists() else "unavailable",
-        "vector_store_available": CHROMA_DB_DIR.exists(),
-        "neo4j_available": neo4j_available,
+        "status":                "ok" if qdrant_available else "unavailable",
+        "vector_store_available": qdrant_available,
+        "neo4j_available":        neo4j_available,
     }
 
 

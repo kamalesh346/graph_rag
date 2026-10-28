@@ -1,5 +1,14 @@
-import sys
+"""
+scripts/retrieval/hybrid_reranker.py
 
+GraphRAG Hybrid Retriever — Qdrant Cloud edition.
+
+Vector store: Qdrant Cloud (was: local ChromaDB)
+Embedding  : all-MiniLM-L6-v2 via sentence-transformers (unchanged)
+All other logic (Neo4j, RRF fusion, metadata boosts) is unchanged.
+"""
+
+import sys
 import os
 from pathlib import Path
 
@@ -7,44 +16,121 @@ os.environ["USE_TF"] = "0"
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 os.environ["PYTHONNOUSERSITE"] = "1"
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT  = Path(__file__).resolve().parent.parent.parent
 RETRIEVAL_DIR = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set
 
-import chromadb
-from chromadb.utils import embedding_functions
+from sentence_transformers import SentenceTransformer
+from qdrant_client import QdrantClient
+from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 from scripts.retrieval.query_parser import LegalQueryParser
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever
 from scripts.retrieval.fusion import fuse_candidates
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-CHROMA_DB_DIR = PROJECT_ROOT / "data" / "chroma_db"
-STATUTE_COLLECTION = "legal_statute_chunks"
+STATUTE_COLLECTION  = "legal_statute_chunks"
 JUDGMENT_COLLECTION = "legal_judgment_chunks"
+EMBED_MODEL         = "all-MiniLM-L6-v2"
+
+# ── Shared embedding model (loaded once per process) ──────────────────────────
+_embed_model: SentenceTransformer | None = None
+
+def _get_embed_model() -> SentenceTransformer:
+    global _embed_model
+    if _embed_model is None:
+        _embed_model = SentenceTransformer(EMBED_MODEL)
+    return _embed_model
+
+
+def _qdrant_client() -> QdrantClient:
+    """Build a Qdrant Cloud client from environment variables."""
+    url = os.getenv("QDRANT_URL", "")
+    key = os.getenv("QDRANT_API_KEY", "")
+    if not url or not key:
+        raise RuntimeError(
+            "QDRANT_URL and QDRANT_API_KEY must be set in the environment."
+        )
+    return QdrantClient(url=url, port=443, api_key=key, prefer_grpc=False)
+
+
+def _qdrant_to_statute(point, rank_idx: int) -> Dict[str, Any]:
+    """Map a Qdrant ScoredPoint to the statute dict shape used by the pipeline."""
+    payload   = point.payload or {}
+    chunk_id  = payload.get("chunk_id", str(point.id))
+    section_id = payload.get("section_id") or payload.get("act_id", "")
+    # Qdrant score is cosine similarity (higher = better).
+    # Store 1 - score as vector_distance so existing display code works.
+    distance = round(1.0 - float(point.score), 6)
+    return {
+        "id":              chunk_id,
+        "section_id":      section_id,
+        "act":             payload.get("act_id") or payload.get("act"),
+        "section_number":  payload.get("section_number"),
+        "title":           payload.get("title"),
+        "text":            payload.get("text", ""),
+        "metadata":        payload,
+        "vector_distance": distance,
+        "vector_rank":     rank_idx + 1,
+        "type":            "statute",
+        "source":          "vector",
+    }
+
+
+def _qdrant_to_judgment(point, rank_idx: int, extracted_secs: List[str], rrf_k: int) -> Dict[str, Any]:
+    """Map a Qdrant ScoredPoint to the judgment dict shape used by the pipeline."""
+    payload  = point.payload or {}
+    chunk_id = payload.get("chunk_id", str(point.id))
+    ref_str  = str(payload.get("legal_references", ""))
+    distance = round(1.0 - float(point.score), 6)
+
+    sec_match_boost = sum(0.5 for sec in extracted_secs if sec in ref_str)
+    rrf_score = (1.0 / (rrf_k + rank_idx + 1)) + sec_match_boost
+
+    return {
+        "id":               chunk_id,
+        "case_id":          payload.get("case_id"),
+        "chunk_type":       payload.get("chunk_type"),
+        "legal_references": payload.get("legal_references"),
+        "text":             payload.get("text", ""),
+        "metadata":         payload,
+        "vector_distance":  distance,
+        "vector_rank":      rank_idx + 1,
+        "rrf_score":        round(rrf_score, 6),
+        "type":             "judgment",
+    }
 
 
 class GraphRAGHybridRetriever:
-    """Integrated GraphRAG Hybrid Search Engine combining Vector, Graph, & Metadata Boosts."""
+    """Integrated GraphRAG Hybrid Search Engine — Qdrant Cloud vector store."""
 
     def __init__(self):
-        self.parser = LegalQueryParser()
+        self.parser         = LegalQueryParser()
         self.graph_retriever = Neo4jGraphRetriever()
-        
-        # Initialize ChromaDB client
-        if not CHROMA_DB_DIR.exists():
-            raise FileNotFoundError(f"ChromaDB directory not found at {CHROMA_DB_DIR}")
+        self._qdrant        = _qdrant_client()
+        self._embed         = _get_embed_model()
 
-        self.chroma_client = chromadb.PersistentClient(path=str(CHROMA_DB_DIR))
-        self.statute_col = self.chroma_client.get_collection(name=STATUTE_COLLECTION)
-        
-        try:
-            self.judgment_col = self.chroma_client.get_collection(name=JUDGMENT_COLLECTION)
-        except Exception:
-            self.judgment_col = None
+        # Confirm collections are reachable (read-only check)
+        existing = {c.name for c in self._qdrant.get_collections().collections}
+        if STATUTE_COLLECTION not in existing:
+            raise RuntimeError(
+                f"Qdrant collection '{STATUTE_COLLECTION}' not found. "
+                "Run migrate_chroma_to_qdrant.py first."
+            )
+        self.judgment_col_available = JUDGMENT_COLLECTION in existing
+
+    # Public property kept for admin_service direct-lookup compatibility
+    @property
+    def vector_retriever(self):
+        """Compatibility shim: returns self so callers can access .statute_collection."""
+        return self
+
+    @property
+    def statute_collection(self):
+        """Compatibility shim for code that calls retriever.vector_retriever.statute_collection."""
+        return _QdrantCollectionProxy(self._qdrant, STATUTE_COLLECTION)
 
     def search(
         self,
@@ -54,55 +140,37 @@ class GraphRAGHybridRetriever:
         rrf_k: int = 60,
     ) -> Dict[str, Any]:
         """
-        Executes a GraphRAG hybrid retrieval workflow:
-        1. Parses legal entities and intent from query.
-        2. Traverses Neo4j knowledge graph for correspondence/references/concepts.
-        3. Queries ChromaDB for vector similarity candidates.
-        4. Applies metadata-boosting (exact section match boost) & RRF score fusion.
+        GraphRAG hybrid retrieval.
+        1. Parse legal query.
+        2. Neo4j graph expansion.
+        3. Qdrant vector search (statutes + judgments).
+        4. RRF fusion + metadata boosts.
         """
-        # 1. Parse Query
-        parsed = self.parser.parse(query)
+        parsed         = self.parser.parse(query)
         extracted_secs = parsed["extracted_sections"]
         primary_target = parsed["primary_target_section"]
 
-        # 2. Graph Traversal & Query Expansion
         graph_expansion = self.graph_retriever.expand_sections(extracted_secs)
-        all_graph_secs = set(graph_expansion["all_expanded_sections"])
+        all_graph_secs  = set(graph_expansion["all_expanded_sections"])
         corresponds_secs = set(graph_expansion["corresponds_to"])
 
-        # 3. Dense Vector Retrieval (Statutes)
-        raw_statute_candidates = []
+        # ── Statute vector search ─────────────────────────────────────────────
+        query_vector     = self._embed.encode(query).tolist()
         n_fetch_statutes = max(10, top_k_statutes * 3)
-        
-        s_res = self.statute_col.query(
-            query_texts=[query],
-            n_results=min(n_fetch_statutes, self.statute_col.count()),
-            include=["documents", "metadatas", "distances"]
+
+        s_results = self._qdrant.query_points(
+            collection_name=STATUTE_COLLECTION,
+            query=query_vector,
+            limit=n_fetch_statutes,
+            with_payload=True,
         )
 
-        if s_res and s_res["ids"] and s_res["ids"][0]:
-            s_ids = s_res["ids"][0]
-            s_docs = s_res["documents"][0]
-            s_metas = s_res["metadatas"][0]
-            s_dists = s_res["distances"][0]
+        raw_statute_candidates = [
+            _qdrant_to_statute(pt, idx)
+            for idx, pt in enumerate(s_results.points)
+        ]
 
-            for rank_idx in range(len(s_ids)):
-                sec_id = s_metas[rank_idx].get("section_id", s_ids[rank_idx])
-                raw_statute_candidates.append({
-                    "id": s_ids[rank_idx],
-                    "section_id": sec_id,
-                    "act": s_metas[rank_idx].get("act"),
-                    "section_number": s_metas[rank_idx].get("section_number"),
-                    "title": s_metas[rank_idx].get("title"),
-                    "text": s_docs[rank_idx],
-                    "metadata": s_metas[rank_idx],
-                    "vector_distance": s_dists[rank_idx],
-                    "vector_rank": rank_idx + 1,
-                                        "type": "statute",
-                    "source": "vector",
-                })
-
-        # 4. Rerank & Score Fusion for Statutes
+        # ── Rerank + RRF for statutes ─────────────────────────────────────────
         reranked_statutes = self._rerank_statutes(
             raw_statute_candidates,
             extracted_secs=extracted_secs,
@@ -112,73 +180,47 @@ class GraphRAGHybridRetriever:
             rrf_k=rrf_k,
         )
 
-        # 4b. Graph candidate generation and fusion
+        # ── Neo4j graph fusion ────────────────────────────────────────────────
         if self.graph_retriever.is_connected():
             anchors = self.graph_retriever.find_graph_anchors(query, parsed_query=parsed)
             graph_candidates = []
-            for cat, anchor_list in anchors.items():
+            for anchor_list in anchors.values():
                 for anchor in anchor_list:
                     traversal = self.graph_retriever.traverse_anchor(anchor)
                     graph_candidates.append({
-                        "statutes": traversal.get("statutes", set()),
-                        "judgments": traversal.get("judgments", set()),
+                        "statutes":    traversal.get("statutes", set()),
+                        "judgments":   traversal.get("judgments", set()),
                         "cited_cases": traversal.get("cited_cases", set()),
-                        "relevance": 0.0,
+                        "relevance":   0.0,
                     })
-            # Fuse vector and graph candidates (rule-based)
             fused_statutes = fuse_candidates(reranked_statutes, graph_candidates, query)
         else:
             fused_statutes = reranked_statutes
 
-        # 5. Dense Vector Retrieval (Judgments)
-        reranked_judgments = []
-        if self.judgment_col:
+        # ── Judgment vector search ────────────────────────────────────────────
+        reranked_judgments: List[Dict[str, Any]] = []
+        if self.judgment_col_available:
             try:
-                count_j = self.judgment_col.count()
-                if count_j > 0:
-                    n_fetch_judgments = max(10, top_k_judgments * 3)
-                    j_res = self.judgment_col.query(
-                        query_texts=[query],
-                        n_results=min(n_fetch_judgments, count_j),
-                        include=["documents", "metadatas", "distances"]
-                    )
-                    if j_res and j_res["ids"] and j_res["ids"][0]:
-                        j_ids = j_res["ids"][0]
-                        j_docs = j_res["documents"][0]
-                        j_metas = j_res["metadatas"][0]
-                        j_dists = j_res["distances"][0]
-
-                        for rank_idx in range(len(j_ids)):
-                            ref_str = str(j_metas[rank_idx].get("legal_references", ""))
-                            sec_match_boost = 0.0
-                            for sec in extracted_secs:
-                                if sec in ref_str:
-                                    sec_match_boost += 0.5
-
-                            rrf_score = (1.0 / (rrf_k + rank_idx + 1)) + sec_match_boost
-
-                            reranked_judgments.append({
-                                "id": j_ids[rank_idx],
-                                "case_id": j_metas[rank_idx].get("case_id"),
-                                "chunk_type": j_metas[rank_idx].get("chunk_type"),
-                                "legal_references": j_metas[rank_idx].get("legal_references"),
-                                "text": j_docs[rank_idx],
-                                "metadata": j_metas[rank_idx],
-                                "vector_distance": j_dists[rank_idx],
-                                "vector_rank": rank_idx + 1,
-                                "rrf_score": round(rrf_score, 6),
-                                "type": "judgment",
-                            })
-
-                        reranked_judgments.sort(key=lambda x: x["rrf_score"], reverse=True)
-            except Exception as e:
-                print(f"Warning: Judgment vector retrieval warning: {e}")
+                n_fetch_j = max(10, top_k_judgments * 3)
+                j_results = self._qdrant.query_points(
+                    collection_name=JUDGMENT_COLLECTION,
+                    query=query_vector,
+                    limit=n_fetch_j,
+                    with_payload=True,
+                )
+                reranked_judgments = [
+                    _qdrant_to_judgment(pt, idx, extracted_secs, rrf_k)
+                    for idx, pt in enumerate(j_results.points)
+                ]
+                reranked_judgments.sort(key=lambda x: x["rrf_score"], reverse=True)
+            except Exception as exc:
+                print(f"Warning: Judgment vector retrieval warning: {exc}")
 
         return {
-            "query": query,
-            "parsed_intent": parsed,
-            "graph_expansion": graph_expansion,
-            "statute_results": fused_statutes[:top_k_statutes],
+            "query":            query,
+            "parsed_intent":    parsed,
+            "graph_expansion":  graph_expansion,
+            "statute_results":  fused_statutes[:top_k_statutes],
             "judgment_results": reranked_judgments[:top_k_judgments],
         }
 
@@ -191,48 +233,94 @@ class GraphRAGHybridRetriever:
         all_graph_secs: Set[str],
         rrf_k: int,
     ) -> List[Dict[str, Any]]:
-        """
-        Calculates RRF score + Metadata boosts for statute candidate chunks.
-        """
+        """RRF score + metadata boosts — logic unchanged from ChromaDB version."""
         for item in candidates:
-            sec_id = item["section_id"]
+            sec_id   = item["section_id"]
             vec_rank = item["vector_rank"]
 
-            # Base RRF score from vector rank position
             base_rrf = 1.0 / (rrf_k + vec_rank)
+            boost    = 0.0
+            reasons  = []
 
-            # Metadata Boosts
-            boost = 0.0
-            boost_reasons = []
-
-            # 1. Primary Target Section Match (Major Boost)
             if primary_target and sec_id == primary_target:
                 boost += 2.0
-                boost_reasons.append(f"Exact Target Section Match ({sec_id})")
+                reasons.append(f"Exact Target Section Match ({sec_id})")
             elif sec_id in extracted_secs:
                 boost += 1.5
-                boost_reasons.append(f"Extracted Query Section Match ({sec_id})")
+                reasons.append(f"Extracted Query Section Match ({sec_id})")
 
-            # 2. Neo4j Act Correspondence Boost (e.g., BNS 101 matching IPC 300)
             if sec_id in corresponds_secs:
                 boost += 1.0
-                boost_reasons.append(f"Graph Act-Correspondence Match ({sec_id})")
+                reasons.append(f"Graph Act-Correspondence Match ({sec_id})")
             elif sec_id in all_graph_secs:
                 boost += 0.5
-                boost_reasons.append(f"Graph Related Section ({sec_id})")
+                reasons.append(f"Graph Related Section ({sec_id})")
 
-            final_score = base_rrf + boost
-            item["rrf_score"] = round(final_score, 6)
+            item["rrf_score"]    = round(base_rrf + boost, 6)
             item["boost_applied"] = round(boost, 4)
-            item["boost_reasons"] = boost_reasons
+            item["boost_reasons"] = reasons
 
-        # Sort candidate chunks by final fused score descending
         candidates.sort(key=lambda x: x["rrf_score"], reverse=True)
         return candidates
 
     def close(self):
         if self.graph_retriever:
             self.graph_retriever.close()
+
+
+class _QdrantCollectionProxy:
+    """
+    Minimal proxy that mimics the ChromaDB collection.get() interface
+    used by backend/main.py for direct section lookup by metadata filter.
+    """
+
+    def __init__(self, qdrant: QdrantClient, collection_name: str):
+        self._qdrant = qdrant
+        self._name   = collection_name
+
+    def get(self, where: dict, include: list | None = None) -> dict:
+        """
+        Emulates: col.get(where={"section_id": sid}, include=["documents","metadatas"])
+
+        Accepts ChromaDB-style `where` dict with either:
+          {"section_id": "BNS:115"}           — direct equality
+          {"section_id": {"$eq": "BNS:115"}}  — ChromaDB operator syntax
+        """
+        # Normalise filter value
+        field_filters = []
+        for key, val in where.items():
+            if isinstance(val, dict):
+                # ChromaDB operator syntax: {"$eq": "..."}
+                val = val.get("$eq", val.get("$in", [None])[0] if "$in" in val else None)
+            if val is not None:
+                field_filters.append(
+                    FieldCondition(key=key, match=MatchValue(value=val))
+                )
+
+        scroll_filter = Filter(must=field_filters) if field_filters else None
+
+        results, _ = self._qdrant.scroll(
+            collection_name=self._name,
+            scroll_filter=scroll_filter,
+            limit=1,
+            with_payload=True,
+            with_vectors=False,
+        )
+
+        if not results:
+            return {"ids": [], "documents": [[]], "metadatas": [{}]}
+
+        pt      = results[0]
+        payload = pt.payload or {}
+        text    = payload.get("text", "")
+        meta    = {k: v for k, v in payload.items() if k != "text"}
+
+        # Return shape compatible with what main.py expects from chroma col.get()
+        return {
+            "ids":       [payload.get("chunk_id", str(pt.id))],
+            "documents": [[text]],
+            "metadatas": [meta],
+        }
 
 
 if __name__ == "__main__":
@@ -248,11 +336,11 @@ if __name__ == "__main__":
         print(f"QUERY: '{q}'")
         print(f"Target Section Extracted: {res['parsed_intent']['extracted_sections']}")
         print(f"Graph Expansion         : {res['graph_expansion']['corresponds_to']}")
-        print(f"--------------------------------------------------")
         print("TOP RETRIEVED STATUTES:")
         for idx, s in enumerate(res["statute_results"]):
             print(
-                f"  #{idx+1} [{s['section_id']}] (Score: {s['rrf_score']} | Boost: {s['boost_applied']} | Dist: {s['vector_distance']:.4f})"
+                f"  #{idx+1} [{s['section_id']}] "
+                f"(Score: {s['rrf_score']} | Boost: {s['boost_applied']} | Dist: {s['vector_distance']:.4f})"
             )
             print(f"      Reasons: {s['boost_reasons']}")
             print(f"      Text   : {s['text'][:110]}...")

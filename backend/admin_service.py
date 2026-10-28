@@ -18,6 +18,7 @@ import json
 import logging
 import os
 import re
+import uuid
 from pathlib import Path
 from typing import Any
 
@@ -25,7 +26,6 @@ logger = logging.getLogger(__name__)
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 PROJECT_ROOT    = Path(__file__).resolve().parent.parent
-CHROMA_DB_DIR   = PROJECT_ROOT / "data" / "chroma_db"
 STATUTES_JSONL  = PROJECT_ROOT / "data" / "chunks" / "statutes" / "all_statute_chunks.jsonl"
 JUDGMENTS_JSONL = PROJECT_ROOT / "data" / "chunks" / "all_judgment_chunks.jsonl"
 
@@ -43,32 +43,35 @@ os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
 
 # ── Lazy singletons ────────────────────────────────────────────────────────
 
-_chroma_client = None
-_embed_fn      = None
+_qdrant_client = None
+_embed_model   = None
 
 
-def _get_chroma():
-    global _chroma_client, _embed_fn
-    if _chroma_client is None:
-        import chromadb
-        from chromadb.utils import embedding_functions
-        CHROMA_DB_DIR.mkdir(parents=True, exist_ok=True)
-        _chroma_client = chromadb.PersistentClient(path=str(CHROMA_DB_DIR))
-        _embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name=EMBED_MODEL
-        )
-    return _chroma_client, _embed_fn
+def _get_qdrant():
+    """Lazy Qdrant Cloud client."""
+    global _qdrant_client
+    if _qdrant_client is None:
+        from qdrant_client import QdrantClient
+        url = os.getenv("QDRANT_URL", "")
+        key = os.getenv("QDRANT_API_KEY", "")
+        if not url or not key:
+            raise RuntimeError("QDRANT_URL and QDRANT_API_KEY must be set.")
+        _qdrant_client = QdrantClient(url=url, port=443, api_key=key, prefer_grpc=False)
+    return _qdrant_client
 
 
-def _get_or_create_collection(name: str, description: str):
-    client, ef = _get_chroma()
-    try:
-        return client.get_collection(name=name, embedding_function=ef)
-    except Exception:
-        return client.create_collection(
-            name=name, embedding_function=ef,
-            metadata={"description": description},
-        )
+def _get_embed():
+    """Lazy sentence-transformers model."""
+    global _embed_model
+    if _embed_model is None:
+        from sentence_transformers import SentenceTransformer
+        _embed_model = SentenceTransformer(EMBED_MODEL)
+    return _embed_model
+
+
+def _chunk_id_to_uuid(chunk_id: str) -> str:
+    """Deterministic UUID5 — matches migrate_chroma_to_qdrant.py for consistent IDs."""
+    return str(uuid.uuid5(uuid.NAMESPACE_DNS, f"legal_graphrag.{chunk_id}"))
 
 
 def _neo4j_driver():
@@ -87,22 +90,34 @@ def _neo4j_driver():
 # ── Public helpers ─────────────────────────────────────────────────────────
 
 def statute_exists(act: str, section: str) -> bool:
-    """Return True if a statute section is already indexed in ChromaDB."""
-    chunk_id = _statute_chunk_id(act, section)
+    """Return True if a statute section is already indexed in Qdrant."""
+    from qdrant_client.models import Filter, FieldCondition, MatchValue
+    section_id = f"{act.strip().upper()}:{section.strip()}"
     try:
-        col = _get_or_create_collection(STATUTE_COLLECTION, "Canonical Statute Chunks")
-        result = col.get(ids=[chunk_id])
-        return bool(result and result.get("ids"))
+        results, _ = _get_qdrant().scroll(
+            collection_name=STATUTE_COLLECTION,
+            scroll_filter=Filter(must=[
+                FieldCondition(key="section_id", match=MatchValue(value=section_id))
+            ]),
+            limit=1, with_payload=False, with_vectors=False,
+        )
+        return len(results) > 0
     except Exception:
         return False
 
 
 def judgment_exists(case_id: str) -> bool:
-    """Return True if any chunk for this case_id exists in ChromaDB."""
+    """Return True if any chunk for this case_id exists in Qdrant."""
+    from qdrant_client.models import Filter, FieldCondition, MatchValue
     try:
-        col = _get_or_create_collection(JUDGMENT_COLLECTION, "Legal Judgment Chunks")
-        result = col.get(where={"case_id": case_id}, limit=1)
-        return bool(result and result.get("ids"))
+        results, _ = _get_qdrant().scroll(
+            collection_name=JUDGMENT_COLLECTION,
+            scroll_filter=Filter(must=[
+                FieldCondition(key="case_id", match=MatchValue(value=case_id))
+            ]),
+            limit=1, with_payload=False, with_vectors=False,
+        )
+        return len(results) > 0
     except Exception:
         return False
 
@@ -110,10 +125,13 @@ def judgment_exists(case_id: str) -> bool:
 def get_stats() -> dict[str, int]:
     """Return counts of indexed statutes and judgment chunks."""
     try:
-        client, ef = _get_chroma()
-        sc = client.get_collection(STATUTE_COLLECTION,  embedding_function=ef)
-        jc = client.get_collection(JUDGMENT_COLLECTION, embedding_function=ef)
-        return {"statute_sections": sc.count(), "judgment_chunks": jc.count()}
+        qdrant = _get_qdrant()
+        s_info = qdrant.get_collection(STATUTE_COLLECTION)
+        j_info = qdrant.get_collection(JUDGMENT_COLLECTION)
+        return {
+            "statute_sections": s_info.points_count or 0,
+            "judgment_chunks":  j_info.points_count or 0,
+        }
     except Exception as exc:
         logger.warning("admin stats error: %s", exc)
         return {"statute_sections": 0, "judgment_chunks": 0}
@@ -148,6 +166,7 @@ def ingest_statute(
     chunk_id   = _statute_chunk_id(act, section)
     section_id = f"{act}:{section}"
 
+    # Build JSONL record (unchanged)
     chunk = {
         "chunk_id":   chunk_id,
         "act_id":     act,
@@ -171,21 +190,32 @@ def ingest_statute(
         "token_count": len(text.split()),
     }
 
-    # 1. ChromaDB
-    col = _get_or_create_collection(STATUTE_COLLECTION, "Canonical Statute Chunks")
-    overwritten = False
+    # 1. Qdrant — check existing, then upsert
+    from qdrant_client.models import Filter, FieldCondition, MatchValue, PointIdsList, PointStruct
+    qdrant = _get_qdrant()
+    embed  = _get_embed()
 
-    existing = col.get(ids=[chunk_id])
-    if existing and existing.get("ids"):
+    existing_pts, _ = qdrant.scroll(
+        collection_name=STATUTE_COLLECTION,
+        scroll_filter=Filter(must=[
+            FieldCondition(key="section_id", match=MatchValue(value=section_id))
+        ]),
+        limit=1, with_payload=False, with_vectors=False,
+    )
+    overwritten = False
+    if existing_pts:
         if not overwrite:
             raise ValueError(f"{section_id} already exists. Pass overwrite=True to replace.")
-        col.delete(ids=[chunk_id])
+        qdrant.delete(
+            collection_name=STATUTE_COLLECTION,
+            points_selector=PointIdsList(points=[pt.id for pt in existing_pts]),
+        )
         overwritten = True
 
     # ── Pre-flight: verify Neo4j is reachable before writing anything ─────
     driver = _neo4j_driver()   # raises RuntimeError if unreachable
 
-    meta = {
+    payload = {
         "act_id":        act,
         "section_id":    section_id,
         "document_type": "statute",
@@ -203,9 +233,19 @@ def ingest_statute(
         "legal_concepts":         ",".join(legal_concepts or []),
         "successor_references":   successor,
         "predecessor_references": predecessor,
+        "text":    text,
+        "chunk_id": chunk_id,
     }
-    col.add(ids=[chunk_id], documents=[text], metadatas=[meta])
-    logger.info("admin: statute %s indexed in ChromaDB (overwrite=%s)", section_id, overwritten)
+    vector = embed.encode(text).tolist()
+    qdrant.upsert(
+        collection_name=STATUTE_COLLECTION,
+        points=[PointStruct(
+            id=_chunk_id_to_uuid(chunk_id),
+            vector=vector,
+            payload=payload,
+        )],
+    )
+    logger.info("admin: statute %s indexed in Qdrant (overwrite=%s)", section_id, overwritten)
 
     # 2. JSONL
     _upsert_jsonl(STATUTES_JSONL, chunk, key_field="chunk_id", overwrite=overwrite)
@@ -342,23 +382,35 @@ def ingest_judgment(
     chunks    = _chunk_judgment_text(case_id, text)
     chunk_ids = [c["chunk_id"] for c in chunks]
 
-    col = _get_or_create_collection(JUDGMENT_COLLECTION, "Legal Judgment Chunks")
+    # Check existing chunks in Qdrant
+    from qdrant_client.models import Filter, FieldCondition, MatchValue, PointIdsList, PointStruct
+    qdrant = _get_qdrant()
+    embed  = _get_embed()
 
-    # Check existing
-    existing: list[str] = []
+    existing_pts: list = []
     for cid in chunk_ids:
-        r = col.get(ids=[cid])
-        if r and r.get("ids"):
-            existing.append(cid)
+        pts, _ = qdrant.scroll(
+            collection_name=JUDGMENT_COLLECTION,
+            scroll_filter=Filter(must=[
+                FieldCondition(key="chunk_id", match=MatchValue(value=cid))
+            ]),
+            limit=1,
+            with_payload=False,
+            with_vectors=False,
+        )
+        existing_pts.extend(pts)
 
     overwritten = False
-    if existing:
+    if existing_pts:
         if not overwrite:
             raise ValueError(
-                f"Case '{case_id}' already has {len(existing)} chunk(s) indexed. "
+                f"Case '{case_id}' already has {len(existing_pts)} chunk(s) indexed. "
                 "Pass overwrite=True to replace."
             )
-        col.delete(ids=existing)
+        qdrant.delete(
+            collection_name=JUDGMENT_COLLECTION,
+            points_selector=PointIdsList(points=[pt.id for pt in existing_pts]),
+        )
         overwritten = True
 
     # ── Pre-flight: verify Neo4j is reachable before writing anything ─────
@@ -366,20 +418,30 @@ def ingest_judgment(
 
     for c in chunks:
         meta = {
-            "case_id":        c["case_id"],
-            "document_type":  c["document_type"],
-            "chunk_type":     c["chunk_type"],
-            "source_field":   c["source"].get("field", ""),
-            "page_start":     0,
-            "page_end":       0,
-            "token_count":    c["token_count"],
+            "case_id":          c["case_id"],
+            "document_type":    c["document_type"],
+            "chunk_type":       c["chunk_type"],
+            "source_field":     c["source"].get("field", ""),
+            "page_start":       0,
+            "page_end":         0,
+            "token_count":      c["token_count"],
             "legal_references": ",".join(c["legal_references"]),
             "legal_concepts":   "",
             "cited_cases":      "",
+            "text":             c["text"],
+            "chunk_id":         c["chunk_id"],
         }
-        col.add(ids=[c["chunk_id"]], documents=[c["text"]], metadatas=[meta])
+        vector = embed.encode(c["text"]).tolist()
+        qdrant.upsert(
+            collection_name=JUDGMENT_COLLECTION,
+            points=[PointStruct(
+                id=_chunk_id_to_uuid(c["chunk_id"]),
+                vector=vector,
+                payload=meta,
+            )],
+        )
 
-    logger.info("admin: judgment %s — %d chunks indexed in ChromaDB", case_id, len(chunks))
+    logger.info("admin: judgment %s — %d chunks indexed in Qdrant", case_id, len(chunks))
 
     for c in chunks:
         _upsert_jsonl(JUDGMENTS_JSONL, c, key_field="chunk_id", overwrite=overwrite)
