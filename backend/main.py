@@ -198,9 +198,14 @@ def _fetch_related_sections(section_ids: list[str]) -> list[dict[str, Any]]:
         if not res or not res.get("ids"):
             continue
 
-        # Take the first matching chunk
-        meta = (res.get("metadatas") or [[]])[0] or {}
-        text = ((res.get("documents") or [[]])[0]) or ""
+        # Take the first matching chunk.
+        # _QdrantCollectionProxy returns ChromaDB-compatible shape:
+        #   metadatas=[meta_dict], documents=[[text_string]]
+        metas_outer = res.get("metadatas") or [{}]
+        docs_outer  = res.get("documents")  or [[]]
+        meta = metas_outer[0] if metas_outer else {}
+        docs_inner = docs_outer[0] if docs_outer else []
+        text = docs_inner[0] if isinstance(docs_inner, list) and docs_inner else (docs_inner or "")
 
         # section_id is "ACT:SECTION" — derive act from it if metadata missing
         raw_act, _, raw_sec = sid.partition(":")
