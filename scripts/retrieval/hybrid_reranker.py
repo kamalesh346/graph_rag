@@ -1,10 +1,11 @@
 """
 scripts/retrieval/hybrid_reranker.py
 
-GraphRAG Hybrid Retriever — Qdrant Cloud edition.
+GraphRAG Hybrid Retriever — Qdrant Cloud edition with Cloud Inference.
 
-Vector store: Qdrant Cloud (was: local ChromaDB)
-Embedding  : all-MiniLM-L6-v2 via sentence-transformers (unchanged)
+Vector store  : Qdrant Cloud (was: local ChromaDB)
+Embedding     : sentence-transformers/all-minilm-l6-v2 via Qdrant Cloud Inference
+                (was: local sentence-transformers / HF Inference API)
 All other logic (Neo4j, RRF fusion, metadata boosts) is unchanged.
 """
 
@@ -29,21 +30,17 @@ from qdrant_client.models import Filter, FieldCondition, MatchValue
 from scripts.retrieval.query_parser import LegalQueryParser
 from scripts.retrieval.graph_retriever import Neo4jGraphRetriever
 from scripts.retrieval.fusion import fuse_candidates
-from scripts.retrieval.embedder import embed_query
-
-STATUTE_COLLECTION  = "legal_statute_chunks"
-JUDGMENT_COLLECTION = "legal_judgment_chunks"
+from scripts.retrieval.qdrant_inference import (
+    get_qdrant_client as _get_inference_client,
+    query_collection as _query_col,
+    STATUTE_COLLECTION,
+    JUDGMENT_COLLECTION,
+)
 
 
 def _qdrant_client() -> QdrantClient:
-    """Build a Qdrant Cloud client from environment variables."""
-    url = os.getenv("QDRANT_URL", "")
-    key = os.getenv("QDRANT_API_KEY", "")
-    if not url or not key:
-        raise RuntimeError(
-            "QDRANT_URL and QDRANT_API_KEY must be set in the environment."
-        )
-    return QdrantClient(url=url, port=443, api_key=key, prefer_grpc=False)
+    """Return the shared Qdrant Cloud client (cloud_inference=True)."""
+    return _get_inference_client()
 
 
 def _qdrant_to_statute(point, rank_idx: int) -> Dict[str, Any]:
@@ -143,20 +140,19 @@ class GraphRAGHybridRetriever:
         all_graph_secs  = set(graph_expansion["all_expanded_sections"])
         corresponds_secs = set(graph_expansion["corresponds_to"])
 
-        # ── Statute vector search ─────────────────────────────────────────────
-        query_vector     = embed_query(query)
+        # ── Statute vector search (Qdrant Cloud Inference) ────────────────────
         n_fetch_statutes = max(10, top_k_statutes * 3)
 
-        s_results = self._qdrant.query_points(
+        s_points = _query_col(
             collection_name=STATUTE_COLLECTION,
-            query=query_vector,
+            text=query,
             limit=n_fetch_statutes,
             with_payload=True,
         )
 
         raw_statute_candidates = [
             _qdrant_to_statute(pt, idx)
-            for idx, pt in enumerate(s_results.points)
+            for idx, pt in enumerate(s_points)
         ]
 
         # ── Rerank + RRF for statutes ─────────────────────────────────────────
@@ -191,19 +187,19 @@ class GraphRAGHybridRetriever:
         if self.judgment_col_available:
             try:
                 n_fetch_j = max(10, top_k_judgments * 3)
-                j_results = self._qdrant.query_points(
+                j_points = _query_col(
                     collection_name=JUDGMENT_COLLECTION,
-                    query=query_vector,
+                    text=query,
                     limit=n_fetch_j,
                     with_payload=True,
                 )
                 reranked_judgments = [
                     _qdrant_to_judgment(pt, idx, extracted_secs, rrf_k)
-                    for idx, pt in enumerate(j_results.points)
+                    for idx, pt in enumerate(j_points)
                 ]
                 reranked_judgments.sort(key=lambda x: x["rrf_score"], reverse=True)
             except Exception as exc:
-                print(f"Warning: Judgment vector retrieval warning: {exc}")
+                logger.warning("Judgment vector retrieval warning: %s", exc)
 
         return {
             "query":            query,

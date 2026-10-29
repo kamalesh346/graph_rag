@@ -4,12 +4,13 @@ backend/admin_service.py
 Admin knowledge-base ingestion service.
 
 Supports:
-  - Statute section upload  → ChromaDB + JSONL + Neo4j (mandatory)
-  - Judgment upload         → ChromaDB + JSONL + Neo4j (mandatory)
+  - Statute section upload  → Qdrant Cloud + JSONL + Neo4j (mandatory)
+  - Judgment upload         → Qdrant Cloud + JSONL + Neo4j (mandatory)
   - Existence check         → used by frontend before upload (for duplicate dialog)
   - KB stats                → section + judgment counts
 
-Embedding model: all-MiniLM-L6-v2  (MUST match the model used in initial indexing)
+Embedding: sentence-transformers/all-minilm-l6-v2 via Qdrant Cloud Inference
+           (no local SentenceTransformer model is loaded at ingestion time)
 """
 
 from __future__ import annotations
@@ -31,47 +32,22 @@ JUDGMENTS_JSONL = PROJECT_ROOT / "data" / "chunks" / "all_judgment_chunks.jsonl"
 
 STATUTE_COLLECTION  = "legal_statute_chunks"
 JUDGMENT_COLLECTION = "legal_judgment_chunks"
-EMBED_MODEL         = "all-MiniLM-L6-v2"
 
 NEO4J_URI      = os.getenv("NEO4J_URI",      "bolt://localhost:7687")
 NEO4J_USER     = os.getenv("NEO4J_USER",     "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
 
-os.environ.setdefault("USE_TF", "0")
-os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
-
 
 # ── Lazy singletons ────────────────────────────────────────────────────────
 
-_qdrant_client = None
-_embed_model   = None
-
-
-def _get_qdrant():
-    """Lazy Qdrant Cloud client."""
-    global _qdrant_client
-    if _qdrant_client is None:
-        from qdrant_client import QdrantClient
-        url = os.getenv("QDRANT_URL", "")
-        key = os.getenv("QDRANT_API_KEY", "")
-        if not url or not key:
-            raise RuntimeError("QDRANT_URL and QDRANT_API_KEY must be set.")
-        _qdrant_client = QdrantClient(url=url, port=443, api_key=key, prefer_grpc=False)
-    return _qdrant_client
-
-
-def _get_embed():
-    """Lazy sentence-transformers model."""
-    global _embed_model
-    if _embed_model is None:
-        from sentence_transformers import SentenceTransformer
-        _embed_model = SentenceTransformer(EMBED_MODEL)
-    return _embed_model
-
-
-def _chunk_id_to_uuid(chunk_id: str) -> str:
-    """Deterministic UUID5 — matches migrate_chroma_to_qdrant.py for consistent IDs."""
-    return str(uuid.uuid5(uuid.NAMESPACE_DNS, f"legal_graphrag.{chunk_id}"))
+from scripts.retrieval.qdrant_inference import (
+    get_qdrant_client as _get_qdrant,
+    upsert_chunks     as _upsert_inference_chunks,
+    scroll_by_filter  as _scroll_by_filter,
+    delete_points     as _delete_points,
+    get_collection_stats,
+    chunk_id_to_uuid  as _chunk_id_to_uuid,
+)
 
 
 def _neo4j_driver():
@@ -91,50 +67,23 @@ def _neo4j_driver():
 
 def statute_exists(act: str, section: str) -> bool:
     """Return True if a statute section is already indexed in Qdrant."""
-    from qdrant_client.models import Filter, FieldCondition, MatchValue
     section_id = f"{act.strip().upper()}:{section.strip()}"
-    try:
-        results, _ = _get_qdrant().scroll(
-            collection_name=STATUTE_COLLECTION,
-            scroll_filter=Filter(must=[
-                FieldCondition(key="section_id", match=MatchValue(value=section_id))
-            ]),
-            limit=1, with_payload=False, with_vectors=False,
-        )
-        return len(results) > 0
-    except Exception:
-        return False
+    results = _scroll_by_filter(STATUTE_COLLECTION, "section_id", section_id, limit=1)
+    return len(results) > 0
 
 
 def judgment_exists(case_id: str) -> bool:
     """Return True if any chunk for this case_id exists in Qdrant."""
-    from qdrant_client.models import Filter, FieldCondition, MatchValue
-    try:
-        results, _ = _get_qdrant().scroll(
-            collection_name=JUDGMENT_COLLECTION,
-            scroll_filter=Filter(must=[
-                FieldCondition(key="case_id", match=MatchValue(value=case_id))
-            ]),
-            limit=1, with_payload=False, with_vectors=False,
-        )
-        return len(results) > 0
-    except Exception:
-        return False
+    results = _scroll_by_filter(JUDGMENT_COLLECTION, "case_id", case_id, limit=1)
+    return len(results) > 0
 
 
 def get_stats() -> dict[str, int]:
     """Return counts of indexed statutes and judgment chunks."""
-    try:
-        qdrant = _get_qdrant()
-        s_info = qdrant.get_collection(STATUTE_COLLECTION)
-        j_info = qdrant.get_collection(JUDGMENT_COLLECTION)
-        return {
-            "statute_sections": s_info.points_count or 0,
-            "judgment_chunks":  j_info.points_count or 0,
-        }
-    except Exception as exc:
-        logger.warning("admin stats error: %s", exc)
-        return {"statute_sections": 0, "judgment_chunks": 0}
+    return {
+        "statute_sections": get_collection_stats(STATUTE_COLLECTION),
+        "judgment_chunks":  get_collection_stats(JUDGMENT_COLLECTION),
+    }
 
 
 # ── Statute ingestion ───────────────────────────────────────────────────────
@@ -190,26 +139,18 @@ def ingest_statute(
         "token_count": len(text.split()),
     }
 
-    # 1. Qdrant — check existing, then upsert
-    from qdrant_client.models import Filter, FieldCondition, MatchValue, PointIdsList, PointStruct
+    # 1. Qdrant — check existing, then upsert via Cloud Inference
+    from qdrant_client.models import Filter, FieldCondition, MatchValue, PointIdsList
     qdrant = _get_qdrant()
-    embed  = _get_embed()
 
-    existing_pts, _ = qdrant.scroll(
-        collection_name=STATUTE_COLLECTION,
-        scroll_filter=Filter(must=[
-            FieldCondition(key="section_id", match=MatchValue(value=section_id))
-        ]),
-        limit=1, with_payload=False, with_vectors=False,
+    existing_pts = _scroll_by_filter(
+        STATUTE_COLLECTION, "section_id", section_id, limit=1
     )
     overwritten = False
     if existing_pts:
         if not overwrite:
             raise ValueError(f"{section_id} already exists. Pass overwrite=True to replace.")
-        qdrant.delete(
-            collection_name=STATUTE_COLLECTION,
-            points_selector=PointIdsList(points=[pt.id for pt in existing_pts]),
-        )
+        _delete_points(STATUTE_COLLECTION, [pt.id for pt in existing_pts])
         overwritten = True
 
     # ── Pre-flight: verify Neo4j is reachable before writing anything ─────
@@ -236,16 +177,14 @@ def ingest_statute(
         "text":    text,
         "chunk_id": chunk_id,
     }
-    vector = embed.encode(text).tolist()
-    qdrant.upsert(
+    # Embed via Qdrant Cloud Inference (no local model needed)
+    _upsert_inference_chunks(
         collection_name=STATUTE_COLLECTION,
-        points=[PointStruct(
-            id=_chunk_id_to_uuid(chunk_id),
-            vector=vector,
-            payload=payload,
-        )],
+        chunks=[payload],
+        text_field="text",
+        id_field="chunk_id",
     )
-    logger.info("admin: statute %s indexed in Qdrant (overwrite=%s)", section_id, overwritten)
+    logger.info("admin: statute %s indexed in Qdrant via Cloud Inference (overwrite=%s)", section_id, overwritten)
 
     # 2. JSONL
     _upsert_jsonl(STATUTES_JSONL, chunk, key_field="chunk_id", overwrite=overwrite)
@@ -383,20 +322,12 @@ def ingest_judgment(
     chunk_ids = [c["chunk_id"] for c in chunks]
 
     # Check existing chunks in Qdrant
-    from qdrant_client.models import Filter, FieldCondition, MatchValue, PointIdsList, PointStruct
     qdrant = _get_qdrant()
-    embed  = _get_embed()
 
     existing_pts: list = []
     for cid in chunk_ids:
-        pts, _ = qdrant.scroll(
-            collection_name=JUDGMENT_COLLECTION,
-            scroll_filter=Filter(must=[
-                FieldCondition(key="chunk_id", match=MatchValue(value=cid))
-            ]),
-            limit=1,
-            with_payload=False,
-            with_vectors=False,
+        pts = _scroll_by_filter(
+            JUDGMENT_COLLECTION, "chunk_id", cid, limit=1
         )
         existing_pts.extend(pts)
 
@@ -407,17 +338,16 @@ def ingest_judgment(
                 f"Case '{case_id}' already has {len(existing_pts)} chunk(s) indexed. "
                 "Pass overwrite=True to replace."
             )
-        qdrant.delete(
-            collection_name=JUDGMENT_COLLECTION,
-            points_selector=PointIdsList(points=[pt.id for pt in existing_pts]),
-        )
+        _delete_points(JUDGMENT_COLLECTION, [pt.id for pt in existing_pts])
         overwritten = True
 
     # ── Pre-flight: verify Neo4j is reachable before writing anything ─────
     driver = _neo4j_driver()   # raises RuntimeError if unreachable
 
+    # Build payload list and embed via Cloud Inference in one batch call
+    judgment_payloads = []
     for c in chunks:
-        meta = {
+        judgment_payloads.append({
             "case_id":          c["case_id"],
             "document_type":    c["document_type"],
             "chunk_type":       c["chunk_type"],
@@ -430,18 +360,18 @@ def ingest_judgment(
             "cited_cases":      "",
             "text":             c["text"],
             "chunk_id":         c["chunk_id"],
-        }
-        vector = embed.encode(c["text"]).tolist()
-        qdrant.upsert(
-            collection_name=JUDGMENT_COLLECTION,
-            points=[PointStruct(
-                id=_chunk_id_to_uuid(c["chunk_id"]),
-                vector=vector,
-                payload=meta,
-            )],
-        )
+        })
 
-    logger.info("admin: judgment %s — %d chunks indexed in Qdrant", case_id, len(chunks))
+    inserted = _upsert_inference_chunks(
+        collection_name=JUDGMENT_COLLECTION,
+        chunks=judgment_payloads,
+        text_field="text",
+        id_field="chunk_id",
+    )
+    logger.info(
+        "admin: judgment %s — %d/%d chunks indexed via Cloud Inference",
+        case_id, inserted, len(chunks)
+    )
 
     for c in chunks:
         _upsert_jsonl(JUDGMENTS_JSONL, c, key_field="chunk_id", overwrite=overwrite)

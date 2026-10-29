@@ -72,23 +72,14 @@ def _get_statute_col():
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     start_keep_alive()
-    # Warm-start: preload Qdrant client at startup.
-    # If HF_EMBEDDING_API_KEY is set, the embedding model runs via the HF
-    # Inference API — no local model to load, so RAM stays low on Render.
-    # Without the key, preload the local SentenceTransformer to avoid
-    # cold-start latency on the first request.
+    # Warm-start: preload the Qdrant Cloud client (cloud_inference=True) at startup.
+    # All embedding is performed by Qdrant Cloud — no local model is loaded.
     try:
         import asyncio
-        from scripts.retrieval.hybrid_reranker import _qdrant_client
+        from scripts.retrieval.qdrant_inference import get_qdrant_client
         loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, _qdrant_client)
-        if not os.getenv("HF_EMBEDDING_API_KEY", "").strip():
-            from scripts.retrieval.embedder import get_local_model
-            await loop.run_in_executor(None, get_local_model)
-            logger.info("Startup: local embedding model preloaded.")
-        else:
-            logger.info("Startup: HF Embedding API mode — local model not loaded.")
-        logger.info("Startup: Qdrant client preloaded.")
+        await loop.run_in_executor(None, get_qdrant_client)
+        logger.info("Startup: Qdrant Cloud Inference client preloaded (no local model).")
     except Exception as exc:
         logger.warning("Startup warm-start failed (non-fatal): %s", exc)
     yield
@@ -300,13 +291,8 @@ def api_health() -> dict[str, Any]:
 
     qdrant_available = False
     try:
-        from qdrant_client import QdrantClient
-        qc = QdrantClient(
-            url=os.getenv("QDRANT_URL", ""),
-            port=443,
-            api_key=os.getenv("QDRANT_API_KEY", ""),
-            prefer_grpc=False,
-        )
+        from scripts.retrieval.qdrant_inference import get_qdrant_client, STATUTE_COLLECTION
+        qc   = get_qdrant_client()
         cols = {c.name for c in qc.get_collections().collections}
         qdrant_available = STATUTE_COLLECTION in cols
     except Exception:

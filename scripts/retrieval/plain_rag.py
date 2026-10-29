@@ -1,13 +1,16 @@
 """
 scripts/retrieval/plain_rag.py
 
-Pure vector-only retrieval — Qdrant Cloud edition.
+Pure vector-only retrieval — Qdrant Cloud Inference edition.
 
 No Neo4j, no query parsing, no graph expansion, no fusion boosts.
 This is the baseline for comparing against GraphRAG.
 
 Returns the same response shape as GraphRAGHybridRetriever.search()
 so the API layer can swap modes transparently.
+
+Embedding: sentence-transformers/all-minilm-l6-v2 via Qdrant Cloud Inference
+           (no local model is loaded; no HF Inference API call is made)
 """
 
 from __future__ import annotations
@@ -24,22 +27,17 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from qdrant_client import QdrantClient
+from scripts.retrieval.qdrant_inference import (
+    get_qdrant_client as _get_inference_client,
+    query_collection as _query_col,
+    STATUTE_COLLECTION,
+    JUDGMENT_COLLECTION,
+)
 
-from scripts.retrieval.embedder import embed_query
 
-STATUTE_COLLECTION  = "legal_statute_chunks"
-JUDGMENT_COLLECTION = "legal_judgment_chunks"
-
-
-def _qdrant_client() -> QdrantClient:
-    url = os.getenv("QDRANT_URL", "")
-    key = os.getenv("QDRANT_API_KEY", "")
-    if not url or not key:
-        raise RuntimeError(
-            "QDRANT_URL and QDRANT_API_KEY must be set in the environment."
-        )
-    return QdrantClient(url=url, port=443, api_key=key, prefer_grpc=False)
+def _qdrant_client():
+    """Return the shared Qdrant Cloud client (cloud_inference=True)."""
+    return _get_inference_client()
 
 
 class PlainRAGRetriever:
@@ -70,11 +68,9 @@ class PlainRAGRetriever:
         top_k_statutes: int = 3,
         top_k_judgments: int = 3,
     ) -> Dict[str, Any]:
-        """Return statute and judgment results using pure vector similarity."""
-        query_vector = embed_query(query)
-
-        statute_results  = self._query_statutes(query_vector, top_k=top_k_statutes)
-        judgment_results = self._query_judgments(query_vector, top_k=top_k_judgments)
+        """Return statute and judgment results using Qdrant Cloud Inference."""
+        statute_results  = self._query_statutes(query, top_k=top_k_statutes)
+        judgment_results = self._query_judgments(query, top_k=top_k_judgments)
 
         return {
             "query":            query,
@@ -87,16 +83,16 @@ class PlainRAGRetriever:
     # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
-    def _query_statutes(self, query_vector: list, top_k: int) -> List[Dict[str, Any]]:
-        results = self._qdrant.query_points(
+    def _query_statutes(self, query: str, top_k: int) -> List[Dict[str, Any]]:
+        points = _query_col(
             collection_name=STATUTE_COLLECTION,
-            query=query_vector,
+            text=query,
             limit=max(top_k, 1),
             with_payload=True,
         )
 
         out: List[Dict[str, Any]] = []
-        for i, pt in enumerate(results.points):
+        for i, pt in enumerate(points):
             payload    = pt.payload or {}
             chunk_id   = payload.get("chunk_id", str(pt.id))
             section_id = payload.get("section_id") or payload.get("act_id", "")
@@ -120,19 +116,19 @@ class PlainRAGRetriever:
             })
         return out
 
-    def _query_judgments(self, query_vector: list, top_k: int) -> List[Dict[str, Any]]:
+    def _query_judgments(self, query: str, top_k: int) -> List[Dict[str, Any]]:
         if not self._judgment_available:
             return []
 
-        results = self._qdrant.query_points(
+        points = _query_col(
             collection_name=JUDGMENT_COLLECTION,
-            query=query_vector,
+            text=query,
             limit=max(top_k, 1),
             with_payload=True,
         )
 
         out: List[Dict[str, Any]] = []
-        for i, pt in enumerate(results.points):
+        for i, pt in enumerate(points):
             payload  = pt.payload or {}
             chunk_id = payload.get("chunk_id", str(pt.id))
             distance = round(1.0 - float(pt.score), 6)
