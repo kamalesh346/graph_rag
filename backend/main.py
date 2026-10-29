@@ -566,7 +566,11 @@ def fir_analysis(request: FirRequest) -> dict[str, Any]:
             top_k_judgments=4,
         )
     except Exception as error:
-        raise HTTPException(status_code=503, detail="Retrieval unavailable.") from error
+        logger.exception("Retrieval failed in /api/ask")
+        raise HTTPException(
+            status_code=503,
+            detail="Retrieval unavailable."
+        ) from error
     finally:
         if retriever:
             retriever.close()
