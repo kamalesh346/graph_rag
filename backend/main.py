@@ -474,6 +474,7 @@ def trace(
         retriever = GraphRAGHybridRetriever()
         result = retriever.search(query)
     except Exception as error:
+        logger.exception("Graph RAG /api/ask failed")
         raise HTTPException(status_code=503, detail="Trace retrieval unavailable.") from error
     finally:
         if retriever:
@@ -509,6 +510,7 @@ def ask(request: ResearchRequest) -> dict[str, Any]:
         neo4j_available = retriever.graph_retriever.is_connected()
         result = retriever.search(query)
     except Exception as error:
+        logger.exception("Graph RAG /api/ask failed")
         raise HTTPException(status_code=503, detail="Retrieval unavailable.") from error
     finally:
         if retriever:
