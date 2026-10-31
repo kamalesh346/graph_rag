@@ -9,6 +9,7 @@ Embedding     : sentence-transformers/all-minilm-l6-v2 via Qdrant Cloud Inferenc
 All other logic (Neo4j, RRF fusion, metadata boosts) is unchanged.
 """
 
+from backend.admin_service import logger
 import sys
 import os
 from pathlib import Path

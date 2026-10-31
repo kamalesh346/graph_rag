@@ -1,0 +1,832 @@
+{
+  "benchmark": "Three-Mode GraphRAG Benchmark",
+  "neo4j_connected": true,
+  "total_queries": 13,
+  "modes": {
+    "mode_a": {
+      "label": "Mode A – Pure Vector",
+      "metrics": {
+        "hit_1_count": 10,
+        "hit_1_rate_pct": 76.92,
+        "hit_3_count": 11,
+        "hit_3_rate_pct": 84.62,
+        "mrr": 0.8077,
+        "avg_latency_s": 0.607
+      },
+      "query_results": [
+        {
+          "id": "Q1",
+          "query": "What are the exceptions to murder under Section 300?",
+          "category": "Statutory Exception",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101"
+          ],
+          "retrieved_top5": [
+            "IPC:302",
+            "BNS:103",
+            "IPC:304",
+            "BNS:105",
+            "IPC:307"
+          ],
+          "rank": null,
+          "hit_1": false,
+          "hit_3": false,
+          "latency_s": 7.759
+        },
+        {
+          "id": "Q2",
+          "query": "Punishment for murder under Section 302 or BNS 103",
+          "category": "Punishment & Transition",
+          "expected_targets": [
+            "IPC:302",
+            "BNS:103"
+          ],
+          "retrieved_top5": [
+            "IPC:302",
+            "BNS:103",
+            "IPC:304",
+            "IPC:307",
+            "BNS:105"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.011
+        },
+        {
+          "id": "Q3",
+          "query": "Culpable homicide not amounting to murder under Section 304 or BNS 105",
+          "category": "Culpable Homicide",
+          "expected_targets": [
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "IPC:304",
+            "BNS:105",
+            "IPC:304A",
+            "IPC:302",
+            "IPC:300"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.011
+        },
+        {
+          "id": "Q4",
+          "query": "Procedure for statement examination under CrPC 313 or BNSS 351",
+          "category": "Criminal Procedure",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "CrPC:313",
+            "CrPC:161",
+            "BNSS:180",
+            "CrPC:189",
+            "BNSS:209"
+          ],
+          "rank": null,
+          "hit_1": false,
+          "hit_3": false,
+          "latency_s": 0.008
+        },
+        {
+          "id": "Q5",
+          "query": "Admissibility of confession to police under Section 25 IEA or BSA 23",
+          "category": "Evidence & Confession to Police",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "IEA:25",
+            "BSA:23",
+            "BNSS:193",
+            "CrPC:161",
+            "BNSS:180"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.008
+        },
+        {
+          "id": "Q6",
+          "query": "Definition of criminal conspiracy under IPC 120A or BNS 61",
+          "category": "Criminal Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "IPC:120A",
+            "BNS:61",
+            "IPC:120B",
+            "CrPC:189",
+            "BNSS:209"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.013
+        },
+        {
+          "id": "Q7",
+          "query": "Punishment for rape and definition under IPC 376 or BNS 64",
+          "category": "Sexual Offences",
+          "expected_targets": [
+            "IPC:376",
+            "BNS:64"
+          ],
+          "retrieved_top5": [
+            "IPC:376",
+            "BNS:64",
+            "BNS:76",
+            "IPC:376A",
+            "IPC:366"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.016
+        },
+        {
+          "id": "Q8",
+          "query": "Causing death by negligence under IPC 304A or BNS 106",
+          "category": "Negligent Homicide",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "IPC:304A",
+            "BNS:106",
+            "IPC:304",
+            "IPC:299",
+            "BNS:102"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.009
+        },
+        {
+          "id": "Q9",
+          "query": "What happens if someone kills a person under grave and sudden provocation during a sudden fight?",
+          "category": "Pure Semantic - Provocation & Homicide",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101",
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "BNS:101",
+            "IPC:300",
+            "IPC:304A",
+            "IPC:304",
+            "BNS:105"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.011
+        },
+        {
+          "id": "Q10",
+          "query": "What is the legal procedure for examining the accused person during a criminal trial?",
+          "category": "Pure Semantic - Criminal Trial Examination",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "CrPC:313",
+            "BNSS:351",
+            "CrPC:232",
+            "CrPC:161",
+            "BNSS:253"
+          ],
+          "rank": 2,
+          "hit_1": false,
+          "hit_3": true,
+          "latency_s": 0.012
+        },
+        {
+          "id": "Q11",
+          "query": "Is a confession made by an accused person to a police officer admissible as evidence in court?",
+          "category": "Pure Semantic - Police Confession",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "BSA:23",
+            "IEA:25",
+            "CrPC:161",
+            "BNSS:180",
+            "IEA:27"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.009
+        },
+        {
+          "id": "Q12",
+          "query": "What is the legal definition when two or more persons agree to commit an illegal act together?",
+          "category": "Pure Semantic - Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "IPC:120A",
+            "BNS:61",
+            "BNS:25",
+            "IPC:87",
+            "BNS:22"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.008
+        },
+        {
+          "id": "Q13",
+          "query": "What is the punishment for causing the death of a person by a rash or negligent driving act?",
+          "category": "Pure Semantic - Rash & Negligent Death",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "BNS:106",
+            "IPC:304A",
+            "IPC:304",
+            "BNS:105",
+            "IPC:307"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.015
+        }
+      ]
+    },
+    "mode_b": {
+      "label": "Mode B – Vector + expand_sections",
+      "metrics": {
+        "hit_1_count": 12,
+        "hit_1_rate_pct": 92.31,
+        "hit_3_count": 13,
+        "hit_3_rate_pct": 100.0,
+        "mrr": 0.9615,
+        "avg_latency_s": 0.032
+      },
+      "query_results": [
+        {
+          "id": "Q1",
+          "query": "What are the exceptions to murder under Section 300?",
+          "category": "Statutory Exception",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101"
+          ],
+          "retrieved_top5": [
+            "IPC:300",
+            "BNS:101",
+            "IPC:302",
+            "BNS:103",
+            "IPC:304"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.043
+        },
+        {
+          "id": "Q2",
+          "query": "Punishment for murder under Section 302 or BNS 103",
+          "category": "Punishment & Transition",
+          "expected_targets": [
+            "IPC:302",
+            "BNS:103"
+          ],
+          "retrieved_top5": [
+            "IPC:302",
+            "BNS:103",
+            "IPC:304",
+            "IPC:307",
+            "BNS:105"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.026
+        },
+        {
+          "id": "Q3",
+          "query": "Culpable homicide not amounting to murder under Section 304 or BNS 105",
+          "category": "Culpable Homicide",
+          "expected_targets": [
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "IPC:304",
+            "BNS:105",
+            "IPC:304A",
+            "IPC:302",
+            "IPC:300"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.028
+        },
+        {
+          "id": "Q4",
+          "query": "Procedure for statement examination under CrPC 313 or BNSS 351",
+          "category": "Criminal Procedure",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "BNSS:351",
+            "CrPC:313",
+            "CrPC:161",
+            "BNSS:180",
+            "CrPC:189"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.028
+        },
+        {
+          "id": "Q5",
+          "query": "Admissibility of confession to police under Section 25 IEA or BSA 23",
+          "category": "Evidence & Confession to Police",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "IEA:25",
+            "BSA:23",
+            "BNSS:193",
+            "CrPC:161",
+            "BNSS:180"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.03
+        },
+        {
+          "id": "Q6",
+          "query": "Definition of criminal conspiracy under IPC 120A or BNS 61",
+          "category": "Criminal Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "BNS:61",
+            "IPC:120A",
+            "IPC:120B",
+            "CrPC:189",
+            "BNSS:209"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.033
+        },
+        {
+          "id": "Q7",
+          "query": "Punishment for rape and definition under IPC 376 or BNS 64",
+          "category": "Sexual Offences",
+          "expected_targets": [
+            "IPC:376",
+            "BNS:64"
+          ],
+          "retrieved_top5": [
+            "BNS:64",
+            "IPC:376",
+            "BNS:76",
+            "IPC:376A",
+            "IPC:366"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.101
+        },
+        {
+          "id": "Q8",
+          "query": "Causing death by negligence under IPC 304A or BNS 106",
+          "category": "Negligent Homicide",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "IPC:304A",
+            "BNS:106",
+            "IPC:304",
+            "IPC:299",
+            "BNS:102"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.033
+        },
+        {
+          "id": "Q9",
+          "query": "What happens if someone kills a person under grave and sudden provocation during a sudden fight?",
+          "category": "Pure Semantic - Provocation & Homicide",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101",
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "BNS:101",
+            "IPC:300",
+            "IPC:304A",
+            "IPC:304",
+            "BNS:105"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.022
+        },
+        {
+          "id": "Q10",
+          "query": "What is the legal procedure for examining the accused person during a criminal trial?",
+          "category": "Pure Semantic - Criminal Trial Examination",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "CrPC:313",
+            "BNSS:351",
+            "CrPC:232",
+            "CrPC:161",
+            "BNSS:253"
+          ],
+          "rank": 2,
+          "hit_1": false,
+          "hit_3": true,
+          "latency_s": 0.022
+        },
+        {
+          "id": "Q11",
+          "query": "Is a confession made by an accused person to a police officer admissible as evidence in court?",
+          "category": "Pure Semantic - Police Confession",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "BSA:23",
+            "IEA:25",
+            "CrPC:161",
+            "BNSS:180",
+            "IEA:27"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.016
+        },
+        {
+          "id": "Q12",
+          "query": "What is the legal definition when two or more persons agree to commit an illegal act together?",
+          "category": "Pure Semantic - Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "IPC:120A",
+            "BNS:61",
+            "BNS:25",
+            "IPC:87",
+            "BNS:22"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.017
+        },
+        {
+          "id": "Q13",
+          "query": "What is the punishment for causing the death of a person by a rash or negligent driving act?",
+          "category": "Pure Semantic - Rash & Negligent Death",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "BNS:106",
+            "IPC:304A",
+            "IPC:304",
+            "BNS:105",
+            "IPC:307"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.02
+        }
+      ]
+    },
+    "mode_c": {
+      "label": "Mode C – Full GraphRAG Fusion",
+      "metrics": {
+        "hit_1_count": 9,
+        "hit_1_rate_pct": 69.23,
+        "hit_3_count": 10,
+        "hit_3_rate_pct": 76.92,
+        "mrr": 0.7641,
+        "avg_latency_s": 0.057
+      },
+      "query_results": [
+        {
+          "id": "Q1",
+          "query": "What are the exceptions to murder under Section 300?",
+          "category": "Statutory Exception",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101"
+          ],
+          "retrieved_top5": [
+            "IPC:300",
+            "BNS:101",
+            "IPC:302",
+            "IPC:304",
+            "IPC:307"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.058
+        },
+        {
+          "id": "Q2",
+          "query": "Punishment for murder under Section 302 or BNS 103",
+          "category": "Punishment & Transition",
+          "expected_targets": [
+            "IPC:302",
+            "BNS:103"
+          ],
+          "retrieved_top5": [
+            "IPC:302",
+            "BNS:103",
+            "IPC:304",
+            "IPC:307",
+            "IPC:304A"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.049
+        },
+        {
+          "id": "Q3",
+          "query": "Culpable homicide not amounting to murder under Section 304 or BNS 105",
+          "category": "Culpable Homicide",
+          "expected_targets": [
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "IPC:304",
+            "BNS:105",
+            "IPC:304A",
+            "IPC:302",
+            "IPC:300"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.052
+        },
+        {
+          "id": "Q4",
+          "query": "Procedure for statement examination under CrPC 313 or BNSS 351",
+          "category": "Criminal Procedure",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "BNSS:351",
+            "CrPC:313",
+            "CrPC:161",
+            "BNSS:180",
+            "CrPC:189"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.043
+        },
+        {
+          "id": "Q5",
+          "query": "Admissibility of confession to police under Section 25 IEA or BSA 23",
+          "category": "Evidence & Confession to Police",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "IEA:25",
+            "BSA:23",
+            "BNSS:193",
+            "CrPC:161",
+            "BNSS:180"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.048
+        },
+        {
+          "id": "Q6",
+          "query": "Definition of criminal conspiracy under IPC 120A or BNS 61",
+          "category": "Criminal Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "BNS:61",
+            "IPC:120A",
+            "IPC:120B",
+            "CrPC:189",
+            "BNSS:209"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.053
+        },
+        {
+          "id": "Q7",
+          "query": "Punishment for rape and definition under IPC 376 or BNS 64",
+          "category": "Sexual Offences",
+          "expected_targets": [
+            "IPC:376",
+            "BNS:64"
+          ],
+          "retrieved_top5": [
+            "BNS:64",
+            "IPC:376",
+            "BNS:76",
+            "IPC:376A",
+            "IPC:366"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.052
+        },
+        {
+          "id": "Q8",
+          "query": "Causing death by negligence under IPC 304A or BNS 106",
+          "category": "Negligent Homicide",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "IPC:304A",
+            "BNS:106",
+            "IPC:304",
+            "IPC:299",
+            "BNS:102"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.043
+        },
+        {
+          "id": "Q9",
+          "query": "What happens if someone kills a person under grave and sudden provocation during a sudden fight?",
+          "category": "Pure Semantic - Provocation & Homicide",
+          "expected_targets": [
+            "IPC:300",
+            "BNS:101",
+            "IPC:304",
+            "BNS:105"
+          ],
+          "retrieved_top5": [
+            "IPC:300",
+            "IPC:304",
+            "IPC:302",
+            "IPC:301",
+            "BNS:101"
+          ],
+          "rank": 1,
+          "hit_1": true,
+          "hit_3": true,
+          "latency_s": 0.044
+        },
+        {
+          "id": "Q10",
+          "query": "What is the legal procedure for examining the accused person during a criminal trial?",
+          "category": "Pure Semantic - Criminal Trial Examination",
+          "expected_targets": [
+            "CRPC:313",
+            "BNSS:351"
+          ],
+          "retrieved_top5": [
+            "CrPC:313",
+            "CrPC:161",
+            "CrPC:296",
+            "CrPC:209",
+            "BNSS:351"
+          ],
+          "rank": 5,
+          "hit_1": false,
+          "hit_3": false,
+          "latency_s": 0.113
+        },
+        {
+          "id": "Q11",
+          "query": "Is a confession made by an accused person to a police officer admissible as evidence in court?",
+          "category": "Pure Semantic - Police Confession",
+          "expected_targets": [
+            "IEA:25",
+            "BSA:23"
+          ],
+          "retrieved_top5": [
+            "CrPC:161",
+            "CrPC:313",
+            "BSA:23",
+            "IEA:25",
+            "BNSS:180"
+          ],
+          "rank": 3,
+          "hit_1": false,
+          "hit_3": true,
+          "latency_s": 0.041
+        },
+        {
+          "id": "Q12",
+          "query": "What is the legal definition when two or more persons agree to commit an illegal act together?",
+          "category": "Pure Semantic - Conspiracy",
+          "expected_targets": [
+            "IPC:120A",
+            "BNS:61"
+          ],
+          "retrieved_top5": [
+            "IPC:120B",
+            "IPC:366",
+            "IPC:307",
+            "IPC:84",
+            "IPC:120A"
+          ],
+          "rank": 5,
+          "hit_1": false,
+          "hit_3": false,
+          "latency_s": 0.113
+        },
+        {
+          "id": "Q13",
+          "query": "What is the punishment for causing the death of a person by a rash or negligent driving act?",
+          "category": "Pure Semantic - Rash & Negligent Death",
+          "expected_targets": [
+            "IPC:304A",
+            "BNS:106"
+          ],
+          "retrieved_top5": [
+            "IPC:304",
+            "IPC:307",
+            "IPC:300",
+            "IPC:302",
+            "BNS:106"
+          ],
+          "rank": 5,
+          "hit_1": false,
+          "hit_3": false,
+          "latency_s": 0.038
+        }
+      ]
+    }
+  }
+}

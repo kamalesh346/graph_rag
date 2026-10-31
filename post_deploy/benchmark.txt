@@ -1,0 +1,13 @@
+models are not randomly selected as the 
+Groq GPT-OSS 120B, Gemini 2.5 Flash
+128K-class context,	1M-token context
+
+Groq has a useful documented advantage: it says inference inputs and outputs are not retained by default, although temporary retention may occur for reliability or abuse monitoring for up to 30 days. It also offers a Zero Data Retention setting
+
+Plain RAG can only answer: "Which chunks are textually similar to this query?"
+GraphRAG answers: "Which chunks are similar, AND which sections correspond across acts, AND which judgments explicitly cite those sections, AND which cases discuss the same legal concepts, AND what precedents do those cases cite?"
+
+Substantive law: IPC or BNS determines the offence and its punishment.
+Procedural law: CrPC or BNSS governs matters such as investigation, bail, and trial procedure, subject to the applicable transitional rules.
+
+while deploying the using all-minilm-v2-l2 model has became a huge problem render's free tier(512 MB) is exceeded has been mitigated by qdrant inference that offered the same model for free and made use of it 

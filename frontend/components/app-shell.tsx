@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, FileSearch, History, Scale, Search, ShieldCheck } from "lucide-react";
+import { BookOpen, FileSearch, Scale, Search, ShieldCheck } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -10,7 +10,6 @@ const navItems = [
   { href: "/research",  label: "Research",     icon: Search },
   { href: "/compare",   label: "Compare",      icon: Scale },
   { href: "/fir",       label: "FIR Analysis", icon: FileSearch },
-  { href: "/history",   label: "History",      icon: History },
   { href: "/admin",     label: "Admin",        icon: ShieldCheck },
 ];
 
@@ -26,7 +25,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <span className="grid size-8 place-items-center rounded-md bg-primary text-primary-foreground"><BookOpen className="size-4" /></span>
             Legal Research
           </Link>
-          <Link href="/login" className="text-sm font-medium text-muted-foreground hover:text-foreground">Sign in</Link>
         </div>
       </header>
       <div className="mx-auto flex max-w-6xl flex-col md:flex-row">

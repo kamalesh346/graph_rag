@@ -80,21 +80,7 @@ temp/
 scratch/
 
 # notes 
-benchmark.txt
-plan.txt
-
-# Unnecessary files for this repo
-reports/
-benchmark.txt
-benchmark_modes.txt
-plan.txt
-query.txt
-
-# deploy test files ignored
-quadrant.py
-testqdrant.py
-aura.py
-backups/
+notes.txt
 
 # Test artifacts and build outputs
 .coverage
